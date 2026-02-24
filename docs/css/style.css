@@ -974,6 +974,37 @@ dl.popup-details dd {
   border-bottom: none;
 }
 
+/* Stat highlight */
+.stat-highlight {
+  color: var(--red);
+}
+
+/* Conclusions list */
+.conclusions-list {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+.conclusions-list li {
+  position: relative;
+  padding: 8px 0 8px 24px;
+  border-bottom: 1px solid var(--gray-200);
+  margin-bottom: 0;
+}
+
+.conclusions-list li:last-child {
+  border-bottom: none;
+}
+
+.conclusions-list li::before {
+  content: "\2192";
+  position: absolute;
+  left: 0;
+  color: var(--red);
+  font-weight: 600;
+}
+
 .info-link {
   display: block;
   background: var(--gray-100);

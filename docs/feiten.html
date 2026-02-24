@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feiten en cijfers - Niet met de bus?</title>
+  <meta name="description" content="Feiten en cijfers over de toegankelijkheid van bushaltes in Nederland: welke gemeentes scoren het slechtst, welke het best, en wat zijn de belangrijkste conclusies?">
+
+  <!-- Analytics -->
+  <script defer src="https://analytics.test001.nl/script.js" data-website-id="434eef14-95c1-46f5-af7c-9b4ea3692f30"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/theme.js"></script>
+</head>
+<body class="page-body">
+  <a href="#content" class="skip-link">Direct naar inhoud</a>
+
+  <header class="page-header" role="banner">
+    <a href="/" aria-label="Terug naar de kaart">&larr; Kaart</a>
+    <h1>Feiten en cijfers</h1>
+    <div style="flex:1"></div>
+    <button id="theme-toggle" title="Wissel thema" aria-label="Wissel naar donker thema">
+      <svg class="icon-moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun hidden" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="4.22" x2="19.78" y2="5.64"/></svg>
+    </button>
+  </header>
+
+  <main id="content" class="page-container" role="main">
+    <p class="intro">Nederland telt <strong>42.068</strong> bushaltes. Daarvan zijn er <strong class="stat-highlight">20.277 niet toegankelijk</strong> &mdash; dat is <strong>48%</strong>. Op deze pagina staan de belangrijkste feiten en cijfers uit het Centraal Halte Bestand.</p>
+
+    <nav aria-label="Inhoudsopgave">
+      <h2 id="inhoud" style="border-top: none; margin-top: 24px;">Inhoud</h2>
+      <ol>
+        <li><a href="#hoogste-percentage">Slechtst presterende gemeentes</a></li>
+        <li><a href="#meeste-haltes">Gemeentes met de meeste niet-toegankelijke haltes</a></li>
+        <li><a href="#best-presterend">Best presterende gemeentes</a></li>
+        <li><a href="#grote-steden">16 Grote steden vergeleken (beste eerst)</a></li>
+        <li><a href="#provincies">Provincies als wegbeheerder</a></li>
+        <li><a href="#waterschappen">Waterschappen</a></li>
+        <li><a href="#type-wegbeheerder">Type wegbeheerder</a></li>
+        <li><a href="#conclusies">Belangrijkste conclusies</a></li>
+        <li><a href="#bronnen">Bronnen</a></li>
+      </ol>
+    </nav>
+
+    <h2 id="hoogste-percentage">Slechtst presterende gemeentes</h2>
+    <p>Top 5 gemeentes met het hoogste percentage niet-toegankelijke haltes (minimaal 10 haltes).</p>
+    <table>
+      <caption class="sr-only">Top 5 gemeentes met het hoogste percentage niet-toegankelijke haltes</caption>
+      <thead>
+        <tr>
+          <th scope="col">Gemeente</th>
+          <th scope="col">Niet toegankelijk</th>
+          <th scope="col">Totaal</th>
+          <th scope="col">%</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Voorst</td>
+          <td>34</td>
+          <td>34</td>
+          <td>100%</td>
+        </tr>
+        <tr>
+          <td>Vlieland</td>
+          <td>27</td>
+          <td>27</td>
+          <td>100%</td>
+        </tr>
+        <tr>
+          <td>Drechterland</td>
+          <td>77</td>
+          <td>78</td>
+          <td>99%</td>
+        </tr>
+        <tr>
+          <td>Lopik</td>
+          <td>127</td>
+          <td>132</td>
+          <td>96%</td>
+        </tr>
+        <tr>
+          <td>Baarn</td>
+          <td>24</td>
+          <td>25</td>
+          <td>96%</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="meeste-haltes">Gemeentes met de meeste niet-toegankelijke haltes</h2>
+    <p>Top 5 gemeentes met het grootste absolute aantal niet-toegankelijke haltes.</p>
+    <table>
+      <caption class="sr-only">Top 5 gemeentes met de meeste niet-toegankelijke haltes</caption>
+      <thead>
+        <tr>
+          <th scope="col">Gemeente</th>
+          <th scope="col">Niet toegankelijk</th>
+          <th scope="col">Totaal</th>
+          <th scope="col">%</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rotterdam</td>
+          <td>416</td>
+          <td>955</td>
+          <td>44%</td>
+        </tr>
+        <tr>
+          <td>Amsterdam</td>
+          <td>393</td>
+          <td>1.125</td>
+          <td>35%</td>
+        </tr>
+        <tr>
+          <td>S&uacute;dwest-Frysl&acirc;n</td>
+          <td>264</td>
+          <td>342</td>
+          <td>77%</td>
+        </tr>
+        <tr>
+          <td>Emmen</td>
+          <td>217</td>
+          <td>356</td>
+          <td>61%</td>
+        </tr>
+        <tr>
+          <td>Maastricht</td>
+          <td>202</td>
+          <td>333</td>
+          <td>61%</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="best-presterend">Best presterende gemeentes</h2>
+    <p>Top 5 gemeentes met het laagste percentage niet-toegankelijke haltes (minimaal 10 haltes).</p>
+    <table>
+      <caption class="sr-only">Top 5 best presterende gemeentes</caption>
+      <thead>
+        <tr>
+          <th scope="col">Gemeente</th>
+          <th scope="col">Niet toegankelijk</th>
+          <th scope="col">Totaal</th>
+          <th scope="col">%</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hengelo</td>
+          <td>8</td>
+          <td>171</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <td>Zundert</td>
+          <td>1</td>
+          <td>21</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <td>Amersfoort</td>
+          <td>18</td>
+          <td>282</td>
+          <td>6%</td>
+        </tr>
+        <tr>
+          <td>Geertruidenberg</td>
+          <td>3</td>
+          <td>46</td>
+          <td>7%</td>
+        </tr>
+        <tr>
+          <td>Beuningen</td>
+          <td>4</td>
+          <td>60</td>
+          <td>7%</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="grote-steden">16 Grote steden vergeleken (beste eerst)</h2>
+    <p>Hoe scoren de grootste steden van Nederland? Gesorteerd van best naar slechtst.</p>
+    <table>
+      <caption class="sr-only">Grote steden vergeleken op toegankelijkheid bushaltes</caption>
+      <thead>
+        <tr>
+          <th scope="col">Gemeente</th>
+          <th scope="col">Niet toegankelijk</th>
+          <th scope="col">Totaal</th>
+          <th scope="col">%</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Amersfoort</td>
+          <td>18</td>
+          <td>282</td>
+          <td>6%</td>
+        </tr>
+        <tr>
+          <td>Eindhoven</td>
+          <td>38</td>
+          <td>405</td>
+          <td>9%</td>
+        </tr>
+        <tr>
+          <td>Haarlem</td>
+          <td>19</td>
+          <td>168</td>
+          <td>11%</td>
+        </tr>
+        <tr>
+          <td>Groningen</td>
+          <td>58</td>
+          <td>331</td>
+          <td>18%</td>
+        </tr>
+        <tr>
+          <td>Breda</td>
+          <td>43</td>
+          <td>221</td>
+          <td>19%</td>
+        </tr>
+        <tr>
+          <td>Nijmegen</td>
+          <td>51</td>
+          <td>224</td>
+          <td>23%</td>
+        </tr>
+        <tr>
+          <td>Den Haag</td>
+          <td>155</td>
+          <td>593</td>
+          <td>26%</td>
+        </tr>
+        <tr>
+          <td>Utrecht</td>
+          <td>104</td>
+          <td>396</td>
+          <td>26%</td>
+        </tr>
+        <tr>
+          <td>Tilburg</td>
+          <td>73</td>
+          <td>268</td>
+          <td>27%</td>
+        </tr>
+        <tr>
+          <td>Almere</td>
+          <td>66</td>
+          <td>217</td>
+          <td>30%</td>
+        </tr>
+        <tr>
+          <td>Amsterdam</td>
+          <td>393</td>
+          <td>1.125</td>
+          <td>35%</td>
+        </tr>
+        <tr>
+          <td>Arnhem</td>
+          <td>107</td>
+          <td>288</td>
+          <td>37%</td>
+        </tr>
+        <tr>
+          <td>Rotterdam</td>
+          <td>416</td>
+          <td>955</td>
+          <td>44%</td>
+        </tr>
+        <tr>
+          <td>Enschede</td>
+          <td>100</td>
+          <td>213</td>
+          <td>47%</td>
+        </tr>
+        <tr>
+          <td>Leeuwarden</td>
+          <td>115</td>
+          <td>227</td>
+          <td>51%</td>
+        </tr>
+        <tr>
+          <td>Maastricht</td>
+          <td>202</td>
+          <td>333</td>
+          <td>61%</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="provincies">Provincies als wegbeheerder</h2>
+    <p>Provincies beheren ook zelf bushaltes langs provinciale wegen. Hieronder de haltes die direct door de provincie worden beheerd, gesorteerd van slechtst naar best.</p>
+    <table>
+      <caption class="sr-only">Provincies als wegbeheerder, gesorteerd op percentage niet-toegankelijk</caption>
+      <thead>
+        <tr>
+          <th scope="col">Provincie</th>
+          <th scope="col">Niet toegankelijk</th>
+          <th scope="col">Totaal</th>
+          <th scope="col">%</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Drenthe</td>
+          <td>479</td>
+          <td>553</td>
+          <td>87%</td>
+        </tr>
+        <tr>
+          <td>Overijssel</td>
+          <td>330</td>
+          <td>464</td>
+          <td>71%</td>
+        </tr>
+        <tr>
+          <td>Zeeland</td>
+          <td>232</td>
+          <td>335</td>
+          <td>69%</td>
+        </tr>
+        <tr>
+          <td>Friesland</td>
+          <td>222</td>
+          <td>336</td>
+          <td>66%</td>
+        </tr>
+        <tr>
+          <td>Limburg</td>
+          <td>213</td>
+          <td>340</td>
+          <td>63%</td>
+        </tr>
+        <tr>
+          <td>Gelderland</td>
+          <td>206</td>
+          <td>370</td>
+          <td>56%</td>
+        </tr>
+        <tr>
+          <td>Noord-Brabant</td>
+          <td>173</td>
+          <td>374</td>
+          <td>46%</td>
+        </tr>
+        <tr>
+          <td>Noord-Holland</td>
+          <td>87</td>
+          <td>198</td>
+          <td>44%</td>
+        </tr>
+        <tr>
+          <td>Zuid-Holland</td>
+          <td>106</td>
+          <td>246</td>
+          <td>43%</td>
+        </tr>
+        <tr>
+          <td>Utrecht</td>
+          <td>50</td>
+          <td>117</td>
+          <td>43%</td>
+        </tr>
+        <tr>
+          <td>Flevoland</td>
+          <td>23</td>
+          <td>56</td>
+          <td>41%</td>
+        </tr>
+        <tr>
+          <td>Groningen</td>
+          <td>104</td>
+          <td>308</td>
+          <td>34%</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="waterschappen">Waterschappen</h2>
+    <p>Waterschappen beheren wegen langs dijken en waterwegen, inclusief de bushaltes die daar liggen. Met 90% niet-toegankelijk scoren ze veruit het slechtst van alle typen wegbeheerders.</p>
+    <table>
+      <caption class="sr-only">Waterschappen als wegbeheerder, gesorteerd op percentage niet-toegankelijk</caption>
+      <thead>
+        <tr>
+          <th scope="col">Waterschap</th>
+          <th scope="col">Niet toegankelijk</th>
+          <th scope="col">Totaal</th>
+          <th scope="col">%</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hoogheemraadschap van Schieland en de Krimpenerwaard</td>
+          <td>105</td>
+          <td>105</td>
+          <td>100%</td>
+        </tr>
+        <tr>
+          <td>Hoogheemraadschap Hollands Noorderkwartier</td>
+          <td>38</td>
+          <td>40</td>
+          <td>95%</td>
+        </tr>
+        <tr>
+          <td>Rivierenland</td>
+          <td>218</td>
+          <td>234</td>
+          <td>93%</td>
+        </tr>
+        <tr>
+          <td>Scheldestromen</td>
+          <td>146</td>
+          <td>170</td>
+          <td>86%</td>
+        </tr>
+        <tr>
+          <td>Hollandse Delta</td>
+          <td>103</td>
+          <td>127</td>
+          <td>81%</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="type-wegbeheerder">Type wegbeheerder</h2>
+    <p>Niet alle bushaltes worden door gemeentes beheerd. Provincies, waterschappen en Rijkswaterstaat beheren haltes langs hun eigen wegen.</p>
+    <table>
+      <caption class="sr-only">Verdeling niet-toegankelijke haltes per type wegbeheerder</caption>
+      <thead>
+        <tr>
+          <th scope="col">Type</th>
+          <th scope="col">Haltes</th>
+          <th scope="col">Niet toegankelijk</th>
+          <th scope="col">%</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Gemeente</td>
+          <td>36.777</td>
+          <td>17.287</td>
+          <td>47%</td>
+        </tr>
+        <tr>
+          <td>Provincie</td>
+          <td>4.324</td>
+          <td>2.225</td>
+          <td>51%</td>
+        </tr>
+        <tr>
+          <td>Waterschap</td>
+          <td>676</td>
+          <td>610</td>
+          <td>90%</td>
+        </tr>
+        <tr>
+          <td>Rijkswaterstaat</td>
+          <td>158</td>
+          <td>80</td>
+          <td>51%</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="conclusies">Belangrijkste conclusies</h2>
+    <ul class="conclusions-list">
+      <li>Geen enkele gemeente heeft 0% niet-toegankelijke haltes &mdash; iedere gemeente heeft werk te doen.</li>
+      <li>180 van 345 gemeentes (52%) heeft meer dan de helft van de haltes niet-toegankelijk.</li>
+      <li>Waterschappen zijn de blinde vlek: 90% van hun haltes is niet toegankelijk.</li>
+      <li>Eindhoven bewijst dat het kan: slechts 9% niet-toegankelijk bij 405 haltes.</li>
+      <li>76% van niet-toegankelijke haltes heeft ook geen abri &mdash; een dubbele achterstand.</li>
+      <li>Het probleem is wijdverspreid &mdash; de top 10 gemeentes bevat slechts 14% van het totaal.</li>
+    </ul>
+
+    <h2 id="bronnen">Bronnen</h2>
+    <p>De cijfers op deze pagina zijn afkomstig uit het <a href="https://halteviewer.ov-data.nl" target="_blank" rel="noopener">Centraal Halte Bestand (CHB)</a>, beheerd door <a href="https://dova.nu" target="_blank" rel="noopener">DOVA</a>. De gegevens zijn opgehaald in februari 2026.</p>
+  </main>
+  <script>Theme.init();</script>
+</body>
+</html>

@@ -71,6 +71,7 @@ body {
   text-align: right;
 }
 
+.header-icon-link,
 .header-info {
   background: none;
   border: none;
@@ -82,10 +83,12 @@ body {
   padding: 4px;
 }
 
+html[data-theme="dark"] .header-icon-link,
 html[data-theme="dark"] .header-info {
   color: rgba(224, 224, 224, 0.6);
 }
 
+.header-icon-link:hover,
 .header-info:hover {
   color: var(--text-on-header);
 }

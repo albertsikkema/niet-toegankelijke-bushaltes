@@ -22,9 +22,21 @@
 
     // Info modal
     const infoModal = document.getElementById('info-modal');
-    document.getElementById('info-btn').addEventListener('click', () => infoModal.classList.remove('hidden'));
-    document.getElementById('info-modal-close').addEventListener('click', () => infoModal.classList.add('hidden'));
-    infoModal.addEventListener('click', (e) => { if (e.target === infoModal) infoModal.classList.add('hidden'); });
+    const openInfoModal = () => { infoModal.classList.remove('hidden'); document.getElementById('info-modal-close').focus(); };
+    const closeInfoModal = () => { infoModal.classList.add('hidden'); document.getElementById('info-btn').focus(); };
+    document.getElementById('info-btn').addEventListener('click', openInfoModal);
+    document.getElementById('info-modal-close').addEventListener('click', closeInfoModal);
+    infoModal.addEventListener('click', (e) => { if (e.target === infoModal) closeInfoModal(); });
+    infoModal.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeInfoModal();
+      if (e.key === 'Tab') {
+        var focusable = infoModal.querySelectorAll('button, a[href], [tabindex]:not([tabindex="-1"])');
+        if (focusable.length === 0) return;
+        var first = focusable[0], last = focusable[focusable.length - 1];
+        if (e.shiftKey) { if (document.activeElement === first) { e.preventDefault(); last.focus(); } }
+        else { if (document.activeElement === last) { e.preventDefault(); first.focus(); } }
+      }
+    });
 
     console.log('App initialized', data.totals);
   } catch (err) {

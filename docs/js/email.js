@@ -118,6 +118,7 @@ Met vriendelijke groet,
   }
 
   function showModal(authority, stops, concessionProviders) {
+    lastFocused = document.activeElement;
     const email = authority.email || '';
     const subject = generateSubject(authority);
     const body = generateBody(authority, stops, concessionProviders);
@@ -137,10 +138,14 @@ Met vriendelijke groet,
     }
 
     document.getElementById('email-modal').classList.remove('hidden');
+    document.getElementById('modal-close').focus();
   }
+
+  let lastFocused = null;
 
   function hideModal() {
     document.getElementById('email-modal').classList.add('hidden');
+    if (lastFocused) { lastFocused.focus(); lastFocused = null; }
   }
 
   function showToast(message) {
@@ -155,12 +160,31 @@ Met vriendelijke groet,
     setTimeout(() => toast.classList.remove('show'), 2000);
   }
 
+  function trapFocus(modal, e) {
+    var focusable = modal.querySelectorAll('button, [href]:not(.btn-disabled), input, textarea, [tabindex]:not([tabindex="-1"])');
+    if (focusable.length === 0) return;
+    var first = focusable[0];
+    var last = focusable[focusable.length - 1];
+    if (e.shiftKey) {
+      if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+    } else {
+      if (document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  }
+
   function init() {
+    var modal = document.getElementById('email-modal');
     document.getElementById('modal-close').addEventListener('click', hideModal);
 
     // Close on backdrop click
-    document.getElementById('email-modal').addEventListener('click', (e) => {
+    modal.addEventListener('click', (e) => {
       if (e.target === e.currentTarget) hideModal();
+    });
+
+    // Close on Escape, trap Tab focus
+    modal.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') hideModal();
+      if (e.key === 'Tab') trapFocus(modal, e);
     });
 
     // Per-field copy buttons

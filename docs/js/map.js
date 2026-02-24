@@ -134,8 +134,18 @@ const MapView = (() => {
       const cp = appData.concessionProviders[stop.concessionProvider];
       if (cp && cp.name) rows.push(['Concessieverlener', cp.name]);
     }
-    rows.push(['Rolstoeltoegankelijk', stop.wheelchairAccessible ? 'Ja' : 'Nee']);
-    rows.push(['Visueel toegankelijk', stop.visuallyAccessible ? 'Ja' : 'Nee']);
+    const iconRows = [
+      {
+        label: 'Rolstoeltoegankelijk',
+        value: stop.wheelchairAccessible ? 'Ja' : 'Nee',
+        icon: '<svg class="popup-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="16" cy="4" r="1"/><path d="m5 8 3-3 5.5 3-2.36 3.5"/><path d="M4.24 14.5a5 5 0 0 0 6.88 6"/><path d="M13.76 17.5a5 5 0 0 0-6.88-6"/></svg>'
+      },
+      {
+        label: 'Visueel toegankelijk',
+        value: stop.visuallyAccessible ? 'Ja' : 'Nee',
+        icon: '<svg class="popup-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg>'
+      }
+    ];
 
     for (const [label, value] of rows) {
       const dt = document.createElement('dt');
@@ -144,6 +154,17 @@ const MapView = (() => {
       const dd = document.createElement('dd');
       dd.className = 'popup-value';
       dd.textContent = value;
+      dl.appendChild(dt);
+      dl.appendChild(dd);
+    }
+
+    for (const row of iconRows) {
+      const dt = document.createElement('dt');
+      dt.className = 'popup-label';
+      dt.innerHTML = row.icon + ' ' + row.label;
+      const dd = document.createElement('dd');
+      dd.className = 'popup-value';
+      dd.textContent = row.value;
       dl.appendChild(dt);
       dl.appendChild(dd);
     }

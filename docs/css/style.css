@@ -521,6 +521,11 @@ dl.popup-details dt {
   padding-right: 12px;
 }
 
+.popup-icon {
+  vertical-align: -2px;
+  margin-right: 2px;
+}
+
 dl.popup-details dd {
   text-align: right;
   word-break: break-word;

@@ -173,7 +173,7 @@ body {
 }
 
 .authority-item:hover {
-  background: var(--gray-100);
+  background: var(--gray-200);
 }
 
 .authority-name {
@@ -320,7 +320,7 @@ body {
 }
 
 .stop-item:hover {
-  background: var(--gray-100);
+  background: var(--gray-200);
 }
 
 .stop-name {

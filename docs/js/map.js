@@ -14,6 +14,34 @@ const MapView = (() => {
     dark: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
   };
 
+  function createStopIcon(compassDirection) {
+    var size = 24;
+    var cx = size / 2;
+    var cy = size / 2;
+    var r = 5;
+    var chevron = '';
+    if (compassDirection !== null && compassDirection !== undefined) {
+      // Chevron ">" pointing north by default, rotated by compassDirection
+      // Placed outside the circle with a small gap
+      var x1 = cx - 3, y1 = cy - 8;
+      var xTip = cx, yTip = cy - 11;
+      var x2 = cx + 3, y2 = cy - 8;
+      chevron = '<polyline points="' + x1 + ',' + y1 + ' ' + xTip + ',' + yTip + ' ' + x2 + ',' + y2 + '" ' +
+        'fill="none" stroke="#d32f2f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" ' +
+        'transform="rotate(' + compassDirection + ', ' + cx + ', ' + cy + ')"/>';
+    }
+    var svg = '<svg width="' + size + '" height="' + size + '" viewBox="0 0 ' + size + ' ' + size + '" xmlns="http://www.w3.org/2000/svg">' +
+      chevron +
+      '<circle cx="' + cx + '" cy="' + cy + '" r="' + r + '" fill="#d32f2f" stroke="#b71c1c" stroke-width="1"/>' +
+      '</svg>';
+    return L.divIcon({
+      html: svg,
+      className: 'stop-marker',
+      iconSize: [size, size],
+      iconAnchor: [cx, cy],
+    });
+  }
+
   function init(data) {
     appData = data;
 
@@ -53,12 +81,8 @@ const MapView = (() => {
       for (const stop of authority.stops) {
         if (!stop.lat || !stop.lon) continue;
 
-        const marker = L.circleMarker([stop.lat, stop.lon], {
-          radius: 6,
-          fillColor: '#d32f2f',
-          color: '#b71c1c',
-          weight: 1,
-          fillOpacity: 0.7,
+        const marker = L.marker([stop.lat, stop.lon], {
+          icon: createStopIcon(stop.compassDirection),
         });
 
         marker.bindPopup(() => createPopup(stop, authority, ownerCode), { maxWidth: 300, minWidth: 260 });
@@ -106,7 +130,12 @@ const MapView = (() => {
     if (stop.street) rows.push(['Straat', stop.street]);
     rows.push(['Halte', stop.code]);
     rows.push(['Wegbeheerder', authority.name]);
-    if (stop.shelter !== undefined) rows.push(['Abri', stop.shelter ? 'Ja' : 'Nee']);
+    if (stop.concessionProvider && appData.concessionProviders) {
+      const cp = appData.concessionProviders[stop.concessionProvider];
+      if (cp && cp.name) rows.push(['Concessieverlener', cp.name]);
+    }
+    rows.push(['Rolstoeltoegankelijk', stop.wheelchairAccessible ? 'Ja' : 'Nee']);
+    rows.push(['Visueel toegankelijk', stop.visuallyAccessible ? 'Ja' : 'Nee']);
 
     for (const [label, value] of rows) {
       const dt = document.createElement('dt');

@@ -47,8 +47,10 @@ async function fetchInaccessibleBusStops() {
   );
   console.log(`  Active bus quays: ${busQuays.length}`);
 
-  const inaccessible = busQuays.filter(q => q.quaydisabledaccessible === false);
-  console.log(`  Inaccessible active bus quays: ${inaccessible.length}`);
+  const inaccessible = busQuays.filter(q =>
+    q.quaydisabledaccessible === false || q.quayvisuallyaccessible === false
+  );
+  console.log(`  Not fully accessible bus quays: ${inaccessible.length}`);
 
   return { allBusQuays: busQuays, inaccessible };
 }
@@ -463,6 +465,9 @@ async function main() {
       lat,
       lon,
       shelter: q.shelter === true,
+      wheelchairAccessible: q.quaydisabledaccessible === true,
+      visuallyAccessible: q.quayvisuallyaccessible === true,
+      compassDirection: typeof q.compassdirection === 'number' ? q.compassdirection : null,
       concessionProvider: providerCode,
     });
   }

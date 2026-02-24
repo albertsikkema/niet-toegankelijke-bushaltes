@@ -1,0 +1,27 @@
+info:
+  name: Get Nav Path Links
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: {{baseUrl}}/getNavPathLinks
+  body:
+    type: json
+    data: |-
+      {"params": ["NL:S:asd", 313551, "entrance", "accessspace"]}
+
+docs: |-
+  Returns navigation path links between station components. Models
+  navigable routes through a station (entrance to platform via tunnels).
+
+  Parameters:
+    1. stopplacecode (String) — e.g. "NL:S:asd"
+    2. componentFromId (Integer) — source component ID (entrance_id or accessspace_id)
+    3. fromType (String) — "entrance" or "accessspace"
+    4. toType (String) — "accessspace"
+
+  Response: NavPath[] with site_component_type/id from/to, path[] (types
+  traversed), access_feature_types (e.g. "hall", "lift"), geom (line EPSG:3857).
+
+  Tip: First call getEntrances/getAccessSpaces to discover valid component IDs.

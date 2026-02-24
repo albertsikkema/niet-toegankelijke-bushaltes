@@ -1,0 +1,23 @@
+info:
+  name: Get Site Path Link For Component
+  type: http
+  seq: 4
+
+http:
+  method: POST
+  url: {{baseUrl}}/getSitePathLinkForComponent
+  body:
+    type: json
+    data: |-
+      {"params": [312109, "entrance"]}
+
+docs: |-
+  Returns path links connecting to a specific site component. Shows how
+  a component connects to others in the station navigation graph.
+
+  Parameters:
+    1. componentId (Integer) — entrance_id, equipment_id, or accessspace_id
+    2. componentType (String) — e.g. "entrance", "lift", "accessspace"
+
+  Response: SitePathLink[] with site_component_type/id from/to,
+  equipment_id, access_feature_type (e.g. "lift", "hall"), geom (line EPSG:3857).

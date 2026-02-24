@@ -1,0 +1,22 @@
+info:
+  name: Get Quays For Authority
+  type: http
+  seq: 4
+
+http:
+  method: POST
+  url: {{baseUrl}}/getQuaysForAuthority
+  body:
+    type: json
+    data: |-
+      {"params": ["PNB"]}
+
+docs: |-
+  Returns quays for a given concession provider/authority.
+  Lightweight map view with location and accessibility flags.
+
+  Parameters:
+    1. providercode (String) — e.g. "NL" (1,244 quays), "PNB" (6,431 quays)
+
+  Response: QuayMapView[] with code, geom, quayvisuallyaccessible,
+  quaydisabledaccessible.

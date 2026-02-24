@@ -1,0 +1,21 @@
+info:
+  name: Get Entrances
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: {{baseUrl}}/getEntrances
+  body:
+    type: json
+    data: |-
+      {"params": ["NL:S:asd"]}
+
+docs: |-
+  Returns all entrances for a station with location and accessibility details.
+
+  Parameters:
+    1. stopplacecode (String) — e.g. "NL:S:asd" (14 entrances)
+
+  Response: Entrance[] with entrance_id, entrancetype ("lift" or null),
+  level, geom (point EPSG:3857), and accessibility booleans.

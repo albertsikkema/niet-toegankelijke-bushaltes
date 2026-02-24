@@ -1,0 +1,21 @@
+info:
+  name: Get Facilities
+  type: http
+  seq: 4
+
+http:
+  method: POST
+  url: {{baseUrl}}/getFacilities
+  body:
+    type: json
+    data: |-
+      {"params": ["NL:S:asd"]}
+
+docs: |-
+  Returns station facilities (e.g. lifts registered as named facilities).
+
+  Parameters:
+    1. stopplacecode (String) — e.g. "NL:S:asd" (5 facilities)
+
+  Response: Facility[] with facility_id, name (e.g. "Lift station Amsterdam
+  Centraal"), type, geom (point EPSG:3857), centroid (WGS84).

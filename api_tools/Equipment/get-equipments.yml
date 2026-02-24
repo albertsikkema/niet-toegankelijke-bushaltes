@@ -1,0 +1,23 @@
+info:
+  name: Get Equipments
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: {{baseUrl}}/getEquipments
+  body:
+    type: json
+    data: |-
+      {"params": ["NL:S:asd"]}
+
+docs: |-
+  Returns all equipment (lifts, escalators) at a station from the base
+  registration. Includes physical attributes and geometry.
+
+  Parameters:
+    1. stopplacecode (String) — e.g. "NL:S:asd" (56 equipment items)
+
+  Response: Equipment[] with equipment_id, equipmenttype, foreign_code,
+  geom (polygon), centroid, width, depth, maximum_load, braille_buttons,
+  throughloader, alarmbutton, tactile_actuators, accoustic_announcements.

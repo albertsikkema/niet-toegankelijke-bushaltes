@@ -1,0 +1,18 @@
+info:
+  name: Get Summary
+  type: http
+  seq: 7
+
+http:
+  method: POST
+  url: {{baseUrl}}/getSummary
+  body:
+    type: json
+    data: |-
+      {"params": []}
+
+docs: |-
+  Returns summary quay counts overall and per authority, including
+  accessibility categories and centroid per authority area.
+
+  Note: May return a server error due to null data in some quay records.

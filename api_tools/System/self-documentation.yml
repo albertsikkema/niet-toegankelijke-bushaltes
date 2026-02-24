@@ -1,0 +1,16 @@
+info:
+  name: Self-Documentation
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: {{baseUrl}}/_docs
+  body:
+    type: json
+    data: |-
+      {"params": []}
+
+docs: |-
+  Sherpa self-documentation endpoint. Returns the full API specification
+  including all function signatures, parameter types, and type definitions.

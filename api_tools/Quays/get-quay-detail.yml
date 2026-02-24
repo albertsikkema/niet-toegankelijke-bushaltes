@@ -1,0 +1,21 @@
+info:
+  name: Get Quay Detail
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: {{baseUrl}}/getQuay
+  body:
+    type: json
+    data: |-
+      {"params": ["NL:Q:72900580"]}
+
+docs: |-
+  Full detail for a single quay including general info, facilities,
+  accessibility details, and passenger stop assignments.
+
+  Parameters:
+    1. quaycode (String) — e.g. "NL:Q:72900580" (bus), "NL:Q:asd_2a" (rail)
+
+  Response: QuayDetails with sections: general, facilities, accessibility, psa.

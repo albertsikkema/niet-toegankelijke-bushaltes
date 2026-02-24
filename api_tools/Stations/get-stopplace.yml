@@ -1,0 +1,21 @@
+info:
+  name: Get Stopplace
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: {{baseUrl}}/getStopplace
+  body:
+    type: json
+    data: |-
+      {"params": ["NL:S:asd"]}
+
+docs: |-
+  Returns full detail for a single station including its quay list.
+
+  Parameters:
+    1. stopplacecode (String) — e.g. "NL:S:asd" (Amsterdam Centraal),
+       "NL:S:ut" (Utrecht), "NL:S:rtd" (Rotterdam)
+
+  Response: Stopplace object with all station fields plus quays[] array.

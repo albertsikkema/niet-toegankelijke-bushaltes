@@ -1,0 +1,23 @@
+info:
+  name: Get All Equipment Statuses
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: {{baseUrl}}/getEquipmentStatusesForStopplaces
+  body:
+    type: json
+    data: |-
+      {"params": []}
+
+docs: |-
+  Bulk endpoint returning all stations with their equipment and real-time
+  monitoring status. Currently tracks lifts only.
+
+  Each entry has stopplacecode and equipmentWithStatuses[], containing:
+  - baseRegistrationEquipment: equipment_id, foreign_code, geom, monitored,
+    latest_announcement (description, startdate/enddate, is_available)
+  - equipmentCurrentState: is_monitored, last_incoming_status (ONLINE/OFFLINE),
+    is_within_announcement_period, timestamps
+  - equipment: supplier (A/B/C), unique_code_installation, is_active

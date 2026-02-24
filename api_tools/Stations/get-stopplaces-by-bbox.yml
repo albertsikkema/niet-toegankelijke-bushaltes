@@ -1,0 +1,19 @@
+info:
+  name: Get Stopplaces By Bbox
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: {{baseUrl}}/getStopplaces
+  body:
+    type: json
+    data: |-
+      {"params": [[540000, 6865000, 550000, 6875000]]}
+
+docs: |-
+  Returns all stopplaces within a geographic bounding box.
+
+  Parameters:
+    1. extent (double[]) — [minX, minY, maxX, maxY] in EPSG:3857.
+       The example covers the Amsterdam area.

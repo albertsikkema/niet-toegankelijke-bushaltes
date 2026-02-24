@@ -1,0 +1,19 @@
+info:
+  name: Get All Quays
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: {{baseUrl}}/getQuays
+  body:
+    type: json
+    data: |-
+      {"params": []}
+
+docs: |-
+  Returns ALL 54,111 quays (bus stops, tram stops, rail platforms) in
+  the Netherlands. Very large response — use with caution.
+
+  Response: Quay[] with quaycode, quayname, town, geom (EPSG:3857),
+  transportmode, quaystatus, accessibility fields, shelter, etc.

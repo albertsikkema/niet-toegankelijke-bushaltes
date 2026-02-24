@@ -1,0 +1,21 @@
+info:
+  name: Search Stopplace
+  type: http
+  seq: 4
+
+http:
+  method: POST
+  url: {{baseUrl}}/searchStopplace
+  body:
+    type: json
+    data: |-
+      {"params": ["Amsterdam"]}
+
+docs: |-
+  Search for stopplaces by code, name, or town. Returns matching
+  stopplaces (with quays) as proposals. Searches all transport types.
+
+  Parameters:
+    1. search (String) — station code, name, or town name
+
+  Example: "Amsterdam" returns ~927 results (all stops in Amsterdam area).

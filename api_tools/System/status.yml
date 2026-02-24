@@ -1,0 +1,16 @@
+info:
+  name: Status
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: {{baseUrl}}/status
+  body:
+    type: json
+    data: |-
+      {"params": []}
+
+docs: |-
+  Returns true if the DOVA base registration API is healthy.
+  No parameters required.

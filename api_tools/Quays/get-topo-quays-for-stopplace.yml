@@ -1,0 +1,22 @@
+info:
+  name: Get Topo Quays For Stopplace
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: {{baseUrl}}/getTopoQuaysForStopplace
+  body:
+    type: json
+    data: |-
+      {"params": ["NL:S:ut"]}
+
+docs: |-
+  Returns topological quay layout for a station. Platforms grouped into
+  logical units (e.g. "11n12") with geometry polygons and hierarchy.
+
+  Parameters:
+    1. stopplacecode (String) — e.g. "NL:S:ut" (Utrecht Centraal)
+
+  Response: TopoQuay[] with topo_quay_id, topo_code, geom (polygon),
+  level, children[], railplatforms[], sectors[], accessibility fields.

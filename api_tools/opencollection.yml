@@ -1,0 +1,59 @@
+opencollection: 1.0.0
+
+info:
+  name: DOVA Halteviewer API
+  description: "Dutch public transit station and quay data API. Sherpa JSON-RPC protocol — all calls use POST with {\"params\": [...]} body."
+bundled: false
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git
+root:
+  docs: |-
+    # DOVA Halteviewer API
+
+    Dutch public transit station and quay data from the Centraal Halte Bestand (CHB),
+    operated by DOVA (Samenwerkingsverband van Decentrale OV-Autoriteiten).
+
+    **Base URL:** `https://halteviewer.ov-data.nl/halteviewer/`
+    **Protocol:** Sherpa v0 (JSON-RPC over HTTP)
+    **Version:** 2.10.2
+
+    ## Protocol
+
+    All API calls use HTTP POST with a JSON body:
+
+    ```json
+    POST {{baseUrl}}/{functionName}
+    Content-Type: application/json
+
+    {"params": [arg1, arg2, ...]}
+    ```
+
+    Responses always return `{"result": ..., "error": ...}`.
+
+    The API is self-documenting via the Sherpa `_docs` endpoint (see System folder).
+
+    ## Endpoints by Category
+
+    - **System** — Health check, self-documentation, service descriptor, equipment descriptions
+    - **Stations** — Station lookup, search, bounding box queries, topology, summary
+    - **Quays** — All 54k+ quays (bus/tram/rail), detail, authority filtering, topology
+    - **Equipment** — Lift/escalator registry, real-time monitoring status, facilities
+    - **Navigation** — Station entrances, access spaces, path links between components
+
+    ## Key Identifiers
+
+    - Station: `NL:S:{code}` (e.g. `NL:S:asd` = Amsterdam Centraal)
+    - Quay: `NL:Q:{code}` (e.g. `NL:Q:asd_11`)
+    - Place: `NL:P:{code}`
+
+    ## Coordinate Systems
+
+    Most geometry is in EPSG:3857 (Web Mercator). Some endpoints also return
+    EPSG:28992 (RD New) and EPSG:4326 (WGS84).
+
+    ## Environment Variables
+
+    Set `baseUrl` to `https://halteviewer.ov-data.nl/halteviewer` in your environment.

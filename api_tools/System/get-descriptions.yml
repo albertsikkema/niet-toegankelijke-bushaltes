@@ -1,0 +1,21 @@
+info:
+  name: Get Descriptions
+  type: http
+  seq: 4
+
+http:
+  method: POST
+  url: {{baseUrl}}/getDescriptions
+  body:
+    type: json
+    data: |-
+      {"params": []}
+
+docs: |-
+  Returns human-readable descriptions for all equipment with a useful
+  description. Keyed by equipment foreign_code (e.g. "ASD-LIF-001").
+
+  Descriptions include expected repair dates, outage reasons, and
+  commissioning dates for new lifts.
+
+  Example: {"GN-LIF-007": "Lift wordt in april 2026 in gebruik genomen"}

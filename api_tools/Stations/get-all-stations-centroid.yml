@@ -1,0 +1,19 @@
+info:
+  name: Get All Stations Centroid
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: {{baseUrl}}/getStationsCentroid
+  body:
+    type: json
+    data: |-
+      {"params": []}
+
+docs: |-
+  Returns all ~405 Dutch railway stations with centroid coordinates and
+  accessibility metadata. Lightweight — no quay details or geometry polygons.
+
+  Response fields include: stopplacecode, uiccode, publicname, town, centroid
+  (EPSG:3857), prorail_codering, and accessibility booleans.

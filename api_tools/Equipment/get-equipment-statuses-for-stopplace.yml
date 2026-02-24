@@ -1,0 +1,19 @@
+info:
+  name: Get Equipment Statuses For Stopplace
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: {{baseUrl}}/getEquipmentStatusesForStopplace
+  body:
+    type: json
+    data: |-
+      {"params": ["NL:S:asd"]}
+
+docs: |-
+  Returns equipment and real-time monitoring status for a single station.
+  Same structure as the bulk endpoint but for one stopplace.
+
+  Parameters:
+    1. stopplacecode (String) — e.g. "NL:S:asd" (Amsterdam Centraal)

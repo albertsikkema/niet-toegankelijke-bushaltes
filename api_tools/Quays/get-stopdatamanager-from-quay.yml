@@ -1,0 +1,20 @@
+info:
+  name: Get Stopdatamanager From Quay
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: {{baseUrl}}/getStopdatamanagerNameFromQuay
+  body:
+    type: json
+    data: |-
+      {"params": ["NL:Q:asd_11"]}
+
+docs: |-
+  Returns the data manager and quay owner for a given quay.
+
+  Parameters:
+    1. quaycode (String) — e.g. "NL:Q:asd_11"
+
+  Response: {"stopdatamanager": "ProRail", "quayowner": "Amsterdam"}

@@ -1,0 +1,19 @@
+info:
+  name: Get All Simple Quays
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: {{baseUrl}}/getSimpleQuays
+  body:
+    type: json
+    data: |-
+      {"params": []}
+
+docs: |-
+  Simplified view of all 54,111 quays with fewer fields than getQuays.
+  Useful for map rendering and overview displays.
+
+  Response: QuaySimple[] with quaycode, quayname, town, geom (EPSG:3857),
+  compassdirection, quaystatus, quaytype, transportmode, shelter, notice_text.

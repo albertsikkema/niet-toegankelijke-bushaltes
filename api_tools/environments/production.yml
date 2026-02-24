@@ -1,0 +1,7 @@
+name: Production
+variables:
+  - name: baseUrl
+    value: https://halteviewer.ov-data.nl/halteviewer
+    enabled: true
+    secret: false
+    type: text

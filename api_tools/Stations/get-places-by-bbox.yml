@@ -1,0 +1,22 @@
+info:
+  name: Get Places By Bbox
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: {{baseUrl}}/getPlaces
+  body:
+    type: json
+    data: |-
+      {"params": [[540000, 6865000, 550000, 6875000]]}
+
+docs: |-
+  Returns administrative place areas within a bounding box.
+  Places represent geographic groupings of stops managed by a DAOW.
+
+  Parameters:
+    1. extent (double[]) — [minX, minY, maxX, maxY] in EPSG:3857
+
+  Response: Place[] with daowcode, placecode, publicname, town,
+  geom (polygon), centroid (WGS84).

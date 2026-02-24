@@ -1,0 +1,23 @@
+info:
+  name: Get Access Spaces
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: {{baseUrl}}/getAccessSpaces
+  body:
+    type: json
+    data: |-
+      {"params": ["NL:S:asd"]}
+
+docs: |-
+  Returns accessible spaces within a station — tunnels, halls, overpasses,
+  waiting rooms, toilets, and other areas forming the navigation network.
+
+  Parameters:
+    1. stopplacecode (String) — e.g. "NL:S:asd" (28 access spaces)
+
+  Response: Accessspace[] with accessspace_id, accessspacetype
+  (tunnel/overPass/bookingHall/wc/waitingRoom/other), level,
+  geom (polygon EPSG:3857), and accessibility booleans.

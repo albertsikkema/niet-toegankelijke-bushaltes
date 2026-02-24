@@ -13,7 +13,9 @@
     const pct = data.totals.totalBusQuays > 0
       ? Math.round((data.totals.inaccessibleBusQuays / data.totals.totalBusQuays) * 100)
       : 0;
-    statsEl.innerHTML = `<strong>${data.totals.inaccessibleBusQuays.toLocaleString('nl-NL')}</strong> van ${data.totals.totalBusQuays.toLocaleString('nl-NL')} bushaltes niet toegankelijk (${pct}%) — ${data.totals.authorities} wegbeheerders`;
+    const inacc = data.totals.inaccessibleBusQuays.toLocaleString('nl-NL');
+    const total = data.totals.totalBusQuays.toLocaleString('nl-NL');
+    statsEl.innerHTML = `<span class="stats-full"><strong>${inacc}</strong> van ${total} bushaltes niet toegankelijk (${pct}%) — ${data.totals.authorities} wegbeheerders</span><span class="stats-short"><strong>${inacc}</strong> / ${total} niet toegankelijk (${pct}%)</span>`;
 
     // Initialize components
     Email.init();

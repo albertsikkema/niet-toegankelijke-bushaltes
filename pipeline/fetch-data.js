@@ -468,6 +468,7 @@ async function main() {
       wheelchairAccessible: q.quaydisabledaccessible === true,
       visuallyAccessible: q.quayvisuallyaccessible === true,
       compassDirection: typeof q.compassdirection === 'number' ? q.compassdirection : null,
+      mutationDate: q.mutationdate ? new Date(q.mutationdate).toISOString().slice(0, 10) : null,
       concessionProvider: providerCode,
     });
   }

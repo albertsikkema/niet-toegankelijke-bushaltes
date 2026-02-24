@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bushalte Toegankelijkheid Nederland</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header id="header">
+    <h1>Bushalte Toegankelijkheid Nederland</h1>
+    <div id="stats" class="stats">Gegevens laden...</div>
+  </header>
+
+  <main id="main">
+    <aside id="sidebar">
+      <div id="search-box">
+        <input type="text" id="search-input" placeholder="Zoek gemeente of provincie..." />
+      </div>
+      <div id="sidebar-content">
+        <div id="authority-list"></div>
+      </div>
+      <div id="authority-detail" class="hidden">
+        <button id="back-btn" class="back-btn">&larr; Terug naar overzicht</button>
+        <div id="detail-content"></div>
+      </div>
+    </aside>
+
+    <div id="map"></div>
+  </main>
+
+  <!-- Email modal -->
+  <div id="email-modal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 id="modal-title">E-mail aan beheerder</h2>
+        <button id="modal-close" class="modal-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="field-group">
+          <div class="field-label-row">
+            <label for="email-to">Aan:</label>
+            <button class="copy-field-btn" data-target="email-to" title="Kopieer e-mailadres">Kopieer</button>
+          </div>
+          <input type="text" id="email-to" class="email-field" readonly />
+        </div>
+        <div class="field-group">
+          <div class="field-label-row">
+            <label for="email-subject">Onderwerp:</label>
+            <button class="copy-field-btn" data-target="email-subject" title="Kopieer onderwerp">Kopieer</button>
+          </div>
+          <input type="text" id="email-subject" class="email-field" />
+        </div>
+        <div class="field-group">
+          <div class="field-label-row">
+            <label for="email-body">Bericht:</label>
+            <button class="copy-field-btn" data-target="email-body" title="Kopieer bericht">Kopieer</button>
+          </div>
+          <textarea id="email-body" class="email-field" rows="16"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a id="mailto-link" href="#" class="btn btn-primary btn-full">Open in e-mailprogramma</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="js/email.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/sidebar.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

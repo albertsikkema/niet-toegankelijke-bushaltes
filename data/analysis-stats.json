@@ -1,0 +1,1648 @@
+{
+  "total_stations": 405,
+  "total_equipment": 446,
+  "total_lifts": 446,
+  "total_other_equipment": 0,
+  "stations_with_equipment": 171,
+  "monitored": 443,
+  "online": 411,
+  "offline": 32,
+  "announced": 14,
+  "codering_counts": {
+    "Toegankelijk": 155,
+    "Herstel": 190,
+    "Nog te doen": 52,
+    "n.b.": 1,
+    "Unknown/null": 7
+  },
+  "not_accessible_count": 243,
+  "not_accessible": [
+    {
+      "name": "Aalten",
+      "town": "Aalten",
+      "code": "NL:S:atn",
+      "status": "Herstel"
+    },
+    {
+      "name": "Akkrum",
+      "town": "Akkrum",
+      "code": "NL:S:akm",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Alkmaar",
+      "town": "Alkmaar",
+      "code": "NL:S:amr",
+      "status": "Herstel"
+    },
+    {
+      "name": "Alkmaar Noord",
+      "town": "Alkmaar",
+      "code": "NL:S:amrn",
+      "status": "Herstel"
+    },
+    {
+      "name": "Almelo",
+      "town": "Almelo",
+      "code": "NL:S:aml",
+      "status": "Herstel"
+    },
+    {
+      "name": "Almere Buiten",
+      "town": "Almere",
+      "code": "NL:S:almb",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Almere Centrum",
+      "town": "Almere",
+      "code": "NL:S:alm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Almere Muziekwijk",
+      "town": "Almere",
+      "code": "NL:S:almm",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Almere Oostvaarders",
+      "town": "Almere",
+      "code": "NL:S:almo",
+      "status": "Herstel"
+    },
+    {
+      "name": "Almere Parkwijk",
+      "town": "Almere",
+      "code": "NL:S:almp",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Almere Poort",
+      "town": "Almere",
+      "code": "NL:S:ampo",
+      "status": "Herstel"
+    },
+    {
+      "name": "Amersfoort Centraal",
+      "town": "Amersfoort",
+      "code": "NL:S:amf",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Amersfoort Schothorst",
+      "town": "Amersfoort",
+      "code": "NL:S:amfs",
+      "status": "Herstel"
+    },
+    {
+      "name": "Breukelen",
+      "town": "Breukelen",
+      "code": "NL:S:bkl",
+      "status": "Herstel"
+    },
+    {
+      "name": "Amsterdam Amstel",
+      "town": "Amsterdam",
+      "code": "NL:S:asa",
+      "status": "Herstel"
+    },
+    {
+      "name": "Amsterdam Bijlmer ArenA",
+      "town": "Amsterdam",
+      "code": "NL:S:asb",
+      "status": "Herstel"
+    },
+    {
+      "name": "Amsterdam Centraal",
+      "town": "Amsterdam",
+      "code": "NL:S:asd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Amsterdam Holendrecht",
+      "town": "Amsterdam",
+      "code": "NL:S:ashd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Amsterdam Lelylaan",
+      "town": "Amsterdam",
+      "code": "NL:S:asdl",
+      "status": "Herstel"
+    },
+    {
+      "name": "Amsterdam Muiderpoort",
+      "town": "Amsterdam",
+      "code": "NL:S:asdm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Amsterdam RAI",
+      "town": "Amsterdam",
+      "code": "NL:S:rai",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Amsterdam Science Park",
+      "town": "Amsterdam",
+      "code": "NL:S:assp",
+      "status": "Herstel"
+    },
+    {
+      "name": "Amsterdam Sloterdijk",
+      "town": "Amsterdam",
+      "code": "NL:S:ass",
+      "status": "Herstel"
+    },
+    {
+      "name": "Amsterdam Zuid",
+      "town": "Amsterdam",
+      "code": "NL:S:asdz",
+      "status": "Herstel"
+    },
+    {
+      "name": "Anna Paulowna",
+      "town": "Anna Paulowna",
+      "code": "NL:S:ana",
+      "status": "Herstel"
+    },
+    {
+      "name": "Apeldoorn",
+      "town": "Apeldoorn",
+      "code": "NL:S:apd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Appingedam",
+      "town": "Appingedam",
+      "code": "NL:S:apg",
+      "status": "Herstel"
+    },
+    {
+      "name": "Arkel",
+      "town": "Arkel",
+      "code": "NL:S:akl",
+      "status": "Herstel"
+    },
+    {
+      "name": "Arnemuiden",
+      "town": "Arnemuiden",
+      "code": "NL:S:arn",
+      "status": "Herstel"
+    },
+    {
+      "name": "Arnhem Presikhaaf",
+      "town": "Arnhem",
+      "code": "NL:S:ahpr",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Arnhem Velperpoort",
+      "town": "Arnhem",
+      "code": "NL:S:ahp",
+      "status": "Herstel"
+    },
+    {
+      "name": "Assen",
+      "town": "Assen",
+      "code": "NL:S:asn",
+      "status": "Herstel"
+    },
+    {
+      "name": "Baarn",
+      "town": "Baarn",
+      "code": "NL:S:brn",
+      "status": "Herstel"
+    },
+    {
+      "name": "Nieuweschans",
+      "town": "Nieuweschans",
+      "code": "NL:S:nsch",
+      "status": "Herstel"
+    },
+    {
+      "name": "Baflo",
+      "town": "Baflo",
+      "code": "NL:S:bf",
+      "status": "Herstel"
+    },
+    {
+      "name": "Barendrecht",
+      "town": "Barendrecht",
+      "code": "NL:S:brd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Barneveld Centrum",
+      "town": "Barneveld",
+      "code": "NL:S:bnc",
+      "status": "Herstel"
+    },
+    {
+      "name": "Barneveld Noord",
+      "town": "Barneveld",
+      "code": "NL:S:bnn",
+      "status": "Herstel"
+    },
+    {
+      "name": "Bedum",
+      "town": "Bedum",
+      "code": "NL:S:bdm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Beek-Elsloo",
+      "town": "Beek",
+      "code": "NL:S:bk",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Best",
+      "town": "Best",
+      "code": "NL:S:bet",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Beverwijk",
+      "town": "Beverwijk",
+      "code": "NL:S:bv",
+      "status": "Herstel"
+    },
+    {
+      "name": "Blerick",
+      "town": "Blerick",
+      "code": "NL:S:br",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Bodegraven",
+      "town": "Bodegraven",
+      "code": "NL:S:bdg",
+      "status": "Herstel"
+    },
+    {
+      "name": "Bovenkarspel Flora",
+      "town": "Bovenkarspel",
+      "code": "NL:S:bkf",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Boxtel",
+      "town": "Boxtel",
+      "code": "NL:S:btl",
+      "status": "Herstel"
+    },
+    {
+      "name": "Breda",
+      "town": "Breda",
+      "code": "NL:S:bd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Breda-Prinsenbeek",
+      "town": "Breda",
+      "code": "NL:S:bdpb",
+      "status": "Herstel"
+    },
+    {
+      "name": "Bunde",
+      "town": "Bunde",
+      "code": "NL:S:bde",
+      "status": "Herstel"
+    },
+    {
+      "name": "Bunnik",
+      "town": "Bunnik",
+      "code": "NL:S:bnk",
+      "status": "Herstel"
+    },
+    {
+      "name": "Bussum Zuid",
+      "town": "Bussum",
+      "code": "NL:S:bsmz",
+      "status": "Herstel"
+    },
+    {
+      "name": "Capelle Schollevaar",
+      "town": "Capelle a/d Ijssel",
+      "code": "NL:S:cps",
+      "status": "Herstel"
+    },
+    {
+      "name": "Castricum",
+      "town": "Castricum",
+      "code": "NL:S:cas",
+      "status": "Herstel"
+    },
+    {
+      "name": "Coevorden",
+      "town": "Coevorden",
+      "code": "NL:S:co",
+      "status": "Herstel"
+    },
+    {
+      "name": "Cuijk",
+      "town": "Cuijk",
+      "code": "NL:S:ck",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Culemborg",
+      "town": "Culemborg",
+      "code": "NL:S:cl",
+      "status": "Herstel"
+    },
+    {
+      "name": "Dalfsen",
+      "town": "Dalfsen",
+      "code": "NL:S:dl",
+      "status": "Herstel"
+    },
+    {
+      "name": "De Westereen",
+      "town": "De Westereen",
+      "code": "NL:S:dwe",
+      "status": "Herstel"
+    },
+    {
+      "name": "Deinum",
+      "town": "Deinum",
+      "code": "NL:S:dei",
+      "status": "Herstel"
+    },
+    {
+      "name": "Delfzijl",
+      "town": "Delfzijl",
+      "code": "NL:S:dz",
+      "status": "Herstel"
+    },
+    {
+      "name": "Delfzijl West",
+      "town": "Delfzijl",
+      "code": "NL:S:dzw",
+      "status": "Herstel"
+    },
+    {
+      "name": "Den Dolder",
+      "town": "Den Dolder",
+      "code": "NL:S:dld",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Den Haag Centraal",
+      "town": "'s-Gravenhage",
+      "code": "NL:S:gvc",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Den Haag HS",
+      "town": "'s-Gravenhage",
+      "code": "NL:S:gv",
+      "status": "Herstel"
+    },
+    {
+      "name": "Den Haag Laan v NOI",
+      "town": "'s-Gravenhage",
+      "code": "NL:S:laa",
+      "status": "Herstel"
+    },
+    {
+      "name": "Den Haag Mariahoeve",
+      "town": "'s-Gravenhage",
+      "code": "NL:S:gvm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Den Haag Ypenburg",
+      "town": "'s-Gravenhage",
+      "code": "NL:S:ypb",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Den Helder",
+      "town": "Den Helder",
+      "code": "NL:S:hdr",
+      "status": "Herstel"
+    },
+    {
+      "name": "Deurne",
+      "town": "Deurne",
+      "code": "NL:S:dn",
+      "status": "Herstel"
+    },
+    {
+      "name": "Deventer",
+      "town": "Deventer",
+      "code": "NL:S:dv",
+      "status": "Herstel"
+    },
+    {
+      "name": "Deventer Colmschate",
+      "town": "Deventer",
+      "code": "NL:S:dvc",
+      "status": "Herstel"
+    },
+    {
+      "name": "Diemen",
+      "town": "Diemen",
+      "code": "NL:S:dmn",
+      "status": "Herstel"
+    },
+    {
+      "name": "Diemen Zuid",
+      "town": "Diemen",
+      "code": "NL:S:dmnz",
+      "status": "Herstel"
+    },
+    {
+      "name": "Dieren",
+      "town": "Dieren",
+      "code": "NL:S:dr",
+      "status": "Herstel"
+    },
+    {
+      "name": "Doetinchem De Huet",
+      "town": "Doetinchem",
+      "code": "NL:S:dtch",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Dordrecht",
+      "town": "Dordrecht",
+      "code": "NL:S:ddr",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Dordrecht Stadspolders",
+      "town": "Dordrecht",
+      "code": "NL:S:ddrs",
+      "status": "Herstel"
+    },
+    {
+      "name": "Dordrecht Zuid",
+      "town": "Dordrecht",
+      "code": "NL:S:ddzd",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Dronryp",
+      "town": "Dronryp",
+      "code": "NL:S:drp",
+      "status": "Herstel"
+    },
+    {
+      "name": "Duivendrecht",
+      "town": "Duivendrecht",
+      "code": "NL:S:dvd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Echt",
+      "town": "Echt",
+      "code": "NL:S:ec",
+      "status": "Herstel"
+    },
+    {
+      "name": "Ede-Wageningen",
+      "town": "Ede",
+      "code": "NL:S:ed",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Eemshaven",
+      "town": "Eemshaven",
+      "code": "NL:S:eem",
+      "status": "Herstel"
+    },
+    {
+      "name": "Enkhuizen",
+      "town": "Enkhuizen",
+      "code": "NL:S:ekz",
+      "status": "Herstel"
+    },
+    {
+      "name": "Enschede De Eschmarke",
+      "town": "Enschede",
+      "code": "NL:S:ese",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Eygelshoven Markt",
+      "town": "Eygelshoven",
+      "code": "NL:S:eghm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Feanw\u00e2lden",
+      "town": "Feanw\u00e2lden",
+      "code": "NL:S:fwd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Franeker",
+      "town": "Franeker",
+      "code": "NL:S:fn",
+      "status": "Herstel"
+    },
+    {
+      "name": "Geldrop",
+      "town": "Geldrop",
+      "code": "NL:S:gp",
+      "status": "Herstel"
+    },
+    {
+      "name": "Groningen",
+      "town": "Groningen",
+      "code": "NL:S:gn",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Geleen-Lutterade",
+      "town": "Geleen",
+      "code": "NL:S:lut",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Gilze-Rijen",
+      "town": "Rijen",
+      "code": "NL:S:gz",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Goes",
+      "town": "Goes",
+      "code": "NL:S:gs",
+      "status": "Herstel"
+    },
+    {
+      "name": "Gouda",
+      "town": "Gouda",
+      "code": "NL:S:gd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Gouda Goverwelle",
+      "town": "Gouda",
+      "code": "NL:S:gdg",
+      "status": "Herstel"
+    },
+    {
+      "name": "Gramsbergen",
+      "town": "Gramsbergen",
+      "code": "NL:S:gbg",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Grijpskerk",
+      "town": "Grijpskerk",
+      "code": "NL:S:gk",
+      "status": "Herstel"
+    },
+    {
+      "name": "Groningen Europapark",
+      "town": "Groningen",
+      "code": "NL:S:gerp",
+      "status": "Herstel"
+    },
+    {
+      "name": "Grou-Jirnsum",
+      "town": "Grou",
+      "code": "NL:S:gw",
+      "status": "Herstel"
+    },
+    {
+      "name": "Haarlem",
+      "town": "Haarlem",
+      "code": "NL:S:hlm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Halfweg-Zwanenburg",
+      "town": "Halfweg",
+      "code": "NL:S:hwzb",
+      "status": "Herstel"
+    },
+    {
+      "name": "Haren",
+      "town": "Haren",
+      "code": "NL:S:hrn",
+      "status": "Herstel"
+    },
+    {
+      "name": "Harlingen",
+      "town": "Harlingen",
+      "code": "NL:S:hlg",
+      "status": "Herstel"
+    },
+    {
+      "name": "Heerenveen",
+      "town": "Heerenveen",
+      "code": "NL:S:hr",
+      "status": "Herstel"
+    },
+    {
+      "name": "Heerlen",
+      "town": "Heerlen",
+      "code": "NL:S:hrl",
+      "status": "Herstel"
+    },
+    {
+      "name": "Heerlen Woonboulevard",
+      "town": "Heerlen",
+      "code": "NL:S:hrlw",
+      "status": "Herstel"
+    },
+    {
+      "name": "Helmond",
+      "town": "Helmond",
+      "code": "NL:S:hm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Helmond Brandevoort",
+      "town": "Helmond",
+      "code": "NL:S:hmbv",
+      "status": "Herstel"
+    },
+    {
+      "name": "Helmond 't Hout",
+      "town": "Helmond",
+      "code": "NL:S:hmh",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Hengelo",
+      "town": "Hengelo",
+      "code": "NL:S:hgl",
+      "status": "Herstel"
+    },
+    {
+      "name": "Hengelo Oost",
+      "town": "Hengelo",
+      "code": "NL:S:hglo",
+      "status": "Herstel"
+    },
+    {
+      "name": "Hilversum",
+      "town": "Hilversum",
+      "code": "NL:S:hvs",
+      "status": "Herstel"
+    },
+    {
+      "name": "Hilversum Mediapark",
+      "town": "Hilversum",
+      "code": "NL:S:hvsm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Hilversum Sportpark",
+      "town": "Hilversum",
+      "code": "NL:S:hvsp",
+      "status": "Herstel"
+    },
+    {
+      "name": "Hindeloopen",
+      "town": "Hindeloopen",
+      "code": "NL:S:hnp",
+      "status": "Herstel"
+    },
+    {
+      "name": "Hoensbroek",
+      "town": "Hoensbroek",
+      "code": "NL:S:hb",
+      "status": "Herstel"
+    },
+    {
+      "name": "Holten",
+      "town": "Holten",
+      "code": "NL:S:hon",
+      "status": "Herstel"
+    },
+    {
+      "name": "Hoogeveen",
+      "town": "Hoogeveen",
+      "code": "NL:S:hgv",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Hoogezand-Sappemeer",
+      "town": "Hoogezand",
+      "code": "NL:S:hgz",
+      "status": "Herstel"
+    },
+    {
+      "name": "Hoorn",
+      "town": "Hoorn",
+      "code": "NL:S:hn",
+      "status": "Herstel"
+    },
+    {
+      "name": "Hoorn Kersenboogerd",
+      "town": "Hoorn",
+      "code": "NL:S:hnk",
+      "status": "Herstel"
+    },
+    {
+      "name": "Houten Castellum",
+      "town": "Houten",
+      "code": "NL:S:htnc",
+      "status": "Herstel"
+    },
+    {
+      "name": "Houthem-St Gerlach",
+      "town": "Houthem",
+      "code": "NL:S:sgl",
+      "status": "Herstel"
+    },
+    {
+      "name": "Hurdegaryp",
+      "town": "Hurdegaryp",
+      "code": "NL:S:hdg",
+      "status": "Herstel"
+    },
+    {
+      "name": "IJlst",
+      "town": "IJlst",
+      "code": "NL:S:ijt",
+      "status": "Herstel"
+    },
+    {
+      "name": "Koog aan de Zaan",
+      "town": "Koog aan de Zaan",
+      "code": "NL:S:kz",
+      "status": "Herstel"
+    },
+    {
+      "name": "Koudum-Molkwerum",
+      "town": "Molkwerum",
+      "code": "NL:S:kmw",
+      "status": "Herstel"
+    },
+    {
+      "name": "Krommenie-Assendelft",
+      "town": "Krommenie",
+      "code": "NL:S:kma",
+      "status": "Herstel"
+    },
+    {
+      "name": "Kropswolde",
+      "town": "Kropswolde",
+      "code": "NL:S:kw",
+      "status": "Herstel"
+    },
+    {
+      "name": "Kruiningen-Yerseke",
+      "town": "Kruiningen",
+      "code": "NL:S:krg",
+      "status": "Herstel"
+    },
+    {
+      "name": "Landgraaf",
+      "town": "Landgraaf",
+      "code": "NL:S:lg",
+      "status": "Herstel"
+    },
+    {
+      "name": "Leeuwarden",
+      "town": "Leeuwarden",
+      "code": "NL:S:lw",
+      "status": "Herstel"
+    },
+    {
+      "name": "Leeuwarden Camminghaburen",
+      "town": "Leeuwarden",
+      "code": "NL:S:lwc",
+      "status": "Herstel"
+    },
+    {
+      "name": "Leiden Centraal",
+      "town": "Leiden",
+      "code": "NL:S:ledn",
+      "status": "Herstel"
+    },
+    {
+      "name": "Lelystad Centrum",
+      "town": "Lelystad",
+      "code": "NL:S:lls",
+      "status": "Herstel"
+    },
+    {
+      "name": "Lochem",
+      "town": "Lochem",
+      "code": "NL:S:lc",
+      "status": "Herstel"
+    },
+    {
+      "name": "Loppersum",
+      "town": "Loppersum",
+      "code": "NL:S:lp",
+      "status": "Herstel"
+    },
+    {
+      "name": "Naarden-Bussum",
+      "town": "Bussum",
+      "code": "NL:S:ndb",
+      "status": "Herstel"
+    },
+    {
+      "name": "Maastricht",
+      "town": "Maastricht",
+      "code": "NL:S:mt",
+      "status": "Herstel"
+    },
+    {
+      "name": "Maastricht Randwyck",
+      "town": "Maastricht",
+      "code": "NL:S:mtr",
+      "status": "Herstel"
+    },
+    {
+      "name": "Mantgum",
+      "town": "Mantgum",
+      "code": "NL:S:mg",
+      "status": "Herstel"
+    },
+    {
+      "name": "Martenshoek",
+      "town": "Hoogezand",
+      "code": "NL:S:mth",
+      "status": "Herstel"
+    },
+    {
+      "name": "Meerssen",
+      "town": "Meerssen",
+      "code": "NL:S:mes",
+      "status": "Herstel"
+    },
+    {
+      "name": "Meppel",
+      "town": "Meppel",
+      "code": "NL:S:mp",
+      "status": "Herstel"
+    },
+    {
+      "name": "Middelburg",
+      "town": "Middelburg",
+      "code": "NL:S:mdb",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Nieuw Amsterdam",
+      "town": "Nieuw-Amsterdam",
+      "code": "NL:S:na",
+      "status": "Herstel"
+    },
+    {
+      "name": "Nieuw Vennep",
+      "town": "Nieuw-Vennep",
+      "code": "NL:S:nvp",
+      "status": "Herstel"
+    },
+    {
+      "name": "Nieuwerkerk a/d IJssel",
+      "town": "Nieuwerkerk a/d IJssel",
+      "code": "NL:S:nwk",
+      "status": "Herstel"
+    },
+    {
+      "name": "Nijkerk",
+      "town": "Nijkerk",
+      "code": "NL:S:nkk",
+      "status": "Herstel"
+    },
+    {
+      "name": "Nijmegen",
+      "town": "Nijmegen",
+      "code": "NL:S:nm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Nijmegen Dukenburg",
+      "town": "Nijmegen",
+      "code": "NL:S:nmd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Nijmegen Heyendaal",
+      "town": "Nijmegen",
+      "code": "NL:S:nmh",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Nijmegen Lent",
+      "town": "Nijmegen",
+      "code": "NL:S:nml",
+      "status": "Herstel"
+    },
+    {
+      "name": "Obdam",
+      "town": "Obdam",
+      "code": "NL:S:obd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Olst",
+      "town": "Olst",
+      "code": "NL:S:ost",
+      "status": "Herstel"
+    },
+    {
+      "name": "Opheusden",
+      "town": "Opheusden",
+      "code": "NL:S:op",
+      "status": "Herstel"
+    },
+    {
+      "name": "Oudenbosch",
+      "town": "Oudenbosch",
+      "code": "NL:S:odb",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Ravenstein",
+      "town": "Ravenstein",
+      "code": "NL:S:rvs",
+      "status": "Herstel"
+    },
+    {
+      "name": "Reuver",
+      "town": "Reuver",
+      "code": "NL:S:rv",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Rheden",
+      "town": "Rheden",
+      "code": "NL:S:rh",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Rhenen",
+      "town": "Rhenen",
+      "code": "NL:S:rhn",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Roermond",
+      "town": "Roermond",
+      "code": "NL:S:rm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Roosendaal",
+      "town": "Roosendaal",
+      "code": "NL:S:rsd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Rosmalen",
+      "town": "Rosmalen",
+      "code": "NL:S:rs",
+      "status": "Herstel"
+    },
+    {
+      "name": "Rotterdam Alexander",
+      "town": "Rotterdam",
+      "code": "NL:S:rta",
+      "status": "Herstel"
+    },
+    {
+      "name": "Rotterdam Blaak",
+      "town": "Rotterdam",
+      "code": "NL:S:rtb",
+      "status": "Herstel"
+    },
+    {
+      "name": "Rotterdam Centraal",
+      "town": "Rotterdam",
+      "code": "NL:S:rtd",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Rotterdam Noord",
+      "town": "Rotterdam",
+      "code": "NL:S:rtn",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Rotterdam Stadion",
+      "town": "Rotterdam",
+      "code": "NL:S:rtst",
+      "status": "Herstel"
+    },
+    {
+      "name": "'s-Hertogenbosch",
+      "town": "'s-Hertogenbosch",
+      "code": "NL:S:ht",
+      "status": "Herstel"
+    },
+    {
+      "name": "Santpoort Zuid",
+      "town": "Santpoort",
+      "code": "NL:S:sptz",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Sappemeer Oost",
+      "town": "Sappemeer",
+      "code": "NL:S:spm",
+      "status": "n.b."
+    },
+    {
+      "name": "Sassenheim",
+      "town": "Warmond",
+      "code": "NL:S:ssh",
+      "status": "Herstel"
+    },
+    {
+      "name": "Sauwerd",
+      "town": "Sauwerd",
+      "code": "NL:S:swd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Schiedam Centrum",
+      "town": "Schiedam",
+      "code": "NL:S:sdm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Schin op Geul",
+      "town": "Schin op Geul",
+      "code": "NL:S:sog",
+      "status": "Herstel"
+    },
+    {
+      "name": "Schiphol Airport",
+      "town": "Schiphol",
+      "code": "NL:S:shl",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Sittard",
+      "town": "Sittard",
+      "code": "NL:S:std",
+      "status": "Herstel"
+    },
+    {
+      "name": "Sliedrecht Baanhoek",
+      "town": "Sliedrecht",
+      "code": "NL:S:sdtb",
+      "status": "Herstel"
+    },
+    {
+      "name": "Sneek",
+      "town": "Sneek",
+      "code": "NL:S:sk",
+      "status": "Herstel"
+    },
+    {
+      "name": "Sneek Noord",
+      "town": "Sneek",
+      "code": "NL:S:sknd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Stedum",
+      "town": "Stedum",
+      "code": "NL:S:stm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Steenwijk",
+      "town": "Steenwijk",
+      "code": "NL:S:swk",
+      "status": "Herstel"
+    },
+    {
+      "name": "Swalmen",
+      "town": "Swalmen",
+      "code": "NL:S:sm",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "'t Harde",
+      "town": "'t Harde",
+      "code": "NL:S:hde",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Tegelen",
+      "town": "Tegelen",
+      "code": "NL:S:tg",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Tiel",
+      "town": "Tiel",
+      "code": "NL:S:tl",
+      "status": "Herstel"
+    },
+    {
+      "name": "Tilburg",
+      "town": "Tilburg",
+      "code": "NL:S:tb",
+      "status": "Herstel"
+    },
+    {
+      "name": "Tilburg Reeshof",
+      "town": "Tilburg",
+      "code": "NL:S:tbr",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Twello",
+      "town": "Twello",
+      "code": "NL:S:twl",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Uitgeest",
+      "town": "Uitgeest",
+      "code": "NL:S:utg",
+      "status": "Herstel"
+    },
+    {
+      "name": "Uithuizen",
+      "town": "Uithuizen",
+      "code": "NL:S:uhz",
+      "status": "Herstel"
+    },
+    {
+      "name": "Uithuizermeeden",
+      "town": "Uithuizermeeden",
+      "code": "NL:S:uhm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Usquert",
+      "town": "Usquert",
+      "code": "NL:S:ust",
+      "status": "Herstel"
+    },
+    {
+      "name": "Utrecht Centraal",
+      "town": "Utrecht",
+      "code": "NL:S:ut",
+      "status": "Herstel"
+    },
+    {
+      "name": "Utrecht Leidsche Rijn",
+      "town": "Utrecht",
+      "code": "NL:S:utlr",
+      "status": "Herstel"
+    },
+    {
+      "name": "Utrecht Overvecht",
+      "town": "Utrecht",
+      "code": "NL:S:uto",
+      "status": "Herstel"
+    },
+    {
+      "name": "Utrecht Terwijde",
+      "town": "Utrecht",
+      "code": "NL:S:utt",
+      "status": "Herstel"
+    },
+    {
+      "name": "Utrecht Vaartsche Rijn",
+      "town": "Utrecht",
+      "code": "NL:S:utvr",
+      "status": "Herstel"
+    },
+    {
+      "name": "Utrecht Zuilen",
+      "town": "Utrecht",
+      "code": "NL:S:utzl",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Valkenburg",
+      "town": "Valkenburg",
+      "code": "NL:S:vk",
+      "status": "Herstel"
+    },
+    {
+      "name": "Veendam",
+      "town": "Veendam",
+      "code": "NL:S:vdm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Veenendaal West",
+      "town": "Veenendaal",
+      "code": "NL:S:vndw",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Velp",
+      "town": "Velp",
+      "code": "NL:S:vp",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Venlo",
+      "town": "Venlo",
+      "code": "NL:S:vl",
+      "status": "Herstel"
+    },
+    {
+      "name": "Venray",
+      "town": "Venray",
+      "code": "NL:S:vry",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Vierlingsbeek",
+      "town": "Vierlingsbeek",
+      "code": "NL:S:vlb",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Vleuten",
+      "town": "Vleuten",
+      "code": "NL:S:vtn",
+      "status": "Herstel"
+    },
+    {
+      "name": "Vlissingen",
+      "town": "Vlissingen",
+      "code": "NL:S:vs",
+      "status": "Herstel"
+    },
+    {
+      "name": "Voorburg",
+      "town": "Voorburg",
+      "code": "NL:S:vb",
+      "status": "Herstel"
+    },
+    {
+      "name": "Voorhout",
+      "town": "Voorhout",
+      "code": "NL:S:vh",
+      "status": "Herstel"
+    },
+    {
+      "name": "Voorschoten",
+      "town": "Voorschoten",
+      "code": "NL:S:vst",
+      "status": "Herstel"
+    },
+    {
+      "name": "Vught",
+      "town": "Vught",
+      "code": "NL:S:vg",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Warffum",
+      "town": "Warffum",
+      "code": "NL:S:wfm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Weert",
+      "town": "Weert",
+      "code": "NL:S:wt",
+      "status": "Herstel"
+    },
+    {
+      "name": "Weesp",
+      "town": "Weesp",
+      "code": "NL:S:wp",
+      "status": "Herstel"
+    },
+    {
+      "name": "Winschoten",
+      "town": "Winschoten",
+      "code": "NL:S:ws",
+      "status": "Herstel"
+    },
+    {
+      "name": "Winsum",
+      "town": "Winsum",
+      "code": "NL:S:wsm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Winterswijk",
+      "town": "Winterswijk",
+      "code": "NL:S:ww",
+      "status": "Herstel"
+    },
+    {
+      "name": "Winterswijk West",
+      "town": "Winterswijk",
+      "code": "NL:S:www",
+      "status": "Herstel"
+    },
+    {
+      "name": "Woerden",
+      "town": "Woerden",
+      "code": "NL:S:wd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Wolfheze",
+      "town": "Wolfheze",
+      "code": "NL:S:wf",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Wolvega",
+      "town": "Wolvega",
+      "code": "NL:S:wv",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Workum",
+      "town": "Workum",
+      "code": "NL:S:wk",
+      "status": "Herstel"
+    },
+    {
+      "name": "Wormerveer",
+      "town": "Wormerveer",
+      "code": "NL:S:wm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Zaandam",
+      "town": "Zaandam",
+      "code": "NL:S:zd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Zaandam Kogerveld",
+      "town": "Zaandam",
+      "code": "NL:S:zdk",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Zaandijk Zaanse Schans",
+      "town": "Koog aan de Zaan",
+      "code": "NL:S:zzs",
+      "status": "Herstel"
+    },
+    {
+      "name": "Zaltbommel",
+      "town": "Zaltbommel",
+      "code": "NL:S:zbm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Zandvoort aan Zee",
+      "town": "Zandvoort aan Zee",
+      "code": "NL:S:zvt",
+      "status": "Herstel"
+    },
+    {
+      "name": "Zevenaar",
+      "town": "Zevenaar",
+      "code": "NL:S:zv",
+      "status": "Herstel"
+    },
+    {
+      "name": "Zevenbergen",
+      "town": "Zevenbergen",
+      "code": "NL:S:zvb",
+      "status": "Herstel"
+    },
+    {
+      "name": "Zoetermeer",
+      "town": "Zoetermeer",
+      "code": "NL:S:ztm",
+      "status": "Herstel"
+    },
+    {
+      "name": "Zuidhorn",
+      "town": "Zuidhorn",
+      "code": "NL:S:zh",
+      "status": "Herstel"
+    },
+    {
+      "name": "Zutphen",
+      "town": "Zutphen",
+      "code": "NL:S:zp",
+      "status": "Herstel"
+    },
+    {
+      "name": "Zwijndrecht",
+      "town": "Zwijndrecht",
+      "code": "NL:S:zwd",
+      "status": "Herstel"
+    },
+    {
+      "name": "Zwolle",
+      "town": "Zwolle",
+      "code": "NL:S:zl",
+      "status": "Herstel"
+    },
+    {
+      "name": "Oldenzaal",
+      "town": "Oldenzaal",
+      "code": "NL:S:odz",
+      "status": "Herstel"
+    },
+    {
+      "name": "Boven-Hardinxveld",
+      "town": "Hardinxveld-Giessendam",
+      "code": "NL:S:bhdv",
+      "status": "Herstel"
+    },
+    {
+      "name": "Zuidbroek",
+      "town": "Zuidbroek",
+      "code": "NL:S:zb",
+      "status": "Herstel"
+    },
+    {
+      "name": "Scheemda",
+      "town": "Scheemda",
+      "code": "NL:S:sda",
+      "status": "Herstel"
+    },
+    {
+      "name": "Arnhem Centraal",
+      "town": "Arnhem",
+      "code": "NL:S:ah",
+      "status": "Nog te doen"
+    },
+    {
+      "name": "Purmerend Weidevenne",
+      "town": "Purmerend",
+      "code": "NL:S:pmw",
+      "status": "Nog te doen"
+    }
+  ],
+  "offline_stations": {
+    "NL:S:asd": {
+      "name": "Amsterdam Centraal",
+      "total": 15,
+      "offline": 1,
+      "announced": 6
+    },
+    "NL:S:rai": {
+      "name": "Amsterdam RAI",
+      "total": 2,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:dvc": {
+      "name": "Deventer Colmschate",
+      "total": 2,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:dmnz": {
+      "name": "Diemen Zuid",
+      "total": 1,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:drh": {
+      "name": "Driehuis",
+      "total": 2,
+      "offline": 2,
+      "announced": 1
+    },
+    "NL:S:dvd": {
+      "name": "Duivendrecht",
+      "total": 4,
+      "offline": 2,
+      "announced": 0
+    },
+    "NL:S:ed": {
+      "name": "Ede-Wageningen",
+      "total": 3,
+      "offline": 1,
+      "announced": 1
+    },
+    "NL:S:est": {
+      "name": "Elst",
+      "total": 2,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:gn": {
+      "name": "Groningen",
+      "total": 5,
+      "offline": 2,
+      "announced": 1
+    },
+    "NL:S:hlms": {
+      "name": "Haarlem Spaarnwoude",
+      "total": 3,
+      "offline": 2,
+      "announced": 0
+    },
+    "NL:S:hwzb": {
+      "name": "Halfweg-Zwanenburg",
+      "total": 2,
+      "offline": 2,
+      "announced": 0
+    },
+    "NL:S:hm": {
+      "name": "Helmond",
+      "total": 2,
+      "offline": 1,
+      "announced": 1
+    },
+    "NL:S:hvsm": {
+      "name": "Hilversum Mediapark",
+      "total": 3,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:hn": {
+      "name": "Hoorn",
+      "total": 3,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:mt": {
+      "name": "Maastricht",
+      "total": 3,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:mp": {
+      "name": "Meppel",
+      "total": 3,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:ot": {
+      "name": "Oisterwijk",
+      "total": 2,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:pmr": {
+      "name": "Purmerend",
+      "total": 2,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:rsn": {
+      "name": "Rijssen",
+      "total": 1,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:rm": {
+      "name": "Roermond",
+      "total": 2,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:rtd": {
+      "name": "Rotterdam Centraal",
+      "total": 7,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:rtn": {
+      "name": "Rotterdam Noord",
+      "total": 1,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:sdm": {
+      "name": "Schiedam Centrum",
+      "total": 4,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:utg": {
+      "name": "Uitgeest",
+      "total": 2,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:ut": {
+      "name": "Utrecht Centraal",
+      "total": 18,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:wdn": {
+      "name": "Wierden",
+      "total": 2,
+      "offline": 1,
+      "announced": 0
+    },
+    "NL:S:ah": {
+      "name": "Arnhem Centraal",
+      "total": 10,
+      "offline": 1,
+      "announced": 0
+    }
+  },
+  "announcement_counts": {
+    "buiten gebruik": 129,
+    "lift in onderhoud": 19,
+    "leverancier wissel": 3
+  }
+}

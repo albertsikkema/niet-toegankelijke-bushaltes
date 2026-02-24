@@ -37,15 +37,19 @@ const Sidebar = (() => {
 
       const typeLabel = auth.type === 'privaat' ? 'privaat beheer' : auth.type;
 
+      const accessible = auth.totalBusQuays - auth.inaccessibleCount;
+
       item.innerHTML = `
-        <div class="authority-name">${escapeHtml(auth.name)}</div>
-        <div class="authority-type">${typeLabel}</div>
+        <div class="authority-name">${escapeHtml(auth.name)} <span class="authority-type">${typeLabel}</span></div>
         <div class="authority-stats">
-          <span class="inaccessible-count">${auth.inaccessibleCount} niet toegankelijk</span>
+          <span class="inaccessible-count">Niet toegankelijk: <span class="red">${auth.inaccessibleCount}</span></span>
+        </div>
+        <div class="authority-bar-row">
+          <span class="detail-bar-pct red">${pct}%</span>
           <div class="inaccessible-bar">
             <div class="inaccessible-bar-fill" style="width: ${pct}%"></div>
           </div>
-          <span class="total-count">${auth.totalBusQuays} totaal</span>
+          <span class="detail-bar-pct">${100 - pct}%</span>
         </div>
       `;
 
@@ -76,13 +80,13 @@ const Sidebar = (() => {
 
     let contactHtml = '';
     if (auth.email) {
-      contactHtml += `<div>E-mail: <a href="mailto:${escapeHtml(auth.email)}">${escapeHtml(auth.email)}</a></div>`;
+      contactHtml += `<div><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg> E-mail: <a href="mailto:${escapeHtml(auth.email)}">${escapeHtml(auth.email)}</a></div>`;
     }
     if (auth.website) {
-      contactHtml += `<div>Website: <a href="${escapeHtml(auth.website)}" target="_blank" rel="noopener">${escapeHtml(auth.website)}</a></div>`;
+      contactHtml += `<div><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Website: <a href="${escapeHtml(auth.website)}" target="_blank" rel="noopener">${escapeHtml(auth.website)}</a></div>`;
     }
     if (auth.phone) {
-      contactHtml += `<div>Telefoon: ${escapeHtml(auth.phone)}</div>`;
+      contactHtml += `<div><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Telefoon: ${escapeHtml(auth.phone)}</div>`;
     }
 
     const isPrivaat = auth.type === 'privaat';
@@ -104,17 +108,23 @@ const Sidebar = (() => {
     const content = document.getElementById('detail-content');
     content.innerHTML = `
       <div class="detail-header">
-        <h2>${escapeHtml(auth.name)}</h2>
-        <div class="authority-type">${typeLabel}</div>
+        <h2>${escapeHtml(auth.name)} <span class="authority-type">${typeLabel}</span></h2>
         <div class="detail-stats">
           <div class="detail-stat">
             <div class="detail-stat-value red">${auth.inaccessibleCount}</div>
-            <div class="detail-stat-label">niet toegankelijk (${pct}%)</div>
+            <div class="detail-stat-label">niet toegankelijk</div>
           </div>
           <div class="detail-stat">
-            <div class="detail-stat-value green">${accessible}</div>
+            <div class="detail-stat-value">${accessible}</div>
             <div class="detail-stat-label">toegankelijk</div>
           </div>
+        </div>
+        <div class="detail-bar-row">
+          <span class="detail-bar-pct red">${pct}%</span>
+          <div class="inaccessible-bar">
+            <div class="inaccessible-bar-fill" style="width: ${pct}%"></div>
+          </div>
+          <span class="detail-bar-pct">${100 - pct}%</span>
         </div>
         ${contactHtml ? `<div class="detail-contact">${contactHtml}</div>` : ''}
       </div>

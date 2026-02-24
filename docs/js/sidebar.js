@@ -97,7 +97,7 @@ const Sidebar = (() => {
     } else {
       actionsHtml = `
         <div class="detail-actions">
-          <button class="btn btn-danger" id="detail-email-btn">Stuur e-mail over ${auth.inaccessibleCount} haltes</button>
+          <button class="btn btn-danger" id="detail-email-btn">Stuur email - ${auth.inaccessibleCount} haltes</button>
         </div>`;
     }
 

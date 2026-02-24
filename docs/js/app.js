@@ -21,6 +21,7 @@
     Email.init();
     MapView.init(data);
     Sidebar.init(data);
+    Theme.init();
 
     // Info modal
     const infoModal = document.getElementById('info-modal');

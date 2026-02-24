@@ -7,6 +7,12 @@ const MapView = (() => {
   let appData = null;
   let boundaryLayer = null;
   let boundaryCache = {};
+  let tileLayer = null;
+
+  const TILE_URLS = {
+    light: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+    dark: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+  };
 
   function init(data) {
     appData = data;
@@ -19,11 +25,17 @@ const MapView = (() => {
       maxZoom: 18,
     });
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    var initialTheme = (typeof Theme !== 'undefined') ? Theme.current() : 'light';
+    tileLayer = L.tileLayer(TILE_URLS[initialTheme], {
       attribution: '&copy; <a href="https://albertsikkema.com">Albert Sikkema</a> | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
       subdomains: 'abcd',
       maxZoom: 20,
     }).addTo(map);
+
+    window.addEventListener('themechange', function (e) {
+      var theme = e.detail.theme;
+      tileLayer.setUrl(TILE_URLS[theme] || TILE_URLS.light);
+    });
 
     clusterGroup = L.markerClusterGroup({
       chunkedLoading: true,
@@ -197,8 +209,9 @@ const MapView = (() => {
         };
         var borderGeo = { type: 'Feature', properties: {}, geometry: geometry };
 
+        var isDark = (typeof Theme !== 'undefined') && Theme.current() === 'dark';
         var maskLayer = L.geoJSON(maskGeo, {
-          style: { stroke: false, fillColor: '#000', fillOpacity: 0.15 }
+          style: { stroke: false, fillColor: isDark ? '#fff' : '#000', fillOpacity: isDark ? 0.2 : 0.15 }
         });
         var borderLayer = L.geoJSON(borderGeo, {
           style: { color: '#1976d2', weight: 2, fill: false }

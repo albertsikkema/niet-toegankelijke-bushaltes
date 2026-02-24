@@ -431,6 +431,12 @@ html[data-theme="dark"] .stats {
   z-index: 1;
 }
 
+/* Stop marker (divIcon reset) */
+.stop-marker {
+  background: none;
+  border: none;
+}
+
 /* Cluster overrides */
 .marker-cluster-small {
   background-color: rgba(211, 47, 47, 0.2);

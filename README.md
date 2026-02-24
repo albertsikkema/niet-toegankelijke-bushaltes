@@ -2,7 +2,7 @@
 
 An interactive map of **inaccessible bus stops in the Netherlands**, with a built-in tool to email the responsible road authorities (*wegbeheerders*) and request accessibility improvements.
 
-[Live site](https://albertsikkema.github.io/niet-toegankelijke-bushaltes/)
+[Live site](https://albertsikkema.com/niet-toegankelijke-bushaltes/)
 
 ## Data Sources
 

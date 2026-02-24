@@ -20,6 +20,12 @@
     MapView.init(data);
     Sidebar.init(data);
 
+    // Info modal
+    const infoModal = document.getElementById('info-modal');
+    document.getElementById('info-btn').addEventListener('click', () => infoModal.classList.remove('hidden'));
+    document.getElementById('info-modal-close').addEventListener('click', () => infoModal.classList.add('hidden'));
+    infoModal.addEventListener('click', (e) => { if (e.target === infoModal) infoModal.classList.add('hidden'); });
+
     console.log('App initialized', data.totals);
   } catch (err) {
     console.error('Failed to load data:', err);

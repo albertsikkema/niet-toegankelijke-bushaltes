@@ -19,6 +19,9 @@
   <header id="header">
     <h1>Bushalte Toegankelijkheid Nederland</h1>
     <div id="stats" class="stats">Gegevens laden...</div>
+    <button id="info-btn" class="header-info" title="Over deze tool">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="9"/><line x1="10" y1="9" x2="10" y2="14"/><circle cx="10" cy="6" r="0.5" fill="currentColor"/></svg>
+    </button>
   </header>
 
   <main id="main">
@@ -70,6 +73,37 @@
       </div>
       <div class="modal-footer">
         <a id="mailto-link" href="#" class="btn btn-primary btn-full">Open in e-mailprogramma</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Info/disclaimer modal -->
+  <div id="info-modal" class="modal hidden">
+    <div class="modal-content modal-info">
+      <div class="modal-header">
+        <h2>Over deze tool</h2>
+        <button id="info-modal-close" class="modal-close">&times;</button>
+      </div>
+      <div class="modal-body info-body">
+        <p>Deze tool is met zorg gebouwd om inzicht te geven in de toegankelijkheid van bushaltes in Nederland en om het makkelijker te maken hierover contact op te nemen met de verantwoordelijke wegbeheerder.</p>
+
+        <h3>Bronnen</h3>
+        <ul>
+          <li><a href="https://halteviewer.ov-data.nl" target="_blank" rel="noopener">Centraal Haltebestand (CHB)</a> — beheerd door DOVA, bevat de toegankelijkheidsgegevens van alle 42.000+ bushaltes in Nederland</li>
+          <li><a href="https://rest-api.allmanak.nl" target="_blank" rel="noopener">Allmanak</a> — contactgegevens van gemeenten, provincies en waterschappen</li>
+          <li><a href="https://www.crow.nl" target="_blank" rel="noopener">CROW Richtlijn Toegankelijkheid</a> — de technische normen waaraan haltes moeten voldoen</li>
+        </ul>
+
+        <h3>Disclaimer</h3>
+        <p>De gegevens op deze website zijn afkomstig uit bovenstaande openbare bronnen. Hoewel deze tool met grote zorgvuldigheid is gebouwd, kan ik niet instaan voor de juistheid, volledigheid of actualiteit van alle getoonde gegevens. Controleer belangrijke gegevens altijd via de <a href="https://halteviewer.ov-data.nl" target="_blank" rel="noopener">DOVA Halteviewer</a>.</p>
+
+        <h3>Privacy</h3>
+        <p>Deze website plaatst geen cookies en gebruikt geen trackers. Wel wordt anonieme bezoekstatistiek bijgehouden via <a href="https://umami.is" target="_blank" rel="noopener">Umami</a>, een privacy-vriendelijk analytics platform. Er worden geen persoonsgegevens verzameld of gedeeld.</p>
+
+        <h3>Contact</h3>
+        <p>Vragen, suggesties of fouten gevonden? Neem contact op via <a href="https://albertsikkema.com" target="_blank" rel="noopener">albertsikkema.com</a>.</p>
+
+        <p class="info-copyright">&copy; Albert Sikkema</p>
       </div>
     </div>
   </div>

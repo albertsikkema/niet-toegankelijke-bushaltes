@@ -34,9 +34,29 @@ body {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 16px;
   padding: 0 24px;
   z-index: 1000;
+}
+
+#header .stats {
+  flex: 1;
+  text-align: right;
+}
+
+.header-info {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: color 0.15s;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+
+.header-info:hover {
+  color: white;
 }
 
 #header h1 {
@@ -530,6 +550,58 @@ body {
 .btn-disabled {
   opacity: 0.5;
   pointer-events: none;
+}
+
+/* Info modal */
+.modal-info {
+  max-width: 520px;
+}
+
+.info-body p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--gray-800);
+  margin-bottom: 12px;
+}
+
+.info-body h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 16px 0 6px;
+  color: var(--gray-900);
+}
+
+.info-body ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+.info-body li {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.info-body li:last-child {
+  border-bottom: none;
+}
+
+.info-body a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.info-body a:hover {
+  text-decoration: underline;
+}
+
+.info-copyright {
+  text-align: center;
+  color: var(--gray-600);
+  font-size: 0.8rem;
+  margin-top: 16px;
 }
 
 /* Toast notification */

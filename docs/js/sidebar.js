@@ -138,8 +138,8 @@ const Sidebar = (() => {
       });
     }
 
-    // Zoom map to authority stops
-    MapView.zoomToAuthority(ownerCode);
+    // Filter map to authority stops
+    MapView.filterByAuthority(ownerCode);
   }
 
   function showList() {

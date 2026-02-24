@@ -139,9 +139,22 @@ const MapView = (() => {
     }
   }
 
+  function filterByAuthority(ownerCode) {
+    const markers = markersByAuthority[ownerCode];
+    if (!markers || markers.length === 0) return;
+
+    clusterGroup.clearLayers();
+    clusterGroup.addLayers(markers);
+
+    const group = L.featureGroup(markers);
+    map.fitBounds(group.getBounds().pad(0.1), { maxZoom: 14 });
+  }
+
   function resetView() {
+    clusterGroup.clearLayers();
+    clusterGroup.addLayers(allMarkers);
     map.setView([52.15, 5.4], 8);
   }
 
-  return { init, zoomToAuthority, zoomToStop, resetView };
+  return { init, zoomToAuthority, zoomToStop, filterByAuthority, resetView };
 })();

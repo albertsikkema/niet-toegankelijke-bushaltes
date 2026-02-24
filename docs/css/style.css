@@ -59,9 +59,21 @@ body {
   color: white;
 }
 
+#header .header-title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
 #header h1 {
   font-size: 1.2rem;
   font-weight: 600;
+}
+
+#header .subtitle {
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.7;
 }
 
 .stats {

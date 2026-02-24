@@ -27,6 +27,8 @@ const Sidebar = (() => {
     for (const auth of authorities) {
       const item = document.createElement('div');
       item.className = 'authority-item';
+      item.setAttribute('role', 'listitem');
+      item.setAttribute('tabindex', '0');
       item.dataset.code = auth.code;
 
       const pct = auth.totalBusQuays > 0
@@ -48,6 +50,9 @@ const Sidebar = (() => {
       `;
 
       item.addEventListener('click', () => showDetail(auth.code));
+      item.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showDetail(auth.code); }
+      });
       container.appendChild(item);
     }
   }
@@ -122,11 +127,15 @@ const Sidebar = (() => {
     for (const stop of auth.stops) {
       const li = document.createElement('li');
       li.className = 'stop-item';
+      li.setAttribute('tabindex', '0');
       li.innerHTML = `
         <div class="stop-name">${escapeHtml(stop.name || stop.code)}</div>
         <div class="stop-town">${escapeHtml(stop.town)} — ${escapeHtml(stop.code)}</div>
       `;
       li.addEventListener('click', () => MapView.zoomToStop(stop));
+      li.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); MapView.zoomToStop(stop); }
+      });
       stopList.appendChild(li);
     }
 
@@ -139,7 +148,7 @@ const Sidebar = (() => {
     }
 
     // Filter map to authority stops
-    MapView.filterByAuthority(ownerCode);
+    MapView.filterByAuthority(ownerCode, auth.type);
   }
 
   function showList() {
@@ -160,8 +169,11 @@ const Sidebar = (() => {
 
     // Search
     const searchInput = document.getElementById('search-input');
-    searchInput.addEventListener('input', () => {
+    const clearBtn = document.getElementById('search-clear');
+
+    function updateSearch() {
       const query = searchInput.value.trim().toLowerCase();
+      clearBtn.classList.toggle('hidden', !searchInput.value);
       if (!query) {
         renderList(sortedAuthorities);
         return;
@@ -173,6 +185,15 @@ const Sidebar = (() => {
         auth.type.toLowerCase().includes(query)
       );
       renderList(filtered);
+    }
+
+    searchInput.addEventListener('input', updateSearch);
+
+    clearBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      clearBtn.classList.add('hidden');
+      renderList(sortedAuthorities);
+      searchInput.focus();
     });
   }
 

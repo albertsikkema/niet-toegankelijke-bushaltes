@@ -308,6 +308,100 @@ async function fetchConcessionProviderNames(providerCodes) {
   return result;
 }
 
+// Fetch administrative boundaries from PDOK and save as individual GeoJSON files
+async function fetchAndSaveBoundaries(authorities) {
+  const boundariesDir = path.join(__dirname, '..', 'docs', 'data', 'boundaries');
+  fs.mkdirSync(boundariesDir, { recursive: true });
+
+  console.log('Fetching boundaries from PDOK...');
+
+  const pdokBase = 'https://service.pdok.nl/kadaster/bestuurlijkegebieden/wfs/v1_0';
+  const gemeenteUrl = `${pdokBase}?service=WFS&version=2.0.0&request=GetFeature&typeName=bestuurlijkegebieden:Gemeentegebied&outputFormat=json&srsName=EPSG:4326&count=500`;
+  const provincieUrl = `${pdokBase}?service=WFS&version=2.0.0&request=GetFeature&typeName=bestuurlijkegebieden:Provinciegebied&outputFormat=json&srsName=EPSG:4326&count=500`;
+
+  const waterschapUrl = 'https://services.arcgis.com/nSZVuSZjHpEZZbRo/arcgis/rest/services/Waterschapsgrenzen/FeatureServer/0/query?where=1%3D1&outFields=waterschapcode,naam,waterschap&f=geojson&resultRecordCount=50&outSR=4326';
+
+  const [gemeenteData, provincieData, waterschapData] = await Promise.all([
+    fetchJson(gemeenteUrl).catch(err => { console.warn('  Failed to fetch gemeente boundaries:', err.message); return null; }),
+    fetchJson(provincieUrl).catch(err => { console.warn('  Failed to fetch provincie boundaries:', err.message); return null; }),
+    fetchJson(waterschapUrl).catch(err => { console.warn('  Failed to fetch waterschap boundaries:', err.message); return null; }),
+  ]);
+
+  // Build reverse map: for remapped gemeenten, map the target gm code back to the original ownerCode
+  // e.g. GEMEENTE_REMAP['G0196'] = 'gm0299' means PDOK code "0299" → ownerCode "G0196"
+  const remapTarget = {}; // pdokCode → ownerCode
+  for (const [ownerCode, gmCode] of Object.entries(GEMEENTE_REMAP)) {
+    const pdokCode = gmCode.replace('gm', '');
+    remapTarget[pdokCode] = ownerCode;
+  }
+
+  let saved = 0;
+
+  // Process gemeente boundaries
+  if (gemeenteData && gemeenteData.features) {
+    for (const feature of gemeenteData.features) {
+      const pdokCode = feature.properties.code;
+      if (!pdokCode) continue;
+
+      // Check if this PDOK code is a remap target
+      let ownerCode = remapTarget[pdokCode];
+      if (!ownerCode) {
+        // Normal mapping: PDOK "0263" → "G0263"
+        ownerCode = 'G' + pdokCode;
+      }
+
+      if (!authorities[ownerCode]) continue;
+
+      const outFile = path.join(boundariesDir, `${ownerCode}.json`);
+      fs.writeFileSync(outFile, JSON.stringify(feature.geometry));
+      saved++;
+    }
+  }
+
+  // Process provincie boundaries
+  if (provincieData && provincieData.features) {
+    for (const feature of provincieData.features) {
+      const pdokCode = feature.properties.code;
+      if (!pdokCode) continue;
+
+      // Find matching ownerCode: PDOK "24" → ownerCode where parseInt(slice(1)) matches
+      const matchingOwnerCode = Object.keys(authorities).find(oc =>
+        oc.startsWith('P') && parseInt(oc.slice(1), 10).toString() === pdokCode
+      );
+      if (!matchingOwnerCode) continue;
+
+      const outFile = path.join(boundariesDir, `${matchingOwnerCode}.json`);
+      fs.writeFileSync(outFile, JSON.stringify(feature.geometry));
+      saved++;
+    }
+  }
+
+  // Process waterschap boundaries (matched by name)
+  if (waterschapData && waterschapData.features) {
+    const wsAuthorities = Object.entries(authorities)
+      .filter(([, auth]) => auth.type === 'waterschap');
+
+    for (const feature of waterschapData.features) {
+      const names = [feature.properties.waterschap, feature.properties.naam]
+        .filter(Boolean).map(n => n.toLowerCase());
+      if (names.length === 0) continue;
+
+      const match = wsAuthorities.find(([, auth]) => {
+        const authName = auth.name.toLowerCase();
+        return names.some(n => n.includes(authName) || authName.includes(n));
+      });
+      if (!match) continue;
+
+      const ownerCode = match[0];
+      const outFile = path.join(boundariesDir, `${ownerCode}.json`);
+      fs.writeFileSync(outFile, JSON.stringify(feature.geometry));
+      saved++;
+    }
+  }
+
+  console.log(`  Boundaries saved: ${saved}`);
+}
+
 async function main() {
   const startTime = Date.now();
 
@@ -425,6 +519,9 @@ async function main() {
       stops: data.stops.sort((a, b) => a.town.localeCompare(b.town) || a.name.localeCompare(b.name)),
     };
   }
+
+  // Fetch and save boundary files
+  await fetchAndSaveBoundaries(authorities);
 
   // Fetch concession provider info
   const concessionProviders = await fetchConcessionProviderNames(concessionProviderCodes);

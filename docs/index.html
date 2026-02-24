@@ -22,34 +22,38 @@
       <span class="subtitle">niet toegankelijke bushaltes</span>
     </div>
     <div id="stats" class="stats">Gegevens laden...</div>
-    <button id="info-btn" class="header-info" title="Over Niet met de bus?">
-      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="9"/><line x1="10" y1="9" x2="10" y2="14"/><circle cx="10" cy="6" r="0.5" fill="currentColor"/></svg>
+    <button id="info-btn" class="header-info" title="Over Niet met de bus?" aria-label="Over deze website">
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="9"/><line x1="10" y1="9" x2="10" y2="14"/><circle cx="10" cy="6" r="0.5" fill="currentColor"/></svg>
     </button>
   </header>
 
   <main id="main">
-    <aside id="sidebar">
+    <aside id="sidebar" aria-label="Wegbeheerders">
       <div id="search-box">
-        <input type="text" id="search-input" placeholder="Zoek gemeente of provincie..." />
+        <div class="search-wrapper">
+          <label for="search-input" class="sr-only">Zoek gemeente of provincie</label>
+          <input type="text" id="search-input" placeholder="Zoek gemeente of provincie..." aria-label="Zoek gemeente of provincie" />
+          <button id="search-clear" class="search-clear hidden" type="button" aria-label="Zoekveld wissen">&times;</button>
+        </div>
       </div>
       <div id="sidebar-content">
-        <div id="authority-list"></div>
+        <div id="authority-list" role="list" aria-label="Lijst van wegbeheerders"></div>
       </div>
       <div id="authority-detail" class="hidden">
-        <button id="back-btn" class="back-btn">&larr; Terug naar overzicht</button>
+        <button id="back-btn" class="back-btn" aria-label="Terug naar overzicht">&larr; Terug naar overzicht</button>
         <div id="detail-content"></div>
       </div>
     </aside>
 
-    <div id="map"></div>
+    <div id="map" role="application" aria-label="Kaart met niet-toegankelijke bushaltes"></div>
   </main>
 
   <!-- Email modal -->
-  <div id="email-modal" class="modal hidden">
+  <div id="email-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
     <div class="modal-content">
       <div class="modal-header">
         <h2 id="modal-title">E-mail aan beheerder</h2>
-        <button id="modal-close" class="modal-close">&times;</button>
+        <button id="modal-close" class="modal-close" aria-label="Sluiten">&times;</button>
       </div>
       <div class="modal-body">
         <div class="field-group">
@@ -81,11 +85,11 @@
   </div>
 
   <!-- Info/disclaimer modal -->
-  <div id="info-modal" class="modal hidden">
+  <div id="info-modal" class="modal hidden" role="dialog" aria-modal="true" aria-label="Over deze website">
     <div class="modal-content modal-info">
       <div class="modal-header">
         <h2>Over</h2>
-        <button id="info-modal-close" class="modal-close">&times;</button>
+        <button id="info-modal-close" class="modal-close" aria-label="Sluiten">&times;</button>
       </div>
       <div class="modal-body info-body">
         <p><strong>Niet met de bus?</strong> is gebouwd om inzicht te geven in de toegankelijkheid van bushaltes in Nederland en om het makkelijker te maken hierover contact op te nemen met de verantwoordelijke wegbeheerder.</p>

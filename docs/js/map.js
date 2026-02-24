@@ -5,6 +5,8 @@ const MapView = (() => {
   let markersByAuthority = {};
   let allMarkers = [];
   let appData = null;
+  let boundaryLayer = null;
+  let boundaryCache = {};
 
   function init(data) {
     appData = data;
@@ -59,20 +61,34 @@ const MapView = (() => {
     allMarkers = markers;
     clusterGroup.addLayers(markers);
     map.addLayer(clusterGroup);
+
+    // Focus popup content when opened from sidebar navigation
+    map.on('popupopen', function () {
+      if (!pendingFocus) return;
+      pendingFocus = false;
+      // Small delay to ensure Leaflet has fully rendered the popup DOM
+      setTimeout(function () {
+        var container = document.querySelector('.stop-popup[tabindex]');
+        if (container) container.focus();
+      }, 50);
+    });
   }
 
   function createPopup(stop, authority, ownerCode) {
     const div = document.createElement('div');
     div.className = 'stop-popup';
+    div.setAttribute('tabindex', '-1');
+    div.setAttribute('role', 'region');
+    div.setAttribute('aria-label', 'Halte-informatie: ' + stop.town + ', ' + (stop.name || stop.code));
 
     // Title: town, name
     const h3 = document.createElement('h3');
     h3.textContent = `${stop.town}, ${stop.name || stop.code}`;
     div.appendChild(h3);
 
-    // Details table
-    const details = document.createElement('div');
-    details.className = 'popup-details';
+    // Details as description list for screen readers
+    const dl = document.createElement('dl');
+    dl.className = 'popup-details';
 
     const rows = [];
     if (stop.street) rows.push(['Straat', stop.street]);
@@ -80,10 +96,17 @@ const MapView = (() => {
     rows.push(['Wegbeheerder', authority.name]);
     if (stop.shelter !== undefined) rows.push(['Abri', stop.shelter ? 'Ja' : 'Nee']);
 
-    details.innerHTML = rows
-      .map(([label, value]) => `<div class="popup-row"><span class="popup-label">${label}</span><span class="popup-value">${value}</span></div>`)
-      .join('');
-    div.appendChild(details);
+    for (const [label, value] of rows) {
+      const dt = document.createElement('dt');
+      dt.className = 'popup-label';
+      dt.textContent = label;
+      const dd = document.createElement('dd');
+      dd.className = 'popup-value';
+      dd.textContent = value;
+      dl.appendChild(dt);
+      dl.appendChild(dd);
+    }
+    div.appendChild(dl);
 
     // Google Street View link
     if (stop.lat && stop.lon) {
@@ -123,6 +146,8 @@ const MapView = (() => {
     map.fitBounds(group.getBounds().pad(0.1), { maxZoom: 14 });
   }
 
+  var pendingFocus = false;
+
   function zoomToStop(stop) {
     if (!stop.lat || !stop.lon) return;
     map.setView([stop.lat, stop.lon], 17);
@@ -132,6 +157,7 @@ const MapView = (() => {
       m.stopData.code === stop.code
     );
     if (markers.length > 0) {
+      pendingFocus = true;
       // Unspiderfy clusters first
       clusterGroup.zoomToShowLayer(markers[0], () => {
         markers[0].openPopup();
@@ -139,18 +165,77 @@ const MapView = (() => {
     }
   }
 
-  function filterByAuthority(ownerCode) {
+  function filterByAuthority(ownerCode, authType) {
     const markers = markersByAuthority[ownerCode];
     if (!markers || markers.length === 0) return;
 
     clusterGroup.clearLayers();
     clusterGroup.addLayers(markers);
 
-    const group = L.featureGroup(markers);
-    map.fitBounds(group.getBounds().pad(0.1), { maxZoom: 14 });
+    // Remove existing boundary
+    if (boundaryLayer) {
+      map.removeLayer(boundaryLayer);
+      boundaryLayer = null;
+    }
+
+    // Fetch boundary for gemeente/provincie
+    if (authType === 'gemeente' || authType === 'provincie' || authType === 'waterschap') {
+      const showBoundary = (geometry) => {
+        // Build inverted mask: fill everything outside the boundary
+        var world = [[-180, -90], [180, -90], [180, 90], [-180, 90], [-180, -90]];
+        var holes = [];
+        if (geometry.type === 'Polygon') {
+          holes.push(geometry.coordinates[0]);
+        } else if (geometry.type === 'MultiPolygon') {
+          for (var i = 0; i < geometry.coordinates.length; i++) {
+            holes.push(geometry.coordinates[i][0]);
+          }
+        }
+        var maskGeo = {
+          type: 'Feature', properties: {},
+          geometry: { type: 'Polygon', coordinates: [world].concat(holes) }
+        };
+        var borderGeo = { type: 'Feature', properties: {}, geometry: geometry };
+
+        var maskLayer = L.geoJSON(maskGeo, {
+          style: { stroke: false, fillColor: '#000', fillOpacity: 0.15 }
+        });
+        var borderLayer = L.geoJSON(borderGeo, {
+          style: { color: '#1976d2', weight: 2, fill: false }
+        });
+
+        boundaryLayer = L.layerGroup([maskLayer, borderLayer]).addTo(map);
+        map.fitBounds(borderLayer.getBounds().pad(0.05), { maxZoom: 14 });
+      };
+
+      if (boundaryCache[ownerCode]) {
+        showBoundary(boundaryCache[ownerCode]);
+      } else {
+        fetch('data/boundaries/' + ownerCode + '.json')
+          .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
+          .then(function (geometry) {
+            boundaryCache[ownerCode] = geometry;
+            showBoundary(geometry);
+          })
+          .catch(function (err) {
+            console.warn('Boundary load failed for ' + ownerCode + ':', err);
+            // Fallback: fit to markers
+            var group = L.featureGroup(markers);
+            map.fitBounds(group.getBounds().pad(0.1), { maxZoom: 14 });
+          });
+      }
+    } else {
+      // No boundary available, fit to markers
+      const group = L.featureGroup(markers);
+      map.fitBounds(group.getBounds().pad(0.1), { maxZoom: 14 });
+    }
   }
 
   function resetView() {
+    if (boundaryLayer) {
+      map.removeLayer(boundaryLayer);
+      boundaryLayer = null;
+    }
     clusterGroup.clearLayers();
     clusterGroup.addLayers(allMarkers);
     map.setView([52.15, 5.4], 8);

@@ -307,6 +307,12 @@ body {
   border-bottom: 1px solid var(--gray-200);
 }
 
+.detail-actions .btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
 .stop-list {
   list-style: none;
 }

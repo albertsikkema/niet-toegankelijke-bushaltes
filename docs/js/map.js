@@ -162,18 +162,18 @@ const MapView = (() => {
 
   function zoomToStop(stop) {
     if (!stop.lat || !stop.lon) return;
-    map.setView([stop.lat, stop.lon], 17);
 
-    // Find and open the marker's popup
-    const markers = allMarkers.filter(m =>
-      m.stopData.code === stop.code
-    );
-    if (markers.length > 0) {
+    // Find the marker for this stop
+    const marker = allMarkers.find(m => m.stopData.code === stop.code);
+    if (marker) {
       pendingFocus = true;
-      // Unspiderfy clusters first
-      clusterGroup.zoomToShowLayer(markers[0], () => {
-        markers[0].openPopup();
+      // zoomToShowLayer handles unclustering and zoom, then open popup
+      clusterGroup.zoomToShowLayer(marker, () => {
+        map.setView([stop.lat, stop.lon], 17);
+        marker.openPopup();
       });
+    } else {
+      map.setView([stop.lat, stop.lon], 17);
     }
   }
 

@@ -21,6 +21,9 @@ jobs:
 
       - run: node pipeline/fetch-data.js
 
+      - name: Validate pipeline output
+        run: node pipeline/validate-data.js
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"

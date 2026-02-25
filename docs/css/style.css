@@ -142,6 +142,22 @@ html[data-theme="dark"] .stats {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  position: relative;
+}
+
+#sidebar.has-more-content::after {
+  content: '\2304';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: var(--gray-500);
+  background: linear-gradient(transparent, var(--bg-surface) 40%);
+  padding: 12px 0 4px;
+  pointer-events: none;
 }
 
 #search-box {
@@ -292,6 +308,9 @@ html[data-theme="dark"] .stats {
   border-bottom: 1px solid var(--gray-300);
   cursor: pointer;
   font-size: 0.9rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
   text-align: left;
   color: var(--blue);
   font-weight: 500;
@@ -1123,14 +1142,32 @@ html[data-theme="dark"] .leaflet-control-attribution a {
   }
 
   #sidebar {
-    height: 40vh;
+    height: auto;
     min-width: 100%;
     border-right: none;
     border-bottom: 1px solid var(--gray-300);
   }
 
+  #sidebar-content {
+    display: none;
+  }
+
+  #sidebar.sidebar-list-visible {
+    max-height: 100%;
+  }
+
+  #sidebar.sidebar-list-visible #sidebar-content {
+    display: block;
+    overflow-y: auto;
+  }
+
+  #sidebar.sidebar-detail-visible {
+    height: 40vh;
+  }
+
   #map {
-    height: 60vh;
+    flex: 1;
+    min-height: 0;
   }
 
   #header h1 {

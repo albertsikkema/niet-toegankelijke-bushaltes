@@ -2,6 +2,14 @@
 const Sidebar = (() => {
   let appData = null;
   let sortedAuthorities = [];
+  const sidebar = document.getElementById('sidebar');
+
+  function checkScrollIndicator() {
+    const el = sidebar.querySelector('#sidebar-content:not(.hidden), #authority-detail:not(.hidden)');
+    if (!el) { sidebar.classList.remove('has-more-content'); return; }
+    const hasMore = el.scrollHeight - el.scrollTop - el.clientHeight > 1;
+    sidebar.classList.toggle('has-more-content', hasMore);
+  }
 
   function init(data) {
     appData = data;
@@ -13,6 +21,10 @@ const Sidebar = (() => {
 
     renderList(sortedAuthorities);
     bindEvents();
+
+    document.getElementById('sidebar-content').addEventListener('scroll', checkScrollIndicator);
+    document.getElementById('authority-detail').addEventListener('scroll', checkScrollIndicator);
+    checkScrollIndicator();
   }
 
   function renderList(authorities) {
@@ -21,6 +33,7 @@ const Sidebar = (() => {
 
     if (authorities.length === 0) {
       container.innerHTML = '<div class="loading">Geen resultaten gevonden</div>';
+      requestAnimationFrame(checkScrollIndicator);
       return;
     }
 
@@ -59,6 +72,7 @@ const Sidebar = (() => {
       });
       container.appendChild(item);
     }
+    requestAnimationFrame(checkScrollIndicator);
   }
 
   function showDetail(ownerCode) {
@@ -72,6 +86,7 @@ const Sidebar = (() => {
     listEl.classList.add('hidden');
     searchEl.classList.add('hidden');
     detailEl.classList.remove('hidden');
+    sidebar.classList.add('sidebar-detail-visible');
 
     const accessible = auth.totalBusQuays - auth.inaccessibleCount;
     const pct = auth.totalBusQuays > 0
@@ -159,6 +174,7 @@ const Sidebar = (() => {
 
     // Filter map to authority stops
     MapView.filterByAuthority(ownerCode, auth.type);
+    requestAnimationFrame(checkScrollIndicator);
   }
 
   function showList() {
@@ -169,8 +185,10 @@ const Sidebar = (() => {
     detailEl.classList.add('hidden');
     listEl.classList.remove('hidden');
     searchEl.classList.remove('hidden');
+    sidebar.classList.remove('sidebar-detail-visible');
 
     MapView.resetView();
+    requestAnimationFrame(checkScrollIndicator);
   }
 
   function bindEvents() {
@@ -184,6 +202,7 @@ const Sidebar = (() => {
     function updateSearch() {
       const query = searchInput.value.trim().toLowerCase();
       clearBtn.classList.toggle('hidden', !searchInput.value);
+      sidebar.classList.toggle('sidebar-list-visible', !!query);
       if (!query) {
         renderList(sortedAuthorities);
         return;
@@ -202,6 +221,7 @@ const Sidebar = (() => {
     clearBtn.addEventListener('click', () => {
       searchInput.value = '';
       clearBtn.classList.add('hidden');
+      sidebar.classList.remove('sidebar-list-visible');
       renderList(sortedAuthorities);
       searchInput.focus();
     });

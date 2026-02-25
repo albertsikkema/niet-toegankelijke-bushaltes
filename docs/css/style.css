@@ -1198,6 +1198,14 @@ html[data-theme="dark"] .leaflet-control-attribution a {
     display: inline;
   }
 
+  .stats-date {
+    display: none;
+  }
+
+  #header .subtitle {
+    display: none;
+  }
+
   .page-container {
     padding: 24px 16px 48px;
   }

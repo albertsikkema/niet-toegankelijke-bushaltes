@@ -742,6 +742,28 @@ dl.popup-details dd {
   border-bottom: none;
 }
 
+#welcome-modal ul {
+  list-style: none;
+  padding: 0;
+}
+
+#welcome-modal li {
+  border-bottom: none;
+  padding: 8px 0;
+  position: relative;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+#welcome-modal li::after {
+  content: '\2193';
+  display: block;
+  text-align: center;
+  color: var(--gray-500);
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
 .info-body a {
   color: var(--blue);
   text-decoration: none;

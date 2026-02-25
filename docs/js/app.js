@@ -41,6 +41,20 @@
       }
     });
 
+    // Welcome modal (first visit only)
+    if (!localStorage.getItem('welcomeDismissed')) {
+      const welcomeModal = document.getElementById('welcome-modal');
+      welcomeModal.classList.remove('hidden');
+      const closeWelcome = () => {
+        welcomeModal.classList.add('hidden');
+        localStorage.setItem('welcomeDismissed', '1');
+      };
+      document.getElementById('welcome-dismiss').addEventListener('click', closeWelcome);
+      document.getElementById('welcome-modal-close').addEventListener('click', closeWelcome);
+      welcomeModal.addEventListener('click', (e) => { if (e.target === welcomeModal) closeWelcome(); });
+      welcomeModal.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeWelcome(); });
+    }
+
     console.log('App initialized', data.totals);
   } catch (err) {
     console.error('Failed to load data:', err);

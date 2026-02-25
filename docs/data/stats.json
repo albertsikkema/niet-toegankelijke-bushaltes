@@ -1,0 +1,670 @@
+{
+  "generated": "2026-02-25T08:00:25.620Z",
+  "totals": {
+    "totalBusQuays": 42068,
+    "inaccessibleBusQuays": 28377,
+    "inaccessiblePct": 67,
+    "wheelchairInaccessible": 20277,
+    "wheelchairPct": 48,
+    "visuallyInaccessible": 26756,
+    "visualPct": 64
+  },
+  "worstGemeentes": [
+    {
+      "code": "G0213",
+      "name": "Gemeente Brummen",
+      "type": "gemeente",
+      "total": 79,
+      "inaccessible": 79,
+      "pct": 100,
+      "wheelchair": 69,
+      "visual": 79,
+      "noShelter": 65
+    },
+    {
+      "code": "G0498",
+      "name": "Gemeente Drechterland",
+      "type": "gemeente",
+      "total": 78,
+      "inaccessible": 78,
+      "pct": 100,
+      "wheelchair": 77,
+      "visual": 78,
+      "noShelter": 70
+    },
+    {
+      "code": "G0093",
+      "name": "Gemeente Terschelling",
+      "type": "gemeente",
+      "total": 72,
+      "inaccessible": 72,
+      "pct": 100,
+      "wheelchair": 57,
+      "visual": 72,
+      "noShelter": 54
+    },
+    {
+      "code": "G1680",
+      "name": "Gemeente Aa en Hunze",
+      "type": "gemeente",
+      "total": 69,
+      "inaccessible": 69,
+      "pct": 100,
+      "wheelchair": 48,
+      "visual": 69,
+      "noShelter": 49
+    },
+    {
+      "code": "G1955",
+      "name": "Gemeente Montferland",
+      "type": "gemeente",
+      "total": 53,
+      "inaccessible": 53,
+      "pct": 100,
+      "wheelchair": 50,
+      "visual": 53,
+      "noShelter": 46
+    },
+    {
+      "code": "G0285",
+      "name": "Gemeente Voorst",
+      "type": "gemeente",
+      "total": 34,
+      "inaccessible": 34,
+      "pct": 100,
+      "wheelchair": 34,
+      "visual": 34,
+      "noShelter": 24
+    },
+    {
+      "code": "G0189",
+      "name": "Gemeente Wierden",
+      "type": "gemeente",
+      "total": 29,
+      "inaccessible": 29,
+      "pct": 100,
+      "wheelchair": 23,
+      "visual": 29,
+      "noShelter": 13
+    },
+    {
+      "code": "G0096",
+      "name": "Gemeente Vlieland",
+      "type": "gemeente",
+      "total": 27,
+      "inaccessible": 27,
+      "pct": 100,
+      "wheelchair": 27,
+      "visual": 27,
+      "noShelter": 26
+    },
+    {
+      "code": "G0532",
+      "name": "Gemeente Stede Broec",
+      "type": "gemeente",
+      "total": 19,
+      "inaccessible": 19,
+      "pct": 100,
+      "wheelchair": 14,
+      "visual": 15,
+      "noShelter": 12
+    },
+    {
+      "code": "G0638",
+      "name": "Gemeente Zoeterwoude",
+      "type": "gemeente",
+      "total": 19,
+      "inaccessible": 19,
+      "pct": 100,
+      "wheelchair": 7,
+      "visual": 19,
+      "noShelter": 0
+    },
+    {
+      "code": "G0589",
+      "name": "Gemeente Oudewater",
+      "type": "gemeente",
+      "total": 12,
+      "inaccessible": 12,
+      "pct": 100,
+      "wheelchair": 10,
+      "visual": 12,
+      "noShelter": 11
+    }
+  ],
+  "mostInaccessibleGemeentes": [
+    {
+      "code": "G0599",
+      "name": "Gemeente Rotterdam",
+      "type": "gemeente",
+      "total": 955,
+      "inaccessible": 697,
+      "pct": 73,
+      "wheelchair": 416,
+      "visual": 662,
+      "noShelter": 357
+    },
+    {
+      "code": "G0518",
+      "name": "Gemeente Den Haag",
+      "type": "gemeente",
+      "total": 685,
+      "inaccessible": 538,
+      "pct": 79,
+      "wheelchair": 186,
+      "visual": 529,
+      "noShelter": 236
+    },
+    {
+      "code": "G0363",
+      "name": "Gemeente Amsterdam",
+      "type": "gemeente",
+      "total": 1125,
+      "inaccessible": 501,
+      "pct": 45,
+      "wheelchair": 393,
+      "visual": 482,
+      "noShelter": 268
+    },
+    {
+      "code": "G0114",
+      "name": "Gemeente Emmen",
+      "type": "gemeente",
+      "total": 356,
+      "inaccessible": 333,
+      "pct": 94,
+      "wheelchair": 217,
+      "visual": 329,
+      "noShelter": 233
+    },
+    {
+      "code": "G1900",
+      "name": "Gemeente Súdwest-Fryslân",
+      "type": "gemeente",
+      "total": 342,
+      "inaccessible": 303,
+      "pct": 89,
+      "wheelchair": 264,
+      "visual": 301,
+      "noShelter": 229
+    }
+  ],
+  "bestGemeentes": [
+    {
+      "code": "G0164",
+      "name": "Gemeente Hengelo",
+      "type": "gemeente",
+      "total": 171,
+      "inaccessible": 12,
+      "pct": 7,
+      "wheelchair": 8,
+      "visual": 12,
+      "noShelter": 8
+    },
+    {
+      "code": "G0307",
+      "name": "Gemeente Amersfoort",
+      "type": "gemeente",
+      "total": 282,
+      "inaccessible": 22,
+      "pct": 8,
+      "wheelchair": 18,
+      "visual": 22,
+      "noShelter": 19
+    },
+    {
+      "code": "G0879",
+      "name": "Gemeente Zundert",
+      "type": "gemeente",
+      "total": 21,
+      "inaccessible": 2,
+      "pct": 10,
+      "wheelchair": 1,
+      "visual": 2,
+      "noShelter": 1
+    },
+    {
+      "code": "G0779",
+      "name": "Gemeente Geertruidenberg",
+      "type": "gemeente",
+      "total": 46,
+      "inaccessible": 5,
+      "pct": 11,
+      "wheelchair": 3,
+      "visual": 5,
+      "noShelter": 4
+    },
+    {
+      "code": "G0293",
+      "name": "Gemeente Westervoort",
+      "type": "gemeente",
+      "total": 26,
+      "inaccessible": 4,
+      "pct": 15,
+      "wheelchair": 3,
+      "visual": 3,
+      "noShelter": 2
+    }
+  ],
+  "largeCities": [
+    {
+      "code": "G0307",
+      "name": "Gemeente Amersfoort",
+      "type": "gemeente",
+      "total": 282,
+      "inaccessible": 22,
+      "pct": 8,
+      "wheelchair": 18,
+      "visual": 22,
+      "noShelter": 19
+    },
+    {
+      "code": "G0268",
+      "name": "Gemeente Nijmegen",
+      "type": "gemeente",
+      "total": 397,
+      "inaccessible": 118,
+      "pct": 30,
+      "wheelchair": 62,
+      "visual": 92,
+      "noShelter": 68
+    },
+    {
+      "code": "G0855",
+      "name": "Gemeente Tilburg",
+      "type": "gemeente",
+      "total": 371,
+      "inaccessible": 117,
+      "pct": 32,
+      "wheelchair": 75,
+      "visual": 107,
+      "noShelter": 71
+    },
+    {
+      "code": "G0392",
+      "name": "Gemeente Haarlem",
+      "type": "gemeente",
+      "total": 263,
+      "inaccessible": 88,
+      "pct": 33,
+      "wheelchair": 30,
+      "visual": 77,
+      "noShelter": 29
+    },
+    {
+      "code": "G0772",
+      "name": "Gemeente Eindhoven",
+      "type": "gemeente",
+      "total": 405,
+      "inaccessible": 141,
+      "pct": 35,
+      "wheelchair": 35,
+      "visual": 136,
+      "noShelter": 52
+    },
+    {
+      "code": "G0344",
+      "name": "Gemeente Utrecht",
+      "type": "gemeente",
+      "total": 589,
+      "inaccessible": 208,
+      "pct": 35,
+      "wheelchair": 152,
+      "visual": 173,
+      "noShelter": 100
+    },
+    {
+      "code": "G0758",
+      "name": "Gemeente Breda",
+      "type": "gemeente",
+      "total": 363,
+      "inaccessible": 130,
+      "pct": 36,
+      "wheelchair": 45,
+      "visual": 126,
+      "noShelter": 59
+    },
+    {
+      "code": "G0363",
+      "name": "Gemeente Amsterdam",
+      "type": "gemeente",
+      "total": 1125,
+      "inaccessible": 501,
+      "pct": 45,
+      "wheelchair": 393,
+      "visual": 482,
+      "noShelter": 268
+    },
+    {
+      "code": "G0014",
+      "name": "Gemeente Groningen",
+      "type": "gemeente",
+      "total": 538,
+      "inaccessible": 261,
+      "pct": 49,
+      "wheelchair": 173,
+      "visual": 232,
+      "noShelter": 144
+    },
+    {
+      "code": "G0202",
+      "name": "Gemeente Arnhem",
+      "type": "gemeente",
+      "total": 430,
+      "inaccessible": 227,
+      "pct": 53,
+      "wheelchair": 95,
+      "visual": 195,
+      "noShelter": 98
+    },
+    {
+      "code": "G0080",
+      "name": "Gemeente Leeuwarden",
+      "type": "gemeente",
+      "total": 378,
+      "inaccessible": 213,
+      "pct": 56,
+      "wheelchair": 179,
+      "visual": 210,
+      "noShelter": 144
+    },
+    {
+      "code": "G0034",
+      "name": "Gemeente Almere",
+      "type": "gemeente",
+      "total": 267,
+      "inaccessible": 167,
+      "pct": 63,
+      "wheelchair": 36,
+      "visual": 165,
+      "noShelter": 35
+    },
+    {
+      "code": "G0599",
+      "name": "Gemeente Rotterdam",
+      "type": "gemeente",
+      "total": 955,
+      "inaccessible": 697,
+      "pct": 73,
+      "wheelchair": 416,
+      "visual": 662,
+      "noShelter": 357
+    },
+    {
+      "code": "G0935",
+      "name": "Gemeente Maastricht",
+      "type": "gemeente",
+      "total": 333,
+      "inaccessible": 261,
+      "pct": 78,
+      "wheelchair": 202,
+      "visual": 237,
+      "noShelter": 165
+    },
+    {
+      "code": "G0518",
+      "name": "Gemeente Den Haag",
+      "type": "gemeente",
+      "total": 685,
+      "inaccessible": 538,
+      "pct": 79,
+      "wheelchair": 186,
+      "visual": 529,
+      "noShelter": 236
+    },
+    {
+      "code": "G0153",
+      "name": "Gemeente Enschede",
+      "type": "gemeente",
+      "total": 310,
+      "inaccessible": 253,
+      "pct": 82,
+      "wheelchair": 87,
+      "visual": 249,
+      "noShelter": 115
+    }
+  ],
+  "provincies": [
+    {
+      "code": "P0023",
+      "name": "Provincie Overijssel",
+      "type": "provincie",
+      "total": 558,
+      "inaccessible": 551,
+      "pct": 99,
+      "wheelchair": 397,
+      "visual": 548,
+      "noShelter": 400
+    },
+    {
+      "code": "P0022",
+      "name": "Provincie Drenthe",
+      "type": "provincie",
+      "total": 309,
+      "inaccessible": 301,
+      "pct": 97,
+      "wheelchair": 268,
+      "visual": 296,
+      "noShelter": 209
+    },
+    {
+      "code": "P0028",
+      "name": "Provincie Zuid-Holland",
+      "type": "provincie",
+      "total": 386,
+      "inaccessible": 320,
+      "pct": 83,
+      "wheelchair": 152,
+      "visual": 316,
+      "noShelter": 77
+    },
+    {
+      "code": "P0024",
+      "name": "Provincie Flevoland",
+      "type": "provincie",
+      "total": 173,
+      "inaccessible": 136,
+      "pct": 79,
+      "wheelchair": 104,
+      "visual": 133,
+      "noShelter": 65
+    },
+    {
+      "code": "P0025",
+      "name": "Provincie Gelderland",
+      "type": "provincie",
+      "total": 803,
+      "inaccessible": 621,
+      "pct": 77,
+      "wheelchair": 367,
+      "visual": 596,
+      "noShelter": 359
+    },
+    {
+      "code": "P0026",
+      "name": "Provincie Utrecht",
+      "type": "provincie",
+      "total": 359,
+      "inaccessible": 277,
+      "pct": 77,
+      "wheelchair": 183,
+      "visual": 260,
+      "noShelter": 142
+    },
+    {
+      "code": "P0029",
+      "name": "Provincie Zeeland",
+      "type": "provincie",
+      "total": 112,
+      "inaccessible": 75,
+      "pct": 67,
+      "wheelchair": 70,
+      "visual": 70,
+      "noShelter": 35
+    },
+    {
+      "code": "P0021",
+      "name": "Provincie Fryslân",
+      "type": "provincie",
+      "total": 392,
+      "inaccessible": 250,
+      "pct": 64,
+      "wheelchair": 195,
+      "visual": 230,
+      "noShelter": 156
+    },
+    {
+      "code": "P0031",
+      "name": "Provincie Limburg",
+      "type": "provincie",
+      "total": 324,
+      "inaccessible": 202,
+      "pct": 62,
+      "wheelchair": 149,
+      "visual": 180,
+      "noShelter": 124
+    },
+    {
+      "code": "P0027",
+      "name": "Provincie Noord-Holland",
+      "type": "provincie",
+      "total": 326,
+      "inaccessible": 181,
+      "pct": 56,
+      "wheelchair": 141,
+      "visual": 141,
+      "noShelter": 90
+    },
+    {
+      "code": "P0030",
+      "name": "Provincie Noord-Brabant",
+      "type": "provincie",
+      "total": 221,
+      "inaccessible": 110,
+      "pct": 50,
+      "wheelchair": 78,
+      "visual": 83,
+      "noShelter": 80
+    },
+    {
+      "code": "P0020",
+      "name": "Provincie Groningen",
+      "type": "provincie",
+      "total": 361,
+      "inaccessible": 167,
+      "pct": 46,
+      "wheelchair": 121,
+      "visual": 152,
+      "noShelter": 122
+    }
+  ],
+  "waterschappen": [
+    {
+      "code": "W0656",
+      "name": "Hoogheemraadschap van Schieland en de Krimpenerwaard",
+      "type": "waterschap",
+      "total": 105,
+      "inaccessible": 105,
+      "pct": 100,
+      "wheelchair": 105,
+      "visual": 105,
+      "noShelter": 104
+    },
+    {
+      "code": "W0651",
+      "name": "Hoogheemraadschap Hollands Noorderkwartier",
+      "type": "waterschap",
+      "total": 40,
+      "inaccessible": 38,
+      "pct": 95,
+      "wheelchair": 38,
+      "visual": 38,
+      "noShelter": 36
+    },
+    {
+      "code": "W0621",
+      "name": "Rivierenland",
+      "type": "waterschap",
+      "total": 234,
+      "inaccessible": 220,
+      "pct": 94,
+      "wheelchair": 218,
+      "visual": 216,
+      "noShelter": 202
+    },
+    {
+      "code": "W0655",
+      "name": "Hollandse Delta",
+      "type": "waterschap",
+      "total": 127,
+      "inaccessible": 113,
+      "pct": 89,
+      "wheelchair": 103,
+      "visual": 113,
+      "noShelter": 92
+    },
+    {
+      "code": "W0661",
+      "name": "Scheldestromen",
+      "type": "waterschap",
+      "total": 170,
+      "inaccessible": 150,
+      "pct": 88,
+      "wheelchair": 146,
+      "visual": 147,
+      "noShelter": 131
+    }
+  ],
+  "authorityTypes": [
+    {
+      "type": "gemeente",
+      "label": "Gemeente",
+      "total": 36777,
+      "inaccessible": 24346,
+      "pct": 66,
+      "wheelchair": 17287,
+      "visual": 22933
+    },
+    {
+      "type": "provincie",
+      "label": "Provincie",
+      "total": 4324,
+      "inaccessible": 3191,
+      "pct": 74,
+      "wheelchair": 2225,
+      "visual": 3005
+    },
+    {
+      "type": "waterschap",
+      "label": "Waterschap",
+      "total": 676,
+      "inaccessible": 626,
+      "pct": 93,
+      "wheelchair": 610,
+      "visual": 619
+    },
+    {
+      "type": "rijkswaterstaat",
+      "label": "Rijkswaterstaat",
+      "total": 158,
+      "inaccessible": 118,
+      "pct": 75,
+      "wheelchair": 80,
+      "visual": 113
+    }
+  ],
+  "conclusions": {
+    "hasZeroPct": false,
+    "gemeentesOver50": 266,
+    "totalGemeentes": 345,
+    "gemeentesOver50Pct": 77,
+    "visualPct": 64,
+    "wheelchairPct": 48,
+    "wsPct": 93,
+    "bestCityName": "Gemeente Amersfoort",
+    "bestCityPct": 8,
+    "bestCityTotal": 282,
+    "shelterPct": 65,
+    "top10Pct": 13
+  }
+}

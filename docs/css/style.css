@@ -127,6 +127,12 @@ html[data-theme="dark"] .stats {
   display: none;
 }
 
+.stats-date {
+  display: block;
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
 /* Main layout */
 #main {
   display: flex;
@@ -958,6 +964,12 @@ dl.popup-details dd {
   font-size: 1.05rem;
   line-height: 1.7;
   color: var(--gray-800);
+}
+
+.page-container .updated-date {
+  font-size: 0.85rem;
+  color: var(--gray-500);
+  margin-top: -8px;
 }
 
 .page-container ul,

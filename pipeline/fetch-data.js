@@ -16,10 +16,19 @@ function toWgs84(x, y) {
   return { lat: Math.round(lat * 1e6) / 1e6, lon: Math.round(lon * 1e6) / 1e6 };
 }
 
-async function fetchJson(url, options = {}) {
-  const res = await fetch(url, options);
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-  return res.json();
+async function fetchJson(url, options = {}, retries = 3) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, options);
+      if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+      return await res.json();
+    } catch (err) {
+      if (attempt === retries) throw err;
+      const delay = attempt * 2000;
+      console.warn(`  Retry ${attempt}/${retries} for ${url}: ${err.message} (waiting ${delay}ms)`);
+      await new Promise(r => setTimeout(r, delay));
+    }
+  }
 }
 
 async function dovaPost(endpoint) {
@@ -404,6 +413,189 @@ async function fetchAndSaveBoundaries(authorities) {
   console.log(`  Boundaries saved: ${saved}`);
 }
 
+// 16 curated large cities for the "grote steden" table (DOVA owner codes)
+const LARGE_CITIES = [
+  'G0363', // Amsterdam
+  'G0599', // Rotterdam
+  'G0518', // Den Haag
+  'G0344', // Utrecht
+  'G0772', // Eindhoven
+  'G0855', // Tilburg
+  'G0014', // Groningen
+  'G0034', // Almere
+  'G0153', // Enschede
+  'G0268', // Nijmegen
+  'G0392', // Haarlem
+  'G0080', // Leeuwarden
+  'G0758', // Breda
+  'G0202', // Arnhem
+  'G0935', // Maastricht
+  'G0307', // Amersfoort
+];
+
+function generateStats(allBusQuays, inaccessible, authorities) {
+  // Global totals from allBusQuays (not just inaccessible)
+  let totalWheelchairInaccessible = 0;
+  let totalVisuallyInaccessible = 0;
+  let totalWithShelter = 0;
+  for (const q of allBusQuays) {
+    if (q.quaydisabledaccessible === false) totalWheelchairInaccessible++;
+    if (q.quayvisuallyaccessible === false) totalVisuallyInaccessible++;
+    if (q.shelter === true) totalWithShelter++;
+  }
+
+  const totalBusQuays = allBusQuays.length;
+  const inaccessibleCount = inaccessible.length;
+
+  // Per-authority detailed counts (wheelchair, visual, shelter)
+  // We need to count from inaccessible quays grouped by owner
+  const ownerDetails = new Map();
+  for (const q of inaccessible) {
+    const owner = q.quayownercode || 'UNKNOWN';
+    if (!ownerDetails.has(owner)) {
+      ownerDetails.set(owner, { wheelchair: 0, visual: 0, noShelter: 0 });
+    }
+    const d = ownerDetails.get(owner);
+    if (q.quaydisabledaccessible === false) d.wheelchair++;
+    if (q.quayvisuallyaccessible === false) d.visual++;
+    if (q.shelter !== true) d.noShelter++;
+  }
+
+  // Build per-authority stat rows
+  const authRows = [];
+  for (const [code, auth] of Object.entries(authorities)) {
+    const detail = ownerDetails.get(code) || { wheelchair: 0, visual: 0, noShelter: 0 };
+    const pct = auth.totalBusQuays > 0 ? Math.round((auth.inaccessibleCount / auth.totalBusQuays) * 100) : 0;
+    authRows.push({
+      code,
+      name: auth.name,
+      type: auth.type,
+      total: auth.totalBusQuays,
+      inaccessible: auth.inaccessibleCount,
+      pct,
+      wheelchair: detail.wheelchair,
+      visual: detail.visual,
+      noShelter: detail.noShelter,
+    });
+  }
+
+  // Filter helpers
+  const gemeentes = authRows.filter(a => a.type === 'gemeente');
+  const min10 = gemeentes.filter(a => a.total >= 10);
+
+  // Worst gemeentes: 100% inaccessible, >=10 stops, sorted by stop count desc
+  const worstGemeentes = min10
+    .filter(a => a.pct === 100)
+    .sort((a, b) => b.inaccessible - a.inaccessible);
+
+  // Most inaccessible gemeentes: top 5 by absolute count, desc
+  const mostInaccessibleGemeentes = [...gemeentes]
+    .sort((a, b) => b.inaccessible - a.inaccessible)
+    .slice(0, 5);
+
+  // Best gemeentes: top 5 by lowest %, >=10 stops, sorted asc
+  const bestGemeentes = [...min10]
+    .sort((a, b) => a.pct - b.pct || a.inaccessible - b.inaccessible)
+    .slice(0, 5);
+
+  // Large cities
+  const largeCities = LARGE_CITIES
+    .map(code => authRows.find(a => a.code === code))
+    .filter(Boolean)
+    .sort((a, b) => a.pct - b.pct || a.inaccessible - b.inaccessible);
+
+  // Provincies
+  const provincies = authRows
+    .filter(a => a.type === 'provincie')
+    .sort((a, b) => b.pct - a.pct || b.inaccessible - a.inaccessible);
+
+  // Waterschappen
+  const waterschappen = authRows
+    .filter(a => a.type === 'waterschap')
+    .sort((a, b) => b.pct - a.pct || b.inaccessible - a.inaccessible);
+
+  // Authority types aggregated
+  const typeAgg = {};
+  for (const a of authRows) {
+    const t = a.type;
+    if (!typeAgg[t]) typeAgg[t] = { total: 0, inaccessible: 0, wheelchair: 0, visual: 0 };
+    typeAgg[t].total += a.total;
+    typeAgg[t].inaccessible += a.inaccessible;
+    typeAgg[t].wheelchair += a.wheelchair;
+    typeAgg[t].visual += a.visual;
+  }
+  const authorityTypes = ['gemeente', 'provincie', 'waterschap', 'rijkswaterstaat']
+    .filter(t => typeAgg[t])
+    .map(t => ({
+      type: t,
+      label: t.charAt(0).toUpperCase() + t.slice(1),
+      total: typeAgg[t].total,
+      inaccessible: typeAgg[t].inaccessible,
+      pct: typeAgg[t].total > 0 ? Math.round((typeAgg[t].inaccessible / typeAgg[t].total) * 100) : 0,
+      wheelchair: typeAgg[t].wheelchair,
+      visual: typeAgg[t].visual,
+    }));
+
+  // Conclusions
+  const gemeentesOver50 = gemeentes.filter(a => a.pct > 50).length;
+  const totalGemeentes = gemeentes.length;
+  const bestCity = largeCities.length > 0 ? largeCities[0] : null;
+  const wsType = authorityTypes.find(t => t.type === 'waterschap');
+  const wsPct = wsType ? wsType.pct : 0;
+
+  // Count inaccessible stops without shelter
+  let inaccessibleNoShelter = 0;
+  for (const q of inaccessible) {
+    if (q.shelter !== true) inaccessibleNoShelter++;
+  }
+  const shelterPct = inaccessibleCount > 0 ? Math.round((inaccessibleNoShelter / inaccessibleCount) * 100) : 0;
+
+  // Top 10 share
+  const top10 = [...gemeentes].sort((a, b) => b.inaccessible - a.inaccessible).slice(0, 10);
+  const top10Total = top10.reduce((s, a) => s + a.inaccessible, 0);
+  const top10Pct = inaccessibleCount > 0 ? Math.round((top10Total / inaccessibleCount) * 100) : 0;
+
+  const hasZeroPct = min10.some(a => a.pct === 0);
+
+  const wheelchairPct = totalBusQuays > 0 ? Math.round((totalWheelchairInaccessible / totalBusQuays) * 100) : 0;
+  const visualPct = totalBusQuays > 0 ? Math.round((totalVisuallyInaccessible / totalBusQuays) * 100) : 0;
+  const inaccessiblePct = totalBusQuays > 0 ? Math.round((inaccessibleCount / totalBusQuays) * 100) : 0;
+
+  return {
+    generated: new Date().toISOString(),
+    totals: {
+      totalBusQuays,
+      inaccessibleBusQuays: inaccessibleCount,
+      inaccessiblePct,
+      wheelchairInaccessible: totalWheelchairInaccessible,
+      wheelchairPct,
+      visuallyInaccessible: totalVisuallyInaccessible,
+      visualPct,
+    },
+    worstGemeentes,
+    mostInaccessibleGemeentes,
+    bestGemeentes,
+    largeCities,
+    provincies,
+    waterschappen,
+    authorityTypes,
+    conclusions: {
+      hasZeroPct,
+      gemeentesOver50,
+      totalGemeentes,
+      gemeentesOver50Pct: totalGemeentes > 0 ? Math.round((gemeentesOver50 / totalGemeentes) * 100) : 0,
+      visualPct,
+      wheelchairPct,
+      wsPct,
+      bestCityName: bestCity ? bestCity.name : '',
+      bestCityPct: bestCity ? bestCity.pct : 0,
+      bestCityTotal: bestCity ? bestCity.total : 0,
+      shelterPct,
+      top10Pct,
+    },
+  };
+}
+
 async function main() {
   const startTime = Date.now();
 
@@ -542,6 +734,12 @@ async function main() {
     authorities,
     concessionProviders,
   };
+
+  // Generate stats for feiten.html
+  const stats = generateStats(allBusQuays, inaccessible, authorities);
+  const statsPath = path.join(__dirname, '..', 'docs', 'data', 'stats.json');
+  fs.writeFileSync(statsPath, JSON.stringify(stats, null, 2));
+  console.log(`Stats written: ${statsPath}`);
 
   // Write output
   const outPath = path.join(__dirname, '..', 'docs', 'data', 'bus-stops.json');

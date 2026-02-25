@@ -16,7 +16,7 @@
     const inacc = data.totals.inaccessibleBusQuays.toLocaleString('nl-NL');
     const total = data.totals.totalBusQuays.toLocaleString('nl-NL');
     const updated = new Date(data.generated).toLocaleDateString('nl-NL', { day: 'numeric', month: 'short', year: 'numeric' });
-    statsEl.innerHTML = `<span class="stats-full"><strong>${inacc}</strong> van ${total} bushaltes niet toegankelijk (${pct}%) — ${data.totals.authorities} wegbeheerders</span><span class="stats-short"><strong>${inacc}</strong> / ${total} niet toegankelijk (${pct}%)</span><span class="stats-date">bijgewerkt ${updated}</span>`;
+    statsEl.innerHTML = `<span class="stats-full"><strong>${inacc}</strong> van ${total} bushaltes niet toegankelijk (${pct}%) — ${data.totals.authorities} wegbeheerders</span><span class="stats-short"><strong>${inacc}</strong> / ${total} niet toegankelijk</span><span class="stats-date">bijgewerkt ${updated}</span>`;
 
     // Initialize components
     Email.init();

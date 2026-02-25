@@ -755,7 +755,19 @@ async function main() {
   console.log(`  Unmatched authorities: ${unmatchedCount}`);
 }
 
-main().catch(err => {
-  console.error('Pipeline failed:', err);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch(err => {
+    console.error('Pipeline failed:', err);
+    process.exit(1);
+  });
+}
+
+module.exports = {
+  toWgs84,
+  ownerCodeToAllmanakKey,
+  generateStats,
+  fetchJson,
+  fetchConcessionProviderNames,
+  GEMEENTE_REMAP,
+  LARGE_CITIES,
+};

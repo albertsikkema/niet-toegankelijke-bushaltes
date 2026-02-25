@@ -1,3 +1,24 @@
+// Pure SVG builder for stop markers (testable from Node.js)
+function createStopSvg(compassDirection) {
+  var size = 24;
+  var cx = size / 2;
+  var cy = size / 2;
+  var r = 5;
+  var chevron = '';
+  if (compassDirection !== null && compassDirection !== undefined) {
+    var x1 = cx - 3, y1 = cy - 8;
+    var xTip = cx, yTip = cy - 11;
+    var x2 = cx + 3, y2 = cy - 8;
+    chevron = '<polyline points="' + x1 + ',' + y1 + ' ' + xTip + ',' + yTip + ' ' + x2 + ',' + y2 + '" ' +
+      'fill="none" stroke="#d32f2f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" ' +
+      'transform="rotate(' + compassDirection + ', ' + cx + ', ' + cy + ')"/>';
+  }
+  return '<svg width="' + size + '" height="' + size + '" viewBox="0 0 ' + size + ' ' + size + '" xmlns="http://www.w3.org/2000/svg">' +
+    chevron +
+    '<circle cx="' + cx + '" cy="' + cy + '" r="' + r + '" fill="#d32f2f" stroke="#b71c1c" stroke-width="1"/>' +
+    '</svg>';
+}
+
 // Leaflet map, markers, popups, zoom-to-authority
 const MapView = (() => {
   let map;
@@ -18,24 +39,8 @@ const MapView = (() => {
     var size = 24;
     var cx = size / 2;
     var cy = size / 2;
-    var r = 5;
-    var chevron = '';
-    if (compassDirection !== null && compassDirection !== undefined) {
-      // Chevron ">" pointing north by default, rotated by compassDirection
-      // Placed outside the circle with a small gap
-      var x1 = cx - 3, y1 = cy - 8;
-      var xTip = cx, yTip = cy - 11;
-      var x2 = cx + 3, y2 = cy - 8;
-      chevron = '<polyline points="' + x1 + ',' + y1 + ' ' + xTip + ',' + yTip + ' ' + x2 + ',' + y2 + '" ' +
-        'fill="none" stroke="#d32f2f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" ' +
-        'transform="rotate(' + compassDirection + ', ' + cx + ', ' + cy + ')"/>';
-    }
-    var svg = '<svg width="' + size + '" height="' + size + '" viewBox="0 0 ' + size + ' ' + size + '" xmlns="http://www.w3.org/2000/svg">' +
-      chevron +
-      '<circle cx="' + cx + '" cy="' + cy + '" r="' + r + '" fill="#d32f2f" stroke="#b71c1c" stroke-width="1"/>' +
-      '</svg>';
     return L.divIcon({
-      html: svg,
+      html: createStopSvg(compassDirection),
       className: 'stop-marker',
       iconSize: [size, size],
       iconAnchor: [cx, cy],
@@ -306,3 +311,5 @@ const MapView = (() => {
 
   return { init, zoomToAuthority, zoomToStop, filterByAuthority, resetView };
 })();
+
+if (typeof module !== 'undefined') module.exports = { createStopSvg: createStopSvg };

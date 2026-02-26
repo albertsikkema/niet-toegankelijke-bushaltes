@@ -1,12 +1,12 @@
 {
-  "generated": "2026-02-25T10:24:55.158Z",
+  "generated": "2026-02-26T06:27:17.536Z",
   "totals": {
     "totalBusQuays": 42068,
-    "inaccessibleBusQuays": 28377,
+    "inaccessibleBusQuays": 28378,
     "inaccessiblePct": 67,
     "wheelchairInaccessible": 20277,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26756,
+    "visuallyInaccessible": 26755,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -443,7 +443,7 @@
       "total": 309,
       "inaccessible": 301,
       "pct": 97,
-      "wheelchair": 268,
+      "wheelchair": 266,
       "visual": 296,
       "noShelter": 209
     },
@@ -596,11 +596,11 @@
       "code": "W0655",
       "name": "Hollandse Delta",
       "type": "waterschap",
-      "total": 127,
-      "inaccessible": 113,
+      "total": 126,
+      "inaccessible": 112,
       "pct": 89,
-      "wheelchair": 103,
-      "visual": 113,
+      "wheelchair": 102,
+      "visual": 112,
       "noShelter": 92
     },
     {
@@ -619,10 +619,10 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36777,
-      "inaccessible": 24346,
+      "total": 36778,
+      "inaccessible": 24348,
       "pct": 66,
-      "wheelchair": 17287,
+      "wheelchair": 17290,
       "visual": 22933
     },
     {
@@ -631,17 +631,17 @@
       "total": 4324,
       "inaccessible": 3191,
       "pct": 74,
-      "wheelchair": 2225,
+      "wheelchair": 2223,
       "visual": 3005
     },
     {
       "type": "waterschap",
       "label": "Waterschap",
-      "total": 676,
-      "inaccessible": 626,
+      "total": 675,
+      "inaccessible": 625,
       "pct": 93,
-      "wheelchair": 610,
-      "visual": 619
+      "wheelchair": 609,
+      "visual": 618
     },
     {
       "type": "rijkswaterstaat",

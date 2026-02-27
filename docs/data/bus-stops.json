@@ -1,8 +1,8 @@
 {
-  "generated": "2026-02-26T06:27:17.522Z",
+  "generated": "2026-02-27T06:23:12.542Z",
   "totals": {
-    "totalBusQuays": 42068,
-    "inaccessibleBusQuays": 28378,
+    "totalBusQuays": 42073,
+    "inaccessibleBusQuays": 28376,
     "authorities": 386
   },
   "authorities": {
@@ -112263,8 +112263,8 @@
           "name": "Bentheimpad",
           "town": "Zwolle",
           "street": "Nieuwleusenerdijk",
-          "lat": 52.539384,
-          "lon": 6.181521,
+          "lat": 52.539749,
+          "lon": 6.184401,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -112277,8 +112277,8 @@
           "name": "Bentheimpad",
           "town": "Zwolle",
           "street": "Nieuwleusenerdijk",
-          "lat": 52.539304,
-          "lon": 6.180134,
+          "lat": 52.539823,
+          "lon": 6.184095,
           "shelter": false,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
@@ -120438,8 +120438,8 @@
       "email": "info@hoogeveen.nl",
       "website": "http://www.hoogeveen.nl",
       "phone": "14 0528",
-      "totalBusQuays": 159,
-      "inaccessibleCount": 131,
+      "totalBusQuays": 160,
+      "inaccessibleCount": 132,
       "stops": [
         {
           "code": "NL:Q:46590180",
@@ -121082,6 +121082,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 9,
+          "mutationDate": "2018-11-15",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:17003820",
+          "name": "Leiendijk",
+          "town": "Hoogeveen",
+          "street": "Alteveerstraat",
+          "lat": 52.715442,
+          "lon": 6.477369,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": true,
+          "compassDirection": 6,
           "mutationDate": "2018-11-15",
           "concessionProvider": "OVGD"
         },
@@ -123653,7 +123667,7 @@
       "website": "http://www.provinciegroningen.nl",
       "phone": "(050) 316 49 11",
       "totalBusQuays": 361,
-      "inaccessibleCount": 167,
+      "inaccessibleCount": 164,
       "stops": [
         {
           "code": "NL:Q:10255310",
@@ -123985,7 +123999,7 @@
           "lat": 53.203127,
           "lon": 6.324562,
           "shelter": false,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 353,
           "mutationDate": "2019-07-10",
@@ -124426,20 +124440,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:14316430",
-          "name": "Tolberterstraat",
-          "town": "Leek",
-          "street": "Midwolderweg",
-          "lat": 53.167545,
-          "lon": 6.381035,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 183,
-          "mutationDate": "2019-12-12",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:13472120",
           "name": "Beneden Molenweg",
           "town": "Leemdobben",
@@ -124786,20 +124786,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": true,
           "compassDirection": 103,
-          "mutationDate": "2019-07-10",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:10672720",
-          "name": "Tilweg",
-          "town": "Roodeschool",
-          "street": "Hooilandseweg",
-          "lat": 53.42134,
-          "lon": 6.759855,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 283,
           "mutationDate": "2019-07-10",
           "concessionProvider": "OVGD"
         },
@@ -125375,20 +125361,6 @@
           "visuallyAccessible": false,
           "compassDirection": 97,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:10301140",
-          "name": "Viersprong",
-          "town": "Vierhuizen",
-          "street": "Panserweg",
-          "lat": 53.358565,
-          "lon": 6.305821,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 180,
-          "mutationDate": "2019-07-10",
           "concessionProvider": "OVGD"
         },
         {
@@ -142570,7 +142542,7 @@
       "email": "info@borsele.nl",
       "website": "http://www.borsele.nl",
       "phone": "(0113) 23 83 83",
-      "totalBusQuays": 88,
+      "totalBusQuays": 90,
       "inaccessibleCount": 69,
       "stops": [
         {
@@ -290764,7 +290736,7 @@
       "email": "info@flevoland.nl",
       "website": "https://www.flevoland.nl",
       "phone": "(0320) 26 52 65",
-      "totalBusQuays": 173,
+      "totalBusQuays": 175,
       "inaccessibleCount": 136,
       "stops": [
         {

@@ -1,12 +1,12 @@
 {
-  "generated": "2026-02-26T06:27:17.536Z",
+  "generated": "2026-02-27T06:23:12.554Z",
   "totals": {
-    "totalBusQuays": 42068,
-    "inaccessibleBusQuays": 28378,
+    "totalBusQuays": 42073,
+    "inaccessibleBusQuays": 28376,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20277,
+    "wheelchairInaccessible": 20275,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26755,
+    "visuallyInaccessible": 26754,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -462,9 +462,9 @@
       "code": "P0024",
       "name": "Provincie Flevoland",
       "type": "provincie",
-      "total": 173,
+      "total": 175,
       "inaccessible": 136,
-      "pct": 79,
+      "pct": 78,
       "wheelchair": 104,
       "visual": 133,
       "noShelter": 65
@@ -551,11 +551,11 @@
       "name": "Provincie Groningen",
       "type": "provincie",
       "total": 361,
-      "inaccessible": 167,
-      "pct": 46,
-      "wheelchair": 121,
-      "visual": 152,
-      "noShelter": 122
+      "inaccessible": 164,
+      "pct": 45,
+      "wheelchair": 118,
+      "visual": 151,
+      "noShelter": 119
     }
   ],
   "waterschappen": [
@@ -619,20 +619,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36778,
-      "inaccessible": 24348,
+      "total": 36781,
+      "inaccessible": 24349,
       "pct": 66,
-      "wheelchair": 17290,
+      "wheelchair": 17291,
       "visual": 22933
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4324,
-      "inaccessible": 3191,
+      "total": 4326,
+      "inaccessible": 3188,
       "pct": 74,
-      "wheelchair": 2223,
-      "visual": 3005
+      "wheelchair": 2220,
+      "visual": 3004
     },
     {
       "type": "waterschap",

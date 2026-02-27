@@ -1,12 +1,12 @@
 {
-  "generated": "2026-02-25T08:31:50.670Z",
+  "generated": "2026-02-27T06:23:12.554Z",
   "totals": {
-    "totalBusQuays": 42068,
-    "inaccessibleBusQuays": 28377,
+    "totalBusQuays": 42073,
+    "inaccessibleBusQuays": 28376,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20277,
+    "wheelchairInaccessible": 20275,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26756,
+    "visuallyInaccessible": 26754,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -443,7 +443,7 @@
       "total": 309,
       "inaccessible": 301,
       "pct": 97,
-      "wheelchair": 268,
+      "wheelchair": 266,
       "visual": 296,
       "noShelter": 209
     },
@@ -462,9 +462,9 @@
       "code": "P0024",
       "name": "Provincie Flevoland",
       "type": "provincie",
-      "total": 173,
+      "total": 175,
       "inaccessible": 136,
-      "pct": 79,
+      "pct": 78,
       "wheelchair": 104,
       "visual": 133,
       "noShelter": 65
@@ -551,11 +551,11 @@
       "name": "Provincie Groningen",
       "type": "provincie",
       "total": 361,
-      "inaccessible": 167,
-      "pct": 46,
-      "wheelchair": 121,
-      "visual": 152,
-      "noShelter": 122
+      "inaccessible": 164,
+      "pct": 45,
+      "wheelchair": 118,
+      "visual": 151,
+      "noShelter": 119
     }
   ],
   "waterschappen": [
@@ -596,11 +596,11 @@
       "code": "W0655",
       "name": "Hollandse Delta",
       "type": "waterschap",
-      "total": 127,
-      "inaccessible": 113,
+      "total": 126,
+      "inaccessible": 112,
       "pct": 89,
-      "wheelchair": 103,
-      "visual": 113,
+      "wheelchair": 102,
+      "visual": 112,
       "noShelter": 92
     },
     {
@@ -619,29 +619,29 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36777,
-      "inaccessible": 24346,
+      "total": 36781,
+      "inaccessible": 24349,
       "pct": 66,
-      "wheelchair": 17287,
+      "wheelchair": 17291,
       "visual": 22933
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4324,
-      "inaccessible": 3191,
+      "total": 4326,
+      "inaccessible": 3188,
       "pct": 74,
-      "wheelchair": 2225,
-      "visual": 3005
+      "wheelchair": 2220,
+      "visual": 3004
     },
     {
       "type": "waterschap",
       "label": "Waterschap",
-      "total": 676,
-      "inaccessible": 626,
+      "total": 675,
+      "inaccessible": 625,
       "pct": 93,
-      "wheelchair": 610,
-      "visual": 619
+      "wheelchair": 609,
+      "visual": 618
     },
     {
       "type": "rijkswaterstaat",

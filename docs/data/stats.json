@@ -1,12 +1,12 @@
 {
-  "generated": "2026-02-27T09:43:09.798Z",
+  "generated": "2026-02-28T06:13:40.623Z",
   "totals": {
-    "totalBusQuays": 42073,
-    "inaccessibleBusQuays": 28376,
+    "totalBusQuays": 42068,
+    "inaccessibleBusQuays": 28373,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20275,
+    "wheelchairInaccessible": 20274,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26754,
+    "visuallyInaccessible": 26753,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -195,10 +195,10 @@
       "name": "Gemeente Hengelo",
       "type": "gemeente",
       "total": 171,
-      "inaccessible": 12,
-      "pct": 7,
+      "inaccessible": 13,
+      "pct": 8,
       "wheelchair": 8,
-      "visual": 12,
+      "visual": 13,
       "noShelter": 8
     },
     {
@@ -339,12 +339,12 @@
       "code": "G0014",
       "name": "Gemeente Groningen",
       "type": "gemeente",
-      "total": 538,
-      "inaccessible": 261,
+      "total": 542,
+      "inaccessible": 265,
       "pct": 49,
-      "wheelchair": 173,
-      "visual": 232,
-      "noShelter": 144
+      "wheelchair": 177,
+      "visual": 236,
+      "noShelter": 147
     },
     {
       "code": "G0202",
@@ -417,10 +417,10 @@
       "name": "Gemeente Enschede",
       "type": "gemeente",
       "total": 310,
-      "inaccessible": 253,
-      "pct": 82,
-      "wheelchair": 87,
-      "visual": 249,
+      "inaccessible": 251,
+      "pct": 81,
+      "wheelchair": 86,
+      "visual": 248,
       "noShelter": 115
     }
   ],
@@ -430,10 +430,10 @@
       "name": "Provincie Overijssel",
       "type": "provincie",
       "total": 558,
-      "inaccessible": 551,
+      "inaccessible": 552,
       "pct": 99,
       "wheelchair": 397,
-      "visual": 548,
+      "visual": 549,
       "noShelter": 400
     },
     {
@@ -462,11 +462,11 @@
       "code": "P0024",
       "name": "Provincie Flevoland",
       "type": "provincie",
-      "total": 175,
-      "inaccessible": 136,
+      "total": 174,
+      "inaccessible": 135,
       "pct": 78,
-      "wheelchair": 104,
-      "visual": 133,
+      "wheelchair": 103,
+      "visual": 132,
       "noShelter": 65
     },
     {
@@ -619,19 +619,19 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36781,
-      "inaccessible": 24349,
+      "total": 36777,
+      "inaccessible": 24346,
       "pct": 66,
-      "wheelchair": 17291,
-      "visual": 22933
+      "wheelchair": 17292,
+      "visual": 22932
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4326,
+      "total": 4325,
       "inaccessible": 3188,
       "pct": 74,
-      "wheelchair": 2220,
+      "wheelchair": 2219,
       "visual": 3004
     },
     {
@@ -649,7 +649,7 @@
       "total": 158,
       "inaccessible": 118,
       "pct": 75,
-      "wheelchair": 80,
+      "wheelchair": 79,
       "visual": 113
     }
   ],

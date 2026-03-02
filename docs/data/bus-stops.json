@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-01T06:20:25.434Z",
+  "generated": "2026-03-02T06:25:14.969Z",
   "totals": {
-    "totalBusQuays": 42068,
-    "inaccessibleBusQuays": 28373,
+    "totalBusQuays": 42070,
+    "inaccessibleBusQuays": 28375,
     "authorities": 386
   },
   "authorities": {
@@ -182573,8 +182573,8 @@
       "email": "gemeente@voorneaanzee.nl",
       "website": "http://www.voorneaanzee.nl",
       "phone": "14 0181",
-      "totalBusQuays": 131,
-      "inaccessibleCount": 95,
+      "totalBusQuays": 133,
+      "inaccessibleCount": 97,
       "stops": [
         {
           "code": "NL:Q:52670450",
@@ -183442,6 +183442,34 @@
           "visuallyAccessible": false,
           "compassDirection": 237,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:52770210",
+          "name": "De Pinnepot",
+          "town": "Oostvoorne",
+          "street": "Langeweg",
+          "lat": 51.912343,
+          "lon": 4.115223,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 121,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:52770200",
+          "name": "De Pinnepot",
+          "town": "Oostvoorne",
+          "street": "Langeweg",
+          "lat": 51.912494,
+          "lon": 4.115016,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 301,
+          "mutationDate": null,
           "concessionProvider": "MRDH"
         },
         {

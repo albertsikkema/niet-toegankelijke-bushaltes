@@ -1,12 +1,12 @@
 {
-  "generated": "2026-03-02T06:25:14.986Z",
+  "generated": "2026-03-03T06:22:17.319Z",
   "totals": {
-    "totalBusQuays": 42070,
-    "inaccessibleBusQuays": 28375,
+    "totalBusQuays": 42073,
+    "inaccessibleBusQuays": 28358,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20276,
+    "wheelchairInaccessible": 20266,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26755,
+    "visuallyInaccessible": 26740,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -195,10 +195,10 @@
       "name": "Gemeente Hengelo",
       "type": "gemeente",
       "total": 171,
-      "inaccessible": 13,
-      "pct": 8,
+      "inaccessible": 12,
+      "pct": 7,
       "wheelchair": 8,
-      "visual": 13,
+      "visual": 12,
       "noShelter": 8
     },
     {
@@ -263,11 +263,11 @@
       "name": "Gemeente Nijmegen",
       "type": "gemeente",
       "total": 397,
-      "inaccessible": 118,
+      "inaccessible": 119,
       "pct": 30,
-      "wheelchair": 62,
-      "visual": 92,
-      "noShelter": 68
+      "wheelchair": 63,
+      "visual": 93,
+      "noShelter": 69
     },
     {
       "code": "G0855",
@@ -339,7 +339,7 @@
       "code": "G0014",
       "name": "Gemeente Groningen",
       "type": "gemeente",
-      "total": 542,
+      "total": 544,
       "inaccessible": 265,
       "pct": 49,
       "wheelchair": 177,
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36779,
-      "inaccessible": 24348,
+      "total": 36782,
+      "inaccessible": 24331,
       "pct": 66,
-      "wheelchair": 17294,
-      "visual": 22934
+      "wheelchair": 17284,
+      "visual": 22919
     },
     {
       "type": "provincie",

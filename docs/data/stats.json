@@ -1,12 +1,12 @@
 {
-  "generated": "2026-03-04T06:20:20.054Z",
+  "generated": "2026-03-05T06:22:29.648Z",
   "totals": {
-    "totalBusQuays": 42073,
-    "inaccessibleBusQuays": 28358,
+    "totalBusQuays": 42076,
+    "inaccessibleBusQuays": 28364,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20266,
+    "wheelchairInaccessible": 20269,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26740,
+    "visuallyInaccessible": 26747,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -148,9 +148,9 @@
       "code": "G0518",
       "name": "Gemeente Den Haag",
       "type": "gemeente",
-      "total": 685,
+      "total": 686,
       "inaccessible": 538,
-      "pct": 79,
+      "pct": 78,
       "wheelchair": 186,
       "visual": 529,
       "noShelter": 236
@@ -195,10 +195,10 @@
       "name": "Gemeente Hengelo",
       "type": "gemeente",
       "total": 171,
-      "inaccessible": 12,
-      "pct": 7,
+      "inaccessible": 13,
+      "pct": 8,
       "wheelchair": 8,
-      "visual": 12,
+      "visual": 13,
       "noShelter": 8
     },
     {
@@ -339,12 +339,12 @@
       "code": "G0014",
       "name": "Gemeente Groningen",
       "type": "gemeente",
-      "total": 544,
-      "inaccessible": 265,
+      "total": 545,
+      "inaccessible": 266,
       "pct": 49,
       "wheelchair": 177,
-      "visual": 236,
-      "noShelter": 147
+      "visual": 237,
+      "noShelter": 148
     },
     {
       "code": "G0202",
@@ -405,9 +405,9 @@
       "code": "G0518",
       "name": "Gemeente Den Haag",
       "type": "gemeente",
-      "total": 685,
+      "total": 686,
       "inaccessible": 538,
-      "pct": 79,
+      "pct": 78,
       "wheelchair": 186,
       "visual": 529,
       "noShelter": 236
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36782,
-      "inaccessible": 24331,
+      "total": 36785,
+      "inaccessible": 24337,
       "pct": 66,
-      "wheelchair": 17284,
-      "visual": 22919
+      "wheelchair": 17287,
+      "visual": 22926
     },
     {
       "type": "provincie",

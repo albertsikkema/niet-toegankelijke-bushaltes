@@ -1,12 +1,12 @@
 {
-  "generated": "2026-03-05T06:22:29.648Z",
+  "generated": "2026-03-06T06:20:48.067Z",
   "totals": {
-    "totalBusQuays": 42076,
-    "inaccessibleBusQuays": 28364,
+    "totalBusQuays": 42078,
+    "inaccessibleBusQuays": 28394,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20269,
+    "wheelchairInaccessible": 20302,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26747,
+    "visuallyInaccessible": 26775,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -593,6 +593,17 @@
       "noShelter": 202
     },
     {
+      "code": "W0661",
+      "name": "Scheldestromen",
+      "type": "waterschap",
+      "total": 170,
+      "inaccessible": 153,
+      "pct": 90,
+      "wheelchair": 149,
+      "visual": 150,
+      "noShelter": 134
+    },
+    {
       "code": "W0655",
       "name": "Hollandse Delta",
       "type": "waterschap",
@@ -602,28 +613,17 @@
       "wheelchair": 102,
       "visual": 112,
       "noShelter": 92
-    },
-    {
-      "code": "W0661",
-      "name": "Scheldestromen",
-      "type": "waterschap",
-      "total": 170,
-      "inaccessible": 150,
-      "pct": 88,
-      "wheelchair": 146,
-      "visual": 147,
-      "noShelter": 131
     }
   ],
   "authorityTypes": [
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36785,
-      "inaccessible": 24337,
+      "total": 36787,
+      "inaccessible": 24364,
       "pct": 66,
-      "wheelchair": 17287,
-      "visual": 22926
+      "wheelchair": 17317,
+      "visual": 22951
     },
     {
       "type": "provincie",
@@ -638,10 +638,10 @@
       "type": "waterschap",
       "label": "Waterschap",
       "total": 675,
-      "inaccessible": 625,
+      "inaccessible": 628,
       "pct": 93,
-      "wheelchair": 609,
-      "visual": 618
+      "wheelchair": 612,
+      "visual": 621
     },
     {
       "type": "rijkswaterstaat",

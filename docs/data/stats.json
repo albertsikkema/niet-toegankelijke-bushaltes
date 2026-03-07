@@ -1,12 +1,12 @@
 {
-  "generated": "2026-03-06T06:20:48.067Z",
+  "generated": "2026-03-07T06:15:20.474Z",
   "totals": {
-    "totalBusQuays": 42078,
-    "inaccessibleBusQuays": 28394,
+    "totalBusQuays": 42075,
+    "inaccessibleBusQuays": 28389,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20302,
+    "wheelchairInaccessible": 20301,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26775,
+    "visuallyInaccessible": 26770,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -484,7 +484,7 @@
       "code": "P0026",
       "name": "Provincie Utrecht",
       "type": "provincie",
-      "total": 359,
+      "total": 360,
       "inaccessible": 277,
       "pct": 77,
       "wheelchair": 183,
@@ -619,16 +619,16 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36787,
-      "inaccessible": 24364,
+      "total": 36783,
+      "inaccessible": 24359,
       "pct": 66,
-      "wheelchair": 17317,
-      "visual": 22951
+      "wheelchair": 17316,
+      "visual": 22946
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4325,
+      "total": 4326,
       "inaccessible": 3188,
       "pct": 74,
       "wheelchair": 2219,

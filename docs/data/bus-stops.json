@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-06T06:20:48.054Z",
+  "generated": "2026-03-07T06:15:20.464Z",
   "totals": {
-    "totalBusQuays": 42078,
-    "inaccessibleBusQuays": 28394,
+    "totalBusQuays": 42075,
+    "inaccessibleBusQuays": 28389,
     "authorities": 386
   },
   "authorities": {
@@ -19050,7 +19050,7 @@
       "email": "info@provincie-utrecht.nl",
       "website": "https://www.provincie-utrecht.nl",
       "phone": "(030) 258 91 11",
-      "totalBusQuays": 359,
+      "totalBusQuays": 360,
       "inaccessibleCount": 277,
       "stops": [
         {
@@ -22939,8 +22939,8 @@
       "email": "gemeente@derondevenen.nl",
       "website": "http://www.derondevenen.nl",
       "phone": "(0297) 29 16 16",
-      "totalBusQuays": 167,
-      "inaccessibleCount": 138,
+      "totalBusQuays": 161,
+      "inaccessibleCount": 133,
       "stops": [
         {
           "code": "NL:Q:57451080",
@@ -23111,20 +23111,6 @@
           "concessionProvider": "PUT"
         },
         {
-          "code": "NL:Q:57352160",
-          "name": "Ruwelspad",
-          "town": "Abcoude",
-          "street": "Ruwelspad",
-          "lat": 52.279059,
-          "lon": 4.970365,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 50,
-          "mutationDate": null,
-          "concessionProvider": "PUT"
-        },
-        {
           "code": "NL:Q:57352170",
           "name": "Ruwelspad",
           "town": "Abcoude",
@@ -23135,6 +23121,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 230,
+          "mutationDate": null,
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:57352160",
+          "name": "Ruwelspad",
+          "town": "Abcoude",
+          "street": "Ruwelspad",
+          "lat": 52.279059,
+          "lon": 4.970365,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 50,
           "mutationDate": null,
           "concessionProvider": "PUT"
         },
@@ -23867,20 +23867,6 @@
           "concessionProvider": "PUT"
         },
         {
-          "code": "NL:Q:58542050",
-          "name": "Hofland",
-          "town": "Mijdrecht",
-          "street": "Hofland",
-          "lat": 52.215232,
-          "lon": 4.870506,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 191,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PUT"
-        },
-        {
           "code": "NL:Q:59000010",
           "name": "Hoofdweg",
           "town": "Mijdrecht",
@@ -24018,34 +24004,6 @@
           "visuallyAccessible": false,
           "compassDirection": 90,
           "mutationDate": "2018-11-15",
-          "concessionProvider": "PUT"
-        },
-        {
-          "code": "NL:Q:58542130",
-          "name": "Ondernemingsweg",
-          "town": "Mijdrecht",
-          "street": "Industrieweg",
-          "lat": 52.206654,
-          "lon": 4.879961,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 90,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PUT"
-        },
-        {
-          "code": "NL:Q:58542120",
-          "name": "Ondernemingsweg",
-          "town": "Mijdrecht",
-          "street": "Industrieweg",
-          "lat": 52.206723,
-          "lon": 4.880532,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 270,
-          "mutationDate": "2019-02-07",
           "concessionProvider": "PUT"
         },
         {
@@ -24385,20 +24343,6 @@
           "concessionProvider": "PUT"
         },
         {
-          "code": "NL:Q:58552100",
-          "name": "Viaduct",
-          "town": "Vinkeveen",
-          "street": "Herenweg",
-          "lat": 52.217867,
-          "lon": 4.93435,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 242,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PUT"
-        },
-        {
           "code": "NL:Q:57451060",
           "name": "Vinkenkade 75",
           "town": "Vinkeveen",
@@ -24634,20 +24578,6 @@
           "visuallyAccessible": false,
           "compassDirection": 90,
           "mutationDate": "2019-03-14",
-          "concessionProvider": "PUT"
-        },
-        {
-          "code": "NL:Q:59542050",
-          "name": "Burg. Padmosweg",
-          "town": "Wilnis",
-          "street": "Burgemeester Padmosweg",
-          "lat": 52.193995,
-          "lon": 4.891857,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 110,
-          "mutationDate": "2019-02-07",
           "concessionProvider": "PUT"
         },
         {
@@ -71423,6 +71353,20 @@
           "concessionProvider": "PNB"
         },
         {
+          "code": "NL:Q:64650001",
+          "name": "Dobbelsteenplein",
+          "town": "Mariaheide",
+          "street": "Ericastraat",
+          "lat": 51.634105,
+          "lon": 5.580479,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 300,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
+        {
           "code": "NL:Q:64250050",
           "name": "Kruispunt",
           "town": "Nijnsel",
@@ -71699,20 +71643,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 67,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:64650001",
-          "name": "Dobbelsteenplein",
-          "town": "Veghel",
-          "street": "Ericastraat",
-          "lat": 51.634105,
-          "lon": 5.580479,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 300,
           "mutationDate": null,
           "concessionProvider": "PNB"
         },
@@ -400753,7 +400683,7 @@
       "email": "info@koggenland.nl",
       "website": "http://www.koggenland.nl/",
       "phone": "(0229) 54 84 00",
-      "totalBusQuays": 49,
+      "totalBusQuays": 51,
       "inaccessibleCount": 46,
       "stops": [
         {

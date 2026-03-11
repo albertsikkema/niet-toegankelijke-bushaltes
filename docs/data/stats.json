@@ -1,10 +1,10 @@
 {
-  "generated": "2026-03-10T06:20:39.359Z",
+  "generated": "2026-03-11T06:22:27.802Z",
   "totals": {
-    "totalBusQuays": 42075,
-    "inaccessibleBusQuays": 28389,
+    "totalBusQuays": 42077,
+    "inaccessibleBusQuays": 28391,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20301,
+    "wheelchairInaccessible": 20311,
     "wheelchairPct": 48,
     "visuallyInaccessible": 26770,
     "visualPct": 64
@@ -159,9 +159,9 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1125,
+      "total": 1126,
       "inaccessible": 501,
-      "pct": 45,
+      "pct": 44,
       "wheelchair": 393,
       "visual": 482,
       "noShelter": 268
@@ -170,12 +170,12 @@
       "code": "G0114",
       "name": "Gemeente Emmen",
       "type": "gemeente",
-      "total": 356,
-      "inaccessible": 333,
+      "total": 355,
+      "inaccessible": 332,
       "pct": 94,
-      "wheelchair": 217,
-      "visual": 329,
-      "noShelter": 233
+      "wheelchair": 216,
+      "visual": 328,
+      "noShelter": 232
     },
     {
       "code": "G1900",
@@ -328,9 +328,9 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1125,
+      "total": 1126,
       "inaccessible": 501,
-      "pct": 45,
+      "pct": 44,
       "wheelchair": 393,
       "visual": 482,
       "noShelter": 268
@@ -440,12 +440,12 @@
       "code": "P0022",
       "name": "Provincie Drenthe",
       "type": "provincie",
-      "total": 309,
-      "inaccessible": 301,
+      "total": 310,
+      "inaccessible": 302,
       "pct": 97,
-      "wheelchair": 266,
-      "visual": 296,
-      "noShelter": 209
+      "wheelchair": 267,
+      "visual": 297,
+      "noShelter": 210
     },
     {
       "code": "P0028",
@@ -597,11 +597,11 @@
       "name": "Scheldestromen",
       "type": "waterschap",
       "total": 170,
-      "inaccessible": 153,
-      "pct": 90,
-      "wheelchair": 149,
-      "visual": 150,
-      "noShelter": 134
+      "inaccessible": 156,
+      "pct": 92,
+      "wheelchair": 152,
+      "visual": 153,
+      "noShelter": 137
     },
     {
       "code": "W0655",
@@ -619,29 +619,29 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36783,
-      "inaccessible": 24359,
+      "total": 36784,
+      "inaccessible": 24357,
       "pct": 66,
-      "wheelchair": 17316,
-      "visual": 22946
+      "wheelchair": 17322,
+      "visual": 22942
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4326,
-      "inaccessible": 3188,
+      "total": 4327,
+      "inaccessible": 3189,
       "pct": 74,
-      "wheelchair": 2219,
-      "visual": 3004
+      "wheelchair": 2220,
+      "visual": 3005
     },
     {
       "type": "waterschap",
       "label": "Waterschap",
       "total": 675,
-      "inaccessible": 628,
+      "inaccessible": 631,
       "pct": 93,
-      "wheelchair": 612,
-      "visual": 621
+      "wheelchair": 615,
+      "visual": 624
     },
     {
       "type": "rijkswaterstaat",

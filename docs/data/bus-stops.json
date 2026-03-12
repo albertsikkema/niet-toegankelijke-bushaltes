@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-11T06:22:27.790Z",
+  "generated": "2026-03-12T06:23:48.624Z",
   "totals": {
     "totalBusQuays": 42077,
-    "inaccessibleBusQuays": 28391,
+    "inaccessibleBusQuays": 28385,
     "authorities": 386
   },
   "authorities": {
@@ -19079,7 +19079,7 @@
       "website": "https://www.provincie-utrecht.nl",
       "phone": "(030) 258 91 11",
       "totalBusQuays": 360,
-      "inaccessibleCount": 277,
+      "inaccessibleCount": 275,
       "stops": [
         {
           "code": "NL:Q:51310020",
@@ -22328,34 +22328,6 @@
           "compassDirection": 65,
           "mutationDate": "2019-03-14",
           "concessionProvider": "PUT"
-        },
-        {
-          "code": "NL:Q:51681180",
-          "name": "Carpoolplaats A12",
-          "town": "Waarder",
-          "street": "Molendijk",
-          "lat": 52.066516,
-          "lon": 4.822273,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 195,
-          "mutationDate": null,
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:51681170",
-          "name": "Carpoolplaats A12",
-          "town": "Waarder",
-          "street": "Molendijk",
-          "lat": 52.065778,
-          "lon": 4.822551,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 15,
-          "mutationDate": null,
-          "concessionProvider": "PZH"
         },
         {
           "code": "NL:Q:50490140",
@@ -33751,7 +33723,7 @@
       "email": "bestuurssecretariaat@westbetuwe.nl",
       "website": "http://www.westbetuwe.nl/",
       "phone": null,
-      "totalBusQuays": 163,
+      "totalBusQuays": 165,
       "inaccessibleCount": 142,
       "stops": [
         {
@@ -69155,7 +69127,7 @@
       "website": "http://www.meierijstad.nl/home",
       "phone": "14 0413",
       "totalBusQuays": 123,
-      "inaccessibleCount": 52,
+      "inaccessibleCount": 51,
       "stops": [
         {
           "code": "NL:Q:65790200",
@@ -69477,20 +69449,6 @@
           "visuallyAccessible": false,
           "compassDirection": 98,
           "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:63450200",
-          "name": "Kluisstraat",
-          "town": "Schijndel",
-          "street": "Van Alphenstraat",
-          "lat": 51.620909,
-          "lon": 5.434507,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 56,
-          "mutationDate": "2020-02-19",
           "concessionProvider": "PNB"
         },
         {
@@ -126681,7 +126639,7 @@
       "website": "http://www.hoogeveen.nl",
       "phone": "14 0528",
       "totalBusQuays": 160,
-      "inaccessibleCount": 127,
+      "inaccessibleCount": 126,
       "stops": [
         {
           "code": "NL:Q:46590180",
@@ -127269,20 +127227,6 @@
           "visuallyAccessible": false,
           "compassDirection": 19,
           "mutationDate": "2018-08-15",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:17003840",
-          "name": "Kortewijkstraat",
-          "town": "Hoogeveen",
-          "street": "Alteveerstraat",
-          "lat": 52.719227,
-          "lon": 6.477807,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 9,
-          "mutationDate": "2018-11-15",
           "concessionProvider": "OVGD"
         },
         {
@@ -184108,20 +184052,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:18270030",
-          "name": "Voshaar",
-          "town": "Noord Sleen",
-          "street": "Slenerweg",
-          "lat": 52.822585,
-          "lon": 6.776145,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 320,
-          "mutationDate": "2018-02-07",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:18270040",
           "name": "Voshaar",
           "town": "Noord Sleen",
@@ -184133,6 +184063,20 @@
           "visuallyAccessible": false,
           "compassDirection": 140,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:18270030",
+          "name": "Voshaar",
+          "town": "Noord Sleen",
+          "street": "Slenerweg",
+          "lat": 52.822585,
+          "lon": 6.776145,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 320,
+          "mutationDate": "2018-02-07",
           "concessionProvider": "OVGD"
         },
         {
@@ -184276,20 +184220,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:18200150",
-          "name": "Oosterhesselerbrug",
-          "town": "Oosterhesselen",
-          "street": "Pandijk",
-          "lat": 52.73571,
-          "lon": 6.720116,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 337,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:18200160",
           "name": "Oosterhesselerbrug",
           "town": "Oosterhesselen",
@@ -184300,6 +184230,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 157,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:18200150",
+          "name": "Oosterhesselerbrug",
+          "town": "Oosterhesselen",
+          "street": "Pandijk",
+          "lat": 52.73571,
+          "lon": 6.720116,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 337,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -203067,7 +203011,7 @@
       "email": "gemeente@landgraaf.nl",
       "website": "http://www.landgraaf.nl",
       "phone": "14 045",
-      "totalBusQuays": 81,
+      "totalBusQuays": 79,
       "inaccessibleCount": 49,
       "stops": [
         {
@@ -206275,7 +206219,7 @@
           "lat": 53.185128,
           "lon": 6.375994,
           "shelter": true,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 261,
           "mutationDate": "2019-07-10",
@@ -217109,8 +217053,8 @@
       "email": "provincieloket@gelderland.nl",
       "website": "https://www.gelderland.nl",
       "phone": "(026) 359 99 99",
-      "totalBusQuays": 803,
-      "inaccessibleCount": 621,
+      "totalBusQuays": 801,
+      "inaccessibleCount": 619,
       "stops": [
         {
           "code": "NL:Q:40344002",
@@ -219504,34 +219448,6 @@
           "visuallyAccessible": false,
           "compassDirection": 83,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:41740010",
-          "name": "Rustoordlaan",
-          "town": "Eefde",
-          "street": "Rustoordlaan",
-          "lat": 52.160269,
-          "lon": 6.220632,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 256,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:41740020",
-          "name": "Rustoordlaan",
-          "town": "Eefde",
-          "street": "Doctor van de Hoevenlaan",
-          "lat": 52.161631,
-          "lon": 6.224127,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 353,
-          "mutationDate": "2014-08-25",
           "concessionProvider": "GLD"
         },
         {
@@ -264122,6 +264038,20 @@
           "concessionProvider": "GLD"
         },
         {
+          "code": "NL:Q:40750007",
+          "name": "De Haverkamp",
+          "town": "Lunteren",
+          "street": "Klomperweg",
+          "lat": 52.082213,
+          "lon": 5.614715,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 68,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
           "code": "NL:Q:40750013",
           "name": "De Molen",
           "town": "Lunteren",
@@ -264174,20 +264104,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 159,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:40750007",
-          "name": "Everlaan",
-          "town": "Lunteren",
-          "street": "Klomperweg",
-          "lat": 52.082213,
-          "lon": 5.614715,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 68,
           "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
@@ -273200,7 +273116,7 @@
       "website": "http://www.hengelo.nl",
       "phone": "14 074",
       "totalBusQuays": 171,
-      "inaccessibleCount": 13,
+      "inaccessibleCount": 12,
       "stops": [
         {
           "code": "NL:Q:43130090",
@@ -273354,20 +273270,6 @@
           "visuallyAccessible": false,
           "compassDirection": 233,
           "mutationDate": null,
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:43212850",
-          "name": "IJsselstraat",
-          "town": "Hengelo",
-          "street": "Haaksbergerstraat",
-          "lat": 52.253129,
-          "lon": 6.770743,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 234,
-          "mutationDate": "2018-11-15",
           "concessionProvider": "OVS"
         },
         {
@@ -290375,8 +290277,8 @@
           "name": "Dragonder",
           "town": "Valkenswaard",
           "street": "Dragonder",
-          "lat": 51.339856,
-          "lon": 5.467774,
+          "lat": 51.339906,
+          "lon": 5.467584,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -311282,8 +311184,8 @@
           "name": "Aquabest",
           "town": "Best",
           "street": "Ekkersweijer",
-          "lat": 51.499332,
-          "lon": 5.432562,
+          "lat": 51.499403,
+          "lon": 5.432514,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -311334,17 +311236,17 @@
           "concessionProvider": "PNB"
         },
         {
-          "code": "NL:Q:64200430",
+          "code": "NL:Q:64200440",
           "name": "De Maas",
           "town": "Best",
           "street": "de Maas",
-          "lat": 51.48777,
-          "lon": 5.398647,
+          "lat": 51.487665,
+          "lon": 5.398821,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 255,
-          "mutationDate": "2019-03-14",
+          "compassDirection": 70,
+          "mutationDate": "2019-03-01",
           "concessionProvider": "PNB"
         },
         {
@@ -330313,7 +330215,7 @@
       "email": "info@lochem.nl",
       "website": "http://www.lochem.nl",
       "phone": "(0573) 28 92 22",
-      "totalBusQuays": 65,
+      "totalBusQuays": 67,
       "inaccessibleCount": 43,
       "stops": [
         {
@@ -330341,6 +330243,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 270,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41740010",
+          "name": "Rustoordlaan",
+          "town": "Eefde",
+          "street": "Rustoordlaan",
+          "lat": 52.160269,
+          "lon": 6.220632,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 256,
           "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
@@ -330566,20 +330482,6 @@
           "visuallyAccessible": false,
           "compassDirection": 304,
           "mutationDate": "2019-11-24",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:44950380",
-          "name": "De Luchte",
-          "town": "Lochem",
-          "street": "Zutphenseweg",
-          "lat": 52.152389,
-          "lon": 6.403608,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 71,
-          "mutationDate": "2014-08-28",
           "concessionProvider": "GLD"
         },
         {
@@ -330829,8 +330731,8 @@
           "lon": 6.426606,
           "shelter": true,
           "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 8,
+          "visuallyAccessible": true,
+          "compassDirection": 270,
           "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
@@ -332623,7 +332525,7 @@
       "website": "http://www.baarle-nassau.nl",
       "phone": "(088) 382 10 00",
       "totalBusQuays": 23,
-      "inaccessibleCount": 16,
+      "inaccessibleCount": 17,
       "stops": [
         {
           "code": "NL:Q:73440210",
@@ -332776,6 +332678,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 37,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:72790008",
+          "name": "Zigraeck",
+          "town": "Baarle-Nassau",
+          "street": "Hoogstratensebaan",
+          "lat": 51.418742,
+          "lon": 4.851285,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 217,
           "mutationDate": null,
           "concessionProvider": "PNB"
         },

@@ -1,12 +1,12 @@
 {
-  "generated": "2026-03-14T06:21:12.001Z",
+  "generated": "2026-03-15T06:26:36.785Z",
   "totals": {
-    "totalBusQuays": 42070,
-    "inaccessibleBusQuays": 28382,
-    "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20306,
+    "totalBusQuays": 42100,
+    "inaccessibleBusQuays": 28432,
+    "inaccessiblePct": 68,
+    "wheelchairInaccessible": 20352,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26760,
+    "visuallyInaccessible": 26810,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -31,6 +31,17 @@
       "wheelchair": 77,
       "visual": 78,
       "noShelter": 70
+    },
+    {
+      "code": "G0703",
+      "name": "Gemeente Reimerswaal",
+      "type": "gemeente",
+      "total": 76,
+      "inaccessible": 76,
+      "pct": 100,
+      "wheelchair": 68,
+      "visual": 74,
+      "noShelter": 57
     },
     {
       "code": "G0093",
@@ -262,7 +273,7 @@
       "code": "G0268",
       "name": "Gemeente Nijmegen",
       "type": "gemeente",
-      "total": 397,
+      "total": 403,
       "inaccessible": 119,
       "pct": 30,
       "wheelchair": 63,
@@ -273,9 +284,9 @@
       "code": "G0855",
       "name": "Gemeente Tilburg",
       "type": "gemeente",
-      "total": 371,
+      "total": 373,
       "inaccessible": 117,
-      "pct": 32,
+      "pct": 31,
       "wheelchair": 75,
       "visual": 107,
       "noShelter": 71
@@ -339,11 +350,11 @@
       "code": "G0014",
       "name": "Gemeente Groningen",
       "type": "gemeente",
-      "total": 545,
-      "inaccessible": 266,
+      "total": 546,
+      "inaccessible": 267,
       "pct": 49,
-      "wheelchair": 177,
-      "visual": 237,
+      "wheelchair": 178,
+      "visual": 238,
       "noShelter": 148
     },
     {
@@ -473,12 +484,12 @@
       "code": "P0025",
       "name": "Provincie Gelderland",
       "type": "provincie",
-      "total": 801,
-      "inaccessible": 619,
+      "total": 803,
+      "inaccessible": 621,
       "pct": 77,
       "wheelchair": 367,
-      "visual": 594,
-      "noShelter": 359
+      "visual": 596,
+      "noShelter": 360
     },
     {
       "code": "P0026",
@@ -496,11 +507,11 @@
       "name": "Provincie Zeeland",
       "type": "provincie",
       "total": 112,
-      "inaccessible": 75,
-      "pct": 67,
-      "wheelchair": 70,
-      "visual": 70,
-      "noShelter": 35
+      "inaccessible": 76,
+      "pct": 68,
+      "wheelchair": 71,
+      "visual": 71,
+      "noShelter": 36
     },
     {
       "code": "P0021",
@@ -571,6 +582,17 @@
       "noShelter": 104
     },
     {
+      "code": "W0661",
+      "name": "Scheldestromen",
+      "type": "waterschap",
+      "total": 170,
+      "inaccessible": 161,
+      "pct": 95,
+      "wheelchair": 157,
+      "visual": 158,
+      "noShelter": 142
+    },
+    {
       "code": "W0651",
       "name": "Hoogheemraadschap Hollands Noorderkwartier",
       "type": "waterschap",
@@ -593,17 +615,6 @@
       "noShelter": 202
     },
     {
-      "code": "W0661",
-      "name": "Scheldestromen",
-      "type": "waterschap",
-      "total": 170,
-      "inaccessible": 156,
-      "pct": 92,
-      "wheelchair": 152,
-      "visual": 153,
-      "noShelter": 137
-    },
-    {
       "code": "W0655",
       "name": "Hollandse Delta",
       "type": "waterschap",
@@ -619,29 +630,29 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36779,
-      "inaccessible": 24352,
+      "total": 36807,
+      "inaccessible": 24394,
       "pct": 66,
-      "wheelchair": 17317,
-      "visual": 22936
+      "wheelchair": 17357,
+      "visual": 22978
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4325,
-      "inaccessible": 3185,
+      "total": 4327,
+      "inaccessible": 3188,
       "pct": 74,
-      "wheelchair": 2220,
-      "visual": 3001
+      "wheelchair": 2221,
+      "visual": 3004
     },
     {
       "type": "waterschap",
       "label": "Waterschap",
       "total": 675,
-      "inaccessible": 631,
-      "pct": 93,
-      "wheelchair": 615,
-      "visual": 624
+      "inaccessible": 636,
+      "pct": 94,
+      "wheelchair": 620,
+      "visual": 629
     },
     {
       "type": "rijkswaterstaat",
@@ -655,16 +666,16 @@
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 266,
+    "gemeentesOver50": 267,
     "totalGemeentes": 345,
     "gemeentesOver50Pct": 77,
     "visualPct": 64,
     "wheelchairPct": 48,
-    "wsPct": 93,
+    "wsPct": 94,
     "bestCityName": "Gemeente Amersfoort",
     "bestCityPct": 8,
     "bestCityTotal": 282,
-    "shelterPct": 65,
+    "shelterPct": 66,
     "top10Pct": 13
   }
 }

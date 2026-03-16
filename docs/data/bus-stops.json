@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-15T06:26:36.773Z",
+  "generated": "2026-03-16T06:39:06.507Z",
   "totals": {
-    "totalBusQuays": 42100,
-    "inaccessibleBusQuays": 28432,
+    "totalBusQuays": 42102,
+    "inaccessibleBusQuays": 28434,
     "authorities": 386
   },
   "authorities": {
@@ -34504,8 +34504,8 @@
       "email": "bestuurssecretariaat@westbetuwe.nl",
       "website": "http://www.westbetuwe.nl/",
       "phone": null,
-      "totalBusQuays": 165,
-      "inaccessibleCount": 142,
+      "totalBusQuays": 167,
+      "inaccessibleCount": 144,
       "stops": [
         {
           "code": "NL:Q:51769120",
@@ -35919,6 +35919,34 @@
           "visuallyAccessible": false,
           "compassDirection": 231,
           "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:61380150",
+          "name": "Vivo",
+          "town": "Ophemert",
+          "street": "Molenstraat",
+          "lat": 51.845962,
+          "lon": 5.391411,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 252,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:61380080",
+          "name": "Vivo",
+          "town": "Ophemert",
+          "street": "Dreef",
+          "lat": 51.845998,
+          "lon": 5.391658,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 60,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
         {

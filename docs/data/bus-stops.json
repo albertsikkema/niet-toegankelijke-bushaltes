@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-16T06:39:06.507Z",
+  "generated": "2026-03-17T06:28:34.213Z",
   "totals": {
     "totalBusQuays": 42102,
-    "inaccessibleBusQuays": 28434,
+    "inaccessibleBusQuays": 28432,
     "authorities": 386
   },
   "authorities": {
@@ -35880,6 +35880,34 @@
           "concessionProvider": "GLD"
         },
         {
+          "code": "NL:Q:61380150",
+          "name": "Dreef",
+          "town": "Ophemert",
+          "street": "Molenstraat",
+          "lat": 51.845962,
+          "lon": 5.391411,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 252,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:61380080",
+          "name": "Dreef",
+          "town": "Ophemert",
+          "street": "Dreef",
+          "lat": 51.845998,
+          "lon": 5.391658,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 60,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
           "code": "NL:Q:61380250",
           "name": "Dreef",
           "town": "Ophemert",
@@ -35919,34 +35947,6 @@
           "visuallyAccessible": false,
           "compassDirection": 231,
           "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:61380150",
-          "name": "Vivo",
-          "town": "Ophemert",
-          "street": "Molenstraat",
-          "lat": 51.845962,
-          "lon": 5.391411,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 252,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:61380080",
-          "name": "Vivo",
-          "town": "Ophemert",
-          "street": "Dreef",
-          "lat": 51.845998,
-          "lon": 5.391658,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 60,
-          "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
         {
@@ -85079,30 +85079,30 @@
           "concessionProvider": "PNB"
         },
         {
-          "code": "NL:Q:72930031",
-          "name": "Wouse Hill",
-          "town": "Wouwse Plantage",
-          "street": "Westelaarsestraat",
-          "lat": 51.497387,
-          "lon": 4.400063,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 271,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
           "code": "NL:Q:72930011",
           "name": "Wouse Hill",
           "town": "Wouwse Plantage",
           "street": "Westelaarsestraat",
-          "lat": 51.497289,
-          "lon": 4.400079,
+          "lat": 51.496491,
+          "lon": 4.398942,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 91,
+          "compassDirection": 1,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:72930031",
+          "name": "Wouse Hill",
+          "town": "Wouwse Plantage",
+          "street": "Westelaarsestraat",
+          "lat": 51.496914,
+          "lon": 4.398829,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 182,
           "mutationDate": null,
           "concessionProvider": "PNB"
         },
@@ -282255,8 +282255,8 @@
       "email": "info@gemeenteAltena.nl",
       "website": "http://www.gemeenteAltena.nl",
       "phone": "(0183) 51 61 00",
-      "totalBusQuays": 148,
-      "inaccessibleCount": 66,
+      "totalBusQuays": 146,
+      "inaccessibleCount": 64,
       "stops": [
         {
           "code": "NL:Q:73640340",
@@ -282605,34 +282605,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 107,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:73540280",
-          "name": "Diebracht",
-          "town": "Dussen",
-          "street": "Baan",
-          "lat": 51.729982,
-          "lon": 4.986087,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 331,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:73540410",
-          "name": "Diebracht",
-          "town": "Dussen",
-          "street": "Baan",
-          "lat": 51.730134,
-          "lon": 4.985782,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 151,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PNB"
         },
@@ -306937,7 +306909,7 @@
         },
         {
           "code": "NL:Q:40551005",
-          "name": "Oranjepark",
+          "name": "Oranjepark/Regentesselaan",
           "town": "Apeldoorn",
           "street": "Prins Hendrikplein",
           "lat": 52.21942,
@@ -329174,7 +329146,7 @@
       "email": "gemeente@tiel.nl",
       "website": "http://www.tiel.nl",
       "phone": "(0344) 63 71 11",
-      "totalBusQuays": 108,
+      "totalBusQuays": 110,
       "inaccessibleCount": 69,
       "stops": [
         {

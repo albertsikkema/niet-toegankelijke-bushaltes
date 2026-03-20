@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-19T06:26:54.841Z",
+  "generated": "2026-03-20T06:24:21.754Z",
   "totals": {
-    "totalBusQuays": 42102,
+    "totalBusQuays": 42104,
     "inaccessibleBusQuays": 28434,
     "authorities": 386
   },
@@ -132940,8 +132940,8 @@
       "email": "gemeente@amsterdam.nl",
       "website": "http://www.amsterdam.nl",
       "phone": "14 020",
-      "totalBusQuays": 1126,
-      "inaccessibleCount": 501,
+      "totalBusQuays": 1127,
+      "inaccessibleCount": 502,
       "stops": [
         {
           "code": "NL:Q:57142250",
@@ -137589,6 +137589,20 @@
           "visuallyAccessible": false,
           "compassDirection": 230,
           "mutationDate": "2020-05-24",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:30003091",
+          "name": "Slotermeerlaan",
+          "town": "Amsterdam",
+          "street": "Burgemeester Roellstraat",
+          "lat": 52.375427,
+          "lon": 4.820428,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 99,
+          "mutationDate": "2019-03-14",
           "concessionProvider": "VRA"
         },
         {
@@ -296772,7 +296786,7 @@
       "email": "gemeente@arnhem.nl",
       "website": "http://www.arnhem.nl",
       "phone": null,
-      "totalBusQuays": 430,
+      "totalBusQuays": 431,
       "inaccessibleCount": 227,
       "stops": [
         {
@@ -299618,20 +299632,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:40004018",
-          "name": "Willemsplein",
-          "town": "Arnhem",
-          "street": "Willemsplein",
-          "lat": 51.983657,
-          "lon": 5.906399,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 23,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:40004016",
           "name": "Willemsplein",
           "town": "Arnhem",
@@ -299684,6 +299684,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 217,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:40004018",
+          "name": "Willemsplein",
+          "town": "Arnhem",
+          "street": "Willemsplein",
+          "lat": 51.983657,
+          "lon": 5.906399,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 23,
           "mutationDate": "2019-03-14",
           "concessionProvider": "GLD"
         },
@@ -350442,7 +350456,7 @@
       "website": "http://www.hoorn.nl",
       "phone": "(0229) 25 22 00",
       "totalBusQuays": 145,
-      "inaccessibleCount": 85,
+      "inaccessibleCount": 84,
       "stops": [
         {
           "code": "NL:Q:38111030",
@@ -350876,20 +350890,6 @@
           "visuallyAccessible": false,
           "compassDirection": 190,
           "mutationDate": "2019-03-14",
-          "concessionProvider": "PNH"
-        },
-        {
-          "code": "NL:Q:38000460",
-          "name": "Zwaagmergouw",
-          "town": "Hoorn",
-          "street": "Zwaagmergouw",
-          "lat": 52.66185,
-          "lon": 5.05498,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 341,
-          "mutationDate": null,
           "concessionProvider": "PNH"
         },
         {

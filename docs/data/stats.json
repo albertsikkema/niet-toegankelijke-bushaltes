@@ -1,12 +1,12 @@
 {
-  "generated": "2026-03-19T06:26:54.853Z",
+  "generated": "2026-03-20T06:24:21.768Z",
   "totals": {
-    "totalBusQuays": 42102,
+    "totalBusQuays": 42104,
     "inaccessibleBusQuays": 28434,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20349,
+    "wheelchairInaccessible": 20348,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26812,
+    "visuallyInaccessible": 26813,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -170,11 +170,11 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1126,
-      "inaccessible": 501,
-      "pct": 44,
+      "total": 1127,
+      "inaccessible": 502,
+      "pct": 45,
       "wheelchair": 393,
-      "visual": 482,
+      "visual": 483,
       "noShelter": 268
     },
     {
@@ -339,11 +339,11 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1126,
-      "inaccessible": 501,
-      "pct": 44,
+      "total": 1127,
+      "inaccessible": 502,
+      "pct": 45,
       "wheelchair": 393,
-      "visual": 482,
+      "visual": 483,
       "noShelter": 268
     },
     {
@@ -361,7 +361,7 @@
       "code": "G0202",
       "name": "Gemeente Arnhem",
       "type": "gemeente",
-      "total": 430,
+      "total": 431,
       "inaccessible": 227,
       "pct": 53,
       "wheelchair": 95,
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36809,
+      "total": 36811,
       "inaccessible": 24396,
       "pct": 66,
-      "wheelchair": 17354,
-      "visual": 22980
+      "wheelchair": 17353,
+      "visual": 22981
     },
     {
       "type": "provincie",

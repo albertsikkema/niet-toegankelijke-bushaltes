@@ -1,12 +1,12 @@
 {
-  "generated": "2026-03-20T06:24:21.768Z",
+  "generated": "2026-03-21T06:18:03.575Z",
   "totals": {
-    "totalBusQuays": 42104,
-    "inaccessibleBusQuays": 28434,
+    "totalBusQuays": 42100,
+    "inaccessibleBusQuays": 28432,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20348,
+    "wheelchairInaccessible": 20346,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26813,
+    "visuallyInaccessible": 26811,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -539,12 +539,12 @@
       "code": "P0027",
       "name": "Provincie Noord-Holland",
       "type": "provincie",
-      "total": 326,
-      "inaccessible": 181,
+      "total": 324,
+      "inaccessible": 180,
       "pct": 56,
-      "wheelchair": 141,
-      "visual": 141,
-      "noShelter": 90
+      "wheelchair": 140,
+      "visual": 140,
+      "noShelter": 89
     },
     {
       "code": "P0030",
@@ -631,19 +631,19 @@
       "type": "gemeente",
       "label": "Gemeente",
       "total": 36811,
-      "inaccessible": 24396,
+      "inaccessible": 24397,
       "pct": 66,
-      "wheelchair": 17353,
-      "visual": 22981
+      "wheelchair": 17354,
+      "visual": 22982
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4327,
-      "inaccessible": 3188,
+      "total": 4325,
+      "inaccessible": 3187,
       "pct": 74,
-      "wheelchair": 2221,
-      "visual": 3004
+      "wheelchair": 2220,
+      "visual": 3003
     },
     {
       "type": "waterschap",
@@ -657,11 +657,11 @@
     {
       "type": "rijkswaterstaat",
       "label": "Rijkswaterstaat",
-      "total": 158,
-      "inaccessible": 118,
-      "pct": 75,
-      "wheelchair": 79,
-      "visual": 113
+      "total": 156,
+      "inaccessible": 116,
+      "pct": 74,
+      "wheelchair": 77,
+      "visual": 111
     }
   ],
   "conclusions": {

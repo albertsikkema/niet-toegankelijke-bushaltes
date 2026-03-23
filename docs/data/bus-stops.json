@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-22T06:22:43.884Z",
+  "generated": "2026-03-23T06:33:19.095Z",
   "totals": {
-    "totalBusQuays": 42100,
-    "inaccessibleBusQuays": 28432,
+    "totalBusQuays": 42103,
+    "inaccessibleBusQuays": 28433,
     "authorities": 386
   },
   "authorities": {
@@ -119988,12 +119988,12 @@
           "name": "AZC",
           "town": "Gilze",
           "street": "Prinsenbosch",
-          "lat": 51.536399,
-          "lon": 4.899846,
+          "lat": 51.53613,
+          "lon": 4.899993,
           "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 131,
+          "compassDirection": 310,
           "mutationDate": "2020-02-19",
           "concessionProvider": "PNB"
         },
@@ -272410,7 +272410,7 @@
       "email": "info@purmerend.nl",
       "website": "http://www.purmerend.nl",
       "phone": "(0299) 45 24 52",
-      "totalBusQuays": 260,
+      "totalBusQuays": 262,
       "inaccessibleCount": 125,
       "stops": [
         {
@@ -336966,8 +336966,8 @@
       "email": "gemeente@vlaardingen.nl",
       "website": "http://www.vlaardingen.nl",
       "phone": "(010) 248 40 00",
-      "totalBusQuays": 77,
-      "inaccessibleCount": 50,
+      "totalBusQuays": 78,
+      "inaccessibleCount": 51,
       "stops": [
         {
           "code": "NL:Q:31002713",
@@ -337596,6 +337596,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": true,
           "compassDirection": 281,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:31002525",
+          "name": "Vondelstraat",
+          "town": "Vlaardingen",
+          "street": "Burgemeester Pruissingel",
+          "lat": 51.91115,
+          "lon": 4.334452,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 195,
           "mutationDate": "2020-02-19",
           "concessionProvider": "MRDH"
         },

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-23T06:33:19.095Z",
+  "generated": "2026-03-24T06:29:18.399Z",
   "totals": {
-    "totalBusQuays": 42103,
-    "inaccessibleBusQuays": 28433,
+    "totalBusQuays": 42105,
+    "inaccessibleBusQuays": 28464,
     "authorities": 386
   },
   "authorities": {
@@ -15699,7 +15699,7 @@
       "email": "provincieloket@gelderland.nl",
       "website": "https://www.gelderland.nl",
       "phone": "(026) 359 99 99",
-      "totalBusQuays": 803,
+      "totalBusQuays": 804,
       "inaccessibleCount": 621,
       "stops": [
         {
@@ -38139,7 +38139,7 @@
       "email": "postbus@zwolle.nl",
       "website": "http://www.zwolle.nl",
       "phone": "14 038",
-      "totalBusQuays": 313,
+      "totalBusQuays": 314,
       "inaccessibleCount": 147,
       "stops": [
         {
@@ -109114,7 +109114,7 @@
       "website": "https://scheldestromen.nl",
       "phone": "(088) 246 10 00",
       "totalBusQuays": 170,
-      "inaccessibleCount": 161,
+      "inaccessibleCount": 167,
       "stops": [
         {
           "code": "NL:Q:77150220",
@@ -110755,6 +110755,20 @@
           "concessionProvider": "ZLD"
         },
         {
+          "code": "NL:Q:72480030",
+          "name": "Randweg",
+          "town": "Oud-Vossemeer",
+          "street": "Molenweg",
+          "lat": 51.563248,
+          "lon": 4.19783,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 325,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
           "code": "NL:Q:74490002",
           "name": "Oostweg",
           "town": "Ouwerkerk",
@@ -110783,6 +110797,34 @@
           "concessionProvider": "ZLD"
         },
         {
+          "code": "NL:Q:72480140",
+          "name": "Kadijk",
+          "town": "Poortvliet",
+          "street": "Hogeweg",
+          "lat": 51.543604,
+          "lon": 4.160387,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 111,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72480130",
+          "name": "Strijenham",
+          "town": "Poortvliet",
+          "street": "Scheldestraat",
+          "lat": 51.523717,
+          "lon": 4.154055,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 217,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
           "code": "NL:Q:77670190",
           "name": "Bathpolder",
           "town": "Rilland",
@@ -110807,6 +110849,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 294,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72530040",
+          "name": "De Zeester",
+          "town": "Scherpenisse",
+          "street": "Gorishoeksedijk",
+          "lat": 51.527994,
+          "lon": 4.073569,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 162,
           "mutationDate": null,
           "concessionProvider": "ZLD"
         },
@@ -111129,6 +111185,34 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 321,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:77220170",
+          "name": "Choorhoek",
+          "town": "Wemeldinge",
+          "street": "Oostelijke Kanaalweg",
+          "lat": 51.511239,
+          "lon": 4.007048,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 3,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:77220130",
+          "name": "Hogeweg",
+          "town": "Wemeldinge",
+          "street": "Binnendijk",
+          "lat": 51.52349,
+          "lon": 3.988033,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 328,
           "mutationDate": null,
           "concessionProvider": "ZLD"
         },
@@ -203264,20 +203348,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:24670500",
-          "name": "Bosschasteeg",
-          "town": "Nijensleek",
-          "street": "Hoofdweg",
-          "lat": 52.830013,
-          "lon": 6.154507,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 240,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:24670510",
           "name": "Bosschasteeg",
           "town": "Nijensleek",
@@ -203289,6 +203359,20 @@
           "visuallyAccessible": false,
           "compassDirection": 60,
           "mutationDate": "2018-08-15",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:24670500",
+          "name": "Bosschasteeg",
+          "town": "Nijensleek",
+          "street": "Hoofdweg",
+          "lat": 52.830013,
+          "lon": 6.154507,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 240,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
         {
@@ -205238,20 +205322,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:15060100",
-          "name": "Beilerstraat 7",
-          "town": "Westerbork",
-          "street": "Beilerstraat",
-          "lat": 52.853909,
-          "lon": 6.572812,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 280,
-          "mutationDate": "2018-02-07",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:15060110",
           "name": "Beilerstraat 7",
           "town": "Westerbork",
@@ -205262,6 +205332,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 100,
+          "mutationDate": "2018-02-07",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:15060100",
+          "name": "Beilerstraat 7",
+          "town": "Westerbork",
+          "street": "Beilerstraat",
+          "lat": 52.853909,
+          "lon": 6.572812,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 280,
           "mutationDate": "2018-02-07",
           "concessionProvider": "OVGD"
         },
@@ -249486,7 +249570,7 @@
       "website": "http://www.tholen.nl",
       "phone": "14 0166",
       "totalBusQuays": 65,
-      "inaccessibleCount": 35,
+      "inaccessibleCount": 58,
       "stops": [
         {
           "code": "NL:Q:72390090",
@@ -249517,6 +249601,20 @@
           "concessionProvider": "ZLD"
         },
         {
+          "code": "NL:Q:72480050",
+          "name": "Coentjesweg",
+          "town": "Oud-Vossemeer",
+          "street": "Coentjesweg",
+          "lat": 51.570872,
+          "lon": 4.201787,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 116,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
           "code": "NL:Q:72480040",
           "name": "Vossenkuil",
           "town": "Oud-Vossemeer",
@@ -249527,6 +249625,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 325,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72480100",
+          "name": "Deestraat",
+          "town": "Poortvliet",
+          "street": "Deestraat",
+          "lat": 51.545085,
+          "lon": 4.140252,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 78,
           "mutationDate": null,
           "concessionProvider": "ZLD"
         },
@@ -249573,6 +249685,20 @@
           "concessionProvider": "ZLD"
         },
         {
+          "code": "NL:Q:72530030",
+          "name": "Beatrixlaan",
+          "town": "Scherpenisse",
+          "street": "Beatrixlaan",
+          "lat": 51.546165,
+          "lon": 4.10402,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 267,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
           "code": "NL:Q:72530020",
           "name": "Sassegrave",
           "town": "Scherpenisse",
@@ -249601,6 +249727,20 @@
           "concessionProvider": "ZLD"
         },
         {
+          "code": "NL:Q:72490060",
+          "name": "De Wimpel",
+          "town": "Sint Philipsland",
+          "street": "Eendrachtstraat",
+          "lat": 51.618197,
+          "lon": 4.163758,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 256,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
           "code": "NL:Q:72490010",
           "name": "Haven",
           "town": "Sint Philipsland",
@@ -249612,6 +249752,48 @@
           "visuallyAccessible": false,
           "compassDirection": 334,
           "mutationDate": "2018-11-15",
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72490040",
+          "name": "Industrieweg",
+          "town": "Sint Philipsland",
+          "street": "Industrieweg",
+          "lat": 51.61907,
+          "lon": 4.174472,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 16,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72490030",
+          "name": "Luijsterlaan",
+          "town": "Sint Philipsland",
+          "street": "Luysterlaan",
+          "lat": 51.621487,
+          "lon": 4.160989,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 263,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72490050",
+          "name": "Luysterzicht",
+          "town": "Sint Philipsland",
+          "street": "Eendrachtstraat",
+          "lat": 51.617736,
+          "lon": 4.160402,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 296,
+          "mutationDate": null,
           "concessionProvider": "ZLD"
         },
         {
@@ -249629,6 +249811,34 @@
           "concessionProvider": "ZLD"
         },
         {
+          "code": "NL:Q:72680080",
+          "name": "Bredeschool",
+          "town": "Sint-Annaland",
+          "street": "Schoolstraat",
+          "lat": 51.598114,
+          "lon": 4.102101,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 138,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72680090",
+          "name": "Bronsgeestweg",
+          "town": "Sint-Annaland",
+          "street": "Bronsgeestweg",
+          "lat": 51.594867,
+          "lon": 4.108563,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 131,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
           "code": "NL:Q:72680060",
           "name": "Havenplein",
           "town": "Sint-Annaland",
@@ -249643,6 +249853,20 @@
           "concessionProvider": "ZLD"
         },
         {
+          "code": "NL:Q:72680020",
+          "name": "Schutse",
+          "town": "Sint-Annaland",
+          "street": "F.M. Boogaardweg",
+          "lat": 51.599603,
+          "lon": 4.097466,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 217,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
           "code": "NL:Q:72680070",
           "name": "Strandje",
           "town": "Sint-Annaland",
@@ -249653,6 +249877,132 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 270,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72680050",
+          "name": "Wellevaete",
+          "town": "Sint-Annaland",
+          "street": "Hoenderweg",
+          "lat": 51.595545,
+          "lon": 4.101822,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 28,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72630040",
+          "name": "Begraafplaats",
+          "town": "Sint-Maartensdijk",
+          "street": "Kastelijnsweg",
+          "lat": 51.549245,
+          "lon": 4.068815,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 141,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72630050",
+          "name": "Bredeschool",
+          "town": "Sint-Maartensdijk",
+          "street": "Achter 't Bos",
+          "lat": 51.547984,
+          "lon": 4.075384,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 164,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72630220",
+          "name": "Gemeentewerkplaats",
+          "town": "Sint-Maartensdijk",
+          "street": "Nijverheidsweg",
+          "lat": 51.547199,
+          "lon": 4.093535,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 78,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72630070",
+          "name": "Haestinge",
+          "town": "Sint-Maartensdijk",
+          "street": "Sportlaan",
+          "lat": 51.547553,
+          "lon": 4.081423,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 51,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72630030",
+          "name": "Maartenshof",
+          "town": "Sint-Maartensdijk",
+          "street": "Bloemenlaan",
+          "lat": 51.550905,
+          "lon": 4.073913,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 267,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72630090",
+          "name": "Medisch centrum",
+          "town": "Sint-Maartensdijk",
+          "street": "Rädda Barnenstraat",
+          "lat": 51.550092,
+          "lon": 4.080757,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 157,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72630080",
+          "name": "Nijverheidsweg",
+          "town": "Sint-Maartensdijk",
+          "street": "Nijverheidsweg",
+          "lat": 51.548234,
+          "lon": 4.085516,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 183,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72630060",
+          "name": "Westpoort",
+          "town": "Sint-Maartensdijk",
+          "street": "Westpoort",
+          "lat": 51.545428,
+          "lon": 4.075636,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 196,
           "mutationDate": null,
           "concessionProvider": "ZLD"
         },
@@ -249685,6 +250035,34 @@
           "concessionProvider": "ZLD"
         },
         {
+          "code": "NL:Q:72730060",
+          "name": "Buurtweg",
+          "town": "Stavenisse",
+          "street": "Buurtweg",
+          "lat": 51.590395,
+          "lon": 4.020101,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 225,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72730020",
+          "name": "Elenahof",
+          "town": "Stavenisse",
+          "street": "Poststraat",
+          "lat": 51.58574,
+          "lon": 4.013836,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 284,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
           "code": "NL:Q:72730010",
           "name": "Poststraat",
           "town": "Stavenisse",
@@ -249696,6 +250074,20 @@
           "visuallyAccessible": false,
           "compassDirection": 45,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72730050",
+          "name": "Voorstraat",
+          "town": "Stavenisse",
+          "street": "Voorstraat",
+          "lat": 51.587601,
+          "lon": 4.012686,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 194,
+          "mutationDate": null,
           "concessionProvider": "ZLD"
         },
         {
@@ -249794,6 +250186,20 @@
           "visuallyAccessible": false,
           "compassDirection": 236,
           "mutationDate": "2018-11-15",
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:72330120",
+          "name": "Het Lint",
+          "town": "Tholen",
+          "street": "Het Lint",
+          "lat": 51.534607,
+          "lon": 4.209016,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 230,
+          "mutationDate": null,
           "concessionProvider": "ZLD"
         },
         {
@@ -251857,7 +252263,7 @@
       "website": "http://www.kapelle.nl",
       "phone": "(0113) 33 31 10",
       "totalBusQuays": 51,
-      "inaccessibleCount": 47,
+      "inaccessibleCount": 49,
       "stops": [
         {
           "code": "NL:Q:77270020",
@@ -252094,6 +252500,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 277,
+          "mutationDate": null,
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:77120360",
+          "name": "De Vroone",
+          "town": "Kapelle",
+          "street": "C D Vereekestraat",
+          "lat": 51.483477,
+          "lon": 3.962219,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 241,
           "mutationDate": null,
           "concessionProvider": "ZLD"
         },
@@ -252375,6 +252795,20 @@
           "visuallyAccessible": false,
           "compassDirection": 116,
           "mutationDate": "2018-11-15",
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:77220140",
+          "name": "Binnendijk",
+          "town": "Wemeldinge",
+          "street": "Oude Zeedijk",
+          "lat": 51.52041,
+          "lon": 3.998993,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 252,
+          "mutationDate": null,
           "concessionProvider": "ZLD"
         },
         {

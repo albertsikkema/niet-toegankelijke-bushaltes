@@ -1,12 +1,12 @@
 {
-  "generated": "2026-03-23T06:33:19.106Z",
+  "generated": "2026-03-24T06:29:18.411Z",
   "totals": {
-    "totalBusQuays": 42103,
-    "inaccessibleBusQuays": 28433,
+    "totalBusQuays": 42105,
+    "inaccessibleBusQuays": 28464,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20347,
+    "wheelchairInaccessible": 20378,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26812,
+    "visuallyInaccessible": 26843,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -484,7 +484,7 @@
       "code": "P0025",
       "name": "Provincie Gelderland",
       "type": "provincie",
-      "total": 803,
+      "total": 804,
       "inaccessible": 621,
       "pct": 77,
       "wheelchair": 367,
@@ -586,11 +586,11 @@
       "name": "Scheldestromen",
       "type": "waterschap",
       "total": 170,
-      "inaccessible": 161,
-      "pct": 95,
-      "wheelchair": 157,
-      "visual": 158,
-      "noShelter": 142
+      "inaccessible": 167,
+      "pct": 98,
+      "wheelchair": 163,
+      "visual": 164,
+      "noShelter": 148
     },
     {
       "code": "W0651",
@@ -630,16 +630,16 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36814,
-      "inaccessible": 24398,
+      "total": 36815,
+      "inaccessible": 24423,
       "pct": 66,
-      "wheelchair": 17355,
-      "visual": 22983
+      "wheelchair": 17380,
+      "visual": 23008
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4325,
+      "total": 4326,
       "inaccessible": 3187,
       "pct": 74,
       "wheelchair": 2220,
@@ -649,10 +649,10 @@
       "type": "waterschap",
       "label": "Waterschap",
       "total": 675,
-      "inaccessible": 636,
-      "pct": 94,
-      "wheelchair": 620,
-      "visual": 629
+      "inaccessible": 642,
+      "pct": 95,
+      "wheelchair": 626,
+      "visual": 635
     },
     {
       "type": "rijkswaterstaat",
@@ -671,7 +671,7 @@
     "gemeentesOver50Pct": 77,
     "visualPct": 64,
     "wheelchairPct": 48,
-    "wsPct": 94,
+    "wsPct": 95,
     "bestCityName": "Gemeente Amersfoort",
     "bestCityPct": 8,
     "bestCityTotal": 282,

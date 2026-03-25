@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-24T06:29:18.399Z",
+  "generated": "2026-03-25T06:29:18.540Z",
   "totals": {
     "totalBusQuays": 42105,
-    "inaccessibleBusQuays": 28464,
+    "inaccessibleBusQuays": 28465,
     "authorities": 386
   },
   "authorities": {
@@ -57220,6 +57220,34 @@
           "concessionProvider": "OVS"
         },
         {
+          "code": "NL:Q:19480160",
+          "name": "De Hazelaar",
+          "town": "Dedemsvaart",
+          "street": "De Magnolia",
+          "lat": 52.6031,
+          "lon": 6.470161,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 167,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:19480150",
+          "name": "De Hazelaar",
+          "town": "Dedemsvaart",
+          "street": "De Magnolia",
+          "lat": 52.602693,
+          "lon": 6.470354,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 346,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "OVS"
+        },
+        {
           "code": "NL:Q:19480130",
           "name": "De Magnolia",
           "town": "Dedemsvaart",
@@ -57300,34 +57328,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 168,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:19480150",
-          "name": "Hazelaar",
-          "town": "Dedemsvaart",
-          "street": "De Magnolia",
-          "lat": 52.602693,
-          "lon": 6.470354,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 346,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:19480160",
-          "name": "Hazelaar",
-          "town": "Dedemsvaart",
-          "street": "De Magnolia",
-          "lat": 52.6031,
-          "lon": 6.470161,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 167,
           "mutationDate": "2019-03-14",
           "concessionProvider": "OVS"
         },
@@ -270720,7 +270720,7 @@
       "website": "http://www.haarlemmermeer.nl",
       "phone": "9001852",
       "totalBusQuays": 261,
-      "inaccessibleCount": 151,
+      "inaccessibleCount": 152,
       "stops": [
         {
           "code": "NL:Q:56532040",
@@ -271602,6 +271602,20 @@
           "visuallyAccessible": false,
           "compassDirection": 83,
           "mutationDate": "2006-01-01",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:54730859",
+          "name": "Station",
+          "town": "Hoofddorp",
+          "street": "Mercuriusplein",
+          "lat": 52.292176,
+          "lon": 4.699035,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 284,
+          "mutationDate": null,
           "concessionProvider": "VRA"
         },
         {

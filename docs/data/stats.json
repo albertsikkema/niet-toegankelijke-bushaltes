@@ -1,12 +1,12 @@
 {
-  "generated": "2026-03-25T06:29:18.552Z",
+  "generated": "2026-03-26T06:32:12.772Z",
   "totals": {
-    "totalBusQuays": 42105,
-    "inaccessibleBusQuays": 28465,
+    "totalBusQuays": 42104,
+    "inaccessibleBusQuays": 28463,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20379,
+    "wheelchairInaccessible": 20377,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26844,
+    "visuallyInaccessible": 26842,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -351,10 +351,10 @@
       "name": "Gemeente Groningen",
       "type": "gemeente",
       "total": 546,
-      "inaccessible": 267,
+      "inaccessible": 266,
       "pct": 49,
-      "wheelchair": 178,
-      "visual": 238,
+      "wheelchair": 177,
+      "visual": 237,
       "noShelter": 148
     },
     {
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36815,
-      "inaccessible": 24424,
+      "total": 36814,
+      "inaccessible": 24422,
       "pct": 66,
-      "wheelchair": 17381,
-      "visual": 23009
+      "wheelchair": 17379,
+      "visual": 23007
     },
     {
       "type": "provincie",

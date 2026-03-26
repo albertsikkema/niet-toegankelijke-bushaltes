@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-25T06:29:18.540Z",
+  "generated": "2026-03-26T06:32:12.762Z",
   "totals": {
-    "totalBusQuays": 42105,
-    "inaccessibleBusQuays": 28465,
+    "totalBusQuays": 42104,
+    "inaccessibleBusQuays": 28463,
     "authorities": 386
   },
   "authorities": {
@@ -25066,6 +25066,34 @@
           "concessionProvider": "GLD"
         },
         {
+          "code": "NL:Q:40001300",
+          "name": "Cleantech Park",
+          "town": "Arnhem",
+          "street": "Westervoortsedijk",
+          "lat": 51.970673,
+          "lon": 5.940928,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 92,
+          "mutationDate": "2019-03-01",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:40006700",
+          "name": "Cleantech Park",
+          "town": "Arnhem",
+          "street": "Westervoortsedijk",
+          "lat": 51.971122,
+          "lon": 5.939128,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 275,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
           "code": "NL:Q:40006570",
           "name": "Cobercokwartier",
           "town": "Arnhem",
@@ -25860,34 +25888,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 8,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:40001300",
-          "name": "Industriepark Kleefse Waard",
-          "town": "Arnhem",
-          "street": "Westervoortsedijk",
-          "lat": 51.970673,
-          "lon": 5.940928,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 92,
-          "mutationDate": "2019-03-01",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:40006700",
-          "name": "Industriepark Kleefse Waard",
-          "town": "Arnhem",
-          "street": "Westervoortsedijk",
-          "lat": 51.971122,
-          "lon": 5.939128,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 275,
           "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
@@ -42404,20 +42404,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:18000470",
-          "name": "Nijbracht",
-          "town": "Emmen",
-          "street": "Hondsrugweg",
-          "lat": 52.762018,
-          "lon": 6.898432,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 17,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:18000460",
           "name": "Nijbracht",
           "town": "Emmen",
@@ -42428,6 +42414,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 188,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:18000470",
+          "name": "Nijbracht",
+          "town": "Emmen",
+          "street": "Hondsrugweg",
+          "lat": 52.762018,
+          "lon": 6.898432,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 17,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -42544,20 +42544,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:18000400",
-          "name": "Noordbargerstraat",
-          "town": "Emmen",
-          "street": "Hondsrugweg",
-          "lat": 52.774804,
-          "lon": 6.893108,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 142,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:18000410",
           "name": "Noordbargerstraat",
           "town": "Emmen",
@@ -42568,6 +42554,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 322,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:18000400",
+          "name": "Noordbargerstraat",
+          "town": "Emmen",
+          "street": "Hondsrugweg",
+          "lat": 52.774804,
+          "lon": 6.893108,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 142,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -53134,8 +53134,8 @@
       "email": "info@assen.nl",
       "website": "http://www.assen.nl",
       "phone": "(0592) 36 69 11",
-      "totalBusQuays": 198,
-      "inaccessibleCount": 147,
+      "totalBusQuays": 197,
+      "inaccessibleCount": 146,
       "stops": [
         {
           "code": "NL:Q:15005410",
@@ -53443,20 +53443,6 @@
           "visuallyAccessible": false,
           "compassDirection": 82,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:15001530",
-          "name": "De Bonte Wever",
-          "town": "Assen",
-          "street": "Stadsbroek",
-          "lat": 52.984916,
-          "lon": 6.542441,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 278,
-          "mutationDate": null,
           "concessionProvider": "OVGD"
         },
         {
@@ -236602,7 +236588,7 @@
       "website": "http://gemeente.groningen.nl",
       "phone": "14 050",
       "totalBusQuays": 546,
-      "inaccessibleCount": 267,
+      "inaccessibleCount": 266,
       "stops": [
         {
           "code": "NL:Q:11315520",
@@ -240060,20 +240046,6 @@
           "visuallyAccessible": false,
           "compassDirection": 50,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12082820",
-          "name": "Kerkstraat",
-          "town": "Noordlaren",
-          "street": "Kerkstraat",
-          "lat": 53.120616,
-          "lon": 6.66471,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 118,
-          "mutationDate": "2019-07-10",
           "concessionProvider": "OVGD"
         },
         {

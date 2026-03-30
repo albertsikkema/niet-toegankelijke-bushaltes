@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-29T06:30:29.150Z",
+  "generated": "2026-03-30T06:44:51.937Z",
   "totals": {
-    "totalBusQuays": 42106,
-    "inaccessibleBusQuays": 28464,
+    "totalBusQuays": 42114,
+    "inaccessibleBusQuays": 28469,
     "authorities": 386
   },
   "authorities": {
@@ -12377,6 +12377,104 @@
           "concessionProvider": "OVS"
         },
         {
+          "code": "NL:Q:43000032",
+          "name": "MST/ Van Heekplein",
+          "town": "Enschede",
+          "street": "Boulevard 1945",
+          "lat": 52.217463,
+          "lon": 6.895124,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 99,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:43000037",
+          "name": "MST/ Van Heekplein",
+          "town": "Enschede",
+          "street": "Boulevard 1945",
+          "lat": 52.217774,
+          "lon": 6.894666,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 283,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:43000034",
+          "name": "MST/ Van Heekplein",
+          "town": "Enschede",
+          "street": "Boulevard 1945",
+          "lat": 52.217634,
+          "lon": 6.895788,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 280,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:43000035",
+          "name": "MST/ Van Heekplein",
+          "town": "Enschede",
+          "street": "Boulevard 1945",
+          "lat": 52.217704,
+          "lon": 6.895219,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 282,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:43000036",
+          "name": "MST/ Van Heekplein",
+          "town": "Enschede",
+          "street": "Boulevard 1945",
+          "lat": 52.217745,
+          "lon": 6.894912,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 280,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:43000033",
+          "name": "MST/ Van Heekplein",
+          "town": "Enschede",
+          "street": "Boulevard 1945",
+          "lat": 52.217524,
+          "lon": 6.894555,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 101,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:43000031",
+          "name": "MST/ Van Heekplein",
+          "town": "Enschede",
+          "street": "Boulevard 1945",
+          "lat": 52.217384,
+          "lon": 6.895677,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 99,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "OVS"
+        },
+        {
           "code": "NL:Q:43000680",
           "name": "Olieslagweg",
           "town": "Enschede",
@@ -13102,104 +13200,6 @@
           "visuallyAccessible": true,
           "compassDirection": 53,
           "mutationDate": "2018-11-15",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:43000031",
-          "name": "Van Heekplein",
-          "town": "Enschede",
-          "street": "Boulevard 1945",
-          "lat": 52.217384,
-          "lon": 6.895677,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 99,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:43000032",
-          "name": "Van Heekplein",
-          "town": "Enschede",
-          "street": "Boulevard 1945",
-          "lat": 52.217463,
-          "lon": 6.895124,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 99,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:43000037",
-          "name": "Van Heekplein",
-          "town": "Enschede",
-          "street": "Boulevard 1945",
-          "lat": 52.217774,
-          "lon": 6.894666,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 283,
-          "mutationDate": null,
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:43000034",
-          "name": "Van Heekplein",
-          "town": "Enschede",
-          "street": "Boulevard 1945",
-          "lat": 52.217634,
-          "lon": 6.895788,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 280,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:43000033",
-          "name": "Van Heekplein",
-          "town": "Enschede",
-          "street": "Boulevard 1945",
-          "lat": 52.217524,
-          "lon": 6.894555,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 101,
-          "mutationDate": null,
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:43000035",
-          "name": "Van Heekplein",
-          "town": "Enschede",
-          "street": "Boulevard 1945",
-          "lat": 52.217704,
-          "lon": 6.895219,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 282,
-          "mutationDate": null,
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:43000036",
-          "name": "Van Heekplein",
-          "town": "Enschede",
-          "street": "Boulevard 1945",
-          "lat": 52.217745,
-          "lon": 6.894912,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 280,
-          "mutationDate": null,
           "concessionProvider": "OVS"
         },
         {
@@ -37754,6 +37754,20 @@
           "concessionProvider": "VRA"
         },
         {
+          "code": "NL:Q:57330620",
+          "name": "Schiphol Airport",
+          "town": "Schiphol",
+          "street": "Havenmeesterweg",
+          "lat": 52.308819,
+          "lon": 4.761642,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 315,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "VRA"
+        },
+        {
           "code": "NL:Q:57330228",
           "name": "Schiphol Airport",
           "town": "Schiphol",
@@ -37820,20 +37834,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 133,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:57330620",
-          "name": "Schiphol Airport",
-          "town": "Schiphol",
-          "street": "Havenmeesterweg",
-          "lat": 52.308819,
-          "lon": 4.761642,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 315,
           "mutationDate": "2019-03-14",
           "concessionProvider": "VRA"
         },
@@ -53450,12 +53450,12 @@
           "name": "De Bonte Wever",
           "town": "Assen",
           "street": "Stadsbroek",
-          "lat": 52.984916,
-          "lon": 6.542441,
+          "lat": 52.98434,
+          "lon": 6.541906,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 278,
+          "compassDirection": 240,
           "mutationDate": null,
           "concessionProvider": "OVGD"
         },
@@ -53964,20 +53964,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:15002610",
-          "name": "Mr. G. v Prinstererlaan",
-          "town": "Assen",
-          "street": "Thorbeckelaan",
-          "lat": 53.002302,
-          "lon": 6.561286,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 0,
-          "mutationDate": "2018-02-07",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:15002600",
           "name": "Mr. G. v Prinstererlaan",
           "town": "Assen",
@@ -53989,6 +53975,20 @@
           "visuallyAccessible": false,
           "compassDirection": 262,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:15002610",
+          "name": "Mr. G. v Prinstererlaan",
+          "town": "Assen",
+          "street": "Thorbeckelaan",
+          "lat": 53.002302,
+          "lon": 6.561286,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 79,
+          "mutationDate": "2018-02-07",
           "concessionProvider": "OVGD"
         },
         {
@@ -54234,12 +54234,12 @@
           "name": "Rijnstraat",
           "town": "Assen",
           "street": "Maasstraat",
-          "lat": 53.008408,
-          "lon": 6.547087,
+          "lat": 53.008222,
+          "lon": 6.546975,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 0,
+          "compassDirection": 44,
           "mutationDate": "2018-11-15",
           "concessionProvider": "OVGD"
         },
@@ -54701,7 +54701,7 @@
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 0,
+          "compassDirection": 47,
           "mutationDate": "2018-11-15",
           "concessionProvider": "OVGD"
         },
@@ -54883,7 +54883,7 @@
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 0,
+          "compassDirection": 320,
           "mutationDate": "2018-11-15",
           "concessionProvider": "OVGD"
         },
@@ -135234,8 +135234,8 @@
       "email": "gemeente@delft.nl",
       "website": "http://www.delft.nl",
       "phone": "14 015",
-      "totalBusQuays": 184,
-      "inaccessibleCount": 140,
+      "totalBusQuays": 185,
+      "inaccessibleCount": 141,
       "stops": [
         {
           "code": "NL:Q:42008402",
@@ -136438,6 +136438,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 63,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:42004401",
+          "name": "Markt",
+          "town": "Delft",
+          "street": "Koornmarkt",
+          "lat": 52.010885,
+          "lon": 4.358199,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 243,
           "mutationDate": "2020-02-19",
           "concessionProvider": "MRDH"
         },
@@ -178080,8 +178094,8 @@
       "email": "zuidholland@pzh.nl",
       "website": "http://www.zuid-holland.nl",
       "phone": "(070) 441 66 11",
-      "totalBusQuays": 386,
-      "inaccessibleCount": 320,
+      "totalBusQuays": 387,
+      "inaccessibleCount": 321,
       "stops": [
         {
           "code": "NL:Q:52581800",
@@ -178178,6 +178192,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 224,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:42023202",
+          "name": "Vreeburghlaan",
+          "town": "'s-Gravenzande",
+          "street": "Monsterseweg",
+          "lat": 52.005523,
+          "lon": 4.15814,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": true,
+          "compassDirection": 13,
           "mutationDate": "2020-02-19",
           "concessionProvider": "MRDH"
         },
@@ -205469,8 +205497,8 @@
       "email": "gemeente@rotterdam.nl",
       "website": "http://www.rotterdam.nl",
       "phone": "14 010",
-      "totalBusQuays": 955,
-      "inaccessibleCount": 697,
+      "totalBusQuays": 956,
+      "inaccessibleCount": 698,
       "stops": [
         {
           "code": "NL:Q:53370140",
@@ -206674,6 +206702,20 @@
           "visuallyAccessible": false,
           "compassDirection": 328,
           "mutationDate": "2018-10-19",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:52770140",
+          "name": "Haventransferium",
+          "town": "Maasvlakte",
+          "street": "Haaiweg",
+          "lat": 51.937686,
+          "lon": 4.089113,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 322,
+          "mutationDate": "2018-10-20",
           "concessionProvider": "MRDH"
         },
         {
@@ -241285,7 +241327,7 @@
       "email": "info@gemeentewesterveld.nl",
       "website": "http://www.gemeentewesterveld.nl",
       "phone": "(0521) 34 93 49",
-      "totalBusQuays": 29,
+      "totalBusQuays": 31,
       "inaccessibleCount": 27,
       "stops": [
         {
@@ -252945,8 +252987,8 @@
       "email": "gemeente@nissewaard.nl",
       "website": "http://www.nissewaard.nl/",
       "phone": "14 0181",
-      "totalBusQuays": 175,
-      "inaccessibleCount": 142,
+      "totalBusQuays": 177,
+      "inaccessibleCount": 144,
       "stops": [
         {
           "code": "NL:Q:52560200",
@@ -253002,6 +253044,34 @@
           "visuallyAccessible": false,
           "compassDirection": 165,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:52470100",
+          "name": "Dorpsplein",
+          "town": "Geervliet",
+          "street": "Oude Singel",
+          "lat": 51.861568,
+          "lon": 4.259986,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 281,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:52470110",
+          "name": "Dorpsplein",
+          "town": "Geervliet",
+          "street": "Oude Singel",
+          "lat": 51.861568,
+          "lon": 4.259986,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 115,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "MRDH"
         },
         {
@@ -265988,7 +266058,7 @@
       "email": null,
       "website": null,
       "phone": null,
-      "totalBusQuays": 16,
+      "totalBusQuays": 17,
       "inaccessibleCount": 16,
       "stops": [
         {

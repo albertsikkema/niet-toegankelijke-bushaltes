@@ -1,12 +1,12 @@
 {
-  "generated": "2026-03-29T06:30:29.163Z",
+  "generated": "2026-03-30T06:44:51.949Z",
   "totals": {
-    "totalBusQuays": 42106,
-    "inaccessibleBusQuays": 28464,
+    "totalBusQuays": 42114,
+    "inaccessibleBusQuays": 28469,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20378,
+    "wheelchairInaccessible": 20383,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26842,
+    "visuallyInaccessible": 26846,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -148,12 +148,12 @@
       "code": "G0599",
       "name": "Gemeente Rotterdam",
       "type": "gemeente",
-      "total": 955,
-      "inaccessible": 697,
+      "total": 956,
+      "inaccessible": 698,
       "pct": 73,
-      "wheelchair": 416,
-      "visual": 662,
-      "noShelter": 357
+      "wheelchair": 417,
+      "visual": 663,
+      "noShelter": 358
     },
     {
       "code": "G0518",
@@ -394,12 +394,12 @@
       "code": "G0599",
       "name": "Gemeente Rotterdam",
       "type": "gemeente",
-      "total": 955,
-      "inaccessible": 697,
+      "total": 956,
+      "inaccessible": 698,
       "pct": 73,
-      "wheelchair": 416,
-      "visual": 662,
-      "noShelter": 357
+      "wheelchair": 417,
+      "visual": 663,
+      "noShelter": 358
     },
     {
       "code": "G0935",
@@ -462,12 +462,12 @@
       "code": "P0028",
       "name": "Provincie Zuid-Holland",
       "type": "provincie",
-      "total": 386,
-      "inaccessible": 320,
+      "total": 387,
+      "inaccessible": 321,
       "pct": 83,
-      "wheelchair": 152,
+      "wheelchair": 153,
       "visual": 316,
-      "noShelter": 77
+      "noShelter": 78
     },
     {
       "code": "P0024",
@@ -630,19 +630,19 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36816,
-      "inaccessible": 24423,
+      "total": 36822,
+      "inaccessible": 24427,
       "pct": 66,
-      "wheelchair": 17380,
-      "visual": 23007
+      "wheelchair": 17384,
+      "visual": 23011
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4326,
-      "inaccessible": 3187,
+      "total": 4327,
+      "inaccessible": 3188,
       "pct": 74,
-      "wheelchair": 2220,
+      "wheelchair": 2221,
       "visual": 3003
     },
     {

@@ -1,12 +1,12 @@
 {
-  "generated": "2026-03-31T06:35:39.438Z",
+  "generated": "2026-04-01T06:41:22.254Z",
   "totals": {
-    "totalBusQuays": 42114,
-    "inaccessibleBusQuays": 28469,
+    "totalBusQuays": 42105,
+    "inaccessibleBusQuays": 28466,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20383,
+    "wheelchairInaccessible": 20379,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26846,
+    "visuallyInaccessible": 26844,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -170,12 +170,12 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1127,
-      "inaccessible": 502,
-      "pct": 45,
-      "wheelchair": 393,
-      "visual": 483,
-      "noShelter": 268
+      "total": 1117,
+      "inaccessible": 497,
+      "pct": 44,
+      "wheelchair": 388,
+      "visual": 478,
+      "noShelter": 264
     },
     {
       "code": "G0114",
@@ -339,12 +339,12 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1127,
-      "inaccessible": 502,
-      "pct": 45,
-      "wheelchair": 393,
-      "visual": 483,
-      "noShelter": 268
+      "total": 1117,
+      "inaccessible": 497,
+      "pct": 44,
+      "wheelchair": 388,
+      "visual": 478,
+      "noShelter": 264
     },
     {
       "code": "G0014",
@@ -465,8 +465,8 @@
       "total": 387,
       "inaccessible": 321,
       "pct": 83,
-      "wheelchair": 153,
-      "visual": 316,
+      "wheelchair": 152,
+      "visual": 317,
       "noShelter": 78
     },
     {
@@ -500,7 +500,7 @@
       "pct": 76,
       "wheelchair": 183,
       "visual": 258,
-      "noShelter": 140
+      "noShelter": 139
     },
     {
       "code": "P0029",
@@ -539,12 +539,12 @@
       "code": "P0027",
       "name": "Provincie Noord-Holland",
       "type": "provincie",
-      "total": 324,
-      "inaccessible": 180,
-      "pct": 56,
-      "wheelchair": 140,
-      "visual": 140,
-      "noShelter": 89
+      "total": 322,
+      "inaccessible": 178,
+      "pct": 55,
+      "wheelchair": 138,
+      "visual": 138,
+      "noShelter": 87
     },
     {
       "code": "P0030",
@@ -561,7 +561,7 @@
       "code": "P0020",
       "name": "Provincie Groningen",
       "type": "provincie",
-      "total": 361,
+      "total": 362,
       "inaccessible": 164,
       "pct": 45,
       "wheelchair": 118,
@@ -630,20 +630,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36822,
-      "inaccessible": 24427,
+      "total": 36813,
+      "inaccessible": 24424,
       "pct": 66,
-      "wheelchair": 17384,
-      "visual": 23011
+      "wheelchair": 17382,
+      "visual": 23008
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4327,
-      "inaccessible": 3188,
+      "total": 4326,
+      "inaccessible": 3186,
       "pct": 74,
-      "wheelchair": 2221,
-      "visual": 3003
+      "wheelchair": 2218,
+      "visual": 3002
     },
     {
       "type": "waterschap",
@@ -666,7 +666,7 @@
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 267,
+    "gemeentesOver50": 266,
     "totalGemeentes": 345,
     "gemeentesOver50Pct": 77,
     "visualPct": 64,

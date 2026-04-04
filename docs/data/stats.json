@@ -1,12 +1,12 @@
 {
-  "generated": "2026-04-03T06:33:16.572Z",
+  "generated": "2026-04-04T06:27:23.477Z",
   "totals": {
-    "totalBusQuays": 42104,
-    "inaccessibleBusQuays": 28465,
+    "totalBusQuays": 42109,
+    "inaccessibleBusQuays": 28462,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20377,
+    "wheelchairInaccessible": 20373,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26843,
+    "visuallyInaccessible": 26837,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -159,7 +159,7 @@
       "code": "G0518",
       "name": "Gemeente Den Haag",
       "type": "gemeente",
-      "total": 686,
+      "total": 687,
       "inaccessible": 538,
       "pct": 78,
       "wheelchair": 186,
@@ -216,11 +216,11 @@
       "code": "G0307",
       "name": "Gemeente Amersfoort",
       "type": "gemeente",
-      "total": 282,
-      "inaccessible": 22,
+      "total": 284,
+      "inaccessible": 24,
       "pct": 8,
-      "wheelchair": 18,
-      "visual": 22,
+      "wheelchair": 19,
+      "visual": 23,
       "noShelter": 19
     },
     {
@@ -262,23 +262,23 @@
       "code": "G0307",
       "name": "Gemeente Amersfoort",
       "type": "gemeente",
-      "total": 282,
-      "inaccessible": 22,
+      "total": 284,
+      "inaccessible": 24,
       "pct": 8,
-      "wheelchair": 18,
-      "visual": 22,
+      "wheelchair": 19,
+      "visual": 23,
       "noShelter": 19
     },
     {
       "code": "G0268",
       "name": "Gemeente Nijmegen",
       "type": "gemeente",
-      "total": 403,
-      "inaccessible": 119,
+      "total": 404,
+      "inaccessible": 120,
       "pct": 30,
-      "wheelchair": 63,
-      "visual": 93,
-      "noShelter": 69
+      "wheelchair": 64,
+      "visual": 94,
+      "noShelter": 70
     },
     {
       "code": "G0855",
@@ -361,7 +361,7 @@
       "code": "G0202",
       "name": "Gemeente Arnhem",
       "type": "gemeente",
-      "total": 431,
+      "total": 432,
       "inaccessible": 227,
       "pct": 53,
       "wheelchair": 95,
@@ -416,7 +416,7 @@
       "code": "G0518",
       "name": "Gemeente Den Haag",
       "type": "gemeente",
-      "total": 686,
+      "total": 687,
       "inaccessible": 538,
       "pct": 78,
       "wheelchair": 186,
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36812,
-      "inaccessible": 24423,
+      "total": 36817,
+      "inaccessible": 24420,
       "pct": 66,
-      "wheelchair": 17380,
-      "visual": 23007
+      "wheelchair": 17376,
+      "visual": 23001
     },
     {
       "type": "provincie",
@@ -674,7 +674,7 @@
     "wsPct": 95,
     "bestCityName": "Gemeente Amersfoort",
     "bestCityPct": 8,
-    "bestCityTotal": 282,
+    "bestCityTotal": 284,
     "shelterPct": 66,
     "top10Pct": 13
   }

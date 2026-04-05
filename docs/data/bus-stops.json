@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-04T06:27:23.458Z",
+  "generated": "2026-04-05T06:32:24.086Z",
   "totals": {
-    "totalBusQuays": 42109,
+    "totalBusQuays": 42111,
     "inaccessibleBusQuays": 28462,
     "authorities": 385
   },
@@ -24404,7 +24404,7 @@
       "email": "gemeente@arnhem.nl",
       "website": "http://www.arnhem.nl",
       "phone": null,
-      "totalBusQuays": 432,
+      "totalBusQuays": 431,
       "inaccessibleCount": 227,
       "stops": [
         {
@@ -33311,34 +33311,6 @@
           "concessionProvider": "PUT"
         },
         {
-          "code": "NL:Q:50450070",
-          "name": "Bavoort",
-          "town": "Leusden",
-          "street": "Arnhemseweg",
-          "lat": 52.121291,
-          "lon": 5.402659,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 345,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PUT"
-        },
-        {
-          "code": "NL:Q:50450060",
-          "name": "Bavoort",
-          "town": "Leusden",
-          "street": "Arnhemseweg",
-          "lat": 52.122161,
-          "lon": 5.401866,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 145,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PUT"
-        },
-        {
           "code": "NL:Q:50450040",
           "name": "Kerk",
           "town": "Leusden",
@@ -33377,6 +33349,34 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 181,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:50450060",
+          "name": "Maanweg",
+          "town": "Leusden",
+          "street": "Arnhemseweg",
+          "lat": 52.122161,
+          "lon": 5.401866,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 145,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:50450070",
+          "name": "Maanweg",
+          "town": "Leusden",
+          "street": "Arnhemseweg",
+          "lat": 52.121291,
+          "lon": 5.402659,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 345,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PUT"
         },
@@ -85916,7 +85916,7 @@
       "email": "gemeente@helmond.nl",
       "website": "http://www.helmond.nl",
       "phone": "14 0492",
-      "totalBusQuays": 147,
+      "totalBusQuays": 150,
       "inaccessibleCount": 88,
       "stops": [
         {

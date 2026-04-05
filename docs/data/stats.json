@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-04T06:27:23.477Z",
+  "generated": "2026-04-05T06:32:24.101Z",
   "totals": {
-    "totalBusQuays": 42109,
+    "totalBusQuays": 42111,
     "inaccessibleBusQuays": 28462,
     "inaccessiblePct": 68,
     "wheelchairInaccessible": 20373,
@@ -361,7 +361,7 @@
       "code": "G0202",
       "name": "Gemeente Arnhem",
       "type": "gemeente",
-      "total": 432,
+      "total": 431,
       "inaccessible": 227,
       "pct": 53,
       "wheelchair": 95,
@@ -630,7 +630,7 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36817,
+      "total": 36819,
       "inaccessible": 24420,
       "pct": 66,
       "wheelchair": 17376,

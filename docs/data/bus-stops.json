@@ -1,8 +1,8 @@
 {
-  "generated": "2026-04-07T06:37:56.780Z",
+  "generated": "2026-04-08T06:39:04.675Z",
   "totals": {
-    "totalBusQuays": 42112,
-    "inaccessibleBusQuays": 28462,
+    "totalBusQuays": 42107,
+    "inaccessibleBusQuays": 28458,
     "authorities": 385
   },
   "authorities": {
@@ -783,20 +783,6 @@
           "concessionProvider": "PUT"
         },
         {
-          "code": "NL:Q:51410190",
-          "name": "Anne Franklaan",
-          "town": "Montfoort",
-          "street": "Berkenlaan",
-          "lat": 52.045533,
-          "lon": 4.95688,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 176,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PUT"
-        },
-        {
           "code": "NL:Q:51410200",
           "name": "Anne Franklaan",
           "town": "Montfoort",
@@ -808,6 +794,20 @@
           "visuallyAccessible": false,
           "compassDirection": 340,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:51410190",
+          "name": "Anne Franklaan",
+          "town": "Montfoort",
+          "street": "Berkenlaan",
+          "lat": 52.045533,
+          "lon": 4.95688,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 176,
+          "mutationDate": "2019-02-07",
           "concessionProvider": "PUT"
         },
         {
@@ -119745,7 +119745,7 @@
       "email": "info@amersfoort.nl",
       "website": "http://www.amersfoort.nl",
       "phone": "14 033",
-      "totalBusQuays": 284,
+      "totalBusQuays": 285,
       "inaccessibleCount": 24,
       "stops": [
         {
@@ -149176,8 +149176,8 @@
       "email": "info@provinciegroningen.nl",
       "website": "http://www.provinciegroningen.nl",
       "phone": "(050) 316 49 11",
-      "totalBusQuays": 362,
-      "inaccessibleCount": 164,
+      "totalBusQuays": 358,
+      "inaccessibleCount": 160,
       "stops": [
         {
           "code": "NL:Q:10255310",
@@ -150762,34 +150762,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:13450010",
-          "name": "Sellingerstraat 12",
-          "town": "Ter Haar",
-          "street": "Sellingerstraat",
-          "lat": 52.903601,
-          "lon": 7.089756,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 17,
-          "mutationDate": "2019-07-10",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:13450020",
-          "name": "Sellingerstraat 12",
-          "town": "Ter Haar",
-          "street": "Sellingerstraat",
-          "lat": 52.902888,
-          "lon": 7.089297,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 205,
-          "mutationDate": "2019-07-10",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:13450120",
           "name": "Schaalbergerweg",
           "town": "Ter Wisch",
@@ -150810,34 +150782,6 @@
           "street": "Ter Apelerstraat",
           "lat": 52.91483,
           "lon": 7.100201,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 63,
-          "mutationDate": "2019-07-10",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:13450220",
-          "name": "Ter Apelerstraat 34",
-          "town": "Ter Wisch",
-          "street": "Ter Apelerstraat",
-          "lat": 52.918414,
-          "lon": 7.106603,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 241,
-          "mutationDate": "2019-07-10",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:13450210",
-          "name": "Ter Apelerstraat 34",
-          "town": "Ter Wisch",
-          "street": "Ter Apelerstraat",
-          "lat": 52.918403,
-          "lon": 7.106766,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -201076,8 +201020,8 @@
       "email": "post@drenthe.nl",
       "website": "http://www.provincie.drenthe.nl",
       "phone": "(0592) 36 55 55",
-      "totalBusQuays": 310,
-      "inaccessibleCount": 302,
+      "totalBusQuays": 308,
+      "inaccessibleCount": 300,
       "stops": [
         {
           "code": "NL:Q:14335420",
@@ -201889,34 +201833,6 @@
           "visuallyAccessible": false,
           "compassDirection": 195,
           "mutationDate": "2018-11-15",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:18250060",
-          "name": "Diphoorn",
-          "town": "Erm",
-          "street": "'t Eng",
-          "lat": 52.763805,
-          "lon": 6.813354,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 136,
-          "mutationDate": "2018-02-07",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:18250050",
-          "name": "Diphoorn",
-          "town": "Erm",
-          "street": "'t Eng",
-          "lat": 52.763862,
-          "lon": 6.813815,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 316,
-          "mutationDate": "2018-02-07",
           "concessionProvider": "OVGD"
         },
         {
@@ -241146,7 +241062,7 @@
       "website": "http://www.gemeentewesterveld.nl",
       "phone": "(0521) 34 93 49",
       "totalBusQuays": 31,
-      "inaccessibleCount": 27,
+      "inaccessibleCount": 29,
       "stops": [
         {
           "code": "NL:Q:16530070",
@@ -241272,6 +241188,34 @@
           "visuallyAccessible": false,
           "compassDirection": 70,
           "mutationDate": "2019-12-13",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:16150510",
+          "name": "Dwingelderdijk",
+          "town": "Dwingeloo",
+          "street": "Dwingelderdijk",
+          "lat": 52.839573,
+          "lon": 6.363359,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 305,
+          "mutationDate": null,
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:16150520",
+          "name": "Dwingelderdijk",
+          "town": "Dwingeloo",
+          "street": "Dwingelderdijk",
+          "lat": 52.839446,
+          "lon": 6.363368,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 125,
+          "mutationDate": null,
           "concessionProvider": "OVGD"
         },
         {
@@ -294029,12 +293973,12 @@
           "name": "Station Geldrop",
           "town": "Geldrop",
           "street": "Parallelweg",
-          "lat": 51.420048,
-          "lon": 5.55119,
+          "lat": 51.420584,
+          "lon": 5.550927,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 47,
+          "compassDirection": 130,
           "mutationDate": null,
           "concessionProvider": "PNB"
         },
@@ -368232,20 +368176,6 @@
           "concessionProvider": "PZH"
         },
         {
-          "code": "NL:Q:54340080",
-          "name": "Valkenburgse Meer",
-          "town": "Valkenburg",
-          "street": "Ommedijkseweg",
-          "lat": 52.15726,
-          "lon": 4.443665,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 199,
-          "mutationDate": null,
-          "concessionProvider": "PZH"
-        },
-        {
           "code": "NL:Q:54340090",
           "name": "Valkenburgse Meer",
           "town": "Valkenburg",
@@ -368256,6 +368186,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 19,
+          "mutationDate": null,
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:54340080",
+          "name": "Valkenburgse Meer",
+          "town": "Valkenburg",
+          "street": "Ommedijkseweg",
+          "lat": 52.15726,
+          "lon": 4.443665,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 199,
           "mutationDate": null,
           "concessionProvider": "PZH"
         }

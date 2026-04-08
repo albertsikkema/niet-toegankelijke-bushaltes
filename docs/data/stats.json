@@ -1,12 +1,12 @@
 {
-  "generated": "2026-04-07T06:37:56.792Z",
+  "generated": "2026-04-08T06:39:04.687Z",
   "totals": {
-    "totalBusQuays": 42112,
-    "inaccessibleBusQuays": 28462,
+    "totalBusQuays": 42107,
+    "inaccessibleBusQuays": 28458,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20373,
+    "wheelchairInaccessible": 20369,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26837,
+    "visuallyInaccessible": 26833,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -216,7 +216,7 @@
       "code": "G0307",
       "name": "Gemeente Amersfoort",
       "type": "gemeente",
-      "total": 284,
+      "total": 285,
       "inaccessible": 24,
       "pct": 8,
       "wheelchair": 19,
@@ -262,7 +262,7 @@
       "code": "G0307",
       "name": "Gemeente Amersfoort",
       "type": "gemeente",
-      "total": 284,
+      "total": 285,
       "inaccessible": 24,
       "pct": 8,
       "wheelchair": 19,
@@ -451,12 +451,12 @@
       "code": "P0022",
       "name": "Provincie Drenthe",
       "type": "provincie",
-      "total": 310,
-      "inaccessible": 302,
+      "total": 308,
+      "inaccessible": 300,
       "pct": 97,
-      "wheelchair": 267,
-      "visual": 297,
-      "noShelter": 210
+      "wheelchair": 265,
+      "visual": 295,
+      "noShelter": 208
     },
     {
       "code": "P0028",
@@ -561,12 +561,12 @@
       "code": "P0020",
       "name": "Provincie Groningen",
       "type": "provincie",
-      "total": 362,
-      "inaccessible": 164,
+      "total": 358,
+      "inaccessible": 160,
       "pct": 45,
-      "wheelchair": 118,
-      "visual": 151,
-      "noShelter": 119
+      "wheelchair": 114,
+      "visual": 147,
+      "noShelter": 115
     }
   ],
   "waterschappen": [
@@ -630,20 +630,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36820,
-      "inaccessible": 24420,
+      "total": 36821,
+      "inaccessible": 24422,
       "pct": 66,
-      "wheelchair": 17376,
-      "visual": 23001
+      "wheelchair": 17378,
+      "visual": 23003
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4326,
-      "inaccessible": 3186,
+      "total": 4320,
+      "inaccessible": 3180,
       "pct": 74,
-      "wheelchair": 2218,
-      "visual": 3002
+      "wheelchair": 2212,
+      "visual": 2996
     },
     {
       "type": "waterschap",
@@ -674,7 +674,7 @@
     "wsPct": 95,
     "bestCityName": "Gemeente Amersfoort",
     "bestCityPct": 8,
-    "bestCityTotal": 284,
+    "bestCityTotal": 285,
     "shelterPct": 66,
     "top10Pct": 13
   }

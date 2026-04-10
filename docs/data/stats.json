@@ -1,12 +1,12 @@
 {
-  "generated": "2026-04-09T06:39:19.698Z",
+  "generated": "2026-04-10T06:43:50.504Z",
   "totals": {
-    "totalBusQuays": 42107,
-    "inaccessibleBusQuays": 28458,
+    "totalBusQuays": 42116,
+    "inaccessibleBusQuays": 28454,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20369,
+    "wheelchairInaccessible": 20365,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26833,
+    "visuallyInaccessible": 26829,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -351,11 +351,11 @@
       "name": "Gemeente Groningen",
       "type": "gemeente",
       "total": 547,
-      "inaccessible": 266,
+      "inaccessible": 267,
       "pct": 49,
-      "wheelchair": 177,
-      "visual": 237,
-      "noShelter": 148
+      "wheelchair": 178,
+      "visual": 238,
+      "noShelter": 149
     },
     {
       "code": "G0202",
@@ -562,11 +562,11 @@
       "name": "Provincie Groningen",
       "type": "provincie",
       "total": 358,
-      "inaccessible": 160,
+      "inaccessible": 161,
       "pct": 45,
-      "wheelchair": 114,
-      "visual": 147,
-      "noShelter": 115
+      "wheelchair": 115,
+      "visual": 148,
+      "noShelter": 116
     }
   ],
   "waterschappen": [
@@ -630,20 +630,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36821,
-      "inaccessible": 24422,
+      "total": 36829,
+      "inaccessible": 24417,
       "pct": 66,
-      "wheelchair": 17378,
-      "visual": 23003
+      "wheelchair": 17373,
+      "visual": 22998
     },
     {
       "type": "provincie",
       "label": "Provincie",
       "total": 4320,
-      "inaccessible": 3180,
+      "inaccessible": 3181,
       "pct": 74,
-      "wheelchair": 2212,
-      "visual": 2996
+      "wheelchair": 2213,
+      "visual": 2997
     },
     {
       "type": "waterschap",
@@ -657,7 +657,7 @@
     {
       "type": "rijkswaterstaat",
       "label": "Rijkswaterstaat",
-      "total": 156,
+      "total": 157,
       "inaccessible": 116,
       "pct": 74,
       "wheelchair": 77,

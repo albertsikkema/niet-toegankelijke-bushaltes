@@ -1,8 +1,8 @@
 {
-  "generated": "2026-04-09T06:39:19.687Z",
+  "generated": "2026-04-10T06:43:50.491Z",
   "totals": {
-    "totalBusQuays": 42107,
-    "inaccessibleBusQuays": 28458,
+    "totalBusQuays": 42116,
+    "inaccessibleBusQuays": 28454,
     "authorities": 385
   },
   "authorities": {
@@ -755,20 +755,6 @@
           "concessionProvider": "PUT"
         },
         {
-          "code": "NL:Q:51910130",
-          "name": "van Rietlaan",
-          "town": "Linschoten",
-          "street": "van Rietlaan",
-          "lat": 52.064213,
-          "lon": 4.913039,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 311,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PUT"
-        },
-        {
           "code": "NL:Q:51910140",
           "name": "van Rietlaan",
           "town": "Linschoten",
@@ -780,6 +766,20 @@
           "visuallyAccessible": false,
           "compassDirection": 130,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:51910130",
+          "name": "van Rietlaan",
+          "town": "Linschoten",
+          "street": "van Rietlaan",
+          "lat": 52.064213,
+          "lon": 4.913039,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 311,
+          "mutationDate": "2019-02-07",
           "concessionProvider": "PUT"
         },
         {
@@ -41704,30 +41704,30 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:18001050",
-          "name": "Bendienplein",
-          "town": "Emmen",
-          "street": "Weerdingerstraat",
-          "lat": 52.795439,
-          "lon": 6.89963,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 207,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:18001060",
           "name": "Bendienplein",
           "town": "Emmen",
           "street": "Weerdingerstraat",
-          "lat": 52.795374,
-          "lon": 6.899776,
+          "lat": 52.795403,
+          "lon": 6.899658,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 27,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:18001050",
+          "name": "Bendienplein",
+          "town": "Emmen",
+          "street": "Weerdingerstraat",
+          "lat": 52.795637,
+          "lon": 6.899607,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 207,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -44592,8 +44592,8 @@
           "name": "Klazienaveensestr. 6",
           "town": "Nieuw-Dordrecht",
           "street": "Klazienaveensestraat",
-          "lat": 52.749515,
-          "lon": 6.967709,
+          "lat": 52.749352,
+          "lon": 6.967807,
           "shelter": false,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
@@ -59688,7 +59688,7 @@
       "email": "info@ede.nl",
       "website": "http://www.ede.nl",
       "phone": "14 0318",
-      "totalBusQuays": 214,
+      "totalBusQuays": 218,
       "inaccessibleCount": 130,
       "stops": [
         {
@@ -149177,7 +149177,7 @@
       "website": "http://www.provinciegroningen.nl",
       "phone": "(050) 316 49 11",
       "totalBusQuays": 358,
-      "inaccessibleCount": 160,
+      "inaccessibleCount": 161,
       "stops": [
         {
           "code": "NL:Q:10255310",
@@ -149870,8 +149870,8 @@
           "name": "Paal 2",
           "town": "Kielwindeweer",
           "street": "Kielsterachterweg",
-          "lat": 53.134742,
-          "lon": 6.7739,
+          "lat": 53.134806,
+          "lon": 6.773857,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -149884,8 +149884,8 @@
           "name": "Paal 2",
           "town": "Kielwindeweer",
           "street": "Kielsterachterweg",
-          "lat": 53.133829,
-          "lon": 6.774349,
+          "lat": 53.133857,
+          "lon": 6.774305,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -151319,6 +151319,20 @@
           "visuallyAccessible": false,
           "compassDirection": 188,
           "mutationDate": "2019-07-10",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:13150550",
+          "name": "Qbuzz",
+          "town": "Zoutkamp",
+          "street": "Panserweg",
+          "lat": 53.343053,
+          "lon": 6.299802,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 266,
+          "mutationDate": null,
           "concessionProvider": "OVGD"
         },
         {
@@ -162055,7 +162069,7 @@
       "email": "info@venlo.nl",
       "website": "http://www.venlo.nl",
       "phone": "14 077",
-      "totalBusQuays": 229,
+      "totalBusQuays": 230,
       "inaccessibleCount": 198,
       "stops": [
         {
@@ -195169,7 +195183,7 @@
       "email": null,
       "website": "https://www.rijkswaterstaat.nl/",
       "phone": "(0800) 80 02",
-      "totalBusQuays": 26,
+      "totalBusQuays": 27,
       "inaccessibleCount": 16,
       "stops": [
         {
@@ -236378,7 +236392,7 @@
       "website": "http://gemeente.groningen.nl",
       "phone": "14 050",
       "totalBusQuays": 547,
-      "inaccessibleCount": 266,
+      "inaccessibleCount": 267,
       "stops": [
         {
           "code": "NL:Q:11315520",
@@ -237610,6 +237624,20 @@
           "visuallyAccessible": false,
           "compassDirection": 251,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10001395",
+          "name": "J. C. Kapteynlaan",
+          "town": "Groningen",
+          "street": "Korreweg",
+          "lat": 53.229934,
+          "lon": 6.567837,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 229,
+          "mutationDate": null,
           "concessionProvider": "OVGD"
         },
         {
@@ -318226,7 +318254,7 @@
       "email": "info@overbetuwe.nl",
       "website": "http://www.overbetuwe.nl",
       "phone": "(0481) 36 23 00",
-      "totalBusQuays": 119,
+      "totalBusQuays": 124,
       "inaccessibleCount": 72,
       "stops": [
         {
@@ -320149,7 +320177,7 @@
       "email": "info@barneveld.nl",
       "website": "http://www.barneveld.nl",
       "phone": "14 0342",
-      "totalBusQuays": 112,
+      "totalBusQuays": 113,
       "inaccessibleCount": 77,
       "stops": [
         {
@@ -344670,20 +344698,6 @@
           "concessionProvider": "PNH"
         },
         {
-          "code": "NL:Q:38401040",
-          "name": "Station",
-          "town": "Bovenkarspel",
-          "street": "De Middend",
-          "lat": 52.695382,
-          "lon": 5.2357,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 268,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PNH"
-        },
-        {
           "code": "NL:Q:38401050",
           "name": "Station",
           "town": "Bovenkarspel",
@@ -344695,6 +344709,20 @@
           "visuallyAccessible": true,
           "compassDirection": 89,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:38401040",
+          "name": "Station",
+          "town": "Bovenkarspel",
+          "street": "De Middend",
+          "lat": 52.695382,
+          "lon": 5.2357,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 268,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "PNH"
         },
         {
@@ -367095,7 +367123,7 @@
       "website": "http://www.leiden.nl/gemeente",
       "phone": "14 071",
       "totalBusQuays": 217,
-      "inaccessibleCount": 79,
+      "inaccessibleCount": 76,
       "stops": [
         {
           "code": "NL:Q:54442210",
@@ -367994,20 +368022,6 @@
           "concessionProvider": "PZH"
         },
         {
-          "code": "NL:Q:54440220",
-          "name": "Verdistraat",
-          "town": "Leiden",
-          "street": "Verdistraat",
-          "lat": 52.144972,
-          "lon": 4.470851,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 261,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
           "code": "NL:Q:54440330",
           "name": "Vijf Meiplein",
           "town": "Leiden",
@@ -368173,34 +368187,6 @@
           "visuallyAccessible": false,
           "compassDirection": 149,
           "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:54340090",
-          "name": "Valkenburgse Meer",
-          "town": "Valkenburg",
-          "street": "Ommedijkseweg",
-          "lat": 52.157334,
-          "lon": 4.443868,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 19,
-          "mutationDate": null,
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:54340080",
-          "name": "Valkenburgse Meer",
-          "town": "Valkenburg",
-          "street": "Ommedijkseweg",
-          "lat": 52.15726,
-          "lon": 4.443665,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 199,
-          "mutationDate": null,
           "concessionProvider": "PZH"
         }
       ]
@@ -378835,8 +378821,8 @@
       "email": "stadhuis@enkhuizen.nl",
       "website": "http://www.enkhuizen.nl",
       "phone": "(0228) 36 01 00",
-      "totalBusQuays": 32,
-      "inaccessibleCount": 22,
+      "totalBusQuays": 29,
+      "inaccessibleCount": 19,
       "stops": [
         {
           "code": "NL:Q:38501110",
@@ -378878,20 +378864,6 @@
           "visuallyAccessible": false,
           "compassDirection": 45,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "PNH"
-        },
-        {
-          "code": "NL:Q:38500510",
-          "name": "Gerard Brandtweg",
-          "town": "Enkhuizen",
-          "street": "Gerard Brandtweg",
-          "lat": 52.713612,
-          "lon": 5.270878,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 156,
-          "mutationDate": "2019-02-07",
           "concessionProvider": "PNH"
         },
         {
@@ -379074,34 +379046,6 @@
           "visuallyAccessible": false,
           "compassDirection": 90,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "PNH"
-        },
-        {
-          "code": "NL:Q:38500120",
-          "name": "Rode Paard",
-          "town": "Enkhuizen",
-          "street": "Rode Paard",
-          "lat": 52.708627,
-          "lon": 5.272918,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 0,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PNH"
-        },
-        {
-          "code": "NL:Q:38500110",
-          "name": "Rode Paard",
-          "town": "Enkhuizen",
-          "street": "Rode Paard",
-          "lat": 52.708627,
-          "lon": 5.272918,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 0,
-          "mutationDate": "2019-02-07",
           "concessionProvider": "PNH"
         },
         {

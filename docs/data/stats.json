@@ -1,12 +1,12 @@
 {
-  "generated": "2026-04-10T06:43:50.504Z",
+  "generated": "2026-04-11T06:28:47.500Z",
   "totals": {
-    "totalBusQuays": 42116,
-    "inaccessibleBusQuays": 28454,
+    "totalBusQuays": 42078,
+    "inaccessibleBusQuays": 28416,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20365,
+    "wheelchairInaccessible": 20339,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26829,
+    "visuallyInaccessible": 26794,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -110,17 +110,6 @@
       "noShelter": 26
     },
     {
-      "code": "G0532",
-      "name": "Gemeente Stede Broec",
-      "type": "gemeente",
-      "total": 19,
-      "inaccessible": 19,
-      "pct": 100,
-      "wheelchair": 14,
-      "visual": 15,
-      "noShelter": 12
-    },
-    {
       "code": "G0638",
       "name": "Gemeente Zoeterwoude",
       "type": "gemeente",
@@ -160,22 +149,22 @@
       "name": "Gemeente Den Haag",
       "type": "gemeente",
       "total": 687,
-      "inaccessible": 538,
+      "inaccessible": 539,
       "pct": 78,
-      "wheelchair": 186,
-      "visual": 529,
-      "noShelter": 236
+      "wheelchair": 187,
+      "visual": 530,
+      "noShelter": 237
     },
     {
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1116,
-      "inaccessible": 496,
+      "total": 1085,
+      "inaccessible": 477,
       "pct": 44,
-      "wheelchair": 387,
-      "visual": 477,
-      "noShelter": 264
+      "wheelchair": 369,
+      "visual": 457,
+      "noShelter": 253
     },
     {
       "code": "G0114",
@@ -205,7 +194,7 @@
       "code": "G0164",
       "name": "Gemeente Hengelo",
       "type": "gemeente",
-      "total": 171,
+      "total": 169,
       "inaccessible": 12,
       "pct": 7,
       "wheelchair": 8,
@@ -306,7 +295,7 @@
       "code": "G0772",
       "name": "Gemeente Eindhoven",
       "type": "gemeente",
-      "total": 405,
+      "total": 406,
       "inaccessible": 141,
       "pct": 35,
       "wheelchair": 35,
@@ -328,23 +317,23 @@
       "code": "G0758",
       "name": "Gemeente Breda",
       "type": "gemeente",
-      "total": 363,
-      "inaccessible": 130,
+      "total": 364,
+      "inaccessible": 131,
       "pct": 36,
-      "wheelchair": 45,
-      "visual": 126,
+      "wheelchair": 46,
+      "visual": 127,
       "noShelter": 59
     },
     {
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1116,
-      "inaccessible": 496,
+      "total": 1085,
+      "inaccessible": 477,
       "pct": 44,
-      "wheelchair": 387,
-      "visual": 477,
-      "noShelter": 264
+      "wheelchair": 369,
+      "visual": 457,
+      "noShelter": 253
     },
     {
       "code": "G0014",
@@ -361,7 +350,7 @@
       "code": "G0202",
       "name": "Gemeente Arnhem",
       "type": "gemeente",
-      "total": 431,
+      "total": 432,
       "inaccessible": 227,
       "pct": 53,
       "wheelchair": 95,
@@ -417,21 +406,21 @@
       "name": "Gemeente Den Haag",
       "type": "gemeente",
       "total": 687,
-      "inaccessible": 538,
+      "inaccessible": 539,
       "pct": 78,
-      "wheelchair": 186,
-      "visual": 529,
-      "noShelter": 236
+      "wheelchair": 187,
+      "visual": 530,
+      "noShelter": 237
     },
     {
       "code": "G0153",
       "name": "Gemeente Enschede",
       "type": "gemeente",
-      "total": 310,
-      "inaccessible": 251,
+      "total": 309,
+      "inaccessible": 250,
       "pct": 81,
       "wheelchair": 86,
-      "visual": 248,
+      "visual": 247,
       "noShelter": 115
     }
   ],
@@ -630,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36829,
-      "inaccessible": 24417,
+      "total": 36791,
+      "inaccessible": 24379,
       "pct": 66,
-      "wheelchair": 17373,
-      "visual": 22998
+      "wheelchair": 17347,
+      "visual": 22963
     },
     {
       "type": "provincie",
@@ -666,7 +655,7 @@
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 266,
+    "gemeentesOver50": 265,
     "totalGemeentes": 345,
     "gemeentesOver50Pct": 77,
     "visualPct": 64,

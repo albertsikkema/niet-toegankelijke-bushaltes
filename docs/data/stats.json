@@ -1,12 +1,12 @@
 {
-  "generated": "2026-04-14T06:44:14.953Z",
+  "generated": "2026-04-15T06:44:22.508Z",
   "totals": {
-    "totalBusQuays": 42078,
-    "inaccessibleBusQuays": 28416,
+    "totalBusQuays": 42080,
+    "inaccessibleBusQuays": 28412,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20339,
+    "wheelchairInaccessible": 20338,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26794,
+    "visuallyInaccessible": 26788,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -149,11 +149,11 @@
       "name": "Gemeente Den Haag",
       "type": "gemeente",
       "total": 687,
-      "inaccessible": 539,
-      "pct": 78,
-      "wheelchair": 187,
-      "visual": 530,
-      "noShelter": 237
+      "inaccessible": 541,
+      "pct": 79,
+      "wheelchair": 189,
+      "visual": 532,
+      "noShelter": 239
     },
     {
       "code": "G0363",
@@ -206,11 +206,11 @@
       "name": "Gemeente Amersfoort",
       "type": "gemeente",
       "total": 285,
-      "inaccessible": 24,
-      "pct": 8,
-      "wheelchair": 19,
-      "visual": 23,
-      "noShelter": 19
+      "inaccessible": 21,
+      "pct": 7,
+      "wheelchair": 17,
+      "visual": 21,
+      "noShelter": 18
     },
     {
       "code": "G0879",
@@ -252,11 +252,11 @@
       "name": "Gemeente Amersfoort",
       "type": "gemeente",
       "total": 285,
-      "inaccessible": 24,
-      "pct": 8,
-      "wheelchair": 19,
-      "visual": 23,
-      "noShelter": 19
+      "inaccessible": 21,
+      "pct": 7,
+      "wheelchair": 17,
+      "visual": 21,
+      "noShelter": 18
     },
     {
       "code": "G0268",
@@ -340,22 +340,22 @@
       "name": "Gemeente Groningen",
       "type": "gemeente",
       "total": 547,
-      "inaccessible": 267,
-      "pct": 49,
-      "wheelchair": 178,
-      "visual": 238,
-      "noShelter": 149
+      "inaccessible": 263,
+      "pct": 48,
+      "wheelchair": 176,
+      "visual": 234,
+      "noShelter": 147
     },
     {
       "code": "G0202",
       "name": "Gemeente Arnhem",
       "type": "gemeente",
-      "total": 432,
-      "inaccessible": 227,
+      "total": 433,
+      "inaccessible": 228,
       "pct": 53,
-      "wheelchair": 95,
-      "visual": 195,
-      "noShelter": 98
+      "wheelchair": 96,
+      "visual": 196,
+      "noShelter": 99
     },
     {
       "code": "G0080",
@@ -406,11 +406,11 @@
       "name": "Gemeente Den Haag",
       "type": "gemeente",
       "total": 687,
-      "inaccessible": 539,
-      "pct": 78,
-      "wheelchair": 187,
-      "visual": 530,
-      "noShelter": 237
+      "inaccessible": 541,
+      "pct": 79,
+      "wheelchair": 189,
+      "visual": 532,
+      "noShelter": 239
     },
     {
       "code": "G0153",
@@ -550,12 +550,12 @@
       "code": "P0020",
       "name": "Provincie Groningen",
       "type": "provincie",
-      "total": 358,
-      "inaccessible": 161,
+      "total": 357,
+      "inaccessible": 160,
       "pct": 45,
-      "wheelchair": 115,
-      "visual": 148,
-      "noShelter": 116
+      "wheelchair": 114,
+      "visual": 147,
+      "noShelter": 115
     }
   ],
   "waterschappen": [
@@ -619,20 +619,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36791,
-      "inaccessible": 24379,
+      "total": 36794,
+      "inaccessible": 24376,
       "pct": 66,
       "wheelchair": 17347,
-      "visual": 22963
+      "visual": 22958
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4320,
-      "inaccessible": 3181,
+      "total": 4319,
+      "inaccessible": 3180,
       "pct": 74,
-      "wheelchair": 2213,
-      "visual": 2997
+      "wheelchair": 2212,
+      "visual": 2996
     },
     {
       "type": "waterschap",
@@ -655,14 +655,14 @@
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 265,
+    "gemeentesOver50": 264,
     "totalGemeentes": 345,
     "gemeentesOver50Pct": 77,
     "visualPct": 64,
     "wheelchairPct": 48,
     "wsPct": 95,
     "bestCityName": "Gemeente Amersfoort",
-    "bestCityPct": 8,
+    "bestCityPct": 7,
     "bestCityTotal": 285,
     "shelterPct": 66,
     "top10Pct": 13

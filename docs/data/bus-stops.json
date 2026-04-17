@@ -1,8 +1,8 @@
 {
-  "generated": "2026-04-16T06:45:00.382Z",
+  "generated": "2026-04-17T06:45:03.037Z",
   "totals": {
-    "totalBusQuays": 42080,
-    "inaccessibleBusQuays": 28412,
+    "totalBusQuays": 42084,
+    "inaccessibleBusQuays": 28408,
     "authorities": 385
   },
   "authorities": {
@@ -15478,7 +15478,7 @@
       "email": "provincieloket@gelderland.nl",
       "website": "https://www.gelderland.nl",
       "phone": "(026) 359 99 99",
-      "totalBusQuays": 804,
+      "totalBusQuays": 806,
       "inaccessibleCount": 621,
       "stops": [
         {
@@ -78603,20 +78603,6 @@
           "concessionProvider": "PNB"
         },
         {
-          "code": "NL:Q:73000004",
-          "name": "Station Universiteit",
-          "town": "Tilburg",
-          "street": "Kwekerijpad",
-          "lat": 51.565218,
-          "lon": 5.052063,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 125,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
           "code": "NL:Q:73005340",
           "name": "Station Universiteit",
           "town": "Tilburg",
@@ -78628,6 +78614,20 @@
           "visuallyAccessible": false,
           "compassDirection": 187,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:73000004",
+          "name": "Station Universiteit",
+          "town": "Tilburg",
+          "street": "Kwekerijpad",
+          "lat": 51.565218,
+          "lon": 5.052063,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 125,
+          "mutationDate": null,
           "concessionProvider": "PNB"
         },
         {
@@ -191583,7 +191583,7 @@
       "website": "http://www.tynaarlo.nl",
       "phone": "(0592) 26 66 62",
       "totalBusQuays": 86,
-      "inaccessibleCount": 78,
+      "inaccessibleCount": 76,
       "stops": [
         {
           "code": "NL:Q:12044520",
@@ -191894,26 +191894,12 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:12026910",
-          "name": "Achterom",
-          "town": "Eelderwolde",
-          "street": "Groningerweg",
-          "lat": 53.173816,
-          "lon": 6.546372,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 321,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:12026920",
           "name": "Achterom",
           "town": "Eelderwolde",
           "street": "Groningerweg",
-          "lat": 53.173672,
-          "lon": 6.546368,
+          "lat": 53.173364,
+          "lon": 6.546569,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -191922,16 +191908,16 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:12027010",
-          "name": "Elsborgpad",
+          "code": "NL:Q:12026910",
+          "name": "Achterom",
           "town": "Eelderwolde",
           "street": "Groningerweg",
-          "lat": 53.176894,
-          "lon": 6.543987,
+          "lat": 53.173852,
+          "lon": 6.546313,
           "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 327,
+          "compassDirection": 321,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -191940,8 +191926,8 @@
           "name": "Elsborgpad",
           "town": "Eelderwolde",
           "street": "Groningerweg",
-          "lat": 53.176777,
-          "lon": 6.543998,
+          "lat": 53.176714,
+          "lon": 6.544012,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -191950,16 +191936,16 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:12026820",
-          "name": "Groningerweg 33",
+          "code": "NL:Q:12027010",
+          "name": "Elsborgpad",
           "town": "Eelderwolde",
           "street": "Groningerweg",
-          "lat": 53.169101,
-          "lon": 6.552542,
-          "shelter": false,
+          "lat": 53.176931,
+          "lon": 6.543913,
+          "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 114,
+          "compassDirection": 327,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -191968,12 +191954,26 @@
           "name": "Groningerweg 33",
           "town": "Eelderwolde",
           "street": "Groningerweg",
-          "lat": 53.169512,
-          "lon": 6.551805,
+          "lat": 53.169548,
+          "lon": 6.551791,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 291,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:12026820",
+          "name": "Groningerweg 33",
+          "town": "Eelderwolde",
+          "street": "Groningerweg",
+          "lat": 53.169191,
+          "lon": 6.55247,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 114,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -192006,26 +192006,12 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:12026620",
-          "name": "Groningerweg 19",
-          "town": "Paterswolde",
-          "street": "Groningerweg",
-          "lat": 53.160714,
-          "lon": 6.559239,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 119,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:12026610",
           "name": "Groningerweg 19",
           "town": "Paterswolde",
           "street": "Groningerweg",
           "lat": 53.161086,
-          "lon": 6.55886,
+          "lon": 6.558845,
           "shelter": true,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
@@ -192034,44 +192020,16 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:12036420",
-          "name": "Noordwijk",
-          "town": "Paterswolde",
-          "street": "Hoofdweg",
-          "lat": 53.157031,
-          "lon": 6.563714,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 160,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12036410",
-          "name": "Noordwijk",
-          "town": "Paterswolde",
-          "street": "Hoofdweg",
-          "lat": 53.156587,
-          "lon": 6.564046,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 340,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12026710",
-          "name": "Reigerlaan",
+          "code": "NL:Q:12026620",
+          "name": "Groningerweg 19",
           "town": "Paterswolde",
           "street": "Groningerweg",
-          "lat": 53.16512,
-          "lon": 6.555321,
-          "shelter": true,
+          "lat": 53.160713,
+          "lon": 6.559359,
+          "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 348,
+          "compassDirection": 119,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -192080,12 +192038,26 @@
           "name": "Reigerlaan",
           "town": "Paterswolde",
           "street": "Groningerweg",
-          "lat": 53.164175,
-          "lon": 6.55543,
+          "lat": 53.164257,
+          "lon": 6.555342,
           "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 170,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:12026710",
+          "name": "Reigerlaan",
+          "town": "Paterswolde",
+          "street": "Groningerweg",
+          "lat": 53.165129,
+          "lon": 6.555291,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 348,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -228043,7 +228015,7 @@
       "website": "http://gemeente.groningen.nl",
       "phone": "14 050",
       "totalBusQuays": 547,
-      "inaccessibleCount": 263,
+      "inaccessibleCount": 261,
       "stops": [
         {
           "code": "NL:Q:11315520",
@@ -228295,20 +228267,6 @@
           "visuallyAccessible": false,
           "compassDirection": 340,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:10006850",
-          "name": "Boerhaavelaan",
-          "town": "Groningen",
-          "street": "Laan Corpus den Hoorn",
-          "lat": 53.195187,
-          "lon": 6.549953,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 315,
-          "mutationDate": "2019-07-10",
           "concessionProvider": "OVGD"
         },
         {
@@ -229400,20 +229358,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 180,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:10006940",
-          "name": "Lepelaar",
-          "town": "Groningen",
-          "street": "Van Swietenlaan",
-          "lat": 53.183589,
-          "lon": 6.544944,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 320,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -376856,7 +376800,7 @@
       "email": "info@denhelder.nl",
       "website": "http://www.denhelder.nl",
       "phone": null,
-      "totalBusQuays": 135,
+      "totalBusQuays": 137,
       "inaccessibleCount": 86,
       "stops": [
         {

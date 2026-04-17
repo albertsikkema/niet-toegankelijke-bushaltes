@@ -1,12 +1,12 @@
 {
-  "generated": "2026-04-16T06:45:00.394Z",
+  "generated": "2026-04-17T06:45:03.049Z",
   "totals": {
-    "totalBusQuays": 42080,
-    "inaccessibleBusQuays": 28412,
+    "totalBusQuays": 42084,
+    "inaccessibleBusQuays": 28408,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20338,
+    "wheelchairInaccessible": 20335,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26788,
+    "visuallyInaccessible": 26784,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -340,11 +340,11 @@
       "name": "Gemeente Groningen",
       "type": "gemeente",
       "total": 547,
-      "inaccessible": 263,
+      "inaccessible": 261,
       "pct": 48,
-      "wheelchair": 176,
-      "visual": 234,
-      "noShelter": 147
+      "wheelchair": 175,
+      "visual": 232,
+      "noShelter": 146
     },
     {
       "code": "G0202",
@@ -473,7 +473,7 @@
       "code": "P0025",
       "name": "Provincie Gelderland",
       "type": "provincie",
-      "total": 804,
+      "total": 806,
       "inaccessible": 621,
       "pct": 77,
       "wheelchair": 367,
@@ -619,16 +619,16 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36794,
-      "inaccessible": 24376,
+      "total": 36796,
+      "inaccessible": 24372,
       "pct": 66,
-      "wheelchair": 17347,
-      "visual": 22958
+      "wheelchair": 17344,
+      "visual": 22954
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4319,
+      "total": 4321,
       "inaccessible": 3180,
       "pct": 74,
       "wheelchair": 2212,

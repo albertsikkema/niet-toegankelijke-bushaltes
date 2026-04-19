@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-18T06:32:18.132Z",
+  "generated": "2026-04-19T06:41:09.372Z",
   "totals": {
-    "totalBusQuays": 42084,
+    "totalBusQuays": 42085,
     "inaccessibleBusQuays": 28408,
     "inaccessiblePct": 68,
     "wheelchairInaccessible": 20335,
@@ -273,7 +273,7 @@
       "code": "G0855",
       "name": "Gemeente Tilburg",
       "type": "gemeente",
-      "total": 373,
+      "total": 374,
       "inaccessible": 117,
       "pct": 31,
       "wheelchair": 75,
@@ -619,7 +619,7 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36796,
+      "total": 36797,
       "inaccessible": 24372,
       "pct": 66,
       "wheelchair": 17344,

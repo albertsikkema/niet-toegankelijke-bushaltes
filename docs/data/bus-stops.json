@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-18T06:32:18.120Z",
+  "generated": "2026-04-19T06:41:09.360Z",
   "totals": {
-    "totalBusQuays": 42084,
+    "totalBusQuays": 42085,
     "inaccessibleBusQuays": 28408,
     "authorities": 385
   },
@@ -77465,7 +77465,7 @@
       "email": "gemeente@tilburg.nl",
       "website": "http://www.tilburg.nl",
       "phone": "14 013",
-      "totalBusQuays": 373,
+      "totalBusQuays": 374,
       "inaccessibleCount": 117,
       "stops": [
         {
@@ -79114,7 +79114,7 @@
       "email": "gemeente@landvancuijk.nl",
       "website": "http://www.landvancuijk.nl",
       "phone": null,
-      "totalBusQuays": 252,
+      "totalBusQuays": 253,
       "inaccessibleCount": 162,
       "stops": [
         {
@@ -359541,7 +359541,7 @@
       "email": "contact@hollandskroon.nl",
       "website": "http://www.hollandskroon.nl",
       "phone": "(088) 321 50 00",
-      "totalBusQuays": 122,
+      "totalBusQuays": 121,
       "inaccessibleCount": 87,
       "stops": [
         {

@@ -1,10 +1,10 @@
 {
-  "generated": "2026-04-20T06:53:41.471Z",
+  "generated": "2026-04-21T06:45:29.602Z",
   "totals": {
     "totalBusQuays": 42085,
-    "inaccessibleBusQuays": 28408,
-    "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20335,
+    "inaccessibleBusQuays": 28407,
+    "inaccessiblePct": 67,
+    "wheelchairInaccessible": 20334,
     "wheelchairPct": 48,
     "visuallyInaccessible": 26784,
     "visualPct": 64
@@ -160,9 +160,9 @@
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
       "total": 1085,
-      "inaccessible": 477,
+      "inaccessible": 476,
       "pct": 44,
-      "wheelchair": 369,
+      "wheelchair": 368,
       "visual": 457,
       "noShelter": 253
     },
@@ -329,9 +329,9 @@
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
       "total": 1085,
-      "inaccessible": 477,
+      "inaccessible": 476,
       "pct": 44,
-      "wheelchair": 369,
+      "wheelchair": 368,
       "visual": 457,
       "noShelter": 253
     },
@@ -620,9 +620,9 @@
       "type": "gemeente",
       "label": "Gemeente",
       "total": 36797,
-      "inaccessible": 24372,
+      "inaccessible": 24371,
       "pct": 66,
-      "wheelchair": 17344,
+      "wheelchair": 17343,
       "visual": 22954
     },
     {

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-04-20T06:53:41.458Z",
+  "generated": "2026-04-21T06:45:29.592Z",
   "totals": {
     "totalBusQuays": 42085,
-    "inaccessibleBusQuays": 28408,
+    "inaccessibleBusQuays": 28407,
     "authorities": 385
   },
   "authorities": {
@@ -246372,7 +246372,7 @@
       "website": "http://www.amsterdam.nl",
       "phone": "14 020",
       "totalBusQuays": 1085,
-      "inaccessibleCount": 477,
+      "inaccessibleCount": 476,
       "stops": [
         {
           "code": "NL:Q:57142250",
@@ -247463,20 +247463,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": true,
           "compassDirection": 266,
-          "mutationDate": "2020-05-24",
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:30007133",
-          "name": "De Boelelaan",
-          "town": "Amsterdam",
-          "street": "",
-          "lat": 52.334955,
-          "lon": 4.867455,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 90,
           "mutationDate": "2020-05-24",
           "concessionProvider": "VRA"
         },

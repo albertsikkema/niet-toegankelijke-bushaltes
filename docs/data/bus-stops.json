@@ -1,8 +1,8 @@
 {
-  "generated": "2026-04-24T06:46:19.348Z",
+  "generated": "2026-04-25T06:36:52.712Z",
   "totals": {
-    "totalBusQuays": 42085,
-    "inaccessibleBusQuays": 28404,
+    "totalBusQuays": 42099,
+    "inaccessibleBusQuays": 28423,
     "authorities": 385
   },
   "authorities": {
@@ -10073,30 +10073,30 @@
           "concessionProvider": "OVS"
         },
         {
-          "code": "NL:Q:47140160",
-          "name": "Brinkweg",
-          "town": "Zalk",
-          "street": "Brinkweg",
-          "lat": 52.522935,
-          "lon": 6.000033,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 90,
-          "mutationDate": "2006-01-01",
-          "concessionProvider": "OVS"
-        },
-        {
           "code": "NL:Q:47320060",
           "name": "Brinkweg",
           "town": "Zalk",
           "street": "Brinkweg",
-          "lat": 52.523061,
-          "lon": 6.000005,
+          "lat": 52.52108,
+          "lon": 6.007581,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 270,
+          "compassDirection": 293,
+          "mutationDate": "2006-01-01",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:47140160",
+          "name": "Brinkweg",
+          "town": "Zalk",
+          "street": "Brinkweg",
+          "lat": 52.521008,
+          "lon": 6.007567,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 120,
           "mutationDate": "2006-01-01",
           "concessionProvider": "OVS"
         },
@@ -10137,7 +10137,7 @@
       "website": "http://www.enschede.nl",
       "phone": "14 053",
       "totalBusQuays": 309,
-      "inaccessibleCount": 250,
+      "inaccessibleCount": 253,
       "stops": [
         {
           "code": "NL:Q:43100600",
@@ -11008,20 +11008,6 @@
           "concessionProvider": "OVS"
         },
         {
-          "code": "NL:Q:44101030",
-          "name": "Crematorium",
-          "town": "Enschede",
-          "street": "Usselerveenweg",
-          "lat": 52.193719,
-          "lon": 6.830732,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 130,
-          "mutationDate": null,
-          "concessionProvider": "OVS"
-        },
-        {
           "code": "NL:Q:43002830",
           "name": "De Hatteler",
           "town": "Enschede",
@@ -11481,6 +11467,20 @@
           "visuallyAccessible": false,
           "compassDirection": 198,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:45030110",
+          "name": "Helmerzijde",
+          "town": "Enschede",
+          "street": "Broekheurne-ring",
+          "lat": 52.196876,
+          "lon": 6.861059,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 26,
+          "mutationDate": null,
           "concessionProvider": "OVS"
         },
         {
@@ -13556,6 +13556,34 @@
           "concessionProvider": "OVS"
         },
         {
+          "code": "NL:Q:45010130",
+          "name": "Station",
+          "town": "Glanerbrug",
+          "street": "Kerkstraat",
+          "lat": 52.218915,
+          "lon": 6.973562,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 357,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:45010120",
+          "name": "Station",
+          "town": "Glanerbrug",
+          "street": "Kerkstraat",
+          "lat": 52.218954,
+          "lon": 6.973359,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 177,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
           "code": "NL:Q:43010240",
           "name": "Symfoniestraat",
           "town": "Glanerbrug",
@@ -13609,6 +13637,20 @@
           "visuallyAccessible": false,
           "compassDirection": 274,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:44101030",
+          "name": "Crematorium",
+          "town": "Usselo",
+          "street": "Usselerveenweg",
+          "lat": 52.193719,
+          "lon": 6.830732,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 130,
+          "mutationDate": null,
           "concessionProvider": "OVS"
         },
         {
@@ -38766,8 +38808,8 @@
           "name": "Hollewandsweg",
           "town": "Zwolle",
           "street": "Hollewandsweg",
-          "lat": 52.482927,
-          "lon": 6.116645,
+          "lat": 52.48287,
+          "lon": 6.116559,
           "shelter": true,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
@@ -58882,7 +58924,7 @@
       "email": "gemeente@oosterhout.nl",
       "website": "http://www.oosterhout.nl",
       "phone": "14 0162",
-      "totalBusQuays": 90,
+      "totalBusQuays": 91,
       "inaccessibleCount": 42,
       "stops": [
         {
@@ -67578,7 +67620,7 @@
       "website": "http://www.rijssen-holten.nl",
       "phone": "(0548) 85 48 54",
       "totalBusQuays": 143,
-      "inaccessibleCount": 135,
+      "inaccessibleCount": 136,
       "stops": [
         {
           "code": "NL:Q:43880380",
@@ -69047,6 +69089,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 165,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:45300810",
+          "name": "Oude Morsweg",
+          "town": "Rijssen",
+          "street": "Noordermorssingel",
+          "lat": 52.31939,
+          "lon": 6.511285,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 65,
           "mutationDate": null,
           "concessionProvider": "OVS"
         },
@@ -122212,7 +122268,7 @@
       "website": "http://www.losser.nl",
       "phone": "(053) 537 74 44",
       "totalBusQuays": 35,
-      "inaccessibleCount": 16,
+      "inaccessibleCount": 17,
       "stops": [
         {
           "code": "NL:Q:43420010",
@@ -122338,6 +122394,20 @@
           "visuallyAccessible": false,
           "compassDirection": 339,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:45280140",
+          "name": "Balderikstraat",
+          "town": "Losser",
+          "street": "Denekamperdijk",
+          "lat": 52.270418,
+          "lon": 7.00976,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 257,
+          "mutationDate": null,
           "concessionProvider": "OVS"
         },
         {
@@ -137069,7 +137139,7 @@
       "website": "http://www.twenterand.nl",
       "phone": "(0546) 84 08 40",
       "totalBusQuays": 53,
-      "inaccessibleCount": 30,
+      "inaccessibleCount": 29,
       "stops": [
         {
           "code": "NL:Q:43630530",
@@ -137125,20 +137195,6 @@
           "visuallyAccessible": false,
           "compassDirection": 172,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:43840090",
-          "name": "Kerkpad",
-          "town": "Den Ham",
-          "street": "Ommerweg",
-          "lat": 52.463781,
-          "lon": 6.48743,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 302,
-          "mutationDate": "2018-11-15",
           "concessionProvider": "OVS"
         },
         {
@@ -137500,7 +137556,7 @@
       "website": "http://www.deventer.nl",
       "phone": "14 0570",
       "totalBusQuays": 274,
-      "inaccessibleCount": 107,
+      "inaccessibleCount": 106,
       "stops": [
         {
           "code": "NL:Q:43480160",
@@ -137612,20 +137668,6 @@
           "visuallyAccessible": true,
           "compassDirection": 107,
           "mutationDate": "2018-04-23",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:47540550",
-          "name": "Randerstraat",
-          "town": "Boskamp",
-          "street": "Olsterweg",
-          "lat": 52.303272,
-          "lon": 6.141917,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 151,
-          "mutationDate": "2020-02-19",
           "concessionProvider": "OVS"
         },
         {
@@ -138189,20 +138231,6 @@
           "concessionProvider": "OVS"
         },
         {
-          "code": "NL:Q:47643060",
-          "name": "Nijverheidstraat",
-          "town": "Deventer",
-          "street": "Rijsterborgherweg",
-          "lat": 52.259451,
-          "lon": 6.153755,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 79,
-          "mutationDate": "2006-01-01",
-          "concessionProvider": "OVS"
-        },
-        {
           "code": "NL:Q:47890001",
           "name": "Osnabruckstraat",
           "town": "Deventer",
@@ -138564,6 +138592,20 @@
           "visuallyAccessible": false,
           "compassDirection": 330,
           "mutationDate": "2006-01-01",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:47540550",
+          "name": "Randerstraat",
+          "town": "Diepenveen",
+          "street": "Olsterweg",
+          "lat": 52.303272,
+          "lon": 6.141917,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 151,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "OVS"
         },
         {
@@ -143830,7 +143872,7 @@
       "website": "http://www.hellendoorn.nl",
       "phone": "(0548) 63 00 00",
       "totalBusQuays": 58,
-      "inaccessibleCount": 56,
+      "inaccessibleCount": 58,
       "stops": [
         {
           "code": "NL:Q:43760110",
@@ -144277,6 +144319,34 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 320,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:43721155",
+          "name": "Bergleidingweg",
+          "town": "Nijverdal",
+          "street": "P C Stamstraat",
+          "lat": 52.35246,
+          "lon": 6.478148,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 353,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:43721165",
+          "name": "Bergleidingweg",
+          "town": "Nijverdal",
+          "street": "P C Stamstraat",
+          "lat": 52.352382,
+          "lon": 6.477975,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 163,
           "mutationDate": null,
           "concessionProvider": "OVS"
         },
@@ -147768,7 +147838,7 @@
       "email": "info@provinciegroningen.nl",
       "website": "http://www.provinciegroningen.nl",
       "phone": "(050) 316 49 11",
-      "totalBusQuays": 357,
+      "totalBusQuays": 358,
       "inaccessibleCount": 160,
       "stops": [
         {
@@ -181542,7 +181612,7 @@
         },
         {
           "code": "NL:Q:21707110",
-          "name": "Vallaat",
+          "name": "Transferium Oost",
           "town": "Drachten",
           "street": "Ureterpvallaat",
           "lat": 53.106572,
@@ -191582,8 +191652,8 @@
       "email": "info@tynaarlo.nl",
       "website": "http://www.tynaarlo.nl",
       "phone": "(0592) 26 66 62",
-      "totalBusQuays": 86,
-      "inaccessibleCount": 76,
+      "totalBusQuays": 88,
+      "inaccessibleCount": 78,
       "stops": [
         {
           "code": "NL:Q:12044520",
@@ -192646,6 +192716,34 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 258,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:12108110",
+          "name": "Zwembad",
+          "town": "Zuidlaren",
+          "street": "Wilhelminalaan",
+          "lat": 53.090028,
+          "lon": 6.681126,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 265,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:12108120",
+          "name": "Zwembad",
+          "town": "Zuidlaren",
+          "street": "Wilhelminalaan",
+          "lat": 53.08983,
+          "lon": 6.68118,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 85,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         }
@@ -215150,12 +215248,12 @@
           "name": "Haersolteweg",
           "town": "Dalfsen",
           "street": "Hofmanssteeg",
-          "lat": 52.522313,
-          "lon": 6.278183,
+          "lat": 52.521939,
+          "lon": 6.277727,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 0,
+          "compassDirection": 170,
           "mutationDate": "2014-12-14",
           "concessionProvider": "OVS"
         },
@@ -215164,12 +215262,12 @@
           "name": "Haersolteweg",
           "town": "Dalfsen",
           "street": "Oosterdalfsersteeg",
-          "lat": 52.522232,
-          "lon": 6.278166,
+          "lat": 52.521948,
+          "lon": 6.277843,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 0,
+          "compassDirection": 350,
           "mutationDate": "2014-12-14",
           "concessionProvider": "OVS"
         },
@@ -228014,8 +228112,8 @@
       "email": "info@groningen.nl",
       "website": "http://gemeente.groningen.nl",
       "phone": "14 050",
-      "totalBusQuays": 547,
-      "inaccessibleCount": 261,
+      "totalBusQuays": 549,
+      "inaccessibleCount": 263,
       "stops": [
         {
           "code": "NL:Q:11315520",
@@ -228253,6 +228351,20 @@
           "visuallyAccessible": false,
           "compassDirection": 249,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10009410",
+          "name": "Barkmolenstraat",
+          "town": "Groningen",
+          "street": "Sontweg",
+          "lat": 53.215438,
+          "lon": 6.580589,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 240,
+          "mutationDate": "2006-01-01",
           "concessionProvider": "OVGD"
         },
         {
@@ -230394,6 +230506,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 291,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10009430",
+          "name": "Trompstraat",
+          "town": "Groningen",
+          "street": "Veemarktstraat",
+          "lat": 53.214775,
+          "lon": 6.576738,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 275,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -246371,8 +246497,8 @@
       "email": "gemeente@amsterdam.nl",
       "website": "http://www.amsterdam.nl",
       "phone": "14 020",
-      "totalBusQuays": 1085,
-      "inaccessibleCount": 476,
+      "totalBusQuays": 1087,
+      "inaccessibleCount": 478,
       "stops": [
         {
           "code": "NL:Q:57142250",
@@ -248583,6 +248709,34 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 95,
+          "mutationDate": null,
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:30000067",
+          "name": "Hugo de Vrieslaan",
+          "town": "Amsterdam",
+          "street": "Wethouder Frankeweg",
+          "lat": 52.351351,
+          "lon": 4.935865,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 226,
+          "mutationDate": null,
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:30000068",
+          "name": "Hugo de Vrieslaan",
+          "town": "Amsterdam",
+          "street": "Wethouder Frankeweg",
+          "lat": 52.351288,
+          "lon": 4.935925,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 46,
           "mutationDate": null,
           "concessionProvider": "VRA"
         },
@@ -253393,8 +253547,8 @@
       "email": "info@noardeast-fryslan.nl",
       "website": "http://www.noardeast-fryslan.nl",
       "phone": "(0519) 29 88 88",
-      "totalBusQuays": 137,
-      "inaccessibleCount": 97,
+      "totalBusQuays": 142,
+      "inaccessibleCount": 102,
       "stops": [
         {
           "code": "NL:Q:21710300",
@@ -253663,6 +253817,34 @@
           "concessionProvider": "FR"
         },
         {
+          "code": "NL:Q:21615150",
+          "name": "Binnenstad (Keningsdei)",
+          "town": "Dokkum",
+          "street": "Rondweg-Noord",
+          "lat": 53.328457,
+          "lon": 5.993451,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 244,
+          "mutationDate": null,
+          "concessionProvider": "FR"
+        },
+        {
+          "code": "NL:Q:21615160",
+          "name": "Binnenstad (Keningsdei)",
+          "town": "Dokkum",
+          "street": "Rondweg-Noord",
+          "lat": 53.328041,
+          "lon": 5.992452,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 64,
+          "mutationDate": null,
+          "concessionProvider": "FR"
+        },
+        {
           "code": "NL:Q:21610710",
           "name": "Dongeraheem",
           "town": "Dokkum",
@@ -253674,6 +253856,48 @@
           "visuallyAccessible": false,
           "compassDirection": 152,
           "mutationDate": "2019-03-06",
+          "concessionProvider": "FR"
+        },
+        {
+          "code": "NL:Q:21615310",
+          "name": "P+R Betterwird",
+          "town": "Dokkum",
+          "street": "Holwerderweg",
+          "lat": 53.329562,
+          "lon": 5.980134,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 300,
+          "mutationDate": null,
+          "concessionProvider": "FR"
+        },
+        {
+          "code": "NL:Q:21615300",
+          "name": "P+R Betterwird",
+          "town": "Dokkum",
+          "street": "Holwerderweg",
+          "lat": 53.329422,
+          "lon": 5.980127,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 117,
+          "mutationDate": null,
+          "concessionProvider": "FR"
+        },
+        {
+          "code": "NL:Q:21616900",
+          "name": "P+R Zuiderschans",
+          "town": "Dokkum",
+          "street": "Rondweg-West",
+          "lat": 53.317279,
+          "lon": 5.990305,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 144,
+          "mutationDate": null,
           "concessionProvider": "FR"
         },
         {
@@ -255446,7 +255670,7 @@
       "website": "http://www.almelo.nl",
       "phone": "(0546) 54 11 11",
       "totalBusQuays": 198,
-      "inaccessibleCount": 160,
+      "inaccessibleCount": 161,
       "stops": [
         {
           "code": "NL:Q:43590240",
@@ -257615,6 +257839,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 294,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:45160070",
+          "name": "Zorgboerderij de Zegger",
+          "town": "Bornerbroek",
+          "street": "Bolscher Landen",
+          "lat": 52.311327,
+          "lon": 6.670277,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 348,
           "mutationDate": null,
           "concessionProvider": "OVS"
         },
@@ -268646,20 +268884,6 @@
           "concessionProvider": "OVS"
         },
         {
-          "code": "NL:Q:46270010",
-          "name": "Camping De Kleine Wolf",
-          "town": "Stegeren",
-          "street": "Coevorderweg",
-          "lat": 52.544022,
-          "lon": 6.49576,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 244,
-          "mutationDate": null,
-          "concessionProvider": "OVS"
-        },
-        {
           "code": "NL:Q:46270020",
           "name": "Camping De Kleine Wolf",
           "town": "Stegeren",
@@ -268670,6 +268894,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 56,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:46270010",
+          "name": "Camping De Kleine Wolf",
+          "town": "Stegeren",
+          "street": "Coevorderweg",
+          "lat": 52.544022,
+          "lon": 6.49576,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 244,
           "mutationDate": null,
           "concessionProvider": "OVS"
         },
@@ -282536,7 +282774,7 @@
       "website": "http://www.borne.nl",
       "phone": "(074) 265 86 86",
       "totalBusQuays": 129,
-      "inaccessibleCount": 126,
+      "inaccessibleCount": 127,
       "stops": [
         {
           "code": "NL:Q:45150010",
@@ -283529,6 +283767,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 158,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:45210660",
+          "name": "Molenstraat",
+          "town": "Borne",
+          "street": "Bornerbroeksestraat",
+          "lat": 52.302143,
+          "lon": 6.747438,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 279,
           "mutationDate": null,
           "concessionProvider": "OVS"
         },
@@ -296284,7 +296536,7 @@
           "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 16,
+          "compassDirection": 9,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PNB"
         },
@@ -343622,8 +343874,8 @@
       "email": "info@diemen.nl",
       "website": "http://www.diemen.nl",
       "phone": "(020) 314 48 88",
-      "totalBusQuays": 49,
-      "inaccessibleCount": 35,
+      "totalBusQuays": 50,
+      "inaccessibleCount": 36,
       "stops": [
         {
           "code": "NL:Q:30000508",
@@ -343875,6 +344127,20 @@
           "visuallyAccessible": false,
           "compassDirection": 248,
           "mutationDate": "2020-02-13",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:30000445",
+          "name": "Prins Bernhardlaan",
+          "town": "Diemen",
+          "street": "Muiderstraatweg",
+          "lat": 52.337385,
+          "lon": 4.966697,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 286,
+          "mutationDate": null,
           "concessionProvider": "VRA"
         },
         {

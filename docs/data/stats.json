@@ -1,12 +1,12 @@
 {
-  "generated": "2026-04-24T06:46:19.359Z",
+  "generated": "2026-04-25T06:36:52.722Z",
   "totals": {
-    "totalBusQuays": 42085,
-    "inaccessibleBusQuays": 28404,
-    "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20338,
+    "totalBusQuays": 42099,
+    "inaccessibleBusQuays": 28423,
+    "inaccessiblePct": 68,
+    "wheelchairInaccessible": 20357,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26780,
+    "visuallyInaccessible": 26799,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -64,6 +64,17 @@
       "wheelchair": 48,
       "visual": 69,
       "noShelter": 49
+    },
+    {
+      "code": "G0163",
+      "name": "Gemeente Hellendoorn",
+      "type": "gemeente",
+      "total": 58,
+      "inaccessible": 58,
+      "pct": 100,
+      "wheelchair": 56,
+      "visual": 57,
+      "noShelter": 43
     },
     {
       "code": "G1955",
@@ -159,12 +170,12 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1085,
-      "inaccessible": 476,
+      "total": 1087,
+      "inaccessible": 478,
       "pct": 44,
-      "wheelchair": 368,
-      "visual": 457,
-      "noShelter": 253
+      "wheelchair": 370,
+      "visual": 459,
+      "noShelter": 255
     },
     {
       "code": "G0114",
@@ -328,23 +339,23 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1085,
-      "inaccessible": 476,
+      "total": 1087,
+      "inaccessible": 478,
       "pct": 44,
-      "wheelchair": 368,
-      "visual": 457,
-      "noShelter": 253
+      "wheelchair": 370,
+      "visual": 459,
+      "noShelter": 255
     },
     {
       "code": "G0014",
       "name": "Gemeente Groningen",
       "type": "gemeente",
-      "total": 547,
-      "inaccessible": 261,
+      "total": 549,
+      "inaccessible": 263,
       "pct": 48,
-      "wheelchair": 175,
-      "visual": 232,
-      "noShelter": 146
+      "wheelchair": 176,
+      "visual": 234,
+      "noShelter": 148
     },
     {
       "code": "G0202",
@@ -417,11 +428,11 @@
       "name": "Gemeente Enschede",
       "type": "gemeente",
       "total": 309,
-      "inaccessible": 250,
-      "pct": 81,
-      "wheelchair": 86,
-      "visual": 247,
-      "noShelter": 115
+      "inaccessible": 253,
+      "pct": 82,
+      "wheelchair": 89,
+      "visual": 250,
+      "noShelter": 118
     }
   ],
   "provincies": [
@@ -550,7 +561,7 @@
       "code": "P0020",
       "name": "Provincie Groningen",
       "type": "provincie",
-      "total": 357,
+      "total": 358,
       "inaccessible": 160,
       "pct": 45,
       "wheelchair": 114,
@@ -619,16 +630,16 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36797,
-      "inaccessible": 24368,
+      "total": 36810,
+      "inaccessible": 24387,
       "pct": 66,
-      "wheelchair": 17347,
-      "visual": 22950
+      "wheelchair": 17366,
+      "visual": 22969
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4321,
+      "total": 4322,
       "inaccessible": 3180,
       "pct": 74,
       "wheelchair": 2212,

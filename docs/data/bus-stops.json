@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-26T06:45:02.231Z",
+  "generated": "2026-04-27T07:01:38.565Z",
   "totals": {
-    "totalBusQuays": 42099,
+    "totalBusQuays": 42108,
     "inaccessibleBusQuays": 28423,
     "authorities": 385
   },
@@ -58924,7 +58924,7 @@
       "email": "gemeente@oosterhout.nl",
       "website": "http://www.oosterhout.nl",
       "phone": "14 0162",
-      "totalBusQuays": 91,
+      "totalBusQuays": 98,
       "inaccessibleCount": 42,
       "stops": [
         {
@@ -312189,7 +312189,7 @@
       "email": "info@bronckhorst.nl",
       "website": "http://www.bronckhorst.nl",
       "phone": "(0575) 75 02 50",
-      "totalBusQuays": 103,
+      "totalBusQuays": 105,
       "inaccessibleCount": 94,
       "stops": [
         {

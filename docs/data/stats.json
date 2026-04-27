@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-26T06:45:02.243Z",
+  "generated": "2026-04-27T07:01:38.576Z",
   "totals": {
-    "totalBusQuays": 42099,
+    "totalBusQuays": 42108,
     "inaccessibleBusQuays": 28423,
     "inaccessiblePct": 68,
     "wheelchairInaccessible": 20357,
@@ -630,7 +630,7 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36810,
+      "total": 36819,
       "inaccessible": 24387,
       "pct": 66,
       "wheelchair": 17366,

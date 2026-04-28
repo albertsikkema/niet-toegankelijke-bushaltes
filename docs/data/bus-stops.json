@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-27T07:01:38.565Z",
+  "generated": "2026-04-28T07:02:14.363Z",
   "totals": {
     "totalBusQuays": 42108,
     "inaccessibleBusQuays": 28423,
@@ -147839,7 +147839,7 @@
       "website": "http://www.provinciegroningen.nl",
       "phone": "(050) 316 49 11",
       "totalBusQuays": 358,
-      "inaccessibleCount": 160,
+      "inaccessibleCount": 161,
       "stops": [
         {
           "code": "NL:Q:10255310",
@@ -149981,6 +149981,20 @@
           "visuallyAccessible": false,
           "compassDirection": 188,
           "mutationDate": "2019-07-10",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10310550",
+          "name": "Qbuzz",
+          "town": "Zoutkamp",
+          "street": "Panserweg",
+          "lat": 53.343025,
+          "lon": 6.29967,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 262,
+          "mutationDate": null,
           "concessionProvider": "OVGD"
         },
         {
@@ -228113,7 +228127,7 @@
       "website": "http://gemeente.groningen.nl",
       "phone": "14 050",
       "totalBusQuays": 549,
-      "inaccessibleCount": 263,
+      "inaccessibleCount": 262,
       "stops": [
         {
           "code": "NL:Q:11315520",
@@ -230506,20 +230520,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 291,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:10009430",
-          "name": "Trompstraat",
-          "town": "Groningen",
-          "street": "Veemarktstraat",
-          "lat": 53.214775,
-          "lon": 6.576738,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 275,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },

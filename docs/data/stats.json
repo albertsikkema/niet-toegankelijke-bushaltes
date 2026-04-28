@@ -1,10 +1,10 @@
 {
-  "generated": "2026-04-27T07:01:38.576Z",
+  "generated": "2026-04-28T07:02:14.376Z",
   "totals": {
     "totalBusQuays": 42108,
     "inaccessibleBusQuays": 28423,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20357,
+    "wheelchairInaccessible": 20358,
     "wheelchairPct": 48,
     "visuallyInaccessible": 26799,
     "visualPct": 64
@@ -351,11 +351,11 @@
       "name": "Gemeente Groningen",
       "type": "gemeente",
       "total": 549,
-      "inaccessible": 263,
+      "inaccessible": 262,
       "pct": 48,
       "wheelchair": 176,
-      "visual": 234,
-      "noShelter": 148
+      "visual": 233,
+      "noShelter": 147
     },
     {
       "code": "G0202",
@@ -562,11 +562,11 @@
       "name": "Provincie Groningen",
       "type": "provincie",
       "total": 358,
-      "inaccessible": 160,
+      "inaccessible": 161,
       "pct": 45,
-      "wheelchair": 114,
-      "visual": 147,
-      "noShelter": 115
+      "wheelchair": 115,
+      "visual": 148,
+      "noShelter": 116
     }
   ],
   "waterschappen": [
@@ -631,19 +631,19 @@
       "type": "gemeente",
       "label": "Gemeente",
       "total": 36819,
-      "inaccessible": 24387,
+      "inaccessible": 24386,
       "pct": 66,
       "wheelchair": 17366,
-      "visual": 22969
+      "visual": 22968
     },
     {
       "type": "provincie",
       "label": "Provincie",
       "total": 4322,
-      "inaccessible": 3180,
+      "inaccessible": 3181,
       "pct": 74,
-      "wheelchair": 2212,
-      "visual": 2996
+      "wheelchair": 2213,
+      "visual": 2997
     },
     {
       "type": "waterschap",

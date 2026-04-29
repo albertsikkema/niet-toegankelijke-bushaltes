@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-28T07:02:14.363Z",
+  "generated": "2026-04-29T06:57:20.961Z",
   "totals": {
-    "totalBusQuays": 42108,
+    "totalBusQuays": 42111,
     "inaccessibleBusQuays": 28423,
     "authorities": 385
   },
@@ -238496,7 +238496,7 @@
       "email": "provincie@zeeland.nl",
       "website": "https://www.zeeland.nl",
       "phone": "(0118) 63 10 11",
-      "totalBusQuays": 112,
+      "totalBusQuays": 114,
       "inaccessibleCount": 76,
       "stops": [
         {
@@ -239571,7 +239571,7 @@
       "email": "info@middelburg.nl",
       "website": "http://www.middelburg.nl",
       "phone": "14 0118",
-      "totalBusQuays": 129,
+      "totalBusQuays": 130,
       "inaccessibleCount": 105,
       "stops": [
         {

@@ -1,9 +1,9 @@
 {
-  "generated": "2026-04-28T07:02:14.376Z",
+  "generated": "2026-04-29T06:57:20.971Z",
   "totals": {
-    "totalBusQuays": 42108,
+    "totalBusQuays": 42111,
     "inaccessibleBusQuays": 28423,
-    "inaccessiblePct": 68,
+    "inaccessiblePct": 67,
     "wheelchairInaccessible": 20358,
     "wheelchairPct": 48,
     "visuallyInaccessible": 26799,
@@ -506,9 +506,9 @@
       "code": "P0029",
       "name": "Provincie Zeeland",
       "type": "provincie",
-      "total": 112,
+      "total": 114,
       "inaccessible": 76,
-      "pct": 68,
+      "pct": 67,
       "wheelchair": 71,
       "visual": 71,
       "noShelter": 36
@@ -630,7 +630,7 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36819,
+      "total": 36820,
       "inaccessible": 24386,
       "pct": 66,
       "wheelchair": 17366,
@@ -639,7 +639,7 @@
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4322,
+      "total": 4324,
       "inaccessible": 3181,
       "pct": 74,
       "wheelchair": 2213,

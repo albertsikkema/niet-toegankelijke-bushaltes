@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-01T07:02:04.701Z",
+  "generated": "2026-05-02T06:45:46.158Z",
   "totals": {
     "totalBusQuays": 42082,
     "inaccessibleBusQuays": 28407,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20301,
+    "wheelchairInaccessible": 20298,
     "wheelchairPct": 48,
     "visuallyInaccessible": 26803,
     "visualPct": 64
@@ -633,7 +633,7 @@
       "total": 36790,
       "inaccessible": 24371,
       "pct": 66,
-      "wheelchair": 17329,
+      "wheelchair": 17326,
       "visual": 22973
     },
     {

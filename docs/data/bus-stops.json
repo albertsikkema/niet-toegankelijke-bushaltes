@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T06:45:46.145Z",
+  "generated": "2026-05-03T06:57:48.394Z",
   "totals": {
     "totalBusQuays": 42082,
     "inaccessibleBusQuays": 28407,
@@ -27655,22 +27655,36 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:57330620",
-          "name": "Schiphol Airport",
+          "code": "NL:Q:57330222",
+          "name": "Schiphol Airport/Plaza",
           "town": "Schiphol",
           "street": "Havenmeesterweg",
-          "lat": 52.308819,
-          "lon": 4.761642,
+          "lat": 52.30847,
+          "lon": 4.762013,
           "shelter": true,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
-          "compassDirection": 315,
+          "compassDirection": 326,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:57332107",
+          "name": "Schiphol Airport/Plaza",
+          "town": "Schiphol",
+          "street": "Havenmeesterweg",
+          "lat": 52.309212,
+          "lon": 4.761241,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 320,
           "mutationDate": "2019-03-14",
           "concessionProvider": "VRA"
         },
         {
           "code": "NL:Q:57330228",
-          "name": "Schiphol Airport",
+          "name": "Schiphol Airport/Plaza",
           "town": "Schiphol",
           "street": "Aankomstpassage",
           "lat": 52.309262,
@@ -27684,7 +27698,7 @@
         },
         {
           "code": "NL:Q:57339000",
-          "name": "Schiphol Airport",
+          "name": "Schiphol Airport/Plaza",
           "town": "Schiphol",
           "street": "Aankomstpassage",
           "lat": 52.308701,
@@ -27698,7 +27712,7 @@
         },
         {
           "code": "NL:Q:57339004",
-          "name": "Schiphol Airport",
+          "name": "Schiphol Airport/Plaza",
           "town": "Schiphol",
           "street": "Havenmeesterweg",
           "lat": 52.309446,
@@ -27712,7 +27726,7 @@
         },
         {
           "code": "NL:Q:57330226",
-          "name": "Schiphol Airport",
+          "name": "Schiphol Airport/Plaza",
           "town": "Schiphol",
           "street": "Havenmeesterweg",
           "lat": 52.309309,
@@ -27726,7 +27740,7 @@
         },
         {
           "code": "NL:Q:57330224",
-          "name": "Schiphol Airport",
+          "name": "Schiphol Airport/Plaza",
           "town": "Schiphol",
           "street": "Havenmeesterweg",
           "lat": 52.308862,
@@ -27739,8 +27753,22 @@
           "concessionProvider": "VRA"
         },
         {
+          "code": "NL:Q:57330630",
+          "name": "Schiphol Airport/Plaza",
+          "town": "Schiphol",
+          "street": "Havenmeesterweg",
+          "lat": 52.308487,
+          "lon": 4.761764,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 135,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "VRA"
+        },
+        {
           "code": "NL:Q:57332108",
-          "name": "Schiphol Airport",
+          "name": "Schiphol Airport/Plaza",
           "town": "Schiphol",
           "street": "Havenmeesterweg",
           "lat": 52.309157,
@@ -27754,7 +27782,7 @@
         },
         {
           "code": "NL:Q:57330221",
-          "name": "Schiphol Airport",
+          "name": "Schiphol Airport/Plaza",
           "town": "Schiphol",
           "street": "Havenmeesterweg",
           "lat": 52.309006,
@@ -27767,22 +27795,8 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:57330222",
-          "name": "Schiphol Airport",
-          "town": "Schiphol",
-          "street": "Havenmeesterweg",
-          "lat": 52.30847,
-          "lon": 4.762013,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 326,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "VRA"
-        },
-        {
           "code": "NL:Q:57330730",
-          "name": "Schiphol Airport",
+          "name": "Schiphol Airport/Plaza",
           "town": "Schiphol",
           "street": "Havenmeesterweg",
           "lat": 52.309548,
@@ -27795,30 +27809,16 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:57330630",
-          "name": "Schiphol Airport",
+          "code": "NL:Q:57330620",
+          "name": "Schiphol Airport/Plaza",
           "town": "Schiphol",
           "street": "Havenmeesterweg",
-          "lat": 52.308487,
-          "lon": 4.761764,
+          "lat": 52.308819,
+          "lon": 4.761642,
           "shelter": true,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
-          "compassDirection": 135,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:57332107",
-          "name": "Schiphol Airport",
-          "town": "Schiphol",
-          "street": "Havenmeesterweg",
-          "lat": 52.309212,
-          "lon": 4.761241,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 320,
+          "compassDirection": 315,
           "mutationDate": "2019-03-14",
           "concessionProvider": "VRA"
         },
@@ -264459,7 +264459,7 @@
         },
         {
           "code": "NL:Q:30004264",
-          "name": "Schiphol Airport",
+          "name": "Schiphol Airport/Plaza",
           "town": "Schiphol",
           "street": "Ceintuurbaan Zuid",
           "lat": 52.307687,

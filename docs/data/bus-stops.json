@@ -1,8 +1,8 @@
 {
-  "generated": "2026-05-05T06:54:05.265Z",
+  "generated": "2026-05-07T07:07:47.655Z",
   "totals": {
-    "totalBusQuays": 42085,
-    "inaccessibleBusQuays": 28408,
+    "totalBusQuays": 42086,
+    "inaccessibleBusQuays": 28409,
     "authorities": 385
   },
   "authorities": {
@@ -142113,20 +142113,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:16000610",
-          "name": "Burg. Knopperslaan",
-          "town": "Meppel",
-          "street": "Comm d Vos v Steenwijkln",
-          "lat": 52.699041,
-          "lon": 6.197012,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 319,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:16000600",
           "name": "Burg. Knopperslaan",
           "town": "Meppel",
@@ -142137,6 +142123,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 137,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:16000610",
+          "name": "Burg. Knopperslaan",
+          "town": "Meppel",
+          "street": "Comm d Vos v Steenwijkln",
+          "lat": 52.699041,
+          "lon": 6.197012,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 319,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -154812,7 +154812,7 @@
           "lon": 3.714207,
           "shelter": false,
           "wheelchairAccessible": false,
-          "visuallyAccessible": true,
+          "visuallyAccessible": false,
           "compassDirection": 250,
           "mutationDate": null,
           "concessionProvider": "ZLD"
@@ -169163,20 +169163,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:18780100",
-          "name": "Zuiderdiep 192",
-          "town": "2e Exloërmond",
-          "street": "Zuiderdiep",
-          "lat": 52.91276,
-          "lon": 6.945638,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 68,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:18780090",
           "name": "Zuiderdiep 192",
           "town": "2e Exloërmond",
@@ -169187,6 +169173,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 248,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:18780100",
+          "name": "Zuiderdiep 192",
+          "town": "2e Exloërmond",
+          "street": "Zuiderdiep",
+          "lat": 52.91276,
+          "lon": 6.945638,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 68,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -182892,7 +182892,7 @@
       "website": "http://www.tynaarlo.nl",
       "phone": "(0592) 26 66 62",
       "totalBusQuays": 89,
-      "inaccessibleCount": 78,
+      "inaccessibleCount": 79,
       "stops": [
         {
           "code": "NL:Q:12044520",
@@ -183956,6 +183956,20 @@
           "visuallyAccessible": false,
           "compassDirection": 258,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:12108130",
+          "name": "Leemkuilenweg",
+          "town": "Zuidlaren",
+          "street": "Voorkampen",
+          "lat": 53.090014,
+          "lon": 6.684544,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 271,
+          "mutationDate": null,
           "concessionProvider": "OVGD"
         },
         {
@@ -205310,7 +205324,7 @@
       "website": "http://www.landgraaf.nl",
       "phone": "14 045",
       "totalBusQuays": 81,
-      "inaccessibleCount": 49,
+      "inaccessibleCount": 50,
       "stops": [
         {
           "code": "NL:Q:66150360",
@@ -205408,6 +205422,20 @@
           "visuallyAccessible": true,
           "compassDirection": 240,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "LMB"
+        },
+        {
+          "code": "NL:Q:66170001",
+          "name": "Einsteinstraat",
+          "town": "Landgraaf",
+          "street": "Hoofdstraat",
+          "lat": 50.886358,
+          "lon": 6.014278,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 0,
+          "mutationDate": null,
           "concessionProvider": "LMB"
         },
         {
@@ -219352,7 +219380,7 @@
       "website": "https://www.gelderland.nl",
       "phone": "(026) 359 99 99",
       "totalBusQuays": 807,
-      "inaccessibleCount": 620,
+      "inaccessibleCount": 618,
       "stops": [
         {
           "code": "NL:Q:40344001",
@@ -221371,20 +221399,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:40100010",
-          "name": "Kerklaan",
-          "town": "Doorwerth",
-          "street": "Utrechtseweg",
-          "lat": 51.987525,
-          "lon": 5.803587,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 88,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:40200140",
           "name": "Kerklaan",
           "town": "Doorwerth",
@@ -221441,20 +221455,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41520300",
-          "name": "Kerkstraat",
-          "town": "Drempt",
-          "street": "Rijksweg",
-          "lat": 52.005927,
-          "lon": 6.164664,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 266,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41420010",
           "name": "Kerkstraat",
           "town": "Drempt",
@@ -221466,6 +221466,20 @@
           "visuallyAccessible": false,
           "compassDirection": 90,
           "mutationDate": "2014-08-28",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41520300",
+          "name": "Kerkstraat",
+          "town": "Drempt",
+          "street": "Rijksweg",
+          "lat": 52.005927,
+          "lon": 6.164664,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 266,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
         {
@@ -221693,20 +221707,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41770100",
-          "name": "Damlaan",
-          "town": "Eefde",
-          "street": "Almenseweg",
-          "lat": 52.155132,
-          "lon": 6.236675,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 70,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41770090",
           "name": "Damlaan",
           "town": "Eefde",
@@ -221717,6 +221717,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 250,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41770100",
+          "name": "Damlaan",
+          "town": "Eefde",
+          "street": "Almenseweg",
+          "lat": 52.155132,
+          "lon": 6.236675,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 70,
           "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
@@ -224269,20 +224283,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41520210",
-          "name": "Van Pallandtlaan",
-          "town": "Laag-Keppel",
-          "street": "Rijksweg",
-          "lat": 51.998156,
-          "lon": 6.216704,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 290,
-          "mutationDate": "2014-08-28",
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41520220",
           "name": "Van Pallandtlaan",
           "town": "Laag-Keppel",
@@ -224293,6 +224293,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 101,
+          "mutationDate": "2014-08-28",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41520210",
+          "name": "Van Pallandtlaan",
+          "town": "Laag-Keppel",
+          "street": "Rijksweg",
+          "lat": 51.998156,
+          "lon": 6.216704,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 290,
           "mutationDate": "2014-08-28",
           "concessionProvider": "GLD"
         },
@@ -227209,31 +227223,17 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:47210019",
-          "name": "A28/IJsselvliedt",
-          "town": "Wezep",
-          "street": "Zuiderzeestraatweg",
-          "lat": 52.467102,
-          "lon": 5.988222,
+          "code": "NL:Q:41530120",
+          "name": "Broekweg",
+          "town": "Wichmond",
+          "street": "Den Elterweg",
+          "lat": 52.09665,
+          "lon": 6.219612,
           "shelter": false,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
-          "compassDirection": 138,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:47210020",
-          "name": "A28/IJsselvliedt",
-          "town": "Wezep",
-          "street": "Zuiderzeestraatweg",
-          "lat": 52.467182,
-          "lon": 5.988355,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 318,
-          "mutationDate": null,
+          "compassDirection": 181,
+          "mutationDate": "2014-08-24",
           "concessionProvider": "GLD"
         },
         {
@@ -227769,20 +227769,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41610070",
-          "name": "Hummeloseweg",
-          "town": "Zelhem",
-          "street": "Kruisbergseweg",
-          "lat": 52.004911,
-          "lon": 6.310216,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 8,
-          "mutationDate": "2014-08-21",
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41610080",
           "name": "Hummeloseweg",
           "town": "Zelhem",
@@ -227793,6 +227779,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 167,
+          "mutationDate": "2014-08-21",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41610070",
+          "name": "Hummeloseweg",
+          "town": "Zelhem",
+          "street": "Kruisbergseweg",
+          "lat": 52.004911,
+          "lon": 6.310216,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 8,
           "mutationDate": "2014-08-21",
           "concessionProvider": "GLD"
         },
@@ -229096,20 +229096,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:10009022",
-          "name": "Hoofdstation",
-          "town": "Groningen",
-          "street": "",
-          "lat": 53.211281,
-          "lon": 6.566567,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 230,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:10009034",
           "name": "Hoofdstation",
           "town": "Groningen",
@@ -229205,6 +229191,20 @@
           "visuallyAccessible": true,
           "compassDirection": 220,
           "mutationDate": null,
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10009022",
+          "name": "Hoofdstation",
+          "town": "Groningen",
+          "street": "",
+          "lat": 53.211281,
+          "lon": 6.566567,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 230,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
         {
@@ -249581,20 +249581,6 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:30001080",
-          "name": "Markengouw",
-          "town": "Amsterdam",
-          "street": "Beemsterstraat",
-          "lat": 52.39922,
-          "lon": 4.952951,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 219,
-          "mutationDate": "2020-05-24",
-          "concessionProvider": "VRA"
-        },
-        {
           "code": "NL:Q:30001081",
           "name": "Markengouw",
           "town": "Amsterdam",
@@ -249605,6 +249591,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 38,
+          "mutationDate": "2020-05-24",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:30001080",
+          "name": "Markengouw",
+          "town": "Amsterdam",
+          "street": "Beemsterstraat",
+          "lat": 52.39922,
+          "lon": 4.952951,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 219,
           "mutationDate": "2020-05-24",
           "concessionProvider": "VRA"
         },
@@ -279414,7 +279414,7 @@
       "email": "gemeente@lingewaard.nl",
       "website": "http://www.lingewaard.nl",
       "phone": "(026) 326 01 11",
-      "totalBusQuays": 88,
+      "totalBusQuays": 87,
       "inaccessibleCount": 25,
       "stops": [
         {
@@ -280801,20 +280801,6 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:30007446",
-          "name": "Zonnestein",
-          "town": "Amstelveen",
-          "street": "Beneluxbaan",
-          "lat": 52.311341,
-          "lon": 4.872776,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 346,
-          "mutationDate": "2020-05-18",
-          "concessionProvider": "VRA"
-        },
-        {
           "code": "NL:Q:57242140",
           "name": "Zonnestein",
           "town": "Amstelveen",
@@ -280840,6 +280826,20 @@
           "visuallyAccessible": false,
           "compassDirection": 342,
           "mutationDate": null,
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:30007446",
+          "name": "Zonnestein",
+          "town": "Amstelveen",
+          "street": "Beneluxbaan",
+          "lat": 52.311341,
+          "lon": 4.872776,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": true,
+          "compassDirection": 346,
+          "mutationDate": "2020-05-18",
           "concessionProvider": "VRA"
         },
         {
@@ -305887,7 +305887,7 @@
       "email": "gemeente@oostgelre.nl",
       "website": "http://www.oostgelre.nl",
       "phone": "(0544) 39 35 35",
-      "totalBusQuays": 61,
+      "totalBusQuays": 63,
       "inaccessibleCount": 54,
       "stops": [
         {
@@ -308833,7 +308833,7 @@
       "website": "http://www.apeldoorn.nl",
       "phone": "14 055",
       "totalBusQuays": 330,
-      "inaccessibleCount": 232,
+      "inaccessibleCount": 233,
       "stops": [
         {
           "code": "NL:Q:60000094",
@@ -310404,20 +310404,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:40551004",
-          "name": "Marktplein",
-          "town": "Apeldoorn",
-          "street": "Stationsstraat",
-          "lat": 52.215567,
-          "lon": 5.965026,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 155,
-          "mutationDate": "2014-09-17",
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:40551041",
           "name": "Marktplein",
           "town": "Apeldoorn",
@@ -310443,6 +310429,20 @@
           "visuallyAccessible": false,
           "compassDirection": 339,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:40551004",
+          "name": "Marktplein",
+          "town": "Apeldoorn",
+          "street": "Stationsstraat",
+          "lat": 52.215567,
+          "lon": 5.965026,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 155,
+          "mutationDate": "2014-09-17",
           "concessionProvider": "GLD"
         },
         {
@@ -310751,6 +310751,20 @@
           "visuallyAccessible": false,
           "compassDirection": 160,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:40551457",
+          "name": "Rijnstraat",
+          "town": "Apeldoorn",
+          "street": "Kayersdijk",
+          "lat": 52.189442,
+          "lon": 5.980452,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 339,
+          "mutationDate": null,
           "concessionProvider": "GLD"
         },
         {
@@ -311349,7 +311363,7 @@
           "lat": 52.222053,
           "lon": 5.96214,
           "shelter": false,
-          "wheelchairAccessible": true,
+          "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 11,
           "mutationDate": "2020-02-19",
@@ -312091,7 +312105,7 @@
       "email": "info@bronckhorst.nl",
       "website": "http://www.bronckhorst.nl",
       "phone": "(0575) 75 02 50",
-      "totalBusQuays": 105,
+      "totalBusQuays": 107,
       "inaccessibleCount": 94,
       "stops": [
         {
@@ -316835,7 +316849,7 @@
       "email": "gemeente@beuningen.nl",
       "website": "http://www.beuningen.nl",
       "phone": "14 024",
-      "totalBusQuays": 60,
+      "totalBusQuays": 58,
       "inaccessibleCount": 17,
       "stops": [
         {

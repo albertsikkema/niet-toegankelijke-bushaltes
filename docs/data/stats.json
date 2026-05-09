@@ -1,12 +1,12 @@
 {
-  "generated": "2026-05-08T06:42:54.720Z",
+  "generated": "2026-05-09T06:49:56.502Z",
   "totals": {
-    "totalBusQuays": 42086,
-    "inaccessibleBusQuays": 28409,
+    "totalBusQuays": 42084,
+    "inaccessibleBusQuays": 28407,
     "inaccessiblePct": 68,
-    "wheelchairInaccessible": 20301,
+    "wheelchairInaccessible": 20299,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26806,
+    "visuallyInaccessible": 26804,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -148,7 +148,7 @@
       "code": "G0599",
       "name": "Gemeente Rotterdam",
       "type": "gemeente",
-      "total": 956,
+      "total": 958,
       "inaccessible": 698,
       "pct": 73,
       "wheelchair": 417,
@@ -171,11 +171,11 @@
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
       "total": 1087,
-      "inaccessible": 478,
+      "inaccessible": 479,
       "pct": 44,
-      "wheelchair": 370,
-      "visual": 459,
-      "noShelter": 255
+      "wheelchair": 371,
+      "visual": 460,
+      "noShelter": 256
     },
     {
       "code": "G0114",
@@ -340,11 +340,11 @@
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
       "total": 1087,
-      "inaccessible": 478,
+      "inaccessible": 479,
       "pct": 44,
-      "wheelchair": 370,
-      "visual": 459,
-      "noShelter": 255
+      "wheelchair": 371,
+      "visual": 460,
+      "noShelter": 256
     },
     {
       "code": "G0014",
@@ -394,7 +394,7 @@
       "code": "G0599",
       "name": "Gemeente Rotterdam",
       "type": "gemeente",
-      "total": 956,
+      "total": 958,
       "inaccessible": 698,
       "pct": 73,
       "wheelchair": 417,
@@ -484,12 +484,12 @@
       "code": "P0025",
       "name": "Provincie Gelderland",
       "type": "provincie",
-      "total": 807,
-      "inaccessible": 618,
-      "pct": 77,
-      "wheelchair": 367,
-      "visual": 593,
-      "noShelter": 358
+      "total": 794,
+      "inaccessible": 605,
+      "pct": 76,
+      "wheelchair": 361,
+      "visual": 580,
+      "noShelter": 353
     },
     {
       "code": "P0026",
@@ -596,12 +596,12 @@
       "code": "W0651",
       "name": "Hoogheemraadschap Hollands Noorderkwartier",
       "type": "waterschap",
-      "total": 40,
-      "inaccessible": 38,
+      "total": 38,
+      "inaccessible": 36,
       "pct": 95,
-      "wheelchair": 38,
-      "visual": 38,
-      "noShelter": 36
+      "wheelchair": 36,
+      "visual": 36,
+      "noShelter": 34
     },
     {
       "code": "W0621",
@@ -630,38 +630,38 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36794,
-      "inaccessible": 24375,
+      "total": 36804,
+      "inaccessible": 24385,
       "pct": 66,
-      "wheelchair": 17329,
-      "visual": 22978
+      "wheelchair": 17332,
+      "visual": 22988
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4325,
-      "inaccessible": 3178,
+      "total": 4312,
+      "inaccessible": 3165,
       "pct": 73,
-      "wheelchair": 2193,
-      "visual": 2994
+      "wheelchair": 2187,
+      "visual": 2981
     },
     {
       "type": "waterschap",
       "label": "Waterschap",
-      "total": 675,
-      "inaccessible": 642,
+      "total": 673,
+      "inaccessible": 640,
       "pct": 95,
-      "wheelchair": 626,
-      "visual": 635
+      "wheelchair": 624,
+      "visual": 633
     },
     {
       "type": "rijkswaterstaat",
       "label": "Rijkswaterstaat",
-      "total": 157,
-      "inaccessible": 116,
+      "total": 160,
+      "inaccessible": 119,
       "pct": 74,
-      "wheelchair": 77,
-      "visual": 111
+      "wheelchair": 80,
+      "visual": 114
     }
   ],
   "conclusions": {

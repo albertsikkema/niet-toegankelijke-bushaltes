@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-16T06:52:54.141Z",
+  "generated": "2026-05-17T07:05:10.572Z",
   "totals": {
-    "totalBusQuays": 42015,
+    "totalBusQuays": 42018,
     "inaccessibleBusQuays": 28316,
     "authorities": 385
   },
@@ -62156,7 +62156,7 @@
       "email": "gemeente@s-hertogenbosch.nl",
       "website": "http://www.s-hertogenbosch.nl",
       "phone": "(073) 615 51 55",
-      "totalBusQuays": 330,
+      "totalBusQuays": 332,
       "inaccessibleCount": 153,
       "stops": [
         {
@@ -217677,7 +217677,7 @@
       "email": "provincieloket@gelderland.nl",
       "website": "https://www.gelderland.nl",
       "phone": "(026) 359 99 99",
-      "totalBusQuays": 794,
+      "totalBusQuays": 795,
       "inaccessibleCount": 605,
       "stops": [
         {

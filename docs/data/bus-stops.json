@@ -1,8 +1,8 @@
 {
-  "generated": "2026-05-18T07:33:06.142Z",
+  "generated": "2026-05-19T07:22:01.554Z",
   "totals": {
-    "totalBusQuays": 42018,
-    "inaccessibleBusQuays": 28316,
+    "totalBusQuays": 42008,
+    "inaccessibleBusQuays": 28305,
     "authorities": 385
   },
   "authorities": {
@@ -231859,7 +231859,7 @@
       "website": "http://www.utrecht.nl",
       "phone": "(014) 030",
       "totalBusQuays": 589,
-      "inaccessibleCount": 208,
+      "inaccessibleCount": 206,
       "stops": [
         {
           "code": "NL:Q:51200129",
@@ -232825,20 +232825,6 @@
           "visuallyAccessible": false,
           "compassDirection": 226,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "PUT"
-        },
-        {
-          "code": "NL:Q:50000550",
-          "name": "Dr. M.A. Tellegenlaan",
-          "town": "Utrecht",
-          "street": "Koningin Wilhelminalaan",
-          "lat": 52.079277,
-          "lon": 5.103193,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 150,
-          "mutationDate": null,
           "concessionProvider": "PUT"
         },
         {
@@ -233945,20 +233931,6 @@
           "visuallyAccessible": true,
           "compassDirection": 63,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "PUT"
-        },
-        {
-          "code": "NL:Q:51110090",
-          "name": "Rijnvliet-Oost",
-          "town": "Utrecht",
-          "street": "Stadsbaan Leidsche Rijn",
-          "lat": 52.076592,
-          "lon": 5.072111,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 193,
-          "mutationDate": null,
           "concessionProvider": "PUT"
         },
         {
@@ -242376,8 +242348,8 @@
       "email": null,
       "website": null,
       "phone": null,
-      "totalBusQuays": 73,
-      "inaccessibleCount": 48,
+      "totalBusQuays": 66,
+      "inaccessibleCount": 41,
       "stops": [
         {
           "code": "NL:Q:57330001",
@@ -242562,62 +242534,6 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:57330104",
-          "name": "P30 (tijdelijk)",
-          "town": "Schiphol",
-          "street": "Flamingoweg",
-          "lat": 52.29065,
-          "lon": 4.736091,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 51,
-          "mutationDate": null,
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:57330103",
-          "name": "P30 (tijdelijk)",
-          "town": "Schiphol",
-          "street": "Flamingoweg",
-          "lat": 52.290739,
-          "lon": 4.736006,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 231,
-          "mutationDate": null,
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:57330101",
-          "name": "P30 (tijdelijk)",
-          "town": "Schiphol",
-          "street": "Flamingoweg",
-          "lat": 52.290969,
-          "lon": 4.736653,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 231,
-          "mutationDate": null,
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:57330102",
-          "name": "P30 (tijdelijk)",
-          "town": "Schiphol",
-          "street": "Flamingoweg",
-          "lat": 52.290903,
-          "lon": 4.736708,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 51,
-          "mutationDate": null,
-          "concessionProvider": "VRA"
-        },
-        {
           "code": "NL:Q:57330300",
           "name": "P30 Parkeerterrein",
           "town": "Schiphol",
@@ -242657,20 +242573,6 @@
           "visuallyAccessible": false,
           "compassDirection": 227,
           "mutationDate": "2019-03-14",
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:30004381",
-          "name": "Pelikaanweg",
-          "town": "Schiphol",
-          "street": "Pelikaanweg",
-          "lat": 52.297978,
-          "lon": 4.744672,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 249,
-          "mutationDate": "2018-11-15",
           "concessionProvider": "VRA"
         },
         {
@@ -242940,20 +242842,6 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:30004375",
-          "name": "Toekanweg",
-          "town": "Schiphol",
-          "street": "Pelikaanweg",
-          "lat": 52.295784,
-          "lon": 4.739529,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 216,
-          "mutationDate": "2018-11-15",
-          "concessionProvider": "VRA"
-        },
-        {
           "code": "NL:Q:57332180",
           "name": "Toekanweg",
           "town": "Schiphol",
@@ -242992,20 +242880,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 33,
-          "mutationDate": "2006-01-01",
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:57330080",
-          "name": "Uiverweg",
-          "town": "Schiphol",
-          "street": "Rijkerstreek",
-          "lat": 52.300201,
-          "lon": 4.743481,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 219,
           "mutationDate": "2006-01-01",
           "concessionProvider": "VRA"
         },
@@ -325907,8 +325781,8 @@
       "email": "gemeente@buren.nl",
       "website": "http://www.buren.nl",
       "phone": "14 0344",
-      "totalBusQuays": 63,
-      "inaccessibleCount": 56,
+      "totalBusQuays": 60,
+      "inaccessibleCount": 54,
       "stops": [
         {
           "code": "NL:Q:61690320",
@@ -326524,34 +326398,6 @@
           "visuallyAccessible": false,
           "compassDirection": 217,
           "mutationDate": "2019-03-14",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:61589060",
-          "name": "Donkerstraat",
-          "town": "Ravenswaaij",
-          "street": "Donkerstraat",
-          "lat": 51.953141,
-          "lon": 5.327256,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 37,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:61589140",
-          "name": "Hoekenburgplein",
-          "town": "Rijswijk",
-          "street": "Hoekenburgplein",
-          "lat": 51.957872,
-          "lon": 5.358048,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 72,
-          "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
         {
@@ -362242,12 +362088,12 @@
           "name": "Grevelingenweg",
           "town": "Dordrecht",
           "street": "Wielingenstraat",
-          "lat": 51.815443,
-          "lon": 4.721152,
+          "lat": 51.815641,
+          "lon": 4.720905,
           "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 236,
+          "compassDirection": 104,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PZH"
         },

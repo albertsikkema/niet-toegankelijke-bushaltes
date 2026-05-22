@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-21T07:25:39.589Z",
+  "generated": "2026-05-22T07:21:57.382Z",
   "totals": {
-    "totalBusQuays": 42013,
-    "inaccessibleBusQuays": 28311,
+    "totalBusQuays": 42012,
+    "inaccessibleBusQuays": 28308,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20212,
+    "wheelchairInaccessible": 20196,
     "wheelchairPct": 48,
     "visuallyInaccessible": 26709,
     "visualPct": 64
@@ -61,7 +61,7 @@
       "total": 69,
       "inaccessible": 69,
       "pct": 100,
-      "wheelchair": 48,
+      "wheelchair": 47,
       "visual": 69,
       "noShelter": 49
     },
@@ -184,7 +184,7 @@
       "total": 355,
       "inaccessible": 332,
       "pct": 94,
-      "wheelchair": 211,
+      "wheelchair": 207,
       "visual": 328,
       "noShelter": 232
     },
@@ -273,10 +273,10 @@
       "code": "G0268",
       "name": "Gemeente Nijmegen",
       "type": "gemeente",
-      "total": 404,
-      "inaccessible": 120,
+      "total": 402,
+      "inaccessible": 119,
       "pct": 30,
-      "wheelchair": 64,
+      "wheelchair": 63,
       "visual": 94,
       "noShelter": 70
     },
@@ -362,11 +362,11 @@
       "name": "Gemeente Arnhem",
       "type": "gemeente",
       "total": 433,
-      "inaccessible": 228,
-      "pct": 53,
-      "wheelchair": 96,
-      "visual": 196,
-      "noShelter": 99
+      "inaccessible": 226,
+      "pct": 52,
+      "wheelchair": 94,
+      "visual": 195,
+      "noShelter": 96
     },
     {
       "code": "G0080",
@@ -630,10 +630,10 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36740,
-      "inaccessible": 24300,
+      "total": 36739,
+      "inaccessible": 24297,
       "pct": 66,
-      "wheelchair": 17253,
+      "wheelchair": 17237,
       "visual": 22901
     },
     {

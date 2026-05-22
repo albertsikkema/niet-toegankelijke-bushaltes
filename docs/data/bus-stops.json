@@ -1,8 +1,8 @@
 {
-  "generated": "2026-05-21T07:25:39.578Z",
+  "generated": "2026-05-22T07:21:57.371Z",
   "totals": {
-    "totalBusQuays": 42013,
-    "inaccessibleBusQuays": 28311,
+    "totalBusQuays": 42012,
+    "inaccessibleBusQuays": 28308,
     "authorities": 385
   },
   "authorities": {
@@ -14292,7 +14292,7 @@
       "website": "http://www.arnhem.nl",
       "phone": null,
       "totalBusQuays": 433,
-      "inaccessibleCount": 228,
+      "inaccessibleCount": 226,
       "stops": [
         {
           "code": "NL:Q:40002550",
@@ -14673,58 +14673,44 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:40004416",
+          "code": "NL:Q:91000088",
           "name": "Centraal Station",
           "town": "Arnhem",
-          "street": "Stationsplein",
-          "lat": 51.983562,
-          "lon": 5.901405,
+          "street": "Nieuwe Stationsstraat",
+          "lat": 51.984432,
+          "lon": 5.900269,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 278,
-          "mutationDate": "2019-03-14",
+          "compassDirection": 80,
+          "mutationDate": null,
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:40004414",
+          "code": "NL:Q:40004009",
           "name": "Centraal Station",
           "town": "Arnhem",
-          "street": "Stationsplein",
-          "lat": 51.983875,
-          "lon": 5.901976,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 320,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:40004413",
-          "name": "Centraal Station",
-          "town": "Arnhem",
-          "street": "Stationsplein",
-          "lat": 51.983848,
-          "lon": 5.901859,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 320,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:40004007",
-          "name": "Centraal Station",
-          "town": "Arnhem",
-          "street": "",
-          "lat": 51.984051,
-          "lon": 5.900595,
+          "street": "Nieuwe Stationsstraat",
+          "lat": 51.984159,
+          "lon": 5.900611,
           "shelter": false,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 100,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:40004004",
+          "name": "Centraal Station",
+          "town": "Arnhem",
+          "street": "Nieuwe Stationsstraat",
+          "lat": 51.98389,
+          "lon": 5.900564,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 97,
           "mutationDate": "2019-02-07",
           "concessionProvider": "GLD"
         },
@@ -14743,34 +14729,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:40004008",
-          "name": "Centraal Station",
-          "town": "Arnhem",
-          "street": "Nieuwe Stationsstraat",
-          "lat": 51.984105,
-          "lon": 5.900596,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 97,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:91000088",
-          "name": "Centraal Station",
-          "town": "Arnhem",
-          "street": "Nieuwe Stationsstraat",
-          "lat": 51.984432,
-          "lon": 5.900269,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 80,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:40004006",
           "name": "Centraal Station",
           "town": "Arnhem",
@@ -14782,20 +14740,6 @@
           "visuallyAccessible": false,
           "compassDirection": 90,
           "mutationDate": "2019-02-07",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:40004412",
-          "name": "Centraal Station",
-          "town": "Arnhem",
-          "street": "Stationsplein",
-          "lat": 51.983786,
-          "lon": 5.901786,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 320,
-          "mutationDate": "2019-03-14",
           "concessionProvider": "GLD"
         },
         {
@@ -14813,6 +14757,34 @@
           "concessionProvider": "GLD"
         },
         {
+          "code": "NL:Q:40004011",
+          "name": "Centraal Station",
+          "town": "Arnhem",
+          "street": "",
+          "lat": 51.984279,
+          "lon": 5.899972,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 270,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:40004007",
+          "name": "Centraal Station",
+          "town": "Arnhem",
+          "street": "",
+          "lat": 51.984051,
+          "lon": 5.900595,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 100,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "GLD"
+        },
+        {
           "code": "NL:Q:40004005",
           "name": "Centraal Station",
           "town": "Arnhem",
@@ -14827,6 +14799,20 @@
           "concessionProvider": "GLD"
         },
         {
+          "code": "NL:Q:40004008",
+          "name": "Centraal Station",
+          "town": "Arnhem",
+          "street": "Nieuwe Stationsstraat",
+          "lat": 51.984105,
+          "lon": 5.900596,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 97,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "GLD"
+        },
+        {
           "code": "NL:Q:40004003",
           "name": "Centraal Station",
           "town": "Arnhem",
@@ -14835,22 +14821,8 @@
           "lon": 5.900563,
           "shelter": false,
           "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 92,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:40004004",
-          "name": "Centraal Station",
-          "town": "Arnhem",
-          "street": "Nieuwe Stationsstraat",
-          "lat": 51.98389,
-          "lon": 5.900564,
-          "shelter": false,
-          "wheelchairAccessible": true,
           "visuallyAccessible": false,
-          "compassDirection": 97,
+          "compassDirection": 92,
           "mutationDate": "2019-02-07",
           "concessionProvider": "GLD"
         },
@@ -14865,20 +14837,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 92,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:40004009",
-          "name": "Centraal Station",
-          "town": "Arnhem",
-          "street": "Nieuwe Stationsstraat",
-          "lat": 51.984159,
-          "lon": 5.900611,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 100,
           "mutationDate": "2019-03-14",
           "concessionProvider": "GLD"
         },
@@ -16335,6 +16293,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 92,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:40004600",
+          "name": "Rietgrachtstraat",
+          "town": "Arnhem",
+          "street": "Boulevard Heuvelink",
+          "lat": 51.978432,
+          "lon": 5.916462,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 273,
           "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
@@ -32854,20 +32826,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:18000460",
-          "name": "Nijbracht",
-          "town": "Emmen",
-          "street": "Hondsrugweg",
-          "lat": 52.76154,
-          "lon": 6.897897,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 188,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:18000470",
           "name": "Nijbracht",
           "town": "Emmen",
@@ -32878,6 +32836,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 17,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:18000460",
+          "name": "Nijbracht",
+          "town": "Emmen",
+          "street": "Hondsrugweg",
+          "lat": 52.76154,
+          "lon": 6.897897,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 188,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -35661,24 +35633,10 @@
           "lat": 52.687471,
           "lon": 6.913882,
           "shelter": false,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 226,
           "mutationDate": "2018-02-07",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:18040170",
-          "name": "Burg. Osselaan",
-          "town": "Schoonebeek",
-          "street": "Burgemeester Osselaan",
-          "lat": 52.666417,
-          "lon": 6.887248,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 223,
-          "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
         {
@@ -35689,9 +35647,23 @@
           "lat": 52.666812,
           "lon": 6.888016,
           "shelter": true,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 43,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:18040170",
+          "name": "Burg. Osselaan",
+          "town": "Schoonebeek",
+          "street": "Burgemeester Osselaan",
+          "lat": 52.666417,
+          "lon": 6.887248,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 223,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -43262,7 +43234,7 @@
           "lat": 52.670487,
           "lon": 6.429105,
           "shelter": false,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 189,
           "mutationDate": "2018-08-15",
@@ -43585,7 +43557,7 @@
       "website": "http://www.assen.nl",
       "phone": "(0592) 36 69 11",
       "totalBusQuays": 198,
-      "inaccessibleCount": 147,
+      "inaccessibleCount": 146,
       "stops": [
         {
           "code": "NL:Q:15005410",
@@ -43868,20 +43840,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:15132660",
-          "name": "Caro van Eyckrotonde",
-          "town": "Assen",
-          "street": "Maria Montessoriweg",
-          "lat": 53.004058,
-          "lon": 6.518963,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 264,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:15133610",
           "name": "Caro van Eyckrotonde",
           "town": "Assen",
@@ -43892,6 +43850,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 82,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:15132660",
+          "name": "Caro van Eyckrotonde",
+          "town": "Assen",
+          "street": "Maria Montessoriweg",
+          "lat": 53.004058,
+          "lon": 6.518963,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 264,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -44134,20 +44106,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:15004520",
-          "name": "Industrieweg",
-          "town": "Assen",
-          "street": "Industrieweg",
-          "lat": 53.00203,
-          "lon": 6.56974,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 155,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:15004510",
           "name": "Industrieweg",
           "town": "Assen",
@@ -44159,6 +44117,20 @@
           "visuallyAccessible": false,
           "compassDirection": 80,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:15004520",
+          "name": "Industrieweg",
+          "town": "Assen",
+          "street": "Industrieweg",
+          "lat": 53.00203,
+          "lon": 6.56974,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 155,
+          "mutationDate": "2019-03-14",
           "concessionProvider": "OVGD"
         },
         {
@@ -44890,20 +44862,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:15004600",
-          "name": "Stoepveldsingel",
-          "town": "Assen",
-          "street": "Andrej Sacharovweg",
-          "lat": 53.012295,
-          "lon": 6.589346,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 200,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:15006320",
           "name": "Stroom/Lariks",
           "town": "Assen",
@@ -44939,7 +44897,7 @@
           "lat": 52.99316,
           "lon": 6.512007,
           "shelter": true,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 161,
           "mutationDate": "2020-02-19",
@@ -44967,7 +44925,7 @@
           "lat": 52.998028,
           "lon": 6.558117,
           "shelter": true,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 240,
           "mutationDate": "2020-02-19",
@@ -45198,6 +45156,20 @@
           "concessionProvider": "OVGD"
         },
         {
+          "code": "NL:Q:15001610",
+          "name": "Witterstraat",
+          "town": "Assen",
+          "street": "Europaweg-Zuid",
+          "lat": 52.987754,
+          "lon": 6.535219,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 320,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
           "code": "NL:Q:15001620",
           "name": "Witterstraat",
           "town": "Assen",
@@ -45208,20 +45180,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 136,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:15001610",
-          "name": "Witterstraat",
-          "town": "Assen",
-          "street": "Europaweg-Zuid",
-          "lat": 52.987754,
-          "lon": 6.535219,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 320,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -45296,20 +45254,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:15001140",
-          "name": "Zuidhaege",
-          "town": "Assen",
-          "street": "Kloosterstraat",
-          "lat": 52.992896,
-          "lon": 6.565515,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 183,
-          "mutationDate": "2018-08-15",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:15001150",
           "name": "Zuidhaege",
           "town": "Assen",
@@ -45321,6 +45265,20 @@
           "visuallyAccessible": false,
           "compassDirection": 3,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:15001140",
+          "name": "Zuidhaege",
+          "town": "Assen",
+          "street": "Kloosterstraat",
+          "lat": 52.992896,
+          "lon": 6.565515,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 183,
+          "mutationDate": "2018-08-15",
           "concessionProvider": "OVGD"
         },
         {
@@ -56683,7 +56641,7 @@
           "lat": 53.00569,
           "lon": 6.759623,
           "shelter": false,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 96,
           "mutationDate": "2020-02-19",
@@ -96657,8 +96615,8 @@
       "email": "gemeente@nijmegen.nl",
       "website": "http://www.nijmegen.nl",
       "phone": "14 024",
-      "totalBusQuays": 404,
-      "inaccessibleCount": 120,
+      "totalBusQuays": 402,
+      "inaccessibleCount": 119,
       "stops": [
         {
           "code": "NL:Q:61190100",
@@ -96965,20 +96923,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 147,
-          "mutationDate": "2017-12-05",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:60000800",
-          "name": "Camping Winkelsteeg",
-          "town": "Nijmegen",
-          "street": "Hulzenseweg",
-          "lat": 51.820466,
-          "lon": 5.819218,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 210,
           "mutationDate": "2017-12-05",
           "concessionProvider": "GLD"
         },
@@ -97851,30 +97795,30 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:60001490",
-          "name": "Sportcentrum Nimma Nova",
-          "town": "Nijmegen",
-          "street": "Nieuwe Dukenburgseweg",
-          "lat": 51.823424,
-          "lon": 5.824004,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 63,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:60001480",
           "name": "Sportcentrum Nimma Nova",
           "town": "Nijmegen",
           "street": "Nieuwe Dukenburgseweg",
-          "lat": 51.823078,
-          "lon": 5.82284,
+          "lat": 51.822962,
+          "lon": 5.822607,
           "shelter": false,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
-          "compassDirection": 239,
+          "compassDirection": 227,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:60001490",
+          "name": "Sportcentrum Nimma Nova",
+          "town": "Nijmegen",
+          "street": "Nieuwe Dukenburgseweg",
+          "lat": 51.823548,
+          "lon": 5.824397,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 53,
           "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
@@ -136773,7 +136717,7 @@
           "lat": 52.663329,
           "lon": 6.744869,
           "shelter": true,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 130,
           "mutationDate": "2020-02-19",
@@ -137221,7 +137165,7 @@
           "lat": 52.751141,
           "lon": 6.692634,
           "shelter": true,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 237,
           "mutationDate": "2020-02-19",
@@ -140172,7 +140116,7 @@
       "email": "gemeente@brunssum.nl",
       "website": "http://www.brunssum.nl",
       "phone": "(045) 527 85 55",
-      "totalBusQuays": 57,
+      "totalBusQuays": 58,
       "inaccessibleCount": 48,
       "stops": [
         {
@@ -205839,7 +205783,7 @@
       "website": "http://www.eemsdelta.nl",
       "phone": "14 0596",
       "totalBusQuays": 208,
-      "inaccessibleCount": 161,
+      "inaccessibleCount": 160,
       "stops": [
         {
           "code": "NL:Q:10644820",
@@ -206637,20 +206581,6 @@
           "visuallyAccessible": false,
           "compassDirection": 236,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:10601110",
-          "name": "Kustweg",
-          "town": "Delfzijl",
-          "street": "Kustweg",
-          "lat": 53.343614,
-          "lon": 6.9038,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 263,
-          "mutationDate": "2019-07-10",
           "concessionProvider": "OVGD"
         },
         {
@@ -266703,7 +266633,7 @@
       "website": "http://www.doesburg.nl",
       "phone": "(0313) 48 13 13",
       "totalBusQuays": 27,
-      "inaccessibleCount": 7,
+      "inaccessibleCount": 8,
       "stops": [
         {
           "code": "NL:Q:41420110",
@@ -266786,6 +266716,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 191,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41420140",
+          "name": "Potsmaat",
+          "town": "Doesburg",
+          "street": "Angerloseweg",
+          "lat": 52.002789,
+          "lon": 6.134242,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 11,
           "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
@@ -277797,7 +277741,7 @@
       "website": "http://www.druten.nl",
       "phone": "(088) 432 70 00",
       "totalBusQuays": 36,
-      "inaccessibleCount": 29,
+      "inaccessibleCount": 28,
       "stops": [
         {
           "code": "NL:Q:61320020",
@@ -277909,20 +277853,6 @@
           "visuallyAccessible": false,
           "compassDirection": 275,
           "mutationDate": "2014-08-17",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:61421004",
-          "name": "Busstation",
-          "town": "Druten",
-          "street": "Scharenburg",
-          "lat": 51.884724,
-          "lon": 5.605407,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 298,
-          "mutationDate": "2014-08-18",
           "concessionProvider": "GLD"
         },
         {
@@ -307838,7 +307768,7 @@
       "email": "gemeente@apeldoorn.nl",
       "website": "http://www.apeldoorn.nl",
       "phone": "14 055",
-      "totalBusQuays": 330,
+      "totalBusQuays": 329,
       "inaccessibleCount": 235,
       "stops": [
         {
@@ -309083,7 +309013,7 @@
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 0,
+          "compassDirection": 5,
           "mutationDate": "2019-03-01",
           "concessionProvider": "GLD"
         },
@@ -312354,7 +312284,7 @@
           "lat": 52.010523,
           "lon": 6.351408,
           "shelter": true,
-          "wheelchairAccessible": true,
+          "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 210,
           "mutationDate": "2020-02-19",
@@ -318868,7 +318798,7 @@
       "website": "http://www.barneveld.nl",
       "phone": "14 0342",
       "totalBusQuays": 113,
-      "inaccessibleCount": 77,
+      "inaccessibleCount": 78,
       "stops": [
         {
           "code": "NL:Q:60000021",
@@ -319624,6 +319554,20 @@
           "visuallyAccessible": false,
           "compassDirection": 99,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:50645011",
+          "name": "De Tolboom",
+          "town": "Terschuur",
+          "street": "Hoevelakenseweg",
+          "lat": 52.16434,
+          "lon": 5.520733,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 72,
+          "mutationDate": null,
           "concessionProvider": "GLD"
         },
         {
@@ -321826,8 +321770,8 @@
       "email": "gemeente@doetinchem.nl",
       "website": "http://www.doetinchem.nl",
       "phone": "(0314) 37 73 77",
-      "totalBusQuays": 102,
-      "inaccessibleCount": 85,
+      "totalBusQuays": 103,
+      "inaccessibleCount": 86,
       "stops": [
         {
           "code": "NL:Q:41721130",
@@ -321900,16 +321844,30 @@
           "concessionProvider": "GLD"
         },
         {
+          "code": "NL:Q:41723570",
+          "name": "Bessenweg",
+          "town": "Doetinchem",
+          "street": "Bessenweg",
+          "lat": 51.960972,
+          "lon": 6.251402,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 315,
+          "mutationDate": "2019-03-01",
+          "concessionProvider": "GLD"
+        },
+        {
           "code": "NL:Q:41720360",
           "name": "Boekweitdreef",
           "town": "Doetinchem",
           "street": "Boekweitdreef",
-          "lat": 51.965696,
-          "lon": 6.251974,
+          "lat": 51.965051,
+          "lon": 6.253178,
           "shelter": true,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
-          "compassDirection": 155,
+          "compassDirection": 299,
           "mutationDate": "2014-08-27",
           "concessionProvider": "GLD"
         },
@@ -322124,20 +322082,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41720120",
-          "name": "Elzenhage",
-          "town": "Doetinchem",
-          "street": "Bevrijdingsstraat",
-          "lat": 51.975927,
-          "lon": 6.311904,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 271,
-          "mutationDate": "2014-08-31",
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41720110",
           "name": "Elzenhage",
           "town": "Doetinchem",
@@ -322149,6 +322093,20 @@
           "visuallyAccessible": false,
           "compassDirection": 90,
           "mutationDate": "2014-08-26",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41720120",
+          "name": "Elzenhage",
+          "town": "Doetinchem",
+          "street": "Bevrijdingsstraat",
+          "lat": 51.975927,
+          "lon": 6.311904,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 271,
+          "mutationDate": "2014-08-31",
           "concessionProvider": "GLD"
         },
         {
@@ -323967,12 +323925,12 @@
           "name": "Bouw en Infrapark",
           "town": "Harderwijk",
           "street": "WEG VAN WFG KAZERNE",
-          "lat": 52.333941,
-          "lon": 5.642986,
+          "lat": 52.333208,
+          "lon": 5.641977,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 246,
+          "compassDirection": 345,
           "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
@@ -324163,12 +324121,12 @@
           "name": "Sonnevanck",
           "town": "Harderwijk",
           "street": "",
-          "lat": 52.321137,
-          "lon": 5.66226,
+          "lat": 52.320931,
+          "lon": 5.660897,
           "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 258,
+          "compassDirection": 76,
           "mutationDate": "2018-04-23",
           "concessionProvider": "GLD"
         },
@@ -325830,20 +325788,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:61670080",
-          "name": "Koningsstraatje",
-          "town": "Beusichem",
-          "street": "Einde",
-          "lat": 51.954361,
-          "lon": 5.284529,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 129,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:61670050",
           "name": "Koningsstraatje",
           "town": "Beusichem",
@@ -325854,6 +325798,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 306,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:61670080",
+          "name": "Koningsstraatje",
+          "town": "Beusichem",
+          "street": "Einde",
+          "lat": 51.954361,
+          "lon": 5.284529,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 129,
           "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
@@ -330296,8 +330254,8 @@
       "email": "info@etten-leur.nl",
       "website": "http://www.etten-leur.nl",
       "phone": "14 076",
-      "totalBusQuays": 62,
-      "inaccessibleCount": 16,
+      "totalBusQuays": 63,
+      "inaccessibleCount": 17,
       "stops": [
         {
           "code": "NL:Q:72200690",
@@ -330493,6 +330451,20 @@
           "visuallyAccessible": true,
           "compassDirection": 250,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:72209390",
+          "name": "Station",
+          "town": "Etten-Leur",
+          "street": "Spoorlaan",
+          "lat": 51.574946,
+          "lon": 4.637273,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": true,
+          "compassDirection": 0,
+          "mutationDate": "2019-02-07",
           "concessionProvider": "PNB"
         },
         {
@@ -373393,8 +373365,8 @@
       "email": "info@bergen-nh.nl",
       "website": "http://www.bergen-nh.nl",
       "phone": "(072) 888 00 00",
-      "totalBusQuays": 129,
-      "inaccessibleCount": 115,
+      "totalBusQuays": 128,
+      "inaccessibleCount": 114,
       "stops": [
         {
           "code": "NL:Q:36142190",
@@ -374094,20 +374066,6 @@
           "visuallyAccessible": false,
           "compassDirection": 117,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "PNH"
-        },
-        {
-          "code": "NL:Q:36321140",
-          "name": "Boulevard Ir. de Vassy",
-          "town": "Egmond aan Zee",
-          "street": "Boulevard Ir de Vassy",
-          "lat": 52.62102,
-          "lon": 4.621601,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 93,
-          "mutationDate": "2019-01-02",
           "concessionProvider": "PNH"
         },
         {

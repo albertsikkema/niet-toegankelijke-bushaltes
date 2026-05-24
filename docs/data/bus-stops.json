@@ -1,8 +1,8 @@
 {
-  "generated": "2026-05-23T07:01:57.267Z",
+  "generated": "2026-05-24T07:13:41.457Z",
   "totals": {
-    "totalBusQuays": 42012,
-    "inaccessibleBusQuays": 28308,
+    "totalBusQuays": 42014,
+    "inaccessibleBusQuays": 28292,
     "authorities": 385
   },
   "authorities": {
@@ -35759,24 +35759,10 @@
           "lat": 52.679456,
           "lon": 6.900279,
           "shelter": false,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 45,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:18040090",
-          "name": "Lauensteinstraat",
-          "town": "Schoonebeek",
-          "street": "Europaweg",
-          "lat": 52.664907,
-          "lon": 6.875784,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 265,
-          "mutationDate": "2018-02-07",
           "concessionProvider": "OVGD"
         },
         {
@@ -35790,6 +35776,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": true,
           "compassDirection": 85,
+          "mutationDate": "2018-02-07",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:18040090",
+          "name": "Lauensteinstraat",
+          "town": "Schoonebeek",
+          "street": "Europaweg",
+          "lat": 52.664907,
+          "lon": 6.875784,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 265,
           "mutationDate": "2018-02-07",
           "concessionProvider": "OVGD"
         },
@@ -45576,20 +45576,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:12063310",
-          "name": "Vriezerhoek",
-          "town": "Ubbena",
-          "street": "Asserstraat",
-          "lat": 53.052959,
-          "lon": 6.575183,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 16,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:12063320",
           "name": "Vriezerhoek",
           "town": "Ubbena",
@@ -45600,6 +45586,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 196,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:12063310",
+          "name": "Vriezerhoek",
+          "town": "Ubbena",
+          "street": "Asserstraat",
+          "lat": 53.052959,
+          "lon": 6.575183,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 16,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         }
@@ -134722,7 +134722,7 @@
       "website": "http://www.hoogeveen.nl",
       "phone": "14 0528",
       "totalBusQuays": 160,
-      "inaccessibleCount": 126,
+      "inaccessibleCount": 125,
       "stops": [
         {
           "code": "NL:Q:46590180",
@@ -136034,7 +136034,7 @@
           "lat": 52.725539,
           "lon": 6.545165,
           "shelter": false,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 92,
           "mutationDate": "2020-02-19",
@@ -136335,16 +136335,16 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:17040020",
-          "name": "De Santbrincke",
+          "code": "NL:Q:16040020",
+          "name": "Dorpsstraat",
           "town": "Pesse",
-          "street": "Hoogeveenseweg",
-          "lat": 52.753075,
-          "lon": 6.464292,
+          "street": "Dorpsstraat",
+          "lat": 52.770871,
+          "lon": 6.451274,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": true,
-          "compassDirection": 321,
+          "compassDirection": 338,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -136356,23 +136356,9 @@
           "lat": 52.771025,
           "lon": 6.451041,
           "shelter": true,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 158,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:16040020",
-          "name": "Dorpsstraat",
-          "town": "Pesse",
-          "street": "Dorpsstraat",
-          "lat": 52.770871,
-          "lon": 6.451274,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 338,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -176207,7 +176193,7 @@
       "website": "http://www.veendam.nl",
       "phone": "(0598) 65 22 22",
       "totalBusQuays": 104,
-      "inaccessibleCount": 38,
+      "inaccessibleCount": 37,
       "stops": [
         {
           "code": "NL:Q:12638110",
@@ -176444,20 +176430,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 180,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12631510",
-          "name": "Zilverlaan",
-          "town": "Veendam",
-          "street": "Steenstraat",
-          "lat": 53.107567,
-          "lon": 6.869776,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 207,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -177625,7 +177597,7 @@
       "email": "post@noord-holland.nl",
       "website": "http://www.noord-holland.nl",
       "phone": "(023) 514 31 43",
-      "totalBusQuays": 322,
+      "totalBusQuays": 324,
       "inaccessibleCount": 178,
       "stops": [
         {
@@ -182573,7 +182545,7 @@
       "website": "http://www.provincie.drenthe.nl",
       "phone": "(0592) 36 55 55",
       "totalBusQuays": 308,
-      "inaccessibleCount": 300,
+      "inaccessibleCount": 291,
       "stops": [
         {
           "code": "NL:Q:14335420",
@@ -183472,20 +183444,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:12243930",
-          "name": "N34",
-          "town": "Gasselte",
-          "street": "RYKSWG",
-          "lat": 52.975513,
-          "lon": 6.776509,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 340,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:12243960",
           "name": "N34",
           "town": "Gasselte",
@@ -183493,9 +183451,23 @@
           "lat": 52.975145,
           "lon": 6.778046,
           "shelter": true,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 82,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:12243930",
+          "name": "N34",
+          "town": "Gasselte",
+          "street": "RYKSWG",
+          "lat": 52.975513,
+          "lon": 6.776509,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 340,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -183619,7 +183591,7 @@
           "lat": 52.873232,
           "lon": 6.371138,
           "shelter": true,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 55,
           "mutationDate": "2020-02-19",
@@ -183678,20 +183650,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 342,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12208050",
-          "name": "P+R Gieten",
-          "town": "Gieten",
-          "street": "",
-          "lat": 53.009178,
-          "lon": 6.750897,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 216,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -184907,7 +184865,7 @@
           "lat": 52.79425,
           "lon": 6.794922,
           "shelter": false,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 356,
           "mutationDate": "2020-02-19",
@@ -185138,34 +185096,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:12230050",
-          "name": "De Minhaar",
-          "town": "Papenvoort",
-          "street": "Papenvoort",
-          "lat": 52.951406,
-          "lon": 6.702959,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 306,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12230060",
-          "name": "De Minhaar",
-          "town": "Papenvoort",
-          "street": "Papenvoort",
-          "lat": 52.951118,
-          "lon": 6.702936,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 126,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:12230090",
           "name": "Hoornse bulten",
           "town": "Papenvoort",
@@ -185190,62 +185120,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 133,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12230040",
-          "name": "Oostereind",
-          "town": "Papenvoort",
-          "street": "Papenvoort",
-          "lat": 52.94497,
-          "lon": 6.7144,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 111,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12230030",
-          "name": "Oostereind",
-          "town": "Papenvoort",
-          "street": "Papenvoort",
-          "lat": 52.945196,
-          "lon": 6.714288,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 291,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12230020",
-          "name": "Papenvoort 31",
-          "town": "Papenvoort",
-          "street": "Papenvoort",
-          "lat": 52.940996,
-          "lon": 6.725853,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 105,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12230010",
-          "name": "Papenvoort 31",
-          "town": "Papenvoort",
-          "street": "Papenvoort",
-          "lat": 52.941225,
-          "lon": 6.725399,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 285,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -185334,20 +185208,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:10124720",
-          "name": "Peizermade",
-          "town": "Peizermade",
-          "street": "Groningerweg",
-          "lat": 53.193892,
-          "lon": 6.511327,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 180,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:10124710",
           "name": "Peizermade",
           "town": "Peizermade",
@@ -185358,6 +185218,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 358,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10124720",
+          "name": "Peizermade",
+          "town": "Peizermade",
+          "street": "Groningerweg",
+          "lat": 53.193892,
+          "lon": 6.511327,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 180,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -185740,6 +185614,20 @@
           "concessionProvider": "OVGD"
         },
         {
+          "code": "NL:Q:18300110",
+          "name": "Rotonde",
+          "town": "Schoonloo",
+          "street": "Hoofdstraat",
+          "lat": 52.904849,
+          "lon": 6.699088,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 325,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
           "code": "NL:Q:18300120",
           "name": "Rotonde",
           "town": "Schoonloo",
@@ -185750,20 +185638,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 145,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:18300110",
-          "name": "Rotonde",
-          "town": "Schoonloo",
-          "street": "Hoofdstraat",
-          "lat": 52.904849,
-          "lon": 6.699088,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 325,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -186017,34 +185891,6 @@
           "visuallyAccessible": false,
           "compassDirection": 47,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:15250120",
-          "name": "Dwingelerveld",
-          "town": "Spier",
-          "street": "Spieregerweg",
-          "lat": 52.818533,
-          "lon": 6.45807,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 284,
-          "mutationDate": "2018-02-07",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:15250110",
-          "name": "Dwingelerveld",
-          "town": "Spier",
-          "street": "Spieregerweg",
-          "lat": 52.818291,
-          "lon": 6.457901,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 104,
-          "mutationDate": "2018-02-07",
           "concessionProvider": "OVGD"
         },
         {
@@ -208681,20 +208527,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:11391610",
-          "name": "Curringestraat",
-          "town": "Kornhorn",
-          "street": "Provincialeweg",
-          "lat": 53.182206,
-          "lon": 6.2455,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 65,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:11391620",
           "name": "Curringestraat",
           "town": "Kornhorn",
@@ -208705,6 +208537,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 245,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:11391610",
+          "name": "Curringestraat",
+          "town": "Kornhorn",
+          "street": "Provincialeweg",
+          "lat": 53.182206,
+          "lon": 6.2455,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 65,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -226089,7 +225935,7 @@
       "website": "http://gemeente.groningen.nl",
       "phone": "14 050",
       "totalBusQuays": 541,
-      "inaccessibleCount": 256,
+      "inaccessibleCount": 251,
       "stops": [
         {
           "code": "NL:Q:11315520",
@@ -226383,20 +226229,6 @@
           "visuallyAccessible": false,
           "compassDirection": 162,
           "mutationDate": "2019-09-13",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:10001300",
-          "name": "Curacaostraat",
-          "town": "Groningen",
-          "street": "Soendastraat",
-          "lat": 53.236366,
-          "lon": 6.567013,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 234,
-          "mutationDate": "2019-07-10",
           "concessionProvider": "OVGD"
         },
         {
@@ -227296,20 +227128,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:10155650",
-          "name": "Jensemaheerd",
-          "town": "Groningen",
-          "street": "Amkemaheerd",
-          "lat": 53.252527,
-          "lon": 6.600973,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 315,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:10004090",
           "name": "Kometenstraat",
           "town": "Groningen",
@@ -227530,20 +227348,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 250,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:10105030",
-          "name": "Meerpaal",
-          "town": "Groningen",
-          "street": "Bakboordswal",
-          "lat": 53.235821,
-          "lon": 6.629052,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 75,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -227810,34 +227614,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 303,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:10108760",
-          "name": "Oostersluis",
-          "town": "Groningen",
-          "street": "Rijksweg",
-          "lat": 53.226249,
-          "lon": 6.598468,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 78,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:10108750",
-          "name": "Oostersluis",
-          "town": "Groningen",
-          "street": "Rijksweg",
-          "lat": 53.226197,
-          "lon": 6.595576,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 283,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -230685,7 +230461,7 @@
           "lat": 52.846408,
           "lon": 6.34098,
           "shelter": true,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 88,
           "mutationDate": "2020-02-19",
@@ -263086,6 +262862,34 @@
           "concessionProvider": "VRA"
         },
         {
+          "code": "NL:Q:37320420",
+          "name": "Gele Ring",
+          "town": "Assendelft",
+          "street": "Dorpsstraat",
+          "lat": 52.485461,
+          "lon": 4.754374,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 213,
+          "mutationDate": "2018-04-23",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:37320430",
+          "name": "Gele Ring",
+          "town": "Assendelft",
+          "street": "Dorpsstraat",
+          "lat": 52.485246,
+          "lon": 4.754406,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 33,
+          "mutationDate": "2018-04-23",
+          "concessionProvider": "VRA"
+        },
+        {
           "code": "NL:Q:37330690",
           "name": "Gemeentehuis",
           "town": "Assendelft",
@@ -263181,34 +262985,6 @@
           "visuallyAccessible": false,
           "compassDirection": 40,
           "mutationDate": "2006-01-01",
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:37320420",
-          "name": "Noorderveenweg",
-          "town": "Assendelft",
-          "street": "Dorpsstraat",
-          "lat": 52.485461,
-          "lon": 4.754374,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 213,
-          "mutationDate": "2018-04-23",
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:37320430",
-          "name": "Noorderveenweg",
-          "town": "Assendelft",
-          "street": "Dorpsstraat",
-          "lat": 52.485246,
-          "lon": 4.754406,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 33,
-          "mutationDate": "2018-04-23",
           "concessionProvider": "VRA"
         },
         {

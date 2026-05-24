@@ -1,12 +1,12 @@
 {
-  "generated": "2026-05-23T07:01:57.279Z",
+  "generated": "2026-05-24T07:13:41.472Z",
   "totals": {
-    "totalBusQuays": 42012,
-    "inaccessibleBusQuays": 28308,
+    "totalBusQuays": 42014,
+    "inaccessibleBusQuays": 28292,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20196,
+    "wheelchairInaccessible": 20169,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26709,
+    "visuallyInaccessible": 26701,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -184,7 +184,7 @@
       "total": 355,
       "inaccessible": 332,
       "pct": 94,
-      "wheelchair": 207,
+      "wheelchair": 205,
       "visual": 328,
       "noShelter": 232
     },
@@ -351,11 +351,11 @@
       "name": "Gemeente Groningen",
       "type": "gemeente",
       "total": 541,
-      "inaccessible": 256,
-      "pct": 47,
-      "wheelchair": 170,
+      "inaccessible": 251,
+      "pct": 46,
+      "wheelchair": 165,
       "visual": 227,
-      "noShelter": 142
+      "noShelter": 141
     },
     {
       "code": "G0202",
@@ -452,11 +452,11 @@
       "name": "Provincie Drenthe",
       "type": "provincie",
       "total": 308,
-      "inaccessible": 300,
-      "pct": 97,
-      "wheelchair": 265,
-      "visual": 295,
-      "noShelter": 208
+      "inaccessible": 291,
+      "pct": 94,
+      "wheelchair": 251,
+      "visual": 287,
+      "noShelter": 203
     },
     {
       "code": "P0028",
@@ -539,7 +539,7 @@
       "code": "P0027",
       "name": "Provincie Noord-Holland",
       "type": "provincie",
-      "total": 322,
+      "total": 324,
       "inaccessible": 178,
       "pct": 55,
       "wheelchair": 138,
@@ -631,19 +631,19 @@
       "type": "gemeente",
       "label": "Gemeente",
       "total": 36739,
-      "inaccessible": 24297,
+      "inaccessible": 24290,
       "pct": 66,
-      "wheelchair": 17237,
+      "wheelchair": 17224,
       "visual": 22901
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4312,
-      "inaccessible": 3164,
+      "total": 4314,
+      "inaccessible": 3155,
       "pct": 73,
-      "wheelchair": 2188,
-      "visual": 2980
+      "wheelchair": 2174,
+      "visual": 2972
     },
     {
       "type": "waterschap",

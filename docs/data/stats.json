@@ -1,12 +1,12 @@
 {
-  "generated": "2026-05-27T07:35:01.511Z",
+  "generated": "2026-05-28T07:29:43.783Z",
   "totals": {
     "totalBusQuays": 42014,
-    "inaccessibleBusQuays": 28292,
+    "inaccessibleBusQuays": 28294,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20169,
+    "wheelchairInaccessible": 20170,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26701,
+    "visuallyInaccessible": 26703,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -14,11 +14,11 @@
       "code": "G0213",
       "name": "Gemeente Brummen",
       "type": "gemeente",
-      "total": 79,
-      "inaccessible": 79,
+      "total": 80,
+      "inaccessible": 80,
       "pct": 100,
-      "wheelchair": 69,
-      "visual": 79,
+      "wheelchair": 70,
+      "visual": 80,
       "noShelter": 65
     },
     {
@@ -66,6 +66,17 @@
       "noShelter": 49
     },
     {
+      "code": "G1955",
+      "name": "Gemeente Montferland",
+      "type": "gemeente",
+      "total": 61,
+      "inaccessible": 61,
+      "pct": 100,
+      "wheelchair": 53,
+      "visual": 61,
+      "noShelter": 50
+    },
+    {
       "code": "G0163",
       "name": "Gemeente Hellendoorn",
       "type": "gemeente",
@@ -77,26 +88,15 @@
       "noShelter": 43
     },
     {
-      "code": "G1955",
-      "name": "Gemeente Montferland",
-      "type": "gemeente",
-      "total": 53,
-      "inaccessible": 53,
-      "pct": 100,
-      "wheelchair": 50,
-      "visual": 53,
-      "noShelter": 46
-    },
-    {
       "code": "G0285",
       "name": "Gemeente Voorst",
       "type": "gemeente",
-      "total": 34,
-      "inaccessible": 34,
+      "total": 40,
+      "inaccessible": 40,
       "pct": 100,
-      "wheelchair": 34,
-      "visual": 34,
-      "noShelter": 24
+      "wheelchair": 40,
+      "visual": 40,
+      "noShelter": 26
     },
     {
       "code": "G0189",
@@ -170,7 +170,7 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1092,
+      "total": 1094,
       "inaccessible": 480,
       "pct": 44,
       "wheelchair": 372,
@@ -339,7 +339,7 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1092,
+      "total": 1094,
       "inaccessible": 480,
       "pct": 44,
       "wheelchair": 372,
@@ -484,12 +484,12 @@
       "code": "P0025",
       "name": "Provincie Gelderland",
       "type": "provincie",
-      "total": 795,
-      "inaccessible": 605,
+      "total": 719,
+      "inaccessible": 545,
       "pct": 76,
-      "wheelchair": 361,
-      "visual": 580,
-      "noShelter": 353
+      "wheelchair": 322,
+      "visual": 522,
+      "noShelter": 320
     },
     {
       "code": "P0026",
@@ -540,11 +540,11 @@
       "name": "Provincie Noord-Holland",
       "type": "provincie",
       "total": 324,
-      "inaccessible": 178,
-      "pct": 55,
-      "wheelchair": 138,
-      "visual": 138,
-      "noShelter": 87
+      "inaccessible": 180,
+      "pct": 56,
+      "wheelchair": 140,
+      "visual": 140,
+      "noShelter": 89
     },
     {
       "code": "P0030",
@@ -618,50 +618,50 @@
       "code": "W0655",
       "name": "Hollandse Delta",
       "type": "waterschap",
-      "total": 126,
-      "inaccessible": 112,
+      "total": 128,
+      "inaccessible": 114,
       "pct": 89,
-      "wheelchair": 102,
-      "visual": 112,
-      "noShelter": 92
+      "wheelchair": 104,
+      "visual": 114,
+      "noShelter": 94
     }
   ],
   "authorityTypes": [
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36739,
-      "inaccessible": 24290,
+      "total": 36808,
+      "inaccessible": 24345,
       "pct": 66,
-      "wheelchair": 17224,
-      "visual": 22901
+      "wheelchair": 17259,
+      "visual": 22954
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4314,
-      "inaccessible": 3155,
+      "total": 4238,
+      "inaccessible": 3097,
       "pct": 73,
-      "wheelchair": 2174,
-      "visual": 2972
+      "wheelchair": 2137,
+      "visual": 2916
     },
     {
       "type": "waterschap",
       "label": "Waterschap",
-      "total": 673,
-      "inaccessible": 640,
+      "total": 675,
+      "inaccessible": 642,
       "pct": 95,
-      "wheelchair": 624,
-      "visual": 633
+      "wheelchair": 626,
+      "visual": 635
     },
     {
       "type": "rijkswaterstaat",
       "label": "Rijkswaterstaat",
-      "total": 160,
-      "inaccessible": 119,
+      "total": 165,
+      "inaccessible": 122,
       "pct": 74,
-      "wheelchair": 80,
-      "visual": 114
+      "wheelchair": 81,
+      "visual": 117
     }
   ],
   "conclusions": {

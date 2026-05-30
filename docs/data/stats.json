@@ -1,12 +1,12 @@
 {
-  "generated": "2026-05-29T07:28:57.321Z",
+  "generated": "2026-05-30T07:07:58.115Z",
   "totals": {
-    "totalBusQuays": 42014,
-    "inaccessibleBusQuays": 28294,
+    "totalBusQuays": 42017,
+    "inaccessibleBusQuays": 28293,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20170,
+    "wheelchairInaccessible": 20162,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26703,
+    "visuallyInaccessible": 26704,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -427,11 +427,11 @@
       "code": "G0153",
       "name": "Gemeente Enschede",
       "type": "gemeente",
-      "total": 309,
-      "inaccessible": 253,
+      "total": 311,
+      "inaccessible": 255,
       "pct": 82,
       "wheelchair": 83,
-      "visual": 250,
+      "visual": 252,
       "noShelter": 118
     }
   ],
@@ -451,12 +451,12 @@
       "code": "P0022",
       "name": "Provincie Drenthe",
       "type": "provincie",
-      "total": 308,
-      "inaccessible": 291,
+      "total": 307,
+      "inaccessible": 288,
       "pct": 94,
-      "wheelchair": 251,
-      "visual": 287,
-      "noShelter": 203
+      "wheelchair": 243,
+      "visual": 286,
+      "noShelter": 202
     },
     {
       "code": "P0028",
@@ -539,7 +539,7 @@
       "code": "P0027",
       "name": "Provincie Noord-Holland",
       "type": "provincie",
-      "total": 324,
+      "total": 322,
       "inaccessible": 180,
       "pct": 56,
       "wheelchair": 140,
@@ -630,20 +630,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36808,
-      "inaccessible": 24345,
+      "total": 36814,
+      "inaccessible": 24347,
       "pct": 66,
       "wheelchair": 17259,
-      "visual": 22954
+      "visual": 22956
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4238,
-      "inaccessible": 3097,
+      "total": 4235,
+      "inaccessible": 3094,
       "pct": 73,
-      "wheelchair": 2137,
-      "visual": 2916
+      "wheelchair": 2129,
+      "visual": 2915
     },
     {
       "type": "waterschap",

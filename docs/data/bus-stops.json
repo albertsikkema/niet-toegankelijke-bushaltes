@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-30T07:07:58.101Z",
+  "generated": "2026-05-31T07:25:45.367Z",
   "totals": {
-    "totalBusQuays": 42017,
+    "totalBusQuays": 42021,
     "inaccessibleBusQuays": 28293,
     "authorities": 385
   },
@@ -129553,7 +129553,7 @@
       "email": "info@almere.nl",
       "website": "http://www.almere.nl",
       "phone": "14 036",
-      "totalBusQuays": 255,
+      "totalBusQuays": 259,
       "inaccessibleCount": 159,
       "stops": [
         {

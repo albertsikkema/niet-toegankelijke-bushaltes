@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-02T07:47:49.646Z",
+  "generated": "2026-06-03T07:51:35.540Z",
   "totals": {
-    "totalBusQuays": 42026,
-    "inaccessibleBusQuays": 28293,
+    "totalBusQuays": 42035,
+    "inaccessibleBusQuays": 28304,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20162,
+    "wheelchairInaccessible": 20177,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26704,
+    "visuallyInaccessible": 26713,
     "visualPct": 64
   },
   "worstGemeentes": [
@@ -170,11 +170,11 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1094,
-      "inaccessible": 480,
+      "total": 1093,
+      "inaccessible": 479,
       "pct": 44,
       "wheelchair": 372,
-      "visual": 461,
+      "visual": 460,
       "noShelter": 257
     },
     {
@@ -296,9 +296,9 @@
       "name": "Gemeente Haarlem",
       "type": "gemeente",
       "total": 263,
-      "inaccessible": 88,
-      "pct": 33,
-      "wheelchair": 30,
+      "inaccessible": 89,
+      "pct": 34,
+      "wheelchair": 31,
       "visual": 77,
       "noShelter": 29
     },
@@ -339,11 +339,11 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1094,
-      "inaccessible": 480,
+      "total": 1093,
+      "inaccessible": 479,
       "pct": 44,
       "wheelchair": 372,
-      "visual": 461,
+      "visual": 460,
       "noShelter": 257
     },
     {
@@ -383,9 +383,9 @@
       "code": "G0034",
       "name": "Gemeente Almere",
       "type": "gemeente",
-      "total": 259,
+      "total": 255,
       "inaccessible": 159,
-      "pct": 61,
+      "pct": 62,
       "wheelchair": 28,
       "visual": 158,
       "noShelter": 28
@@ -484,7 +484,7 @@
       "code": "P0025",
       "name": "Provincie Gelderland",
       "type": "provincie",
-      "total": 719,
+      "total": 721,
       "inaccessible": 545,
       "pct": 76,
       "wheelchair": 322,
@@ -630,16 +630,16 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36820,
-      "inaccessible": 24347,
+      "total": 36827,
+      "inaccessible": 24355,
       "pct": 66,
-      "wheelchair": 17259,
-      "visual": 22956
+      "wheelchair": 17271,
+      "visual": 22962
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4235,
+      "total": 4237,
       "inaccessible": 3094,
       "pct": 73,
       "wheelchair": 2129,
@@ -666,8 +666,8 @@
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 264,
-    "totalGemeentes": 345,
+    "gemeentesOver50": 265,
+    "totalGemeentes": 346,
     "gemeentesOver50Pct": 77,
     "visualPct": 64,
     "wheelchairPct": 48,

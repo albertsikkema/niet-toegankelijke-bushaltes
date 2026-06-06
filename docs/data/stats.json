@@ -1,13 +1,13 @@
 {
-  "generated": "2026-06-05T07:37:47.098Z",
+  "generated": "2026-06-06T07:11:37.570Z",
   "totals": {
-    "totalBusQuays": 42037,
-    "inaccessibleBusQuays": 28304,
+    "totalBusQuays": 42035,
+    "inaccessibleBusQuays": 28118,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20167,
+    "wheelchairInaccessible": 20173,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26714,
-    "visualPct": 64
+    "visuallyInaccessible": 26468,
+    "visualPct": 63
   },
   "worstGemeentes": [
     {
@@ -64,17 +64,6 @@
       "wheelchair": 47,
       "visual": 69,
       "noShelter": 49
-    },
-    {
-      "code": "G1955",
-      "name": "Gemeente Montferland",
-      "type": "gemeente",
-      "total": 61,
-      "inaccessible": 61,
-      "pct": 100,
-      "wheelchair": 53,
-      "visual": 61,
-      "noShelter": 50
     },
     {
       "code": "G0163",
@@ -274,11 +263,11 @@
       "name": "Gemeente Nijmegen",
       "type": "gemeente",
       "total": 402,
-      "inaccessible": 119,
-      "pct": 30,
+      "inaccessible": 101,
+      "pct": 25,
       "wheelchair": 63,
-      "visual": 94,
-      "noShelter": 70
+      "visual": 70,
+      "noShelter": 61
     },
     {
       "code": "G0855",
@@ -336,6 +325,17 @@
       "noShelter": 58
     },
     {
+      "code": "G0202",
+      "name": "Gemeente Arnhem",
+      "type": "gemeente",
+      "total": 433,
+      "inaccessible": 189,
+      "pct": 44,
+      "wheelchair": 94,
+      "visual": 144,
+      "noShelter": 83
+    },
+    {
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
@@ -356,17 +356,6 @@
       "wheelchair": 165,
       "visual": 227,
       "noShelter": 141
-    },
-    {
-      "code": "G0202",
-      "name": "Gemeente Arnhem",
-      "type": "gemeente",
-      "total": 433,
-      "inaccessible": 226,
-      "pct": 52,
-      "wheelchair": 94,
-      "visual": 195,
-      "noShelter": 96
     },
     {
       "code": "G0080",
@@ -481,17 +470,6 @@
       "noShelter": 65
     },
     {
-      "code": "P0025",
-      "name": "Provincie Gelderland",
-      "type": "provincie",
-      "total": 721,
-      "inaccessible": 545,
-      "pct": 76,
-      "wheelchair": 322,
-      "visual": 522,
-      "noShelter": 320
-    },
-    {
       "code": "P0026",
       "name": "Provincie Utrecht",
       "type": "provincie",
@@ -501,6 +479,17 @@
       "wheelchair": 184,
       "visual": 258,
       "noShelter": 139
+    },
+    {
+      "code": "P0025",
+      "name": "Provincie Gelderland",
+      "type": "provincie",
+      "total": 721,
+      "inaccessible": 534,
+      "pct": 74,
+      "wheelchair": 324,
+      "visual": 506,
+      "noShelter": 318
     },
     {
       "code": "P0029",
@@ -630,20 +619,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36829,
-      "inaccessible": 24357,
+      "total": 36827,
+      "inaccessible": 24184,
       "pct": 66,
-      "wheelchair": 17269,
-      "visual": 22963
+      "wheelchair": 17273,
+      "visual": 22735
     },
     {
       "type": "provincie",
       "label": "Provincie",
       "total": 4237,
-      "inaccessible": 3092,
+      "inaccessible": 3081,
       "pct": 73,
-      "wheelchair": 2121,
-      "visual": 2915
+      "wheelchair": 2123,
+      "visual": 2899
     },
     {
       "type": "waterschap",
@@ -658,18 +647,18 @@
       "type": "rijkswaterstaat",
       "label": "Rijkswaterstaat",
       "total": 165,
-      "inaccessible": 122,
-      "pct": 74,
+      "inaccessible": 120,
+      "pct": 73,
       "wheelchair": 81,
-      "visual": 117
+      "visual": 115
     }
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 265,
+    "gemeentesOver50": 264,
     "totalGemeentes": 346,
-    "gemeentesOver50Pct": 77,
-    "visualPct": 64,
+    "gemeentesOver50Pct": 76,
+    "visualPct": 63,
     "wheelchairPct": 48,
     "wsPct": 95,
     "bestCityName": "Gemeente Amersfoort",

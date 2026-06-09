@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-08T07:52:47.095Z",
+  "generated": "2026-06-09T07:23:02.639Z",
   "totals": {
-    "totalBusQuays": 42035,
+    "totalBusQuays": 42039,
     "inaccessibleBusQuays": 28121,
     "authorities": 386
   },
@@ -63799,7 +63799,7 @@
         },
         {
           "code": "NL:Q:12125510",
-          "name": "Gasterenseweg 1",
+          "name": "Gasterenseweg",
           "town": "Anloo",
           "street": "Gasterenseweg",
           "lat": 53.039997,
@@ -63813,7 +63813,7 @@
         },
         {
           "code": "NL:Q:12125520",
-          "name": "Gasterenseweg 1",
+          "name": "Gasterenseweg",
           "town": "Anloo",
           "street": "Gasterenseweg",
           "lat": 53.03996,
@@ -64065,7 +64065,7 @@
         },
         {
           "code": "NL:Q:15019010",
-          "name": "Deurze",
+          "name": "Bezoekerscentrum",
           "town": "Deurze",
           "street": "Asserstraat",
           "lat": 52.989246,
@@ -64079,7 +64079,7 @@
         },
         {
           "code": "NL:Q:15019020",
-          "name": "Deurze",
+          "name": "Bezoekerscentrum",
           "town": "Deurze",
           "street": "Asserstraat",
           "lat": 52.989197,
@@ -185973,7 +185973,7 @@
         },
         {
           "code": "NL:Q:12003220",
-          "name": "P+R Haren A28",
+          "name": "P+R Haren",
           "town": "Haren",
           "street": "Rijksweg A28",
           "lat": 53.169832,
@@ -230463,7 +230463,7 @@
         },
         {
           "code": "NL:Q:12004710",
-          "name": "P+R Haren A28",
+          "name": "P+R Haren",
           "town": "Haren",
           "street": "",
           "lat": 53.169544,
@@ -243561,6 +243561,20 @@
           "concessionProvider": "VRA"
         },
         {
+          "code": "NL:Q:57330620",
+          "name": "Schiphol Airport/Plaza",
+          "town": "Schiphol",
+          "street": "Havenmeesterweg",
+          "lat": 52.308819,
+          "lon": 4.761642,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 315,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "VRA"
+        },
+        {
           "code": "NL:Q:57330222",
           "name": "Schiphol Airport/Plaza",
           "town": "Schiphol",
@@ -243698,20 +243712,6 @@
           "visuallyAccessible": true,
           "compassDirection": 94,
           "mutationDate": "2018-08-14",
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:57330620",
-          "name": "Schiphol Airport/Plaza",
-          "town": "Schiphol",
-          "street": "Havenmeesterweg",
-          "lat": 52.308819,
-          "lon": 4.761642,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 315,
-          "mutationDate": "2019-03-14",
           "concessionProvider": "VRA"
         },
         {
@@ -286672,7 +286672,7 @@
       "email": "gemeente@sonenbreugel.nl",
       "website": "http://www.sonenbreugel.nl",
       "phone": "(0499) 49 14 91",
-      "totalBusQuays": 43,
+      "totalBusQuays": 47,
       "inaccessibleCount": 42,
       "stops": [
         {

@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-10T07:37:53.547Z",
+  "generated": "2026-06-11T07:50:19.054Z",
   "totals": {
-    "totalBusQuays": 42039,
-    "inaccessibleBusQuays": 28121,
+    "totalBusQuays": 42042,
+    "inaccessibleBusQuays": 28122,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20176,
+    "wheelchairInaccessible": 20177,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26471,
+    "visuallyInaccessible": 26472,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -329,10 +329,10 @@
       "name": "Gemeente Arnhem",
       "type": "gemeente",
       "total": 433,
-      "inaccessible": 189,
-      "pct": 44,
-      "wheelchair": 94,
-      "visual": 144,
+      "inaccessible": 187,
+      "pct": 43,
+      "wheelchair": 92,
+      "visual": 142,
       "noShelter": 83
     },
     {
@@ -440,12 +440,12 @@
       "code": "P0022",
       "name": "Provincie Drenthe",
       "type": "provincie",
-      "total": 307,
-      "inaccessible": 286,
+      "total": 308,
+      "inaccessible": 287,
       "pct": 93,
-      "wheelchair": 235,
-      "visual": 286,
-      "noShelter": 200
+      "wheelchair": 236,
+      "visual": 287,
+      "noShelter": 201
     },
     {
       "code": "P0028",
@@ -619,7 +619,7 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36831,
+      "total": 36833,
       "inaccessible": 24187,
       "pct": 66,
       "wheelchair": 17276,
@@ -628,11 +628,11 @@
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4237,
-      "inaccessible": 3081,
+      "total": 4238,
+      "inaccessible": 3082,
       "pct": 73,
-      "wheelchair": 2123,
-      "visual": 2899
+      "wheelchair": 2124,
+      "visual": 2900
     },
     {
       "type": "waterschap",

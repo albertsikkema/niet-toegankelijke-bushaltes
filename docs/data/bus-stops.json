@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-14T07:43:40.100Z",
+  "generated": "2026-06-15T08:12:00.829Z",
   "totals": {
-    "totalBusQuays": 42037,
+    "totalBusQuays": 42040,
     "inaccessibleBusQuays": 28109,
     "authorities": 386
   },
@@ -388597,7 +388597,7 @@
       "email": "gemeente@zuidplas.nl",
       "website": "http://www.zuidplas.nl",
       "phone": "(0180) 33 03 00",
-      "totalBusQuays": 84,
+      "totalBusQuays": 87,
       "inaccessibleCount": 33,
       "stops": [
         {

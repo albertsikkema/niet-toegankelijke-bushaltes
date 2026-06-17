@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-16T08:06:48.753Z",
+  "generated": "2026-06-17T08:00:16.645Z",
   "totals": {
-    "totalBusQuays": 42040,
-    "inaccessibleBusQuays": 28109,
+    "totalBusQuays": 42039,
+    "inaccessibleBusQuays": 28107,
     "authorities": 386
   },
   "authorities": {
@@ -10696,8 +10696,8 @@
       "email": "postbus20@enschede.nl",
       "website": "http://www.enschede.nl",
       "phone": "14 053",
-      "totalBusQuays": 311,
-      "inaccessibleCount": 255,
+      "totalBusQuays": 310,
+      "inaccessibleCount": 254,
       "stops": [
         {
           "code": "NL:Q:43100600",
@@ -10832,20 +10832,6 @@
           "street": "Jacobsrietweg",
           "lat": 52.18265,
           "lon": 6.838259,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 0,
-          "mutationDate": "2014-12-14",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:39017001",
-          "name": "P2 Slagersmatenweg",
-          "town": "Boekelo",
-          "street": "Slagersmatenweg",
-          "lat": 52.183917,
-          "lon": 6.831748,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -279998,7 +279984,7 @@
       "email": "info@borne.nl",
       "website": "http://www.borne.nl",
       "phone": "(074) 265 86 86",
-      "totalBusQuays": 129,
+      "totalBusQuays": 130,
       "inaccessibleCount": 127,
       "stops": [
         {
@@ -290327,12 +290313,12 @@
           "name": "Collseweg",
           "town": "Nuenen",
           "street": "Collseweg",
-          "lat": 51.44799,
-          "lon": 5.546659,
+          "lat": 51.448135,
+          "lon": 5.544895,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 258,
+          "compassDirection": 163,
           "mutationDate": null,
           "concessionProvider": "PNB"
         },
@@ -311621,6 +311607,20 @@
           "concessionProvider": "PNB"
         },
         {
+          "code": "NL:Q:64230001",
+          "name": "Broekbeemd",
+          "town": "Best",
+          "street": "Slootjesbeemd",
+          "lat": 51.521781,
+          "lon": 5.388152,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 217,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
+        {
           "code": "NL:Q:64200440",
           "name": "De Maas",
           "town": "Best",
@@ -311814,20 +311814,6 @@
           "visuallyAccessible": false,
           "compassDirection": 168,
           "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:64230001",
-          "name": "Slootjesbeemd",
-          "town": "Best",
-          "street": "Slootjesbeemd",
-          "lat": 51.521781,
-          "lon": 5.388152,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 217,
-          "mutationDate": null,
           "concessionProvider": "PNB"
         },
         {
@@ -377964,8 +377950,8 @@
       "email": "antwoord@haarlem.nl",
       "website": "http://www.haarlem.nl",
       "phone": "14 023",
-      "totalBusQuays": 263,
-      "inaccessibleCount": 89,
+      "totalBusQuays": 262,
+      "inaccessibleCount": 88,
       "stops": [
         {
           "code": "NL:Q:55101160",
@@ -379014,20 +379000,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 35,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PNH"
-        },
-        {
-          "code": "NL:Q:55003190",
-          "name": "Vijver",
-          "town": "Haarlem",
-          "street": "Rollandslaan",
-          "lat": 52.381956,
-          "lon": 4.609091,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 284,
           "mutationDate": "2020-02-19",
           "concessionProvider": "PNH"
         },

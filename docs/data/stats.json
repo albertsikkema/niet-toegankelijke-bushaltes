@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-16T08:06:48.764Z",
+  "generated": "2026-06-17T08:00:16.656Z",
   "totals": {
-    "totalBusQuays": 42040,
-    "inaccessibleBusQuays": 28109,
+    "totalBusQuays": 42039,
+    "inaccessibleBusQuays": 28107,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20169,
+    "wheelchairInaccessible": 20168,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26461,
+    "visuallyInaccessible": 26459,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -284,11 +284,11 @@
       "code": "G0392",
       "name": "Gemeente Haarlem",
       "type": "gemeente",
-      "total": 263,
-      "inaccessible": 89,
+      "total": 262,
+      "inaccessible": 88,
       "pct": 34,
       "wheelchair": 31,
-      "visual": 77,
+      "visual": 76,
       "noShelter": 29
     },
     {
@@ -416,12 +416,12 @@
       "code": "G0153",
       "name": "Gemeente Enschede",
       "type": "gemeente",
-      "total": 311,
-      "inaccessible": 255,
+      "total": 310,
+      "inaccessible": 254,
       "pct": 82,
-      "wheelchair": 83,
-      "visual": 252,
-      "noShelter": 118
+      "wheelchair": 82,
+      "visual": 251,
+      "noShelter": 117
     }
   ],
   "provincies": [
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36834,
-      "inaccessible": 24174,
+      "total": 36833,
+      "inaccessible": 24172,
       "pct": 66,
-      "wheelchair": 17268,
-      "visual": 22727
+      "wheelchair": 17267,
+      "visual": 22725
     },
     {
       "type": "provincie",

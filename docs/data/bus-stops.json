@@ -1,9 +1,9 @@
 {
-  "generated": "2026-06-18T07:50:28.210Z",
+  "generated": "2026-06-19T08:00:41.978Z",
   "totals": {
-    "totalBusQuays": 42039,
-    "inaccessibleBusQuays": 28107,
-    "authorities": 386
+    "totalBusQuays": 42034,
+    "inaccessibleBusQuays": 28102,
+    "authorities": 384
   },
   "authorities": {
     "G0748": {
@@ -63724,8 +63724,8 @@
       "email": "gemeente@aaenhunze.nl",
       "website": "http://www.aaenhunze.nl",
       "phone": "14 0592",
-      "totalBusQuays": 69,
-      "inaccessibleCount": 69,
+      "totalBusQuays": 71,
+      "inaccessibleCount": 71,
       "stops": [
         {
           "code": "NL:Q:12125320",
@@ -64074,6 +64074,34 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 342,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:12244210",
+          "name": "Borgerweg 23",
+          "town": "Gasselte",
+          "street": "Gasselterstraat",
+          "lat": 52.964429,
+          "lon": 6.788871,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 8,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:12244220",
+          "name": "Borgerweg 23",
+          "town": "Gasselte",
+          "street": "Gasselterstraat",
+          "lat": 52.964232,
+          "lon": 6.788677,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 180,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -67943,8 +67971,8 @@
       "email": "gemeente@borger-odoorn.nl",
       "website": "http://www.borger-odoorn.nl",
       "phone": "14 0591",
-      "totalBusQuays": 176,
-      "inaccessibleCount": 143,
+      "totalBusQuays": 174,
+      "inaccessibleCount": 141,
       "stops": [
         {
           "code": "NL:Q:18790070",
@@ -68826,34 +68854,6 @@
           "visuallyAccessible": false,
           "compassDirection": 313,
           "mutationDate": "2018-02-07",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12244210",
-          "name": "Borgerweg 23",
-          "town": "Gasselte",
-          "street": "Gasselterstraat",
-          "lat": 52.96237,
-          "lon": 6.788369,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 8,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12244220",
-          "name": "Borgerweg 23",
-          "town": "Gasselte",
-          "street": "Gasselterstraat",
-          "lat": 52.962221,
-          "lon": 6.788037,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 180,
-          "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
         {
@@ -73985,8 +73985,8 @@
       "email": "info@gemeentemaashorst.nl",
       "website": "http://www.gemeentemaashorst.nl",
       "phone": "(0413) 28 19 11",
-      "totalBusQuays": 114,
-      "inaccessibleCount": 51,
+      "totalBusQuays": 112,
+      "inaccessibleCount": 49,
       "stops": [
         {
           "code": "NL:Q:60640600",
@@ -74644,34 +74644,6 @@
           "visuallyAccessible": false,
           "compassDirection": 247,
           "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:60550060",
-          "name": "Udenseweg",
-          "town": "Zeeland",
-          "street": "Udenseweg",
-          "lat": 51.690902,
-          "lon": 5.666673,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 42,
-          "mutationDate": "2018-11-15",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:60550130",
-          "name": "Udenseweg",
-          "town": "Zeeland",
-          "street": "Udenseweg",
-          "lat": 51.690947,
-          "lon": 5.6665,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 224,
-          "mutationDate": "2018-11-15",
           "concessionProvider": "PNB"
         },
         {
@@ -75789,12 +75761,40 @@
           "concessionProvider": "PNB"
         },
         {
+          "code": "NL:Q:63230140",
+          "name": "Markt",
+          "town": "Esch",
+          "street": "Dorpsstraat",
+          "lat": 51.611441,
+          "lon": 5.291094,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 254,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:63230120",
+          "name": "Markt",
+          "town": "Esch",
+          "street": "Leunisdijk",
+          "lat": 51.611531,
+          "lon": 5.290456,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 153,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "PNB"
+        },
+        {
           "code": "NL:Q:63230110",
           "name": "Markt",
           "town": "Esch",
           "street": "Leunisdijk",
-          "lat": 51.611477,
-          "lon": 5.290661,
+          "lat": 51.611513,
+          "lon": 5.290625,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -75807,40 +75807,12 @@
           "name": "Markt",
           "town": "Esch",
           "street": "Dorpsstraat",
-          "lat": 51.61136,
-          "lon": 5.291181,
+          "lat": 51.61131,
+          "lon": 5.290988,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 72,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:63230120",
-          "name": "Markt",
-          "town": "Esch",
-          "street": "Leunisdijk",
-          "lat": 51.61153,
-          "lon": 5.290517,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 153,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:63230140",
-          "name": "Markt",
-          "town": "Esch",
-          "street": "Dorpsstraat",
-          "lat": 51.611441,
-          "lon": 5.291094,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 254,
           "mutationDate": "2019-03-14",
           "concessionProvider": "PNB"
         },
@@ -83705,8 +83677,8 @@
       "email": "gemeente@landvancuijk.nl",
       "website": "http://www.landvancuijk.nl",
       "phone": null,
-      "totalBusQuays": 253,
-      "inaccessibleCount": 163,
+      "totalBusQuays": 254,
+      "inaccessibleCount": 164,
       "stops": [
         {
           "code": "NL:Q:60340200",
@@ -84409,20 +84381,6 @@
           "concessionProvider": "PNB"
         },
         {
-          "code": "NL:Q:60350145",
-          "name": "Kindcentrum",
-          "town": "Grave",
-          "street": "Jan van Cuykdijk",
-          "lat": 51.755184,
-          "lon": 5.744063,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 282,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
           "code": "NL:Q:60350055",
           "name": "Stoofweg",
           "town": "Grave",
@@ -85039,34 +84997,6 @@
           "concessionProvider": "PNB"
         },
         {
-          "code": "NL:Q:60530040",
-          "name": "Vorleweg",
-          "town": "Mill",
-          "street": "Vorleweg",
-          "lat": 51.677856,
-          "lon": 5.775015,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 203,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:60530110",
-          "name": "Vorleweg",
-          "town": "Mill",
-          "street": "Vorleweg",
-          "lat": 51.678071,
-          "lon": 5.775277,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 26,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PNB"
-        },
-        {
           "code": "NL:Q:60530210",
           "name": "Weemhofweg",
           "town": "Mill",
@@ -85543,6 +85473,20 @@
           "concessionProvider": "PNB"
         },
         {
+          "code": "NL:Q:60610002",
+          "name": "De Heksenboom",
+          "town": "Sint Anthonis",
+          "street": "Bosweg",
+          "lat": 51.626695,
+          "lon": 5.861831,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 156,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
+        {
           "code": "NL:Q:60610100",
           "name": "Lepelstraat",
           "town": "Sint Anthonis",
@@ -85568,6 +85512,34 @@
           "visuallyAccessible": false,
           "compassDirection": 333,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:60610001",
+          "name": "Peelkant",
+          "town": "Sint Anthonis",
+          "street": "Randweg",
+          "lat": 51.625063,
+          "lon": 5.875073,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 292,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:60460001",
+          "name": "Hanenstraat",
+          "town": "Velp",
+          "street": "Hanenstraat",
+          "lat": 51.761462,
+          "lon": 5.716468,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 101,
+          "mutationDate": null,
           "concessionProvider": "PNB"
         },
         {
@@ -85638,6 +85610,20 @@
           "visuallyAccessible": false,
           "compassDirection": 86,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:60630001",
+          "name": "Campinglaan",
+          "town": "Wanroij",
+          "street": "Fortunaweg",
+          "lat": 51.640318,
+          "lon": 5.815822,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 134,
+          "mutationDate": null,
           "concessionProvider": "PNB"
         },
         {
@@ -89172,8 +89158,8 @@
       "email": "info@meierijstad.nl",
       "website": "http://www.meierijstad.nl/home",
       "phone": "14 0413",
-      "totalBusQuays": 123,
-      "inaccessibleCount": 51,
+      "totalBusQuays": 118,
+      "inaccessibleCount": 46,
       "stops": [
         {
           "code": "NL:Q:65790200",
@@ -89341,34 +89327,6 @@
           "visuallyAccessible": false,
           "compassDirection": 239,
           "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:63561000",
-          "name": "Simeonshof",
-          "town": "Erp",
-          "street": "Kerkstraat",
-          "lat": 51.599191,
-          "lon": 5.607798,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 126,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:63560500",
-          "name": "Simeonshof",
-          "town": "Erp",
-          "street": "Kerkstraat",
-          "lat": 51.599248,
-          "lon": 5.607881,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 319,
-          "mutationDate": "2020-02-19",
           "concessionProvider": "PNB"
         },
         {
@@ -89775,48 +89733,6 @@
           "visuallyAccessible": false,
           "compassDirection": 332,
           "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:64554411",
-          "name": "Populierlaan",
-          "town": "Veghel",
-          "street": "Populierenlaan",
-          "lat": 51.624602,
-          "lon": 5.547355,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 157,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:64552910",
-          "name": "Stationsstraat",
-          "town": "Veghel",
-          "street": "Stationsstraat",
-          "lat": 51.621036,
-          "lon": 5.545104,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 183,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:64552210",
-          "name": "Stationsstraat",
-          "town": "Veghel",
-          "street": "Stationsstraat",
-          "lat": 51.621027,
-          "lon": 5.545147,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 9,
-          "mutationDate": "2019-02-07",
           "concessionProvider": "PNB"
         },
         {
@@ -115291,8 +115207,8 @@
           "name": "Julianalaan",
           "town": "'s-Gravenmoer",
           "street": "Julianalaan",
-          "lat": 51.65903,
-          "lon": 4.954343,
+          "lat": 51.659084,
+          "lon": 4.953892,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -118943,6 +118859,34 @@
           "concessionProvider": "PNB"
         },
         {
+          "code": "NL:Q:63150240",
+          "name": "Hoogstraat",
+          "town": "Den Dungen",
+          "street": "Hoogstraat",
+          "lat": 51.655171,
+          "lon": 5.363647,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 250,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:63150010",
+          "name": "Hoogstraat",
+          "town": "Den Dungen",
+          "street": "Hoogstraat",
+          "lat": 51.65518,
+          "lon": 5.363965,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 70,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "PNB"
+        },
+        {
           "code": "NL:Q:63150080",
           "name": "Litserstraat",
           "town": "Den Dungen",
@@ -119265,34 +119209,6 @@
           "concessionProvider": "PNB"
         },
         {
-          "code": "NL:Q:63150240",
-          "name": "Hoogstraat",
-          "town": "Sint-Michielsgestel",
-          "street": "Hoogstraat",
-          "lat": 51.655171,
-          "lon": 5.363647,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 250,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:63150010",
-          "name": "Hoogstraat",
-          "town": "Sint-Michielsgestel",
-          "street": "Hoogstraat",
-          "lat": 51.65518,
-          "lon": 5.363965,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 70,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PNB"
-        },
-        {
           "code": "NL:Q:63250020",
           "name": "Ruwenberg",
           "town": "Sint-Michielsgestel",
@@ -119318,59 +119234,6 @@
           "visuallyAccessible": false,
           "compassDirection": 53,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "PNB"
-        }
-      ]
-    },
-    "G1702": {
-      "type": "gemeente",
-      "name": "Gemeente Land van Cuijk",
-      "email": "gemeente@landvancuijk.nl",
-      "website": "http://www.landvancuijk.nl",
-      "phone": null,
-      "totalBusQuays": 3,
-      "inaccessibleCount": 3,
-      "stops": [
-        {
-          "code": "NL:Q:60610002",
-          "name": "De Heksenboom",
-          "town": "Sint Anthonis",
-          "street": "Bosweg",
-          "lat": 51.626695,
-          "lon": 5.861831,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 156,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:60610001",
-          "name": "Peelkant",
-          "town": "Sint Anthonis",
-          "street": "Randweg",
-          "lat": 51.625063,
-          "lon": 5.875073,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 292,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:60630001",
-          "name": "Campinglaan",
-          "town": "Wanroij",
-          "street": "Fortunaweg",
-          "lat": 51.640318,
-          "lon": 5.815822,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 134,
-          "mutationDate": null,
           "concessionProvider": "PNB"
         }
       ]
@@ -119719,31 +119582,6 @@
           "compassDirection": 350,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PUT"
-        }
-      ]
-    },
-    "G0786": {
-      "type": "gemeente",
-      "name": "Gemeente Land van Cuijk",
-      "email": "gemeente@landvancuijk.nl",
-      "website": "http://www.landvancuijk.nl",
-      "phone": null,
-      "totalBusQuays": 1,
-      "inaccessibleCount": 1,
-      "stops": [
-        {
-          "code": "NL:Q:60460001",
-          "name": "Hanenstraat",
-          "town": "Velp",
-          "street": "Hanenstraat",
-          "lat": 51.761462,
-          "lon": 5.716468,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 101,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
         }
       ]
     },
@@ -276586,7 +276424,7 @@
       "email": "gemeente@duiven.nl",
       "website": "http://www.duiven.nl",
       "phone": "(0316) 27 91 11",
-      "totalBusQuays": 48,
+      "totalBusQuays": 49,
       "inaccessibleCount": 9,
       "stops": [
         {
@@ -313573,7 +313411,7 @@
       "email": "gemeente@beuningen.nl",
       "website": "http://www.beuningen.nl",
       "phone": "14 024",
-      "totalBusQuays": 58,
+      "totalBusQuays": 59,
       "inaccessibleCount": 12,
       "stops": [
         {
@@ -323222,8 +323060,8 @@
       "email": "gemeente@buren.nl",
       "website": "http://www.buren.nl",
       "phone": "14 0344",
-      "totalBusQuays": 60,
-      "inaccessibleCount": 52,
+      "totalBusQuays": 62,
+      "inaccessibleCount": 53,
       "stops": [
         {
           "code": "NL:Q:61690320",
@@ -323825,6 +323663,20 @@
           "visuallyAccessible": false,
           "compassDirection": 217,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:61589150",
+          "name": "Hoekenburgplein",
+          "town": "Rijswijk",
+          "street": "Hoekenburgplein",
+          "lat": 51.958042,
+          "lon": 5.357815,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 261,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
         {
@@ -326830,8 +326682,8 @@
       "email": "info@westmaasenwaal.nl",
       "website": "http://www.westmaasenwaal.nl",
       "phone": "14 0487",
-      "totalBusQuays": 23,
-      "inaccessibleCount": 22,
+      "totalBusQuays": 24,
+      "inaccessibleCount": 23,
       "stops": [
         {
           "code": "NL:Q:61630070",
@@ -326915,6 +326767,20 @@
           "visuallyAccessible": false,
           "compassDirection": 270,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:61530110",
+          "name": "Megensveer",
+          "town": "Appeltern",
+          "street": "Noord-Zuid",
+          "lat": 51.828611,
+          "lon": 5.567374,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 72,
+          "mutationDate": "2014-08-17",
           "concessionProvider": "GLD"
         },
         {
@@ -388570,7 +388436,7 @@
       "website": "http://www.zuidplas.nl",
       "phone": "(0180) 33 03 00",
       "totalBusQuays": 87,
-      "inaccessibleCount": 33,
+      "inaccessibleCount": 36,
       "stops": [
         {
           "code": "NL:Q:54501130",
@@ -388713,6 +388579,20 @@
           "concessionProvider": "PZH"
         },
         {
+          "code": "NL:Q:53410950",
+          "name": "Emmastraat",
+          "town": "Moordrecht",
+          "street": "Emmastraat",
+          "lat": 51.983104,
+          "lon": 4.668572,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 10,
+          "mutationDate": null,
+          "concessionProvider": "PZH"
+        },
+        {
           "code": "NL:Q:53410200",
           "name": "Klein Moordrecht",
           "town": "Moordrecht",
@@ -388738,6 +388618,34 @@
           "visuallyAccessible": false,
           "compassDirection": 72,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:53410970",
+          "name": "Prins Bernhardbrug",
+          "town": "Moordrecht",
+          "street": "Prins Bernhardstraat",
+          "lat": 51.983791,
+          "lon": 4.665404,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 310,
+          "mutationDate": null,
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:53410900",
+          "name": "Prins Bernhardbrug",
+          "town": "Moordrecht",
+          "street": "Prins Bernhardstraat",
+          "lat": 51.983665,
+          "lon": 4.665445,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 130,
+          "mutationDate": null,
           "concessionProvider": "PZH"
         },
         {

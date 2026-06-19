@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-18T07:50:28.221Z",
+  "generated": "2026-06-19T08:00:41.989Z",
   "totals": {
-    "totalBusQuays": 42039,
-    "inaccessibleBusQuays": 28107,
+    "totalBusQuays": 42034,
+    "inaccessibleBusQuays": 28102,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20168,
+    "wheelchairInaccessible": 20163,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26459,
+    "visuallyInaccessible": 26454,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -58,12 +58,12 @@
       "code": "G1680",
       "name": "Gemeente Aa en Hunze",
       "type": "gemeente",
-      "total": 69,
-      "inaccessible": 69,
+      "total": 71,
+      "inaccessible": 71,
       "pct": 100,
-      "wheelchair": 47,
-      "visual": 69,
-      "noShelter": 49
+      "wheelchair": 49,
+      "visual": 71,
+      "noShelter": 51
     },
     {
       "code": "G0163",
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36833,
-      "inaccessible": 24172,
+      "total": 36828,
+      "inaccessible": 24167,
       "pct": 66,
-      "wheelchair": 17267,
-      "visual": 22725
+      "wheelchair": 17262,
+      "visual": 22720
     },
     {
       "type": "provincie",
@@ -655,8 +655,8 @@
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 264,
-    "totalGemeentes": 346,
+    "gemeentesOver50": 262,
+    "totalGemeentes": 344,
     "gemeentesOver50Pct": 76,
     "visualPct": 63,
     "wheelchairPct": 48,

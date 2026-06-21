@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-20T07:27:58.852Z",
+  "generated": "2026-06-21T07:46:31.249Z",
   "totals": {
-    "totalBusQuays": 42033,
+    "totalBusQuays": 42034,
     "inaccessibleBusQuays": 28100,
     "authorities": 384
   },
@@ -259885,7 +259885,7 @@
       "email": "postbus@zaanstad.nl",
       "website": "http://www.zaanstad.nl",
       "phone": "14 075",
-      "totalBusQuays": 340,
+      "totalBusQuays": 341,
       "inaccessibleCount": 143,
       "stops": [
         {

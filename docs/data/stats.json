@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-23T07:23:18.157Z",
+  "generated": "2026-06-24T07:19:47.538Z",
   "totals": {
-    "totalBusQuays": 42034,
+    "totalBusQuays": 42050,
     "inaccessibleBusQuays": 28101,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20162,
+    "wheelchairInaccessible": 20175,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26453,
+    "visuallyInaccessible": 26452,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -137,12 +137,12 @@
       "code": "G0599",
       "name": "Gemeente Rotterdam",
       "type": "gemeente",
-      "total": 958,
-      "inaccessible": 698,
+      "total": 959,
+      "inaccessible": 699,
       "pct": 73,
-      "wheelchair": 417,
-      "visual": 663,
-      "noShelter": 358
+      "wheelchair": 418,
+      "visual": 664,
+      "noShelter": 359
     },
     {
       "code": "G0518",
@@ -350,12 +350,12 @@
       "code": "G0014",
       "name": "Gemeente Groningen",
       "type": "gemeente",
-      "total": 541,
-      "inaccessible": 251,
-      "pct": 46,
-      "wheelchair": 165,
-      "visual": 227,
-      "noShelter": 141
+      "total": 554,
+      "inaccessible": 264,
+      "pct": 48,
+      "wheelchair": 178,
+      "visual": 240,
+      "noShelter": 154
     },
     {
       "code": "G0080",
@@ -383,12 +383,12 @@
       "code": "G0599",
       "name": "Gemeente Rotterdam",
       "type": "gemeente",
-      "total": 958,
-      "inaccessible": 698,
+      "total": 959,
+      "inaccessible": 699,
       "pct": 73,
-      "wheelchair": 417,
-      "visual": 663,
-      "noShelter": 358
+      "wheelchair": 418,
+      "visual": 664,
+      "noShelter": 359
     },
     {
       "code": "G0935",
@@ -452,10 +452,10 @@
       "name": "Provincie Zuid-Holland",
       "type": "provincie",
       "total": 387,
-      "inaccessible": 321,
-      "pct": 83,
-      "wheelchair": 152,
-      "visual": 317,
+      "inaccessible": 306,
+      "pct": 79,
+      "wheelchair": 151,
+      "visual": 301,
       "noShelter": 78
     },
     {
@@ -619,20 +619,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36828,
-      "inaccessible": 24166,
+      "total": 36844,
+      "inaccessible": 24181,
       "pct": 66,
-      "wheelchair": 17261,
-      "visual": 22719
+      "wheelchair": 17275,
+      "visual": 22734
     },
     {
       "type": "provincie",
       "label": "Provincie",
       "total": 4235,
-      "inaccessible": 3082,
-      "pct": 73,
-      "wheelchair": 2124,
-      "visual": 2900
+      "inaccessible": 3067,
+      "pct": 72,
+      "wheelchair": 2123,
+      "visual": 2884
     },
     {
       "type": "waterschap",

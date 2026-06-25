@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-24T07:19:47.538Z",
+  "generated": "2026-06-25T07:19:48.600Z",
   "totals": {
-    "totalBusQuays": 42050,
+    "totalBusQuays": 42058,
     "inaccessibleBusQuays": 28101,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20175,
+    "wheelchairInaccessible": 20173,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26452,
+    "visuallyInaccessible": 26450,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -159,23 +159,23 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1091,
-      "inaccessible": 478,
+      "total": 1092,
+      "inaccessible": 479,
       "pct": 44,
-      "wheelchair": 372,
+      "wheelchair": 373,
       "visual": 459,
-      "noShelter": 257
+      "noShelter": 258
     },
     {
       "code": "G0114",
       "name": "Gemeente Emmen",
       "type": "gemeente",
       "total": 355,
-      "inaccessible": 332,
-      "pct": 94,
-      "wheelchair": 205,
-      "visual": 328,
-      "noShelter": 232
+      "inaccessible": 325,
+      "pct": 92,
+      "wheelchair": 198,
+      "visual": 321,
+      "noShelter": 226
     },
     {
       "code": "G1900",
@@ -328,23 +328,23 @@
       "code": "G0202",
       "name": "Gemeente Arnhem",
       "type": "gemeente",
-      "total": 433,
-      "inaccessible": 187,
-      "pct": 43,
-      "wheelchair": 92,
-      "visual": 142,
-      "noShelter": 83
+      "total": 440,
+      "inaccessible": 192,
+      "pct": 44,
+      "wheelchair": 95,
+      "visual": 146,
+      "noShelter": 87
     },
     {
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1091,
-      "inaccessible": 478,
+      "total": 1092,
+      "inaccessible": 479,
       "pct": 44,
-      "wheelchair": 372,
+      "wheelchair": 373,
       "visual": 459,
-      "noShelter": 257
+      "noShelter": 258
     },
     {
       "code": "G0014",
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36844,
+      "total": 36852,
       "inaccessible": 24181,
       "pct": 66,
-      "wheelchair": 17275,
-      "visual": 22734
+      "wheelchair": 17273,
+      "visual": 22732
     },
     {
       "type": "provincie",

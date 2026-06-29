@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-28T07:28:23.765Z",
+  "generated": "2026-06-29T07:53:50.914Z",
   "totals": {
-    "totalBusQuays": 42061,
-    "inaccessibleBusQuays": 28083,
+    "totalBusQuays": 42043,
+    "inaccessibleBusQuays": 28050,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20153,
+    "wheelchairInaccessible": 20119,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26433,
+    "visuallyInaccessible": 26400,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -170,12 +170,12 @@
       "code": "G0114",
       "name": "Gemeente Emmen",
       "type": "gemeente",
-      "total": 355,
-      "inaccessible": 321,
+      "total": 351,
+      "inaccessible": 317,
       "pct": 90,
-      "wheelchair": 191,
-      "visual": 318,
-      "noShelter": 224
+      "wheelchair": 187,
+      "visual": 314,
+      "noShelter": 220
     },
     {
       "code": "G1900",
@@ -416,7 +416,7 @@
       "code": "G0153",
       "name": "Gemeente Enschede",
       "type": "gemeente",
-      "total": 310,
+      "total": 311,
       "inaccessible": 254,
       "pct": 82,
       "wheelchair": 82,
@@ -440,12 +440,12 @@
       "code": "P0022",
       "name": "Provincie Drenthe",
       "type": "provincie",
-      "total": 309,
-      "inaccessible": 288,
+      "total": 307,
+      "inaccessible": 286,
       "pct": 93,
-      "wheelchair": 236,
-      "visual": 288,
-      "noShelter": 202
+      "wheelchair": 234,
+      "visual": 286,
+      "noShelter": 200
     },
     {
       "code": "P0028",
@@ -619,20 +619,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36854,
-      "inaccessible": 24162,
+      "total": 36838,
+      "inaccessible": 24131,
       "pct": 66,
-      "wheelchair": 17253,
-      "visual": 22714
+      "wheelchair": 17221,
+      "visual": 22683
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4236,
-      "inaccessible": 3068,
+      "total": 4234,
+      "inaccessible": 3066,
       "pct": 72,
-      "wheelchair": 2123,
-      "visual": 2885
+      "wheelchair": 2121,
+      "visual": 2883
     },
     {
       "type": "waterschap",

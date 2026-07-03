@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-02T07:14:45.301Z",
+  "generated": "2026-07-03T07:11:46.858Z",
   "totals": {
-    "totalBusQuays": 42042,
-    "inaccessibleBusQuays": 28042,
+    "totalBusQuays": 42030,
+    "inaccessibleBusQuays": 28033,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20125,
+    "wheelchairInaccessible": 20118,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26392,
+    "visuallyInaccessible": 26385,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -306,7 +306,7 @@
       "code": "G0344",
       "name": "Gemeente Utrecht",
       "type": "gemeente",
-      "total": 590,
+      "total": 591,
       "inaccessible": 206,
       "pct": 35,
       "wheelchair": 150,
@@ -607,23 +607,23 @@
       "code": "W0655",
       "name": "Hollandse Delta",
       "type": "waterschap",
-      "total": 128,
-      "inaccessible": 114,
+      "total": 126,
+      "inaccessible": 112,
       "pct": 89,
-      "wheelchair": 104,
-      "visual": 114,
-      "noShelter": 94
+      "wheelchair": 102,
+      "visual": 112,
+      "noShelter": 92
     }
   ],
   "authorityTypes": [
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36837,
-      "inaccessible": 24123,
+      "total": 36827,
+      "inaccessible": 24116,
       "pct": 65,
-      "wheelchair": 17227,
-      "visual": 22675
+      "wheelchair": 17222,
+      "visual": 22670
     },
     {
       "type": "provincie",
@@ -637,11 +637,11 @@
     {
       "type": "waterschap",
       "label": "Waterschap",
-      "total": 675,
-      "inaccessible": 642,
+      "total": 673,
+      "inaccessible": 640,
       "pct": 95,
-      "wheelchair": 626,
-      "visual": 635
+      "wheelchair": 624,
+      "visual": 633
     },
     {
       "type": "rijkswaterstaat",

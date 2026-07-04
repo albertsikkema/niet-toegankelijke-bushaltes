@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-03T07:11:46.858Z",
+  "generated": "2026-07-04T07:06:01.806Z",
   "totals": {
-    "totalBusQuays": 42030,
-    "inaccessibleBusQuays": 28033,
+    "totalBusQuays": 42052,
+    "inaccessibleBusQuays": 28037,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20118,
+    "wheelchairInaccessible": 20120,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26385,
+    "visuallyInaccessible": 26389,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -350,11 +350,11 @@
       "code": "G0014",
       "name": "Gemeente Groningen",
       "type": "gemeente",
-      "total": 554,
-      "inaccessible": 251,
-      "pct": 45,
-      "wheelchair": 165,
-      "visual": 227,
+      "total": 558,
+      "inaccessible": 255,
+      "pct": 46,
+      "wheelchair": 167,
+      "visual": 231,
       "noShelter": 141
     },
     {
@@ -429,7 +429,7 @@
       "code": "P0023",
       "name": "Provincie Overijssel",
       "type": "provincie",
-      "total": 558,
+      "total": 560,
       "inaccessible": 552,
       "pct": 99,
       "wheelchair": 377,
@@ -619,16 +619,16 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36827,
-      "inaccessible": 24116,
+      "total": 36847,
+      "inaccessible": 24120,
       "pct": 65,
-      "wheelchair": 17222,
-      "visual": 22670
+      "wheelchair": 17224,
+      "visual": 22674
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4234,
+      "total": 4236,
       "inaccessible": 3066,
       "pct": 72,
       "wheelchair": 2121,

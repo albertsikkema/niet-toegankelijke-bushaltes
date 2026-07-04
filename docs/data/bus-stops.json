@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-03T07:11:46.848Z",
+  "generated": "2026-07-04T07:06:01.792Z",
   "totals": {
-    "totalBusQuays": 42030,
-    "inaccessibleBusQuays": 28033,
+    "totalBusQuays": 42052,
+    "inaccessibleBusQuays": 28037,
     "authorities": 384
   },
   "authorities": {
@@ -653,7 +653,7 @@
       "email": "postbus@overijssel.nl",
       "website": "http://www.overijssel.nl",
       "phone": "(038) 499 88 99",
-      "totalBusQuays": 558,
+      "totalBusQuays": 560,
       "inaccessibleCount": 552,
       "stops": [
         {
@@ -1749,34 +1749,6 @@
           "concessionProvider": "OVS"
         },
         {
-          "code": "NL:Q:44230020",
-          "name": "'t Schaafje",
-          "town": "Bornerbroek",
-          "street": "Welbergsweg",
-          "lat": 52.284273,
-          "lon": 6.671996,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 326,
-          "mutationDate": "2018-11-15",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:44230010",
-          "name": "'t Schaafje",
-          "town": "Bornerbroek",
-          "street": "Welbergsweg",
-          "lat": 52.284456,
-          "lon": 6.67162,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 160,
-          "mutationDate": "2018-11-15",
-          "concessionProvider": "OVS"
-        },
-        {
           "code": "NL:Q:45160040",
           "name": "Eierbaan",
           "town": "Bornerbroek",
@@ -1857,6 +1829,34 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 20,
+          "mutationDate": "2018-11-15",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:44230020",
+          "name": "Welbergsweg",
+          "town": "Bornerbroek",
+          "street": "Welbergsweg",
+          "lat": 52.284273,
+          "lon": 6.671996,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 326,
+          "mutationDate": "2018-11-15",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:44230010",
+          "name": "Welbergsweg",
+          "town": "Bornerbroek",
+          "street": "Welbergsweg",
+          "lat": 52.284456,
+          "lon": 6.67162,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 160,
           "mutationDate": "2018-11-15",
           "concessionProvider": "OVS"
         },
@@ -2407,34 +2407,6 @@
           "concessionProvider": "OVS"
         },
         {
-          "code": "NL:Q:44220020",
-          "name": "Camping Westerholt",
-          "town": "Delden",
-          "street": "Almelosestraat",
-          "lat": 52.278505,
-          "lon": 6.6775,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 298,
-          "mutationDate": "2018-11-15",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:44220010",
-          "name": "Camping Westerholt",
-          "town": "Delden",
-          "street": "Almelosestraat",
-          "lat": 52.278637,
-          "lon": 6.676903,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 118,
-          "mutationDate": "2018-11-15",
-          "concessionProvider": "OVS"
-        },
-        {
           "code": "NL:Q:44220110",
           "name": "Europalaan",
           "town": "Delden",
@@ -2459,6 +2431,34 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 0,
+          "mutationDate": "2018-11-15",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:44220020",
+          "name": "Langenhorsterweg",
+          "town": "Delden",
+          "street": "Almelosestraat",
+          "lat": 52.278505,
+          "lon": 6.6775,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 298,
+          "mutationDate": "2018-11-15",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:44220010",
+          "name": "Langenhorsterweg",
+          "town": "Delden",
+          "street": "Almelosestraat",
+          "lat": 52.278637,
+          "lon": 6.676903,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 118,
           "mutationDate": "2018-11-15",
           "concessionProvider": "OVS"
         },
@@ -6803,22 +6803,8 @@
           "concessionProvider": "OVS"
         },
         {
-          "code": "NL:Q:43160382",
-          "name": "Centrum",
-          "town": "Sint Isidorushoeve",
-          "street": "Goorsestraat",
-          "lat": 52.177195,
-          "lon": 6.700828,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 294,
-          "mutationDate": "2018-11-15",
-          "concessionProvider": "OVS"
-        },
-        {
           "code": "NL:Q:43160370",
-          "name": "Centrum",
+          "name": "Rietmolenweg",
           "town": "Sint Isidorushoeve",
           "street": "Goorsestraat",
           "lat": 52.176595,
@@ -6828,6 +6814,20 @@
           "visuallyAccessible": false,
           "compassDirection": 119,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:43160382",
+          "name": "Rietmolenweg",
+          "town": "Sint Isidorushoeve",
+          "street": "Goorsestraat",
+          "lat": 52.177195,
+          "lon": 6.700828,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 294,
+          "mutationDate": "2018-11-15",
           "concessionProvider": "OVS"
         },
         {
@@ -8392,7 +8392,7 @@
       "email": "info@zwartewaterland.nl",
       "website": "http://www.zwartewaterland.nl",
       "phone": "(038) 385 30 00",
-      "totalBusQuays": 44,
+      "totalBusQuays": 45,
       "inaccessibleCount": 36,
       "stops": [
         {
@@ -132135,7 +132135,7 @@
       "email": "info@hoogeveen.nl",
       "website": "http://www.hoogeveen.nl",
       "phone": "14 0528",
-      "totalBusQuays": 154,
+      "totalBusQuays": 167,
       "inaccessibleCount": 119,
       "stops": [
         {
@@ -132436,9 +132436,9 @@
           "code": "NL:Q:17003060",
           "name": "Bentinckslaan",
           "town": "Hoogeveen",
-          "street": "Grote Kerkstraat",
-          "lat": 52.725948,
-          "lon": 6.484276,
+          "street": "Bentinckslaan",
+          "lat": 52.7243,
+          "lon": 6.487355,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -132450,9 +132450,9 @@
           "code": "NL:Q:17003070",
           "name": "Bentinckslaan",
           "town": "Hoogeveen",
-          "street": "Grote Kerkstraat",
-          "lat": 52.725953,
-          "lon": 6.48478,
+          "street": "Bentinckslaan",
+          "lat": 52.724454,
+          "lon": 6.487363,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -159557,12 +159557,12 @@
           "name": "De Tempelhof",
           "town": "Haastrecht",
           "street": "Provincialeweg Oost",
-          "lat": 52.011031,
-          "lon": 4.799682,
+          "lat": 52.010874,
+          "lon": 4.799132,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 70,
+          "compassDirection": 60,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PZH"
         },
@@ -159571,12 +159571,12 @@
           "name": "De Tempelhof",
           "town": "Haastrecht",
           "street": "Provincialeweg Oost",
-          "lat": 52.010983,
-          "lon": 4.799129,
+          "lat": 52.010965,
+          "lon": 4.799141,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 248,
+          "compassDirection": 240,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PZH"
         },
@@ -206773,8 +206773,8 @@
       "email": "info@groningen.nl",
       "website": "http://gemeente.groningen.nl",
       "phone": "14 050",
-      "totalBusQuays": 554,
-      "inaccessibleCount": 251,
+      "totalBusQuays": 558,
+      "inaccessibleCount": 255,
       "stops": [
         {
           "code": "NL:Q:11315520",
@@ -207263,6 +207263,34 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 140,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10006130",
+          "name": "Floresstraat",
+          "town": "Groningen",
+          "street": "Bedumerweg",
+          "lat": 53.233654,
+          "lon": 6.564093,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 212,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10006140",
+          "name": "Floresstraat",
+          "town": "Groningen",
+          "street": "Bankastraat",
+          "lat": 53.232696,
+          "lon": 6.563722,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 32,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -208579,6 +208607,34 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 66,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10006110",
+          "name": "Poortstraat",
+          "town": "Groningen",
+          "street": "Bedumerweg",
+          "lat": 53.235592,
+          "lon": 6.565344,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 198,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10006120",
+          "name": "Poortstraat",
+          "town": "Groningen",
+          "street": "Bedumerweg",
+          "lat": 53.235705,
+          "lon": 6.565706,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 45,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -374373,7 +374429,7 @@
         },
         {
           "code": "NL:Q:44300470",
-          "name": "H. v.d. Haarstraat",
+          "name": "Herman van de Haarstraat",
           "town": "Haaksbergen",
           "street": "Richterstraat",
           "lat": 52.163043,
@@ -374387,7 +374443,7 @@
         },
         {
           "code": "NL:Q:44300480",
-          "name": "H. v.d. Haarstraat",
+          "name": "Herman van de Haarstraat",
           "town": "Haaksbergen",
           "street": "Richterstraat",
           "lat": 52.163117,
@@ -374466,6 +374522,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 351,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:44300050",
+          "name": "Morgensterweg",
+          "town": "Haaksbergen",
+          "street": "Enschedesestraat",
+          "lat": 52.161557,
+          "lon": 6.758234,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 240,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVS"
         },
@@ -374648,20 +374718,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 20,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:44300050",
-          "name": "Weg naar Veldmaat",
-          "town": "Haaksbergen",
-          "street": "Enschedesestraat",
-          "lat": 52.161557,
-          "lon": 6.758234,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 240,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVS"
         },
@@ -376856,7 +376912,7 @@
       "email": "info@steenwijkerland.nl",
       "website": "http://www.steenwijkerland.nl",
       "phone": "14 0521",
-      "totalBusQuays": 118,
+      "totalBusQuays": 120,
       "inaccessibleCount": 74,
       "stops": [
         {

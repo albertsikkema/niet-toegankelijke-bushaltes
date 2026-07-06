@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-05T07:12:08.840Z",
+  "generated": "2026-07-06T07:41:27.867Z",
   "totals": {
-    "totalBusQuays": 42052,
+    "totalBusQuays": 42057,
     "inaccessibleBusQuays": 28037,
     "inaccessiblePct": 67,
     "wheelchairInaccessible": 20120,
@@ -159,7 +159,7 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1094,
+      "total": 1096,
       "inaccessible": 479,
       "pct": 44,
       "wheelchair": 373,
@@ -339,7 +339,7 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1094,
+      "total": 1096,
       "inaccessible": 479,
       "pct": 44,
       "wheelchair": 373,
@@ -350,9 +350,9 @@
       "code": "G0014",
       "name": "Gemeente Groningen",
       "type": "gemeente",
-      "total": 558,
+      "total": 561,
       "inaccessible": 255,
-      "pct": 46,
+      "pct": 45,
       "wheelchair": 167,
       "visual": 231,
       "noShelter": 141
@@ -619,7 +619,7 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36847,
+      "total": 36852,
       "inaccessible": 24120,
       "pct": 65,
       "wheelchair": 17224,

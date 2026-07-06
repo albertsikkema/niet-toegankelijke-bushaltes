@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-05T07:12:08.827Z",
+  "generated": "2026-07-06T07:41:27.855Z",
   "totals": {
-    "totalBusQuays": 42052,
+    "totalBusQuays": 42057,
     "inaccessibleBusQuays": 28037,
     "authorities": 384
   },
@@ -206773,7 +206773,7 @@
       "email": "info@groningen.nl",
       "website": "http://gemeente.groningen.nl",
       "phone": "14 050",
-      "totalBusQuays": 558,
+      "totalBusQuays": 561,
       "inaccessibleCount": 255,
       "stops": [
         {
@@ -233614,7 +233614,7 @@
       "email": "gemeente@amsterdam.nl",
       "website": "http://www.amsterdam.nl",
       "phone": "14 020",
-      "totalBusQuays": 1094,
+      "totalBusQuays": 1096,
       "inaccessibleCount": 479,
       "stops": [
         {
@@ -336754,7 +336754,7 @@
         },
         {
           "code": "NL:Q:40100050",
-          "name": "d'Oude Herbergh",
+          "name": "De Oude Herbergh",
           "town": "Oosterbeek",
           "street": "Utrechtseweg",
           "lat": 51.986569,

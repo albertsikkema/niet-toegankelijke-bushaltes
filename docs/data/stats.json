@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-06T07:41:27.867Z",
+  "generated": "2026-07-07T07:17:33.455Z",
   "totals": {
-    "totalBusQuays": 42057,
-    "inaccessibleBusQuays": 28037,
+    "totalBusQuays": 42061,
+    "inaccessibleBusQuays": 28036,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20120,
+    "wheelchairInaccessible": 20119,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26389,
+    "visuallyInaccessible": 26388,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -159,12 +159,12 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1096,
-      "inaccessible": 479,
+      "total": 1093,
+      "inaccessible": 478,
       "pct": 44,
-      "wheelchair": 373,
-      "visual": 459,
-      "noShelter": 258
+      "wheelchair": 372,
+      "visual": 458,
+      "noShelter": 259
     },
     {
       "code": "G0114",
@@ -339,12 +339,12 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1096,
-      "inaccessible": 479,
+      "total": 1093,
+      "inaccessible": 478,
       "pct": 44,
-      "wheelchair": 373,
-      "visual": 459,
-      "noShelter": 258
+      "wheelchair": 372,
+      "visual": 458,
+      "noShelter": 259
     },
     {
       "code": "G0014",
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36852,
-      "inaccessible": 24120,
+      "total": 36856,
+      "inaccessible": 24119,
       "pct": 65,
-      "wheelchair": 17224,
-      "visual": 22674
+      "wheelchair": 17223,
+      "visual": 22673
     },
     {
       "type": "provincie",
@@ -655,7 +655,7 @@
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 262,
+    "gemeentesOver50": 261,
     "totalGemeentes": 344,
     "gemeentesOver50Pct": 76,
     "visualPct": 63,

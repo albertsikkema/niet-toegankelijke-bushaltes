@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-08T06:56:13.447Z",
+  "generated": "2026-07-09T07:18:10.108Z",
   "totals": {
-    "totalBusQuays": 42061,
-    "inaccessibleBusQuays": 28036,
+    "totalBusQuays": 42068,
+    "inaccessibleBusQuays": 28025,
     "authorities": 384
   },
   "authorities": {
@@ -12839,20 +12839,6 @@
           "concessionProvider": "PUT"
         },
         {
-          "code": "NL:Q:51520120",
-          "name": "De Kwakel",
-          "town": "Polsbroek",
-          "street": "SNOEKENBRUG",
-          "lat": 51.987854,
-          "lon": 4.881804,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 62,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PUT"
-        },
-        {
           "code": "NL:Q:51520130",
           "name": "De Kwakel",
           "town": "Polsbroek",
@@ -12863,6 +12849,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 242,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:51520120",
+          "name": "De Kwakel",
+          "town": "Polsbroek",
+          "street": "SNOEKENBRUG",
+          "lat": 51.987815,
+          "lon": 4.881852,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 62,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PUT"
         },
@@ -22985,20 +22985,6 @@
           "concessionProvider": "PUT"
         },
         {
-          "code": "NL:Q:50500040",
-          "name": "Sonora",
-          "town": "Doorn",
-          "street": "Leersumsestraatweg",
-          "lat": 52.028989,
-          "lon": 5.380442,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 28,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PUT"
-        },
-        {
           "code": "NL:Q:50500050",
           "name": "Sonora",
           "town": "Doorn",
@@ -23009,6 +22995,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 115,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:50500040",
+          "name": "Sonora",
+          "town": "Doorn",
+          "street": "Leersumsestraatweg",
+          "lat": 52.028989,
+          "lon": 5.380442,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 300,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PUT"
         },
@@ -24581,30 +24581,30 @@
           "concessionProvider": "PUT"
         },
         {
-          "code": "NL:Q:59450220",
-          "name": "Dorp",
-          "town": "Nieuwersluis",
-          "street": "Rijksstraatweg",
-          "lat": 52.196483,
-          "lon": 5.007933,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 232,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PUT"
-        },
-        {
           "code": "NL:Q:59450230",
           "name": "Dorp",
           "town": "Nieuwersluis",
           "street": "Rijksstraatweg",
-          "lat": 52.196439,
-          "lon": 5.008225,
+          "lat": 52.196486,
+          "lon": 5.008215,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 60,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:59450220",
+          "name": "Dorp",
+          "town": "Nieuwersluis",
+          "street": "Rijksstraatweg",
+          "lat": 52.196484,
+          "lon": 5.007931,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 232,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PUT"
         },
@@ -24763,31 +24763,31 @@
           "concessionProvider": "PUT"
         },
         {
-          "code": "NL:Q:51610070",
-          "name": "Tramweg",
-          "town": "Oudewater",
-          "street": "Goudse straatweg",
-          "lat": 52.021219,
-          "lon": 4.863405,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 255,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PUT"
-        },
-        {
           "code": "NL:Q:51610060",
           "name": "Tramweg",
           "town": "Oudewater",
           "street": "Goudse straatweg",
-          "lat": 52.021149,
-          "lon": 4.863887,
+          "lat": 52.021218,
+          "lon": 4.863951,
           "shelter": true,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 80,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:51610070",
+          "name": "Tramweg",
+          "town": "Oudewater",
+          "street": "Goudse straatweg",
+          "lat": 52.021186,
+          "lon": 4.863403,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 255,
+          "mutationDate": "2019-02-07",
           "concessionProvider": "PUT"
         },
         {
@@ -26360,8 +26360,8 @@
           "name": "Postwijck",
           "town": "Baambrugge",
           "street": "Rijksstraatweg",
-          "lat": 52.254962,
-          "lon": 4.992584,
+          "lat": 52.254979,
+          "lon": 4.992504,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -43099,8 +43099,8 @@
           "name": "Dorp",
           "town": "Loenersloot",
           "street": "Voorburgstraat",
-          "lat": 52.22995,
-          "lon": 4.998353,
+          "lat": 52.229913,
+          "lon": 4.998258,
           "shelter": false,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
@@ -78047,8 +78047,8 @@
       "email": "info@waalwijk.nl",
       "website": "http://www.waalwijk.nl",
       "phone": "(0416) 68 34 56",
-      "totalBusQuays": 103,
-      "inaccessibleCount": 52,
+      "totalBusQuays": 102,
+      "inaccessibleCount": 51,
       "stops": [
         {
           "code": "NL:Q:63301030",
@@ -78384,20 +78384,6 @@
           "visuallyAccessible": false,
           "compassDirection": 270,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:63300260",
-          "name": "Busstation Vredesplein",
-          "town": "Waalwijk",
-          "street": "Victoriestraat",
-          "lat": 51.687063,
-          "lon": 5.071789,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 85,
-          "mutationDate": "2019-03-14",
           "concessionProvider": "PNB"
         },
         {
@@ -112855,20 +112841,6 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:37212270",
-          "name": "Zwanebloemweg",
-          "town": "Landsmeer",
-          "street": "Lisstraat",
-          "lat": 52.43511,
-          "lon": 4.918248,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 93,
-          "mutationDate": "2018-11-15",
-          "concessionProvider": "VRA"
-        },
-        {
           "code": "NL:Q:37212040",
           "name": "Zwanebloemweg",
           "town": "Landsmeer",
@@ -112880,6 +112852,20 @@
           "visuallyAccessible": false,
           "compassDirection": 0,
           "mutationDate": "2019-03-01",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:37212270",
+          "name": "Zwanebloemweg",
+          "town": "Landsmeer",
+          "street": "Lisstraat",
+          "lat": 52.43511,
+          "lon": 4.918248,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 93,
+          "mutationDate": "2018-11-15",
           "concessionProvider": "VRA"
         },
         {
@@ -132136,7 +132122,7 @@
       "website": "http://www.hoogeveen.nl",
       "phone": "14 0528",
       "totalBusQuays": 167,
-      "inaccessibleCount": 119,
+      "inaccessibleCount": 121,
       "stops": [
         {
           "code": "NL:Q:46590180",
@@ -132531,6 +132517,20 @@
           "concessionProvider": "OVGD"
         },
         {
+          "code": "NL:Q:17003180",
+          "name": "De Robaard",
+          "town": "Hoogeveen",
+          "street": "Albert Steenbergenstraat",
+          "lat": 52.71704,
+          "lon": 6.489249,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 180,
+          "mutationDate": null,
+          "concessionProvider": "OVGD"
+        },
+        {
           "code": "NL:Q:17003380",
           "name": "De Snikke",
           "town": "Hoogeveen",
@@ -132643,6 +132643,20 @@
           "concessionProvider": "OVGD"
         },
         {
+          "code": "NL:Q:17003160",
+          "name": "Holtienstraat",
+          "town": "Hoogeveen",
+          "street": "Wolfsbosstraat",
+          "lat": 52.718611,
+          "lon": 6.491035,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 331,
+          "mutationDate": null,
+          "concessionProvider": "OVGD"
+        },
+        {
           "code": "NL:Q:17003400",
           "name": "IJssel",
           "town": "Hoogeveen",
@@ -132710,6 +132724,20 @@
           "visuallyAccessible": true,
           "compassDirection": 6,
           "mutationDate": "2018-11-15",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:17003000",
+          "name": "Markt",
+          "town": "Hoogeveen",
+          "street": "Markt",
+          "lat": 52.727974,
+          "lon": 6.479945,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 271,
+          "mutationDate": null,
           "concessionProvider": "OVGD"
         },
         {
@@ -132878,20 +132906,6 @@
           "visuallyAccessible": false,
           "compassDirection": 345,
           "mutationDate": "2018-11-15",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:17000110",
-          "name": "Raadhuisplein",
-          "town": "Hoogeveen",
-          "street": "Raadhuisstraat",
-          "lat": 52.725955,
-          "lon": 6.47572,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 50,
-          "mutationDate": "2015-12-23",
           "concessionProvider": "OVGD"
         },
         {
@@ -158696,7 +158710,7 @@
       "website": "http://www.zuid-holland.nl",
       "phone": "(070) 441 66 11",
       "totalBusQuays": 387,
-      "inaccessibleCount": 306,
+      "inaccessibleCount": 299,
       "stops": [
         {
           "code": "NL:Q:52581800",
@@ -159927,34 +159941,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 249,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:52470010",
-          "name": "Heenvliet",
-          "town": "Heenvliet",
-          "street": "Groene Kruisweg",
-          "lat": 51.860266,
-          "lon": 4.238764,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 103,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:52570020",
-          "name": "Heenvliet",
-          "town": "Heenvliet",
-          "street": "Groene Kruisweg",
-          "lat": 51.860462,
-          "lon": 4.238585,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 283,
           "mutationDate": "2020-02-19",
           "concessionProvider": "MRDH"
         },
@@ -161499,20 +161485,6 @@
           "concessionProvider": "PZH"
         },
         {
-          "code": "NL:Q:74000023",
-          "name": "Busstation",
-          "town": "Oude-Tonge",
-          "street": "Stationsweg",
-          "lat": 51.695945,
-          "lon": 4.212461,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 133,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PZH"
-        },
-        {
           "code": "NL:Q:58431020",
           "name": "Sluispad",
           "town": "Papenveer",
@@ -162633,34 +162605,6 @@
           "concessionProvider": "MRDH"
         },
         {
-          "code": "NL:Q:74580080",
-          "name": "Provincialeweg",
-          "town": "Westmaas",
-          "street": "Maasweg",
-          "lat": 51.79162,
-          "lon": 4.472341,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 37,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:74580130",
-          "name": "Provincialeweg",
-          "town": "Westmaas",
-          "street": "Maasweg",
-          "lat": 51.790677,
-          "lon": 4.471273,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 221,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
           "code": "NL:Q:74480090",
           "name": "Smitsweg",
           "town": "Westmaas",
@@ -162953,34 +162897,6 @@
           "compassDirection": 326,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:52570030",
-          "name": "Zwartewaal",
-          "town": "Zwartewaal",
-          "street": "Groene Kruisweg",
-          "lat": 51.878675,
-          "lon": 4.221403,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 134,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:52570060",
-          "name": "Zwartewaal",
-          "town": "Zwartewaal",
-          "street": "Groene Kruisweg",
-          "lat": 51.879825,
-          "lon": 4.220458,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 310,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "MRDH"
         }
       ]
     },
@@ -206774,7 +206690,7 @@
       "website": "http://gemeente.groningen.nl",
       "phone": "14 050",
       "totalBusQuays": 561,
-      "inaccessibleCount": 255,
+      "inaccessibleCount": 256,
       "stops": [
         {
           "code": "NL:Q:11315520",
@@ -207043,6 +206959,34 @@
           "concessionProvider": "OVGD"
         },
         {
+          "code": "NL:Q:10008645",
+          "name": "Brandweer",
+          "town": "Groningen",
+          "street": "Eltjo Ruggeweg",
+          "lat": 53.219392,
+          "lon": 6.591026,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 337,
+          "mutationDate": null,
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10008635",
+          "name": "Brandweer",
+          "town": "Groningen",
+          "street": "Eltjo Ruggeweg",
+          "lat": 53.219364,
+          "lon": 6.590845,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 153,
+          "mutationDate": null,
+          "concessionProvider": "OVGD"
+        },
+        {
           "code": "NL:Q:10002120",
           "name": "C.G. Wichmannstraat",
           "town": "Groningen",
@@ -207267,20 +207211,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:10006130",
-          "name": "Floresstraat",
-          "town": "Groningen",
-          "street": "Bedumerweg",
-          "lat": 53.233654,
-          "lon": 6.564093,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 212,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:10006140",
           "name": "Floresstraat",
           "town": "Groningen",
@@ -207291,6 +207221,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 32,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10006130",
+          "name": "Floresstraat",
+          "town": "Groningen",
+          "street": "Bedumerweg",
+          "lat": 53.233654,
+          "lon": 6.564093,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 212,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -208527,6 +208471,20 @@
           "concessionProvider": "OVGD"
         },
         {
+          "code": "NL:Q:10008565",
+          "name": "P+R Euroborg",
+          "town": "Groningen",
+          "street": "Bornholmstraat",
+          "lat": 53.207442,
+          "lon": 6.596728,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 164,
+          "mutationDate": null,
+          "concessionProvider": "OVGD"
+        },
+        {
           "code": "NL:Q:10155160",
           "name": "P+R Kardinge",
           "town": "Groningen",
@@ -208607,34 +208565,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 66,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:10006110",
-          "name": "Poortstraat",
-          "town": "Groningen",
-          "street": "Bedumerweg",
-          "lat": 53.235592,
-          "lon": 6.565344,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 198,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:10006120",
-          "name": "Poortstraat",
-          "town": "Groningen",
-          "street": "Bedumerweg",
-          "lat": 53.235705,
-          "lon": 6.565706,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 45,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -211134,7 +211064,7 @@
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 327,
+          "compassDirection": 330,
           "mutationDate": null,
           "concessionProvider": "PUT"
         },
@@ -226117,6 +226047,34 @@
           "concessionProvider": "MRDH"
         },
         {
+          "code": "NL:Q:31006182",
+          "name": "Beverwaardseweg",
+          "town": "Rotterdam",
+          "street": "Beverwaardseweg",
+          "lat": 51.898457,
+          "lon": 4.568012,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": true,
+          "compassDirection": 96,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:31006185",
+          "name": "Beverwaardseweg",
+          "town": "Rotterdam",
+          "street": "Alerdincksingel",
+          "lat": 51.898847,
+          "lon": 4.569734,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 277,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "MRDH"
+        },
+        {
           "code": "NL:Q:31002192",
           "name": "Blijdorp Metro",
           "town": "Rotterdam",
@@ -231391,34 +231349,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 104,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:31006182",
-          "name": "Schinnenbaan",
-          "town": "Rotterdam",
-          "street": "Beverwaardseweg",
-          "lat": 51.898457,
-          "lon": 4.568012,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 96,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:31006185",
-          "name": "Schinnenbaan",
-          "town": "Rotterdam",
-          "street": "Alerdincksingel",
-          "lat": 51.898847,
-          "lon": 4.569734,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 277,
           "mutationDate": "2020-02-19",
           "concessionProvider": "MRDH"
         },
@@ -276089,7 +276019,7 @@
       "website": "http://www.gemert-bakel.nl",
       "phone": "(0492) 37 85 00",
       "totalBusQuays": 71,
-      "inaccessibleCount": 54,
+      "inaccessibleCount": 55,
       "stops": [
         {
           "code": "NL:Q:65510290",
@@ -276565,6 +276495,20 @@
           "visuallyAccessible": false,
           "compassDirection": 254,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:65550010",
+          "name": "Pelgrimsrust",
+          "town": "Gemert",
+          "street": "Handelseweg",
+          "lat": 51.567939,
+          "lon": 5.705226,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 210,
+          "mutationDate": null,
           "concessionProvider": "PNB"
         },
         {
@@ -303024,22 +302968,8 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:38290043",
-          "name": "Oosthuizen Dorp",
-          "town": "Oosthuizen",
-          "street": "Raadhuisstraat",
-          "lat": 52.574488,
-          "lon": 4.997856,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 40,
-          "mutationDate": "2018-11-15",
-          "concessionProvider": "VRA"
-        },
-        {
           "code": "NL:Q:38290053",
-          "name": "Oosthuizen Dorp",
+          "name": "Oosthuizen (N247)",
           "town": "Oosthuizen",
           "street": "Raadhuisstraat",
           "lat": 52.57464,
@@ -303049,6 +302979,20 @@
           "visuallyAccessible": false,
           "compassDirection": 220,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:38290043",
+          "name": "Oosthuizen (N247)",
+          "town": "Oosthuizen",
+          "street": "Raadhuisstraat",
+          "lat": 52.574488,
+          "lon": 4.997856,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 40,
+          "mutationDate": "2018-11-15",
           "concessionProvider": "VRA"
         },
         {
@@ -308334,7 +308278,7 @@
       "website": "http://www.harderwijk.nl",
       "phone": "(0341) 41 19 11",
       "totalBusQuays": 83,
-      "inaccessibleCount": 30,
+      "inaccessibleCount": 23,
       "stops": [
         {
           "code": "NL:Q:49613412",
@@ -308393,54 +308337,12 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:49613074",
-          "name": "De Wittenhagen",
-          "town": "Harderwijk",
-          "street": "De Wittenhagen",
-          "lat": 52.337959,
-          "lon": 5.638475,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 243,
-          "mutationDate": "2014-09-08",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:49613049",
-          "name": "De Wittenhagen",
-          "town": "Harderwijk",
-          "street": "De Savornin Lohmanlaan",
-          "lat": 52.337862,
-          "lon": 5.638613,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 64,
-          "mutationDate": "2019-03-01",
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:49614029",
           "name": "Deventerweg",
           "town": "Harderwijk",
           "street": "Deventerweg",
           "lat": 52.336304,
           "lon": 5.635228,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 45,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:49614030",
-          "name": "Deventerweg",
-          "town": "Harderwijk",
-          "street": "Deventerweg",
-          "lat": 52.336242,
-          "lon": 5.635341,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -308477,34 +308379,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:49614048",
-          "name": "Goeman Borgesiuslaan",
-          "town": "Harderwijk",
-          "street": "De Wittenhagen",
-          "lat": 52.339082,
-          "lon": 5.642868,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 86,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:49614047",
-          "name": "Goeman Borgesiuslaan",
-          "town": "Harderwijk",
-          "street": "De Wittenhagen",
-          "lat": 52.339066,
-          "lon": 5.641741,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 255,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:49611020",
           "name": "J.P. Heijelaan",
           "town": "Harderwijk",
@@ -308516,34 +308390,6 @@
           "visuallyAccessible": false,
           "compassDirection": 345,
           "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:49613058",
-          "name": "Kiekmure",
-          "town": "Harderwijk",
-          "street": "Hofdijkstraat",
-          "lat": 52.344308,
-          "lon": 5.636676,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 261,
-          "mutationDate": "2014-09-08",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:49613057",
-          "name": "Kiekmure",
-          "town": "Harderwijk",
-          "street": "Hofdijkstraat",
-          "lat": 52.344256,
-          "lon": 5.637006,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 72,
-          "mutationDate": "2019-03-01",
           "concessionProvider": "GLD"
         },
         {
@@ -312838,6 +312684,20 @@
           "concessionProvider": "GLD"
         },
         {
+          "code": "NL:Q:50637007",
+          "name": "Station",
+          "town": "Nijkerk",
+          "street": "Stationsweg",
+          "lat": 52.222437,
+          "lon": 5.493315,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 217,
+          "mutationDate": "2014-09-03",
+          "concessionProvider": "GLD"
+        },
+        {
           "code": "NL:Q:91000117",
           "name": "Station",
           "town": "Nijkerk",
@@ -312849,20 +312709,6 @@
           "visuallyAccessible": false,
           "compassDirection": 40,
           "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:50637007",
-          "name": "Station",
-          "town": "Nijkerk",
-          "street": "Stationsweg",
-          "lat": 52.222147,
-          "lon": 5.493056,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 229,
-          "mutationDate": "2014-09-03",
           "concessionProvider": "GLD"
         },
         {
@@ -395356,7 +395202,7 @@
       "email": "gemeente@sliedrecht.nl",
       "website": "http://www.sliedrecht.nl",
       "phone": "(0184) 49 59 00",
-      "totalBusQuays": 20,
+      "totalBusQuays": 28,
       "inaccessibleCount": 9,
       "stops": [
         {

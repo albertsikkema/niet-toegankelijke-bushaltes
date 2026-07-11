@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-10T07:17:04.342Z",
+  "generated": "2026-07-11T06:51:04.299Z",
   "totals": {
-    "totalBusQuays": 42068,
-    "inaccessibleBusQuays": 28025,
+    "totalBusQuays": 42069,
+    "inaccessibleBusQuays": 28031,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20120,
+    "wheelchairInaccessible": 20128,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26377,
+    "visuallyInaccessible": 26383,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -306,7 +306,7 @@
       "code": "G0344",
       "name": "Gemeente Utrecht",
       "type": "gemeente",
-      "total": 591,
+      "total": 590,
       "inaccessible": 206,
       "pct": 35,
       "wheelchair": 150,
@@ -351,10 +351,10 @@
       "name": "Gemeente Groningen",
       "type": "gemeente",
       "total": 561,
-      "inaccessible": 256,
-      "pct": 46,
+      "inaccessible": 254,
+      "pct": 45,
       "wheelchair": 168,
-      "visual": 232,
+      "visual": 230,
       "noShelter": 144
     },
     {
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36863,
-      "inaccessible": 24115,
+      "total": 36864,
+      "inaccessible": 24121,
       "pct": 65,
-      "wheelchair": 17225,
-      "visual": 22669
+      "wheelchair": 17233,
+      "visual": 22675
     },
     {
       "type": "provincie",
@@ -655,7 +655,7 @@
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 261,
+    "gemeentesOver50": 262,
     "totalGemeentes": 344,
     "gemeentesOver50Pct": 76,
     "visualPct": 63,

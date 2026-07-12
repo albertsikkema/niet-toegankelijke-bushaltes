@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-11T06:51:04.288Z",
+  "generated": "2026-07-12T06:58:20.123Z",
   "totals": {
-    "totalBusQuays": 42069,
+    "totalBusQuays": 42073,
     "inaccessibleBusQuays": 28031,
     "authorities": 384
   },
@@ -79844,7 +79844,7 @@
       "email": "info@druten.nl",
       "website": "http://www.druten.nl",
       "phone": "(088) 432 70 00",
-      "totalBusQuays": 37,
+      "totalBusQuays": 41,
       "inaccessibleCount": 26,
       "stops": [
         {
@@ -95806,8 +95806,8 @@
           "name": "Tinnegieter",
           "town": "Oost West en Middelbeers",
           "street": "Tinnegieter",
-          "lat": 51.464632,
-          "lon": 5.257097,
+          "lat": 51.46469,
+          "lon": 5.257108,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -281904,12 +281904,12 @@
           "name": "Airpark",
           "town": "Budel",
           "street": "Clement van Maasdijkstraat",
-          "lat": 51.257778,
-          "lon": 5.594778,
+          "lat": 51.257893,
+          "lon": 5.595078,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 224,
+          "compassDirection": 31,
           "mutationDate": null,
           "concessionProvider": "PNB"
         },

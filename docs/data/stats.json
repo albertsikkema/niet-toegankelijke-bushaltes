@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-12T06:58:20.137Z",
+  "generated": "2026-07-13T07:14:52.890Z",
   "totals": {
-    "totalBusQuays": 42073,
+    "totalBusQuays": 42083,
     "inaccessibleBusQuays": 28031,
     "inaccessiblePct": 67,
     "wheelchairInaccessible": 20128,
@@ -372,9 +372,9 @@
       "code": "G0034",
       "name": "Gemeente Almere",
       "type": "gemeente",
-      "total": 255,
+      "total": 265,
       "inaccessible": 159,
-      "pct": 62,
+      "pct": 60,
       "wheelchair": 28,
       "visual": 158,
       "noShelter": 28
@@ -619,7 +619,7 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36868,
+      "total": 36878,
       "inaccessible": 24121,
       "pct": 65,
       "wheelchair": 17233,

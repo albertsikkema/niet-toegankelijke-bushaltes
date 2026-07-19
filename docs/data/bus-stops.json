@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-18T06:44:27.711Z",
+  "generated": "2026-07-19T06:56:25.639Z",
   "totals": {
     "totalBusQuays": 42115,
-    "inaccessibleBusQuays": 28057,
+    "inaccessibleBusQuays": 28055,
     "authorities": 384
   },
   "authorities": {
@@ -209374,8 +209374,8 @@
       "email": "Gemeente@utrecht.nl",
       "website": "http://www.utrecht.nl",
       "phone": "(014) 030",
-      "totalBusQuays": 590,
-      "inaccessibleCount": 206,
+      "totalBusQuays": 589,
+      "inaccessibleCount": 205,
       "stops": [
         {
           "code": "NL:Q:51200129",
@@ -211419,20 +211419,6 @@
           "visuallyAccessible": true,
           "compassDirection": 15,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "PUT"
-        },
-        {
-          "code": "NL:Q:50006401",
-          "name": "Rijnlaan/Waalstraat",
-          "town": "Utrecht",
-          "street": "Rijnlaan",
-          "lat": 52.074233,
-          "lon": 5.113888,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 182,
-          "mutationDate": null,
           "concessionProvider": "PUT"
         },
         {
@@ -286348,7 +286334,7 @@
       "website": "http://www.eindhoven.nl",
       "phone": "14 040",
       "totalBusQuays": 411,
-      "inaccessibleCount": 146,
+      "inaccessibleCount": 145,
       "stops": [
         {
           "code": "NL:Q:64100080",
@@ -286925,20 +286911,6 @@
           "concessionProvider": "PNB"
         },
         {
-          "code": "NL:Q:64100060",
-          "name": "De Schakel/Truckstop 8",
-          "town": "Eindhoven",
-          "street": "De Schakel",
-          "lat": 51.466735,
-          "lon": 5.419281,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 141,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PNB"
-        },
-        {
           "code": "NL:Q:64000260",
           "name": "Dommelstraat",
           "town": "Eindhoven",
@@ -287314,20 +287286,6 @@
           "visuallyAccessible": false,
           "compassDirection": 159,
           "mutationDate": "2019-03-14",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:64005180",
-          "name": "Jozef Eliasweg",
-          "town": "Eindhoven",
-          "street": "Jozef Eliasweg",
-          "lat": 51.436408,
-          "lon": 5.46248,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 230,
-          "mutationDate": "2020-02-19",
           "concessionProvider": "PNB"
         },
         {
@@ -287719,6 +287677,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 185,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:65151100",
+          "name": "Molijnstraat",
+          "town": "Eindhoven",
+          "street": "Jan van Riebeecklaan",
+          "lat": 51.439105,
+          "lon": 5.516815,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 198,
           "mutationDate": "2019-03-14",
           "concessionProvider": "PNB"
         },
@@ -310786,7 +310758,7 @@
         {
           "code": "NL:Q:64511360",
           "name": "Dalem",
-          "town": "Hapert",
+          "town": "Dalem",
           "street": "Dalem",
           "lat": 51.3527,
           "lon": 5.260473,
@@ -310800,7 +310772,7 @@
         {
           "code": "NL:Q:64511350",
           "name": "Dalem",
-          "town": "Hapert",
+          "town": "Dalem",
           "street": "Dalem",
           "lat": 51.352593,
           "lon": 5.260588,
@@ -310826,30 +310798,30 @@
           "concessionProvider": "PNB"
         },
         {
-          "code": "NL:Q:64511340",
-          "name": "Het Vennenbos",
-          "town": "Hapert",
-          "street": "Schouwberg",
-          "lat": 51.344886,
-          "lon": 5.249788,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 266,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
           "code": "NL:Q:64511330",
           "name": "Het Vennenbos",
           "town": "Hapert",
           "street": "Schouwberg",
-          "lat": 51.344751,
-          "lon": 5.249759,
+          "lat": 51.344185,
+          "lon": 5.250307,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 86,
+          "compassDirection": 18,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:64511340",
+          "name": "Het Vennenbos",
+          "town": "Hapert",
+          "street": "Schouwberg",
+          "lat": 51.344219,
+          "lon": 5.250346,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 25,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PNB"
         },
@@ -353900,7 +353872,7 @@
       "email": "gemeente@dordrecht.nl",
       "website": "http://www.dordrecht.nl",
       "phone": "14 078",
-      "totalBusQuays": 277,
+      "totalBusQuays": 278,
       "inaccessibleCount": 219,
       "stops": [
         {

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-20T07:12:28.710Z",
+  "generated": "2026-07-21T06:57:30.967Z",
   "totals": {
     "totalBusQuays": 42117,
-    "inaccessibleBusQuays": 28055,
+    "inaccessibleBusQuays": 28056,
     "authorities": 384
   },
   "authorities": {
@@ -116406,8 +116406,8 @@
           "name": "Fluitenbergstraat",
           "town": "'s-Gravenhage",
           "street": "Loevesteinlaan",
-          "lat": 52.051205,
-          "lon": 4.280568,
+          "lat": 52.050325,
+          "lon": 4.281639,
           "shelter": true,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
@@ -353873,7 +353873,7 @@
       "website": "http://www.dordrecht.nl",
       "phone": "14 078",
       "totalBusQuays": 278,
-      "inaccessibleCount": 219,
+      "inaccessibleCount": 220,
       "stops": [
         {
           "code": "NL:Q:53607515",
@@ -355399,6 +355399,20 @@
           "visuallyAccessible": false,
           "compassDirection": 213,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:53706872",
+          "name": "Malachiet",
+          "town": "Dordrecht",
+          "street": "Toermalijnring",
+          "lat": 51.769074,
+          "lon": 4.63412,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 88,
+          "mutationDate": null,
           "concessionProvider": "PZH"
         },
         {

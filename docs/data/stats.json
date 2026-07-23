@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-22T06:58:27.009Z",
+  "generated": "2026-07-23T06:55:58.618Z",
   "totals": {
-    "totalBusQuays": 42117,
-    "inaccessibleBusQuays": 28056,
+    "totalBusQuays": 42110,
+    "inaccessibleBusQuays": 28071,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20158,
+    "wheelchairInaccessible": 20173,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26406,
+    "visuallyInaccessible": 26422,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -440,12 +440,12 @@
       "code": "P0022",
       "name": "Provincie Drenthe",
       "type": "provincie",
-      "total": 307,
-      "inaccessible": 283,
+      "total": 308,
+      "inaccessible": 284,
       "pct": 92,
-      "wheelchair": 234,
-      "visual": 283,
-      "noShelter": 200
+      "wheelchair": 235,
+      "visual": 284,
+      "noShelter": 201
     },
     {
       "code": "P0024",
@@ -462,12 +462,12 @@
       "code": "P0028",
       "name": "Provincie Zuid-Holland",
       "type": "provincie",
-      "total": 387,
-      "inaccessible": 298,
+      "total": 388,
+      "inaccessible": 299,
       "pct": 77,
-      "wheelchair": 150,
-      "visual": 293,
-      "noShelter": 78
+      "wheelchair": 151,
+      "visual": 294,
+      "noShelter": 79
     },
     {
       "code": "P0026",
@@ -619,20 +619,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36912,
-      "inaccessible": 24150,
+      "total": 36903,
+      "inaccessible": 24163,
       "pct": 65,
-      "wheelchair": 17263,
-      "visual": 22702
+      "wheelchair": 17276,
+      "visual": 22716
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4236,
-      "inaccessible": 3055,
+      "total": 4238,
+      "inaccessible": 3057,
       "pct": 72,
-      "wheelchair": 2120,
-      "visual": 2872
+      "wheelchair": 2122,
+      "visual": 2874
     },
     {
       "type": "waterschap",

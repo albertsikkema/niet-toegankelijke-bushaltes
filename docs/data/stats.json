@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-27T07:15:34.242Z",
+  "generated": "2026-07-28T06:58:27.554Z",
   "totals": {
-    "totalBusQuays": 42113,
-    "inaccessibleBusQuays": 28076,
+    "totalBusQuays": 42085,
+    "inaccessibleBusQuays": 28049,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20177,
+    "wheelchairInaccessible": 20151,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26426,
+    "visuallyInaccessible": 26406,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -325,6 +325,17 @@
       "noShelter": 58
     },
     {
+      "code": "G0014",
+      "name": "Gemeente Groningen",
+      "type": "gemeente",
+      "total": 537,
+      "inaccessible": 228,
+      "pct": 42,
+      "wheelchair": 143,
+      "visual": 211,
+      "noShelter": 140
+    },
+    {
       "code": "G0202",
       "name": "Gemeente Arnhem",
       "type": "gemeente",
@@ -345,17 +356,6 @@
       "wheelchair": 372,
       "visual": 458,
       "noShelter": 259
-    },
-    {
-      "code": "G0014",
-      "name": "Gemeente Groningen",
-      "type": "gemeente",
-      "total": 563,
-      "inaccessible": 254,
-      "pct": 45,
-      "wheelchair": 168,
-      "visual": 230,
-      "noShelter": 144
     },
     {
       "code": "G0080",
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36906,
-      "inaccessible": 24168,
+      "total": 36878,
+      "inaccessible": 24141,
       "pct": 65,
-      "wheelchair": 17280,
-      "visual": 22720
+      "wheelchair": 17254,
+      "visual": 22700
     },
     {
       "type": "provincie",

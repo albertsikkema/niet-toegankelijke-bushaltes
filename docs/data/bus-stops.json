@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-29T07:00:11.929Z",
+  "generated": "2026-07-30T06:58:58.487Z",
   "totals": {
-    "totalBusQuays": 42085,
-    "inaccessibleBusQuays": 28049,
+    "totalBusQuays": 42088,
+    "inaccessibleBusQuays": 28043,
     "authorities": 384
   },
   "authorities": {
@@ -45587,20 +45587,6 @@
           "concessionProvider": "PNB"
         },
         {
-          "code": "NL:Q:64000010",
-          "name": "Centraal Station",
-          "town": "Eindhoven",
-          "street": "Neckerspoel",
-          "lat": 51.443726,
-          "lon": 5.478927,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 165,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PNB"
-        },
-        {
           "code": "NL:Q:64000014",
           "name": "Centraal Station",
           "town": "Eindhoven",
@@ -45682,6 +45668,20 @@
           "visuallyAccessible": false,
           "compassDirection": 165,
           "mutationDate": "2018-11-15",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:64000010",
+          "name": "Centraal Station",
+          "town": "Eindhoven",
+          "street": "Neckerspoel",
+          "lat": 51.443726,
+          "lon": 5.478927,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 165,
+          "mutationDate": "2019-03-14",
           "concessionProvider": "PNB"
         },
         {
@@ -67705,12 +67705,12 @@
           "name": " St. Teunislaan",
           "town": "'s-Hertogenbosch",
           "street": "Sint Teunislaan",
-          "lat": 51.710256,
-          "lon": 5.309245,
+          "lat": 51.71028,
+          "lon": 5.30989,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 65,
+          "compassDirection": 76,
           "mutationDate": "2018-11-15",
           "concessionProvider": "PNB"
         },
@@ -127212,7 +127212,7 @@
           "visuallyAccessible": false,
           "compassDirection": 114,
           "mutationDate": null,
-          "concessionProvider": "OVGD"
+          "concessionProvider": "FR"
         },
         {
           "code": "NL:Q:14710210",
@@ -163978,8 +163978,8 @@
           "name": "Lunettenlaan",
           "town": "Vught",
           "street": "Lunettenlaan",
-          "lat": 51.661495,
-          "lon": 5.25951,
+          "lat": 51.661624,
+          "lon": 5.259631,
           "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -169716,7 +169716,7 @@
       "website": "http://www.veendam.nl",
       "phone": "(0598) 65 22 22",
       "totalBusQuays": 104,
-      "inaccessibleCount": 37,
+      "inaccessibleCount": 35,
       "stops": [
         {
           "code": "NL:Q:12638810",
@@ -169870,34 +169870,6 @@
           "visuallyAccessible": true,
           "compassDirection": 272,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12631790",
-          "name": "van Stolbergweg",
-          "town": "Veendam",
-          "street": "Oude Bos",
-          "lat": 53.101349,
-          "lon": 6.878419,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 284,
-          "mutationDate": "2019-07-10",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12631780",
-          "name": "van Stolbergweg",
-          "town": "Veendam",
-          "street": "Van Stolbergweg",
-          "lat": 53.101203,
-          "lon": 6.878563,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 104,
-          "mutationDate": "2019-07-10",
           "concessionProvider": "OVGD"
         },
         {
@@ -267234,8 +267206,8 @@
       "email": "info@moerdijk.nl",
       "website": "http://www.moerdijk.nl",
       "phone": "(0168) 37 36 00",
-      "totalBusQuays": 119,
-      "inaccessibleCount": 54,
+      "totalBusQuays": 120,
+      "inaccessibleCount": 53,
       "stops": [
         {
           "code": "NL:Q:72510340",
@@ -267976,20 +267948,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 13,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:72271400",
-          "name": "Lindonk",
-          "town": "Zevenbergen",
-          "street": "Lindonk",
-          "lat": 51.644241,
-          "lon": 4.592161,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 356,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PNB"
         }
@@ -313017,7 +312975,7 @@
       "email": "info@barneveld.nl",
       "website": "http://www.barneveld.nl",
       "phone": "14 0342",
-      "totalBusQuays": 119,
+      "totalBusQuays": 121,
       "inaccessibleCount": 80,
       "stops": [
         {
@@ -337206,20 +337164,6 @@
           "concessionProvider": "PNH"
         },
         {
-          "code": "NL:Q:59400650",
-          "name": "Radiostraat",
-          "town": "Hilversum",
-          "street": "Kamerlingh Onnesweg",
-          "lat": 52.235415,
-          "lon": 5.196181,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 101,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PNH"
-        },
-        {
           "code": "NL:Q:59400640",
           "name": "Radiostraat",
           "town": "Hilversum",
@@ -337230,6 +337174,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 295,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:59400650",
+          "name": "Radiostraat",
+          "town": "Hilversum",
+          "street": "Kamerlingh Onnesweg",
+          "lat": 52.235415,
+          "lon": 5.196181,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 101,
           "mutationDate": "2020-02-19",
           "concessionProvider": "PNH"
         },
@@ -347002,7 +346960,7 @@
       "website": "http://www.hoorn.nl",
       "phone": "(0229) 25 22 00",
       "totalBusQuays": 145,
-      "inaccessibleCount": 84,
+      "inaccessibleCount": 81,
       "stops": [
         {
           "code": "NL:Q:38111030",
@@ -347411,20 +347369,6 @@
           "concessionProvider": "PNH"
         },
         {
-          "code": "NL:Q:38004220",
-          "name": "Westfriese Parkweg",
-          "town": "Hoorn",
-          "street": "Bobeldijkerweg",
-          "lat": 52.653845,
-          "lon": 5.038784,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 0,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PNH"
-        },
-        {
           "code": "NL:Q:38004210",
           "name": "Westfriese Parkweg",
           "town": "Hoorn",
@@ -347435,6 +347379,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 190,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:38004220",
+          "name": "Westfriese Parkweg",
+          "town": "Hoorn",
+          "street": "Bobeldijkerweg",
+          "lat": 52.653845,
+          "lon": 5.038784,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 0,
           "mutationDate": "2019-03-14",
           "concessionProvider": "PNH"
         },
@@ -347519,34 +347477,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 281,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PNH"
-        },
-        {
-          "code": "NL:Q:38000330",
-          "name": "Gedempte Turfhaven",
-          "town": "Hoorn NH",
-          "street": "Gedempte Turfhaven",
-          "lat": 52.642419,
-          "lon": 5.059543,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 90,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PNH"
-        },
-        {
-          "code": "NL:Q:38004130",
-          "name": "Geldelozeweg",
-          "town": "Hoorn NH",
-          "street": "Geldelozeweg",
-          "lat": 52.650617,
-          "lon": 5.047365,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 251,
           "mutationDate": "2020-02-19",
           "concessionProvider": "PNH"
         },
@@ -347705,20 +347635,6 @@
           "concessionProvider": "PNH"
         },
         {
-          "code": "NL:Q:38001580",
-          "name": "Poldermolen",
-          "town": "Hoorn NH",
-          "street": "De Weel",
-          "lat": 52.63601,
-          "lon": 5.021996,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 330,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PNH"
-        },
-        {
           "code": "NL:Q:38001570",
           "name": "Poldermolen",
           "town": "Hoorn NH",
@@ -347729,6 +347645,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 150,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:38001580",
+          "name": "Poldermolen",
+          "town": "Hoorn NH",
+          "street": "De Weel",
+          "lat": 52.63601,
+          "lon": 5.021996,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 330,
           "mutationDate": "2020-02-19",
           "concessionProvider": "PNH"
         },
@@ -347809,7 +347739,7 @@
           "street": "Joh Poststraat",
           "lat": 52.649095,
           "lon": 5.065611,
-          "shelter": false,
+          "shelter": true,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 74,
@@ -347827,20 +347757,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 256,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PNH"
-        },
-        {
-          "code": "NL:Q:38000350",
-          "name": "Vollerswaal",
-          "town": "Hoorn NH",
-          "street": "Vollerswaal",
-          "lat": 52.64167,
-          "lon": 5.064927,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 123,
           "mutationDate": "2020-02-19",
           "concessionProvider": "PNH"
         },
@@ -347923,7 +347839,7 @@
           "lon": 5.04057,
           "shelter": true,
           "wheelchairAccessible": false,
-          "visuallyAccessible": false,
+          "visuallyAccessible": true,
           "compassDirection": 248,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PNH"

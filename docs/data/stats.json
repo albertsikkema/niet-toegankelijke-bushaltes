@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-03T07:15:11.596Z",
+  "generated": "2026-08-04T06:58:14.696Z",
   "totals": {
-    "totalBusQuays": 42103,
-    "inaccessibleBusQuays": 28044,
+    "totalBusQuays": 42105,
+    "inaccessibleBusQuays": 28045,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20148,
+    "wheelchairInaccessible": 20149,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26398,
+    "visuallyInaccessible": 26399,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -528,7 +528,7 @@
       "code": "P0027",
       "name": "Provincie Noord-Holland",
       "type": "provincie",
-      "total": 322,
+      "total": 323,
       "inaccessible": 180,
       "pct": 56,
       "wheelchair": 140,
@@ -619,16 +619,16 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36896,
-      "inaccessible": 24136,
+      "total": 36897,
+      "inaccessible": 24137,
       "pct": 65,
-      "wheelchair": 17251,
-      "visual": 22692
+      "wheelchair": 17252,
+      "visual": 22693
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4238,
+      "total": 4239,
       "inaccessible": 3057,
       "pct": 72,
       "wheelchair": 2122,

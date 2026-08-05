@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-04T06:58:14.696Z",
+  "generated": "2026-08-05T06:59:31.166Z",
   "totals": {
-    "totalBusQuays": 42105,
-    "inaccessibleBusQuays": 28045,
+    "totalBusQuays": 42107,
+    "inaccessibleBusQuays": 28043,
     "inaccessiblePct": 67,
     "wheelchairInaccessible": 20149,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26399,
+    "visuallyInaccessible": 26398,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -285,11 +285,11 @@
       "name": "Gemeente Haarlem",
       "type": "gemeente",
       "total": 262,
-      "inaccessible": 88,
+      "inaccessible": 89,
       "pct": 34,
-      "wheelchair": 31,
-      "visual": 76,
-      "noShelter": 29
+      "wheelchair": 32,
+      "visual": 77,
+      "noShelter": 30
     },
     {
       "code": "G0772",
@@ -533,7 +533,7 @@
       "pct": 56,
       "wheelchair": 140,
       "visual": 140,
-      "noShelter": 89
+      "noShelter": 90
     },
     {
       "code": "P0030",
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36897,
-      "inaccessible": 24137,
+      "total": 36899,
+      "inaccessible": 24135,
       "pct": 65,
       "wheelchair": 17252,
-      "visual": 22693
+      "visual": 22692
     },
     {
       "type": "provincie",

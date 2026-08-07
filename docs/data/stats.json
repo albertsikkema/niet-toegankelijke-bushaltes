@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-06T06:59:46.628Z",
+  "generated": "2026-08-07T06:28:36.577Z",
   "totals": {
-    "totalBusQuays": 42107,
+    "totalBusQuays": 42112,
     "inaccessibleBusQuays": 28043,
     "inaccessiblePct": 67,
     "wheelchairInaccessible": 20149,
@@ -539,7 +539,7 @@
       "code": "P0030",
       "name": "Provincie Noord-Brabant",
       "type": "provincie",
-      "total": 221,
+      "total": 222,
       "inaccessible": 110,
       "pct": 50,
       "wheelchair": 78,
@@ -619,7 +619,7 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36899,
+      "total": 36903,
       "inaccessible": 24135,
       "pct": 65,
       "wheelchair": 17252,
@@ -628,7 +628,7 @@
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4239,
+      "total": 4240,
       "inaccessible": 3057,
       "pct": 72,
       "wheelchair": 2122,

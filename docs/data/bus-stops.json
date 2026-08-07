@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-06T06:59:46.616Z",
+  "generated": "2026-08-07T06:28:36.566Z",
   "totals": {
-    "totalBusQuays": 42107,
+    "totalBusQuays": 42112,
     "inaccessibleBusQuays": 28043,
     "authorities": 384
   },
@@ -57193,7 +57193,7 @@
       "email": "info@brabant.nl",
       "website": "http://www.brabant.nl",
       "phone": "(073) 681 28 12",
-      "totalBusQuays": 221,
+      "totalBusQuays": 222,
       "inaccessibleCount": 110,
       "stops": [
         {
@@ -74458,7 +74458,7 @@
       "email": "gemeente@landvancuijk.nl",
       "website": "http://www.landvancuijk.nl",
       "phone": null,
-      "totalBusQuays": 254,
+      "totalBusQuays": 255,
       "inaccessibleCount": 164,
       "stops": [
         {
@@ -176148,7 +176148,7 @@
       "email": "gemeentehuis@kerkrade.nl",
       "website": "http://www.kerkrade.nl",
       "phone": "14 045",
-      "totalBusQuays": 133,
+      "totalBusQuays": 134,
       "inaccessibleCount": 115,
       "stops": [
         {
@@ -373359,7 +373359,7 @@
       "email": "postbus8@schagen.nl",
       "website": "http://www.schagen.nl",
       "phone": "(0224) 21 04 00",
-      "totalBusQuays": 223,
+      "totalBusQuays": 224,
       "inaccessibleCount": 184,
       "stops": [
         {
@@ -392390,7 +392390,7 @@
       "email": "info@beverwijk.nl",
       "website": "http://www.beverwijk.nl",
       "phone": "(0251) 25 62 56",
-      "totalBusQuays": 72,
+      "totalBusQuays": 73,
       "inaccessibleCount": 21,
       "stops": [
         {

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-08T06:18:34.378Z",
+  "generated": "2026-08-09T06:19:10.360Z",
   "totals": {
-    "totalBusQuays": 42112,
-    "inaccessibleBusQuays": 28043,
+    "totalBusQuays": 42111,
+    "inaccessibleBusQuays": 28042,
     "authorities": 384
   },
   "authorities": {
@@ -35414,8 +35414,8 @@
       "email": "info@peelenmaas.nl",
       "website": "http://www.peelenmaas.nl",
       "phone": "(077) 306 66 66",
-      "totalBusQuays": 73,
-      "inaccessibleCount": 72,
+      "totalBusQuays": 72,
+      "inaccessibleCount": 71,
       "stops": [
         {
           "code": "NL:Q:69530170",
@@ -35639,20 +35639,6 @@
           "visuallyAccessible": false,
           "compassDirection": 16,
           "mutationDate": "2017-12-01",
-          "concessionProvider": "LMB"
-        },
-        {
-          "code": "NL:Q:68340090",
-          "name": "Baarskampstraat",
-          "town": "Kessel",
-          "street": "Baarskampstraat",
-          "lat": 51.292165,
-          "lon": 6.048778,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 310,
-          "mutationDate": "2019-03-14",
           "concessionProvider": "LMB"
         },
         {

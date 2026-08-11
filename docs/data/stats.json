@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-10T06:34:34.679Z",
+  "generated": "2026-08-11T06:23:14.878Z",
   "totals": {
-    "totalBusQuays": 42111,
-    "inaccessibleBusQuays": 28042,
+    "totalBusQuays": 42117,
+    "inaccessibleBusQuays": 28043,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20148,
+    "wheelchairInaccessible": 20151,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26397,
+    "visuallyInaccessible": 26398,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -206,11 +206,11 @@
       "name": "Gemeente Amersfoort",
       "type": "gemeente",
       "total": 285,
-      "inaccessible": 21,
+      "inaccessible": 19,
       "pct": 7,
       "wheelchair": 17,
-      "visual": 21,
-      "noShelter": 18
+      "visual": 19,
+      "noShelter": 16
     },
     {
       "code": "G0879",
@@ -252,11 +252,11 @@
       "name": "Gemeente Amersfoort",
       "type": "gemeente",
       "total": 285,
-      "inaccessible": 21,
+      "inaccessible": 19,
       "pct": 7,
       "wheelchair": 17,
-      "visual": 21,
-      "noShelter": 18
+      "visual": 19,
+      "noShelter": 16
     },
     {
       "code": "G0268",
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36902,
-      "inaccessible": 24134,
+      "total": 36908,
+      "inaccessible": 24135,
       "pct": 65,
-      "wheelchair": 17251,
-      "visual": 22691
+      "wheelchair": 17254,
+      "visual": 22692
     },
     {
       "type": "provincie",
@@ -655,9 +655,9 @@
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 264,
+    "gemeentesOver50": 263,
     "totalGemeentes": 344,
-    "gemeentesOver50Pct": 77,
+    "gemeentesOver50Pct": 76,
     "visualPct": 63,
     "wheelchairPct": 48,
     "wsPct": 95,

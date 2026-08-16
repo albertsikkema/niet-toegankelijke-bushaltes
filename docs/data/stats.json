@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-15T06:09:47.740Z",
+  "generated": "2026-08-16T06:10:37.584Z",
   "totals": {
-    "totalBusQuays": 42105,
-    "inaccessibleBusQuays": 28035,
+    "totalBusQuays": 42115,
+    "inaccessibleBusQuays": 28043,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20151,
+    "wheelchairInaccessible": 20158,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26389,
+    "visuallyInaccessible": 26397,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -440,12 +440,12 @@
       "code": "P0022",
       "name": "Provincie Drenthe",
       "type": "provincie",
-      "total": 308,
-      "inaccessible": 284,
+      "total": 312,
+      "inaccessible": 288,
       "pct": 92,
-      "wheelchair": 235,
-      "visual": 284,
-      "noShelter": 201
+      "wheelchair": 239,
+      "visual": 288,
+      "noShelter": 205
     },
     {
       "code": "P0024",
@@ -619,20 +619,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36892,
-      "inaccessible": 24124,
+      "total": 36898,
+      "inaccessible": 24128,
       "pct": 65,
-      "wheelchair": 17251,
-      "visual": 22681
+      "wheelchair": 17254,
+      "visual": 22685
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4244,
-      "inaccessible": 3060,
+      "total": 4248,
+      "inaccessible": 3064,
       "pct": 72,
-      "wheelchair": 2125,
-      "visual": 2876
+      "wheelchair": 2129,
+      "visual": 2880
     },
     {
       "type": "waterschap",

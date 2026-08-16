@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-15T06:09:47.729Z",
+  "generated": "2026-08-16T06:10:37.572Z",
   "totals": {
-    "totalBusQuays": 42105,
-    "inaccessibleBusQuays": 28035,
+    "totalBusQuays": 42115,
+    "inaccessibleBusQuays": 28043,
     "authorities": 384
   },
   "authorities": {
@@ -61672,8 +61672,8 @@
       "email": "post@drenthe.nl",
       "website": "http://www.provincie.drenthe.nl",
       "phone": "(0592) 36 55 55",
-      "totalBusQuays": 308,
-      "inaccessibleCount": 284,
+      "totalBusQuays": 312,
+      "inaccessibleCount": 288,
       "stops": [
         {
           "code": "NL:Q:14335420",
@@ -62936,6 +62936,34 @@
           "concessionProvider": "OVGD"
         },
         {
+          "code": "NL:Q:16321090",
+          "name": "Ruiterweg",
+          "town": "Havelte",
+          "street": "van Helomaweg",
+          "lat": 52.781012,
+          "lon": 6.22577,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 314,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:16321100",
+          "name": "Ruiterweg",
+          "town": "Havelte",
+          "street": "van Helomaweg",
+          "lat": 52.780833,
+          "lon": 6.225618,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 134,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
           "code": "NL:Q:16230080",
           "name": "Van Helomaweg",
           "town": "Havelte",
@@ -62960,6 +62988,34 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 144,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:16321110",
+          "name": "Van Helomaweg 7",
+          "town": "Havelte",
+          "street": "van Helomaweg",
+          "lat": 52.784225,
+          "lon": 6.222511,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 315,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:16321120",
+          "name": "Van Helomaweg 7",
+          "town": "Havelte",
+          "street": "van Helomaweg",
+          "lat": 52.784118,
+          "lon": 6.22239,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 135,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -99581,7 +99637,7 @@
       "website": "http://www.gemeente-oldambt.nl",
       "phone": "(0597) 48 20 00",
       "totalBusQuays": 153,
-      "inaccessibleCount": 90,
+      "inaccessibleCount": 88,
       "stops": [
         {
           "code": "NL:Q:13150410",
@@ -100000,34 +100056,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 279,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:13022420",
-          "name": "Haven Zuidzijde",
-          "town": "Heiligerlee",
-          "street": "Provincialeweg",
-          "lat": 53.163349,
-          "lon": 6.996716,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 327,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:13022410",
-          "name": "Haven Zuidzijde",
-          "town": "Heiligerlee",
-          "street": "Provincialeweg",
-          "lat": 53.163315,
-          "lon": 6.996595,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 147,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
@@ -203571,8 +203599,8 @@
       "email": "info@gemeentewesterveld.nl",
       "website": "http://www.gemeentewesterveld.nl",
       "phone": "(0521) 34 93 49",
-      "totalBusQuays": 34,
-      "inaccessibleCount": 32,
+      "totalBusQuays": 40,
+      "inaccessibleCount": 38,
       "stops": [
         {
           "code": "NL:Q:16321130",
@@ -203600,6 +203628,62 @@
           "visuallyAccessible": false,
           "compassDirection": 261,
           "mutationDate": null,
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:16321200",
+          "name": "Schierbosweg",
+          "town": "Darp",
+          "street": "Darperkerkweg",
+          "lat": 52.779416,
+          "lon": 6.218847,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 267,
+          "mutationDate": "2018-11-15",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:16321190",
+          "name": "Schierbosweg",
+          "town": "Darp",
+          "street": "Darperkerkweg",
+          "lat": 52.779225,
+          "lon": 6.219199,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 87,
+          "mutationDate": "2018-11-15",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:16321160",
+          "name": "Schoolweg",
+          "town": "Darp",
+          "street": "Ruiterweg",
+          "lat": 52.776444,
+          "lon": 6.204149,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 257,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:16321150",
+          "name": "Schoolweg",
+          "town": "Darp",
+          "street": "Ruiterweg",
+          "lat": 52.77637,
+          "lon": 6.204429,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 77,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
         {
@@ -203908,6 +203992,34 @@
           "visuallyAccessible": false,
           "compassDirection": 323,
           "mutationDate": null,
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:16321040",
+          "name": "Bisschopsbergweg",
+          "town": "Havelterberg",
+          "street": "Ruiterweg",
+          "lat": 52.774083,
+          "lon": 6.186499,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 263,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:16321030",
+          "name": "Bisschopsbergweg",
+          "town": "Havelterberg",
+          "street": "Ruiterweg",
+          "lat": 52.773876,
+          "lon": 6.186599,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 83,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
         {

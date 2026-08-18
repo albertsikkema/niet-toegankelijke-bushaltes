@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-17T06:15:11.797Z",
+  "generated": "2026-08-18T06:12:04.175Z",
   "totals": {
-    "totalBusQuays": 42111,
-    "inaccessibleBusQuays": 28042,
+    "totalBusQuays": 42108,
+    "inaccessibleBusQuays": 28039,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20153,
+    "wheelchairInaccessible": 20147,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26394,
+    "visuallyInaccessible": 26395,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -44,6 +44,17 @@
       "noShelter": 57
     },
     {
+      "code": "G1680",
+      "name": "Gemeente Aa en Hunze",
+      "type": "gemeente",
+      "total": 73,
+      "inaccessible": 73,
+      "pct": 100,
+      "wheelchair": 51,
+      "visual": 73,
+      "noShelter": 52
+    },
+    {
       "code": "G0093",
       "name": "Gemeente Terschelling",
       "type": "gemeente",
@@ -55,17 +66,6 @@
       "noShelter": 54
     },
     {
-      "code": "G1680",
-      "name": "Gemeente Aa en Hunze",
-      "type": "gemeente",
-      "total": 71,
-      "inaccessible": 71,
-      "pct": 100,
-      "wheelchair": 49,
-      "visual": 71,
-      "noShelter": 51
-    },
-    {
       "code": "G0163",
       "name": "Gemeente Hellendoorn",
       "type": "gemeente",
@@ -75,6 +75,17 @@
       "wheelchair": 56,
       "visual": 57,
       "noShelter": 43
+    },
+    {
+      "code": "G0050",
+      "name": "Gemeente Zeewolde",
+      "type": "gemeente",
+      "total": 46,
+      "inaccessible": 46,
+      "pct": 100,
+      "wheelchair": 13,
+      "visual": 46,
+      "noShelter": 12
     },
     {
       "code": "G0285",
@@ -307,11 +318,11 @@
       "name": "Gemeente Breda",
       "type": "gemeente",
       "total": 363,
-      "inaccessible": 128,
+      "inaccessible": 126,
       "pct": 35,
-      "wheelchair": 40,
+      "wheelchair": 38,
       "visual": 123,
-      "noShelter": 56
+      "noShelter": 54
     },
     {
       "code": "G0344",
@@ -518,10 +529,10 @@
       "name": "Provincie Limburg",
       "type": "provincie",
       "total": 324,
-      "inaccessible": 202,
-      "pct": 62,
+      "inaccessible": 204,
+      "pct": 63,
       "wheelchair": 149,
-      "visual": 180,
+      "visual": 183,
       "noShelter": 124
     },
     {
@@ -619,20 +630,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36894,
-      "inaccessible": 24122,
+      "total": 36891,
+      "inaccessible": 24117,
       "pct": 65,
-      "wheelchair": 17245,
-      "visual": 22677
+      "wheelchair": 17239,
+      "visual": 22675
     },
     {
       "type": "provincie",
       "label": "Provincie",
       "total": 4248,
-      "inaccessible": 3069,
+      "inaccessible": 3071,
       "pct": 72,
       "wheelchair": 2133,
-      "visual": 2885
+      "visual": 2888
     },
     {
       "type": "waterschap",

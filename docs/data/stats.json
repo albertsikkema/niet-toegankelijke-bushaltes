@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-20T06:12:29.322Z",
+  "generated": "2026-08-21T06:13:23.603Z",
   "totals": {
-    "totalBusQuays": 42108,
-    "inaccessibleBusQuays": 28038,
+    "totalBusQuays": 42105,
+    "inaccessibleBusQuays": 28045,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20147,
+    "wheelchairInaccessible": 20154,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26394,
+    "visuallyInaccessible": 26398,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -202,6 +202,17 @@
   ],
   "bestGemeentes": [
     {
+      "code": "G0307",
+      "name": "Gemeente Amersfoort",
+      "type": "gemeente",
+      "total": 285,
+      "inaccessible": 18,
+      "pct": 6,
+      "wheelchair": 16,
+      "visual": 18,
+      "noShelter": 15
+    },
+    {
       "code": "G0164",
       "name": "Gemeente Hengelo",
       "type": "gemeente",
@@ -211,17 +222,6 @@
       "wheelchair": 8,
       "visual": 12,
       "noShelter": 8
-    },
-    {
-      "code": "G0307",
-      "name": "Gemeente Amersfoort",
-      "type": "gemeente",
-      "total": 285,
-      "inaccessible": 19,
-      "pct": 7,
-      "wheelchair": 17,
-      "visual": 19,
-      "noShelter": 16
     },
     {
       "code": "G0879",
@@ -263,22 +263,22 @@
       "name": "Gemeente Amersfoort",
       "type": "gemeente",
       "total": 285,
-      "inaccessible": 19,
-      "pct": 7,
-      "wheelchair": 17,
-      "visual": 19,
-      "noShelter": 16
+      "inaccessible": 18,
+      "pct": 6,
+      "wheelchair": 16,
+      "visual": 18,
+      "noShelter": 15
     },
     {
       "code": "G0268",
       "name": "Gemeente Nijmegen",
       "type": "gemeente",
       "total": 402,
-      "inaccessible": 101,
+      "inaccessible": 102,
       "pct": 25,
-      "wheelchair": 63,
-      "visual": 70,
-      "noShelter": 61
+      "wheelchair": 64,
+      "visual": 71,
+      "noShelter": 62
     },
     {
       "code": "G0855",
@@ -322,7 +322,7 @@
       "pct": 35,
       "wheelchair": 38,
       "visual": 123,
-      "noShelter": 54
+      "noShelter": 53
     },
     {
       "code": "G0344",
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36891,
-      "inaccessible": 24116,
+      "total": 36888,
+      "inaccessible": 24123,
       "pct": 65,
-      "wheelchair": 17239,
-      "visual": 22674
+      "wheelchair": 17246,
+      "visual": 22678
     },
     {
       "type": "provincie",
@@ -666,14 +666,14 @@
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 263,
+    "gemeentesOver50": 262,
     "totalGemeentes": 344,
     "gemeentesOver50Pct": 76,
     "visualPct": 63,
     "wheelchairPct": 48,
     "wsPct": 95,
     "bestCityName": "Gemeente Amersfoort",
-    "bestCityPct": 7,
+    "bestCityPct": 6,
     "bestCityTotal": 285,
     "shelterPct": 66,
     "top10Pct": 13

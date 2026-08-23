@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-22T06:10:18.345Z",
+  "generated": "2026-08-23T06:11:25.538Z",
   "totals": {
-    "totalBusQuays": 42105,
-    "inaccessibleBusQuays": 28045,
+    "totalBusQuays": 42107,
+    "inaccessibleBusQuays": 28044,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20154,
+    "wheelchairInaccessible": 20153,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26398,
+    "visuallyInaccessible": 26397,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -495,7 +495,7 @@
       "code": "P0025",
       "name": "Provincie Gelderland",
       "type": "provincie",
-      "total": 718,
+      "total": 719,
       "inaccessible": 534,
       "pct": 74,
       "wheelchair": 324,
@@ -630,16 +630,16 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36888,
-      "inaccessible": 24123,
+      "total": 36889,
+      "inaccessible": 24122,
       "pct": 65,
-      "wheelchair": 17246,
-      "visual": 22678
+      "wheelchair": 17245,
+      "visual": 22677
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4248,
+      "total": 4249,
       "inaccessible": 3071,
       "pct": 72,
       "wheelchair": 2133,

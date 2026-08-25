@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-24T06:17:55.933Z",
+  "generated": "2026-08-25T06:13:09.993Z",
   "totals": {
-    "totalBusQuays": 42107,
-    "inaccessibleBusQuays": 28044,
+    "totalBusQuays": 42095,
+    "inaccessibleBusQuays": 28037,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20153,
+    "wheelchairInaccessible": 20146,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26397,
+    "visuallyInaccessible": 26385,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -181,12 +181,12 @@
       "code": "G0114",
       "name": "Gemeente Emmen",
       "type": "gemeente",
-      "total": 351,
-      "inaccessible": 317,
+      "total": 352,
+      "inaccessible": 318,
       "pct": 90,
-      "wheelchair": 187,
-      "visual": 314,
-      "noShelter": 220
+      "wheelchair": 188,
+      "visual": 315,
+      "noShelter": 221
     },
     {
       "code": "G1900",
@@ -284,11 +284,11 @@
       "code": "G0855",
       "name": "Gemeente Tilburg",
       "type": "gemeente",
-      "total": 373,
-      "inaccessible": 119,
+      "total": 372,
+      "inaccessible": 118,
       "pct": 32,
       "wheelchair": 77,
-      "visual": 109,
+      "visual": 108,
       "noShelter": 73
     },
     {
@@ -317,12 +317,12 @@
       "code": "G0758",
       "name": "Gemeente Breda",
       "type": "gemeente",
-      "total": 363,
-      "inaccessible": 126,
+      "total": 361,
+      "inaccessible": 125,
       "pct": 35,
-      "wheelchair": 38,
-      "visual": 123,
-      "noShelter": 53
+      "wheelchair": 34,
+      "visual": 122,
+      "noShelter": 52
     },
     {
       "code": "G0344",
@@ -350,7 +350,7 @@
       "code": "G0202",
       "name": "Gemeente Arnhem",
       "type": "gemeente",
-      "total": 440,
+      "total": 439,
       "inaccessible": 192,
       "pct": 44,
       "wheelchair": 95,
@@ -451,11 +451,11 @@
       "code": "P0022",
       "name": "Provincie Drenthe",
       "type": "provincie",
-      "total": 312,
-      "inaccessible": 288,
+      "total": 313,
+      "inaccessible": 289,
       "pct": 92,
-      "wheelchair": 239,
-      "visual": 288,
+      "wheelchair": 240,
+      "visual": 289,
       "noShelter": 205
     },
     {
@@ -496,11 +496,11 @@
       "name": "Provincie Gelderland",
       "type": "provincie",
       "total": 719,
-      "inaccessible": 534,
+      "inaccessible": 535,
       "pct": 74,
-      "wheelchair": 324,
-      "visual": 506,
-      "noShelter": 318
+      "wheelchair": 325,
+      "visual": 507,
+      "noShelter": 319
     },
     {
       "code": "P0029",
@@ -539,11 +539,11 @@
       "code": "P0027",
       "name": "Provincie Noord-Holland",
       "type": "provincie",
-      "total": 323,
-      "inaccessible": 180,
+      "total": 322,
+      "inaccessible": 179,
       "pct": 56,
       "wheelchair": 140,
-      "visual": 140,
+      "visual": 139,
       "noShelter": 90
     },
     {
@@ -630,20 +630,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36889,
-      "inaccessible": 24122,
+      "total": 36877,
+      "inaccessible": 24114,
       "pct": 65,
-      "wheelchair": 17245,
-      "visual": 22677
+      "wheelchair": 17236,
+      "visual": 22664
     },
     {
       "type": "provincie",
       "label": "Provincie",
       "total": 4249,
-      "inaccessible": 3071,
+      "inaccessible": 3072,
       "pct": 72,
-      "wheelchair": 2133,
-      "visual": 2888
+      "wheelchair": 2135,
+      "visual": 2889
     },
     {
       "type": "waterschap",

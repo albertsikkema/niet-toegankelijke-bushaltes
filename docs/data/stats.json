@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-25T06:13:09.993Z",
+  "generated": "2026-08-26T06:14:11.262Z",
   "totals": {
-    "totalBusQuays": 42095,
-    "inaccessibleBusQuays": 28037,
+    "totalBusQuays": 42099,
+    "inaccessibleBusQuays": 28019,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20146,
+    "wheelchairInaccessible": 20131,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26385,
+    "visuallyInaccessible": 26370,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -148,7 +148,7 @@
       "code": "G0599",
       "name": "Gemeente Rotterdam",
       "type": "gemeente",
-      "total": 962,
+      "total": 964,
       "inaccessible": 695,
       "pct": 72,
       "wheelchair": 416,
@@ -384,17 +384,17 @@
       "name": "Gemeente Almere",
       "type": "gemeente",
       "total": 255,
-      "inaccessible": 159,
-      "pct": 62,
+      "inaccessible": 156,
+      "pct": 61,
       "wheelchair": 28,
-      "visual": 158,
+      "visual": 155,
       "noShelter": 28
     },
     {
       "code": "G0599",
       "name": "Gemeente Rotterdam",
       "type": "gemeente",
-      "total": 962,
+      "total": 964,
       "inaccessible": 695,
       "pct": 72,
       "wheelchair": 416,
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36877,
-      "inaccessible": 24114,
+      "total": 36881,
+      "inaccessible": 24096,
       "pct": 65,
-      "wheelchair": 17236,
-      "visual": 22664
+      "wheelchair": 17221,
+      "visual": 22649
     },
     {
       "type": "provincie",

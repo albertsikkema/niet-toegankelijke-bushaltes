@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-26T06:14:11.247Z",
+  "generated": "2026-08-27T09:11:43.339Z",
   "totals": {
-    "totalBusQuays": 42099,
-    "inaccessibleBusQuays": 28019,
+    "totalBusQuays": 42105,
+    "inaccessibleBusQuays": 28018,
     "authorities": 384
   },
   "authorities": {
@@ -56459,12 +56459,12 @@
           "name": "Langstraat",
           "town": "Deurne",
           "street": "Langstraat",
-          "lat": 51.471198,
-          "lon": 5.803492,
+          "lat": 51.470618,
+          "lon": 5.803363,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 186,
+          "compassDirection": 179,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PNB"
         },
@@ -217941,7 +217941,7 @@
       "email": "gemeente@amsterdam.nl",
       "website": "http://www.amsterdam.nl",
       "phone": "14 020",
-      "totalBusQuays": 1095,
+      "totalBusQuays": 1097,
       "inaccessibleCount": 479,
       "stops": [
         {
@@ -241101,7 +241101,7 @@
       "email": "info@weststellingwerf.nl",
       "website": "http://www.weststellingwerf.nl",
       "phone": "14 0561",
-      "totalBusQuays": 103,
+      "totalBusQuays": 108,
       "inaccessibleCount": 76,
       "stops": [
         {
@@ -268358,8 +268358,8 @@
       "email": "info@deurne.nl",
       "website": "http://www.deurne.nl",
       "phone": "(0493) 38 77 11",
-      "totalBusQuays": 95,
-      "inaccessibleCount": 85,
+      "totalBusQuays": 94,
+      "inaccessibleCount": 84,
       "stops": [
         {
           "code": "NL:Q:65520090",
@@ -268681,20 +268681,6 @@
           "visuallyAccessible": false,
           "compassDirection": 84,
           "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:65520001",
-          "name": "Langstraat",
-          "town": "Deurne",
-          "street": "Haageind",
-          "lat": 51.470615,
-          "lon": 5.803367,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 178,
-          "mutationDate": null,
           "concessionProvider": "PNB"
         },
         {
@@ -355887,7 +355873,7 @@
         },
         {
           "code": "NL:Q:38411180",
-          "name": "Europasingel",
+          "name": "Europasingel [Tijdelijke halte]",
           "town": "Wervershoof",
           "street": "Europasingel",
           "lat": 52.732335,
@@ -355901,7 +355887,7 @@
         },
         {
           "code": "NL:Q:38411190",
-          "name": "Europasingel",
+          "name": "Europasingel [Tijdelijke halte]",
           "town": "Wervershoof",
           "street": "Europasingel",
           "lat": 52.732372,
@@ -372655,20 +372641,6 @@
           "concessionProvider": "OVS"
         },
         {
-          "code": "NL:Q:44300220",
-          "name": "Gerard Terborghstraat",
-          "town": "Haaksbergen",
-          "street": "Albert Cuyplaan",
-          "lat": 52.160379,
-          "lon": 6.728838,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 245,
-          "mutationDate": null,
-          "concessionProvider": "OVS"
-        },
-        {
           "code": "NL:Q:44300230",
           "name": "Gerard Terborghstraat",
           "town": "Haaksbergen",
@@ -372679,6 +372651,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 65,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:44300220",
+          "name": "Gerard Terborghstraat",
+          "town": "Haaksbergen",
+          "street": "Albert Cuyplaan",
+          "lat": 52.160379,
+          "lon": 6.728838,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 245,
           "mutationDate": null,
           "concessionProvider": "OVS"
         },
@@ -372722,34 +372708,6 @@
           "visuallyAccessible": false,
           "compassDirection": 286,
           "mutationDate": "2019-03-14",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:44300580",
-          "name": "Industriestraat",
-          "town": "Haaksbergen",
-          "street": "Nijverheidsstraat",
-          "lat": 52.154111,
-          "lon": 6.720885,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 150,
-          "mutationDate": "2018-11-15",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:44300570",
-          "name": "Industriestraat",
-          "town": "Haaksbergen",
-          "street": "Nijverheidsstraat",
-          "lat": 52.154032,
-          "lon": 6.721482,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 250,
-          "mutationDate": "2018-11-15",
           "concessionProvider": "OVS"
         },
         {
@@ -372820,6 +372778,34 @@
           "visuallyAccessible": false,
           "compassDirection": 306,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:44300570",
+          "name": "Nijverheidstraat",
+          "town": "Haaksbergen",
+          "street": "Nijverheidsstraat",
+          "lat": 52.154032,
+          "lon": 6.721482,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 250,
+          "mutationDate": "2018-11-15",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:44300580",
+          "name": "Nijverheidstraat",
+          "town": "Haaksbergen",
+          "street": "Nijverheidsstraat",
+          "lat": 52.154111,
+          "lon": 6.720885,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 150,
+          "mutationDate": "2018-11-15",
           "concessionProvider": "OVS"
         },
         {

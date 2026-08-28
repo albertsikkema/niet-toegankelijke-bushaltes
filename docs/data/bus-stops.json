@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27T09:11:43.339Z",
+  "generated": "2026-08-28T09:15:43.224Z",
   "totals": {
     "totalBusQuays": 42105,
     "inaccessibleBusQuays": 28018,
@@ -57912,12 +57912,12 @@
           "name": "Nationaal Militair Museum",
           "town": "Soest",
           "street": "Verlengde Paltzerweg",
-          "lat": 52.132078,
-          "lon": 5.278805,
+          "lat": 52.131762,
+          "lon": 5.27934,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 325,
+          "compassDirection": 115,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PUT"
         },
@@ -123869,20 +123869,6 @@
           "concessionProvider": "ALM"
         },
         {
-          "code": "NL:Q:58620150",
-          "name": "De Gouwen",
-          "town": "Almere Haven",
-          "street": "OPENBAAR VERVOERBAAN",
-          "lat": 52.345315,
-          "lon": 5.212995,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 230,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "ALM"
-        },
-        {
           "code": "NL:Q:58620100",
           "name": "De Gouwen",
           "town": "Almere Haven",
@@ -123893,6 +123879,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 47,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "ALM"
+        },
+        {
+          "code": "NL:Q:58620150",
+          "name": "De Gouwen",
+          "town": "Almere Haven",
+          "street": "OPENBAAR VERVOERBAAN",
+          "lat": 52.345315,
+          "lon": 5.212995,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 230,
           "mutationDate": "2019-03-14",
           "concessionProvider": "ALM"
         },
@@ -357000,20 +357000,6 @@
           "concessionProvider": "PZH"
         },
         {
-          "code": "NL:Q:53510660",
-          "name": "Dunantsingel",
-          "town": "Gouda",
-          "street": "Dunantsingel",
-          "lat": 52.012257,
-          "lon": 4.727388,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 82,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
           "code": "NL:Q:53510650",
           "name": "Dunantsingel",
           "town": "Gouda",
@@ -357024,6 +357010,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": true,
           "compassDirection": 261,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:53510660",
+          "name": "Dunantsingel",
+          "town": "Gouda",
+          "street": "Dunantsingel",
+          "lat": 52.012257,
+          "lon": 4.727388,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 82,
           "mutationDate": "2019-03-14",
           "concessionProvider": "PZH"
         },
@@ -357686,6 +357686,20 @@
           "concessionProvider": "PZH"
         },
         {
+          "code": "NL:Q:53517005",
+          "name": "Station",
+          "town": "Gouda",
+          "street": "Stationsplein",
+          "lat": 52.016632,
+          "lon": 4.70805,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": true,
+          "compassDirection": 224,
+          "mutationDate": null,
+          "concessionProvider": "PZH"
+        },
+        {
           "code": "NL:Q:53517007",
           "name": "Station",
           "town": "Gouda",
@@ -357724,20 +357738,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": true,
           "compassDirection": 222,
-          "mutationDate": null,
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:53517005",
-          "name": "Station",
-          "town": "Gouda",
-          "street": "Stationsplein",
-          "lat": 52.016632,
-          "lon": 4.70805,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 224,
           "mutationDate": null,
           "concessionProvider": "PZH"
         },

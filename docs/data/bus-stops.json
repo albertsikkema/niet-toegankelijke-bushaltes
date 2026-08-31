@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-30T06:21:25.044Z",
+  "generated": "2026-08-31T06:30:43.141Z",
   "totals": {
     "totalBusQuays": 42108,
-    "inaccessibleBusQuays": 28013,
+    "inaccessibleBusQuays": 28012,
     "authorities": 383
   },
   "authorities": {
@@ -76385,7 +76385,7 @@
       "website": "http://www.tilburg.nl",
       "phone": "14 013",
       "totalBusQuays": 372,
-      "inaccessibleCount": 118,
+      "inaccessibleCount": 117,
       "stops": [
         {
           "code": "NL:Q:73110520",
@@ -77491,20 +77491,6 @@
           "visuallyAccessible": false,
           "compassDirection": 348,
           "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:73000180",
-          "name": "Stappegoor/IJsbaan",
-          "town": "Tilburg",
-          "street": "Stappegoorweg",
-          "lat": 51.541974,
-          "lon": 5.07689,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 185,
-          "mutationDate": "2019-03-14",
           "concessionProvider": "PNB"
         },
         {
@@ -146437,20 +146423,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:10291820",
-          "name": "Breekweg",
-          "town": "Leens",
-          "street": "PROV WG",
-          "lat": 53.362997,
-          "lon": 6.372642,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 268,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:10291810",
           "name": "Breekweg",
           "town": "Leens",
@@ -146461,6 +146433,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": true,
           "compassDirection": 87,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10291820",
+          "name": "Breekweg",
+          "town": "Leens",
+          "street": "PROV WG",
+          "lat": 53.362997,
+          "lon": 6.372642,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": true,
+          "compassDirection": 268,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },

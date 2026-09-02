@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-01T06:25:01.246Z",
+  "generated": "2026-09-02T06:28:59.449Z",
   "totals": {
-    "totalBusQuays": 42108,
-    "inaccessibleBusQuays": 28012,
+    "totalBusQuays": 42103,
+    "inaccessibleBusQuays": 28010,
     "authorities": 383
   },
   "authorities": {
@@ -25398,7 +25398,7 @@
       "website": "http://www.derondevenen.nl",
       "phone": "(0297) 29 16 16",
       "totalBusQuays": 160,
-      "inaccessibleCount": 101,
+      "inaccessibleCount": 100,
       "stops": [
         {
           "code": "NL:Q:57451080",
@@ -26087,6 +26087,20 @@
           "concessionProvider": "PUT"
         },
         {
+          "code": "NL:Q:58542070",
+          "name": "Dukaton",
+          "town": "Mijdrecht",
+          "street": "Hofland",
+          "lat": 52.213321,
+          "lon": 4.869226,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 200,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PUT"
+        },
+        {
           "code": "NL:Q:59000016",
           "name": "Granaat",
           "town": "Mijdrecht",
@@ -26731,20 +26745,6 @@
           "concessionProvider": "PUT"
         },
         {
-          "code": "NL:Q:59542150",
-          "name": "Molmlaan",
-          "town": "Wilnis",
-          "street": "Pieter Joostenlaan",
-          "lat": 52.199055,
-          "lon": 4.896174,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 4,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PUT"
-        },
-        {
           "code": "NL:Q:59000006",
           "name": "Raaigras",
           "town": "Wilnis",
@@ -26756,20 +26756,6 @@
           "visuallyAccessible": false,
           "compassDirection": 0,
           "mutationDate": null,
-          "concessionProvider": "PUT"
-        },
-        {
-          "code": "NL:Q:59542030",
-          "name": "Veldzijdeweg",
-          "town": "Wilnis",
-          "street": "Burgemeester Padmosweg",
-          "lat": 52.196075,
-          "lon": 4.884286,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 110,
-          "mutationDate": "2019-02-07",
           "concessionProvider": "PUT"
         },
         {
@@ -36309,7 +36295,7 @@
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 236,
+          "compassDirection": 68,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PNB"
         },
@@ -110029,7 +110015,7 @@
       "website": "http://www.baarn.nl",
       "phone": "(035) 548 16 11",
       "totalBusQuays": 25,
-      "inaccessibleCount": 23,
+      "inaccessibleCount": 24,
       "stops": [
         {
           "code": "NL:Q:59620290",
@@ -110155,6 +110141,20 @@
           "visuallyAccessible": false,
           "compassDirection": 40,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:59620200",
+          "name": "Meander Medisch Centrum",
+          "town": "Baarn",
+          "street": "Baarnsche dijk",
+          "lat": 52.217949,
+          "lon": 5.301562,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 290,
+          "mutationDate": null,
           "concessionProvider": "PUT"
         },
         {
@@ -116713,7 +116713,7 @@
       "website": "http://www.debilt.nl",
       "phone": "(030) 228 94 11",
       "totalBusQuays": 115,
-      "inaccessibleCount": 71,
+      "inaccessibleCount": 75,
       "stops": [
         {
           "code": "NL:Q:50220150",
@@ -116741,6 +116741,34 @@
           "visuallyAccessible": true,
           "compassDirection": 152,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:50221200",
+          "name": "Beethovenlaan",
+          "town": "Bilthoven",
+          "street": "Soestdijkseweg Noord",
+          "lat": 52.140216,
+          "lon": 5.213558,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 30,
+          "mutationDate": null,
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:50221210",
+          "name": "Beethovenlaan",
+          "town": "Bilthoven",
+          "street": "Soestdijkseweg Noord",
+          "lat": 52.140287,
+          "lon": 5.21332,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 210,
+          "mutationDate": null,
           "concessionProvider": "PUT"
         },
         {
@@ -117049,6 +117077,34 @@
           "visuallyAccessible": false,
           "compassDirection": 63,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:50221180",
+          "name": "Ridderoordse bos",
+          "town": "Bilthoven",
+          "street": "Gezichtslaan",
+          "lat": 52.146958,
+          "lon": 5.20513,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 335,
+          "mutationDate": null,
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:50221190",
+          "name": "Ridderoordse bos",
+          "town": "Bilthoven",
+          "street": "Gezichtslaan",
+          "lat": 52.146897,
+          "lon": 5.204963,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 155,
+          "mutationDate": null,
           "concessionProvider": "PUT"
         },
         {
@@ -145639,20 +145695,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:10255420",
-          "name": "Oude Adorperweg",
-          "town": "Adorp",
-          "street": "Winsumerweg",
-          "lat": 53.254376,
-          "lon": 6.542855,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 322,
-          "mutationDate": "2019-07-10",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:10255410",
           "name": "Oude Adorperweg",
           "town": "Adorp",
@@ -145663,6 +145705,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 141,
+          "mutationDate": "2019-07-10",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10255420",
+          "name": "Oude Adorperweg",
+          "town": "Adorp",
+          "street": "Winsumerweg",
+          "lat": 53.254376,
+          "lon": 6.542855,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 322,
           "mutationDate": "2019-07-10",
           "concessionProvider": "OVGD"
         },
@@ -146493,20 +146549,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:11264420",
-          "name": "Balmahuisterweg",
-          "town": "Niezijl",
-          "street": "Rijksstraatweg",
-          "lat": 53.264581,
-          "lon": 6.370769,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 277,
-          "mutationDate": "2019-07-10",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:11264410",
           "name": "Balmahuisterweg",
           "town": "Niezijl",
@@ -146517,6 +146559,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 96,
+          "mutationDate": "2019-07-10",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:11264420",
+          "name": "Balmahuisterweg",
+          "town": "Niezijl",
+          "street": "Rijksstraatweg",
+          "lat": 53.264581,
+          "lon": 6.370769,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 277,
           "mutationDate": "2019-07-10",
           "concessionProvider": "OVGD"
         },
@@ -147543,20 +147599,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:10274220",
-          "name": "Priorstraat",
-          "town": "Winsum",
-          "street": "Wierdaweg",
-          "lat": 53.329437,
-          "lon": 6.512596,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 337,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:10274210",
           "name": "Priorstraat",
           "town": "Winsum",
@@ -147568,6 +147610,20 @@
           "visuallyAccessible": false,
           "compassDirection": 155,
           "mutationDate": "2019-07-10",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10274220",
+          "name": "Priorstraat",
+          "town": "Winsum",
+          "street": "Wierdaweg",
+          "lat": 53.329428,
+          "lon": 6.512595,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 337,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
         {
@@ -147761,7 +147817,7 @@
           "lon": 6.299627,
           "shelter": false,
           "wheelchairAccessible": false,
-          "visuallyAccessible": true,
+          "visuallyAccessible": false,
           "compassDirection": 165,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
@@ -147858,7 +147914,7 @@
       "email": "gemeente@brunssum.nl",
       "website": "http://www.brunssum.nl",
       "phone": "(045) 527 85 55",
-      "totalBusQuays": 58,
+      "totalBusQuays": 59,
       "inaccessibleCount": 48,
       "stops": [
         {
@@ -208939,8 +208995,8 @@
       "email": "provincieloket@gelderland.nl",
       "website": "https://www.gelderland.nl",
       "phone": "(026) 359 99 99",
-      "totalBusQuays": 719,
-      "inaccessibleCount": 535,
+      "totalBusQuays": 718,
+      "inaccessibleCount": 534,
       "stops": [
         {
           "code": "NL:Q:40344001",
@@ -215478,20 +215534,6 @@
           "visuallyAccessible": false,
           "compassDirection": 310,
           "mutationDate": "2014-08-21",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:41310500",
-          "name": "Bedrijventerrein",
-          "town": "Vorden",
-          "street": "Ruurloseweg",
-          "lat": 52.104741,
-          "lon": 6.329913,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 88,
-          "mutationDate": null,
           "concessionProvider": "GLD"
         },
         {
@@ -241976,8 +242018,8 @@
       "email": "gemeente@rotterdam.nl",
       "website": "http://www.rotterdam.nl",
       "phone": "14 010",
-      "totalBusQuays": 964,
-      "inaccessibleCount": 695,
+      "totalBusQuays": 962,
+      "inaccessibleCount": 693,
       "stops": [
         {
           "code": "NL:Q:53370140",
@@ -247045,34 +247087,6 @@
           "visuallyAccessible": false,
           "compassDirection": 111,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:53110400",
-          "name": "Kralingse Zoom",
-          "town": "Rotterdam",
-          "street": "Kralingse Zoom",
-          "lat": 51.921828,
-          "lon": 4.532638,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 15,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:31006447",
-          "name": "Kralingse Zoom ",
-          "town": "Rotterdam",
-          "street": "Kralingse Zoom",
-          "lat": 51.9219,
-          "lon": 4.532652,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 20,
-          "mutationDate": "2019-03-14",
           "concessionProvider": "MRDH"
         },
         {
@@ -297753,8 +297767,8 @@
       "email": "info@bronckhorst.nl",
       "website": "http://www.bronckhorst.nl",
       "phone": "(0575) 75 02 50",
-      "totalBusQuays": 107,
-      "inaccessibleCount": 91,
+      "totalBusQuays": 106,
+      "inaccessibleCount": 90,
       "stops": [
         {
           "code": "NL:Q:41530030",
@@ -298439,20 +298453,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 201,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:41310510",
-          "name": "Bedrijventerrein",
-          "town": "Vorden",
-          "street": "Netwerkweg",
-          "lat": 52.104896,
-          "lon": 6.329907,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 262,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -319328,8 +319328,8 @@
       "email": "gemeente@doetinchem.nl",
       "website": "http://www.doetinchem.nl",
       "phone": "(0314) 37 73 77",
-      "totalBusQuays": 105,
-      "inaccessibleCount": 75,
+      "totalBusQuays": 103,
+      "inaccessibleCount": 73,
       "stops": [
         {
           "code": "NL:Q:41721140",
@@ -319497,34 +319497,6 @@
           "visuallyAccessible": false,
           "compassDirection": 194,
           "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:41820090",
-          "name": "De Pol",
-          "town": "Doetinchem",
-          "street": "Gaanderenseweg",
-          "lat": 51.935812,
-          "lon": 6.327714,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 290,
-          "mutationDate": "2014-08-31",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:41820100",
-          "name": "De Pol",
-          "town": "Doetinchem",
-          "street": "Bielheimerweg",
-          "lat": 51.935685,
-          "lon": 6.327784,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 111,
-          "mutationDate": "2014-08-31",
           "concessionProvider": "GLD"
         },
         {

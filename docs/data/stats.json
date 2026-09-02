@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-01T06:25:01.257Z",
+  "generated": "2026-09-02T06:28:59.461Z",
   "totals": {
-    "totalBusQuays": 42108,
-    "inaccessibleBusQuays": 28012,
+    "totalBusQuays": 42103,
+    "inaccessibleBusQuays": 28010,
     "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20125,
+    "wheelchairInaccessible": 20123,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26363,
+    "visuallyInaccessible": 26364,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -148,11 +148,11 @@
       "code": "G0599",
       "name": "Gemeente Rotterdam",
       "type": "gemeente",
-      "total": 964,
-      "inaccessible": 695,
+      "total": 962,
+      "inaccessible": 693,
       "pct": 72,
-      "wheelchair": 416,
-      "visual": 660,
+      "wheelchair": 415,
+      "visual": 658,
       "noShelter": 355
     },
     {
@@ -394,11 +394,11 @@
       "code": "G0599",
       "name": "Gemeente Rotterdam",
       "type": "gemeente",
-      "total": 964,
-      "inaccessible": 695,
+      "total": 962,
+      "inaccessible": 693,
       "pct": 72,
-      "wheelchair": 416,
-      "visual": 660,
+      "wheelchair": 415,
+      "visual": 658,
       "noShelter": 355
     },
     {
@@ -495,12 +495,12 @@
       "code": "P0025",
       "name": "Provincie Gelderland",
       "type": "provincie",
-      "total": 719,
-      "inaccessible": 535,
+      "total": 718,
+      "inaccessible": 534,
       "pct": 74,
-      "wheelchair": 325,
-      "visual": 507,
-      "noShelter": 319
+      "wheelchair": 324,
+      "visual": 506,
+      "noShelter": 318
     },
     {
       "code": "P0029",
@@ -565,7 +565,7 @@
       "inaccessible": 160,
       "pct": 45,
       "wheelchair": 115,
-      "visual": 147,
+      "visual": 148,
       "noShelter": 116
     }
   ],
@@ -630,19 +630,19 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36891,
-      "inaccessible": 24090,
+      "total": 36887,
+      "inaccessible": 24089,
       "pct": 65,
-      "wheelchair": 17216,
-      "visual": 22643
+      "wheelchair": 17215,
+      "visual": 22644
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4249,
-      "inaccessible": 3072,
+      "total": 4248,
+      "inaccessible": 3071,
       "pct": 72,
-      "wheelchair": 2135,
+      "wheelchair": 2134,
       "visual": 2889
     },
     {

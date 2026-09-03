@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-02T06:28:59.461Z",
+  "generated": "2026-09-03T06:23:48.609Z",
   "totals": {
-    "totalBusQuays": 42103,
-    "inaccessibleBusQuays": 28010,
-    "inaccessiblePct": 67,
-    "wheelchairInaccessible": 20123,
+    "totalBusQuays": 42105,
+    "inaccessibleBusQuays": 27996,
+    "inaccessiblePct": 66,
+    "wheelchairInaccessible": 20127,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26364,
+    "visuallyInaccessible": 26349,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -171,11 +171,11 @@
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
       "total": 1097,
-      "inaccessible": 479,
+      "inaccessible": 480,
       "pct": 44,
-      "wheelchair": 373,
-      "visual": 456,
-      "noShelter": 256
+      "wheelchair": 374,
+      "visual": 457,
+      "noShelter": 257
     },
     {
       "code": "G0114",
@@ -328,12 +328,12 @@
       "code": "G0344",
       "name": "Gemeente Utrecht",
       "type": "gemeente",
-      "total": 590,
-      "inaccessible": 205,
+      "total": 596,
+      "inaccessible": 210,
       "pct": 35,
-      "wheelchair": 149,
-      "visual": 171,
-      "noShelter": 97
+      "wheelchair": 153,
+      "visual": 176,
+      "noShelter": 100
     },
     {
       "code": "G0014",
@@ -362,11 +362,11 @@
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
       "total": 1097,
-      "inaccessible": 479,
+      "inaccessible": 480,
       "pct": 44,
-      "wheelchair": 373,
-      "visual": 456,
-      "noShelter": 256
+      "wheelchair": 374,
+      "visual": 457,
+      "noShelter": 257
     },
     {
       "code": "G0080",
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36887,
-      "inaccessible": 24089,
+      "total": 36889,
+      "inaccessible": 24075,
       "pct": 65,
-      "wheelchair": 17215,
-      "visual": 22644
+      "wheelchair": 17219,
+      "visual": 22629
     },
     {
       "type": "provincie",
@@ -666,7 +666,7 @@
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 262,
+    "gemeentesOver50": 261,
     "totalGemeentes": 344,
     "gemeentesOver50Pct": 76,
     "visualPct": 63,

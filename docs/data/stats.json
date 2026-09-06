@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-05T06:20:58.726Z",
+  "generated": "2026-09-06T06:21:17.882Z",
   "totals": {
     "totalBusQuays": 42115,
-    "inaccessibleBusQuays": 27993,
+    "inaccessibleBusQuays": 27996,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20125,
+    "wheelchairInaccessible": 20128,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26349,
+    "visuallyInaccessible": 26352,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -149,11 +149,11 @@
       "name": "Gemeente Rotterdam",
       "type": "gemeente",
       "total": 963,
-      "inaccessible": 694,
+      "inaccessible": 695,
       "pct": 72,
-      "wheelchair": 416,
-      "visual": 659,
-      "noShelter": 356
+      "wheelchair": 417,
+      "visual": 660,
+      "noShelter": 357
     },
     {
       "code": "G0518",
@@ -395,22 +395,22 @@
       "name": "Gemeente Rotterdam",
       "type": "gemeente",
       "total": 963,
-      "inaccessible": 694,
+      "inaccessible": 695,
       "pct": 72,
-      "wheelchair": 416,
-      "visual": 659,
-      "noShelter": 356
+      "wheelchair": 417,
+      "visual": 660,
+      "noShelter": 357
     },
     {
       "code": "G0935",
       "name": "Gemeente Maastricht",
       "type": "gemeente",
       "total": 334,
-      "inaccessible": 261,
+      "inaccessible": 262,
       "pct": 78,
-      "wheelchair": 202,
-      "visual": 237,
-      "noShelter": 165
+      "wheelchair": 203,
+      "visual": 238,
+      "noShelter": 166
     },
     {
       "code": "G0518",
@@ -631,10 +631,10 @@
       "type": "gemeente",
       "label": "Gemeente",
       "total": 36897,
-      "inaccessible": 24080,
+      "inaccessible": 24083,
       "pct": 65,
-      "wheelchair": 17224,
-      "visual": 22637
+      "wheelchair": 17227,
+      "visual": 22640
     },
     {
       "type": "provincie",

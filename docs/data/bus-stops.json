@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-05T06:20:58.716Z",
+  "generated": "2026-09-06T06:21:17.868Z",
   "totals": {
     "totalBusQuays": 42115,
-    "inaccessibleBusQuays": 27993,
+    "inaccessibleBusQuays": 27996,
     "authorities": 384
   },
   "authorities": {
@@ -165589,7 +165589,7 @@
       "website": "http://www.roermond.nl",
       "phone": "14 0475",
       "totalBusQuays": 119,
-      "inaccessibleCount": 93,
+      "inaccessibleCount": 94,
       "stops": [
         {
           "code": "NL:Q:68190100",
@@ -166065,6 +166065,20 @@
           "visuallyAccessible": false,
           "compassDirection": 324,
           "mutationDate": "2017-12-01",
+          "concessionProvider": "LMB"
+        },
+        {
+          "code": "NL:Q:68000001",
+          "name": "Designer Outlet",
+          "town": "Roermond",
+          "street": "Stadsweide",
+          "lat": 51.199949,
+          "lon": 5.988757,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 120,
+          "mutationDate": null,
           "concessionProvider": "LMB"
         },
         {
@@ -194301,7 +194315,7 @@
       "website": "http://www.gemeentemaastricht.nl",
       "phone": "14 043",
       "totalBusQuays": 334,
-      "inaccessibleCount": 261,
+      "inaccessibleCount": 262,
       "stops": [
         {
           "code": "NL:Q:66500100",
@@ -196065,6 +196079,20 @@
           "visuallyAccessible": false,
           "compassDirection": 329,
           "mutationDate": "2017-12-01",
+          "concessionProvider": "LMB"
+        },
+        {
+          "code": "NL:Q:66500001",
+          "name": "International Bus Station",
+          "town": "Maastricht",
+          "street": "Meerssenerweg",
+          "lat": 50.852546,
+          "lon": 5.705563,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 165,
+          "mutationDate": null,
           "concessionProvider": "LMB"
         },
         {
@@ -244337,7 +244365,7 @@
       "website": "http://www.rotterdam.nl",
       "phone": "14 010",
       "totalBusQuays": 963,
-      "inaccessibleCount": 694,
+      "inaccessibleCount": 695,
       "stops": [
         {
           "code": "NL:Q:53370140",
@@ -253926,6 +253954,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 245,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:53140001",
+          "name": "Zuidplein",
+          "town": "Rotterdam",
+          "street": "Metroplein",
+          "lat": 51.887235,
+          "lon": 4.489819,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 110,
           "mutationDate": null,
           "concessionProvider": "MRDH"
         },

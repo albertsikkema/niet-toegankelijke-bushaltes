@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-08T06:23:50.155Z",
+  "generated": "2026-09-09T06:24:33.607Z",
   "totals": {
-    "totalBusQuays": 42115,
-    "inaccessibleBusQuays": 27996,
+    "totalBusQuays": 42117,
+    "inaccessibleBusQuays": 27993,
     "authorities": 384
   },
   "authorities": {
@@ -31290,7 +31290,7 @@
       "email": "info@medemblik.nl",
       "website": "http://www.medemblik.nl",
       "phone": "(0229) 85 60 00",
-      "totalBusQuays": 195,
+      "totalBusQuays": 197,
       "inaccessibleCount": 162,
       "stops": [
         {
@@ -45647,8 +45647,8 @@
       "email": "postbus@zaanstad.nl",
       "website": "http://www.zaanstad.nl",
       "phone": "14 075",
-      "totalBusQuays": 345,
-      "inaccessibleCount": 129,
+      "totalBusQuays": 342,
+      "inaccessibleCount": 128,
       "stops": [
         {
           "code": "NL:Q:37330110",
@@ -46306,20 +46306,6 @@
           "visuallyAccessible": false,
           "compassDirection": 52,
           "mutationDate": "2018-04-23",
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:37324600",
-          "name": "Rosariumhorst",
-          "town": "Krommenie",
-          "street": "Rosariumlaan",
-          "lat": 52.50628,
-          "lon": 4.761764,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 270,
-          "mutationDate": "2020-02-19",
           "concessionProvider": "VRA"
         },
         {
@@ -51742,7 +51728,7 @@
       "email": "gemeente@hoorn.nl",
       "website": "http://www.hoorn.nl",
       "phone": "(0229) 25 22 00",
-      "totalBusQuays": 143,
+      "totalBusQuays": 144,
       "inaccessibleCount": 80,
       "stops": [
         {
@@ -72728,7 +72714,7 @@
       "email": "info@gemeentemaashorst.nl",
       "website": "http://www.gemeentemaashorst.nl",
       "phone": "(0413) 28 19 11",
-      "totalBusQuays": 112,
+      "totalBusQuays": 113,
       "inaccessibleCount": 49,
       "stops": [
         {
@@ -80785,7 +80771,7 @@
       "email": "gemeente@landvancuijk.nl",
       "website": "http://www.landvancuijk.nl",
       "phone": null,
-      "totalBusQuays": 255,
+      "totalBusQuays": 256,
       "inaccessibleCount": 164,
       "stops": [
         {
@@ -125156,7 +125142,7 @@
       "website": "http://www.denhaag.nl",
       "phone": "14 070",
       "totalBusQuays": 688,
-      "inaccessibleCount": 541,
+      "inaccessibleCount": 542,
       "stops": [
         {
           "code": "NL:Q:32011001",
@@ -126094,6 +126080,20 @@
           "visuallyAccessible": false,
           "compassDirection": 331,
           "mutationDate": "2019-10-31",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:54000001",
+          "name": "Centraal Station",
+          "town": "'s-Gravenhage",
+          "street": "Fietspad",
+          "lat": 52.079799,
+          "lon": 4.325495,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 60,
+          "mutationDate": null,
           "concessionProvider": "MRDH"
         },
         {
@@ -155275,7 +155275,7 @@
       "website": "http://www.venlo.nl",
       "phone": "14 077",
       "totalBusQuays": 231,
-      "inaccessibleCount": 198,
+      "inaccessibleCount": 199,
       "stops": [
         {
           "code": "NL:Q:69300100",
@@ -157767,6 +157767,20 @@
           "visuallyAccessible": true,
           "compassDirection": 204,
           "mutationDate": "2017-12-01",
+          "concessionProvider": "LMB"
+        },
+        {
+          "code": "NL:Q:69000001",
+          "name": "Station",
+          "town": "Venlo",
+          "street": "Stationsplein",
+          "lat": 51.364622,
+          "lon": 6.172242,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 145,
+          "mutationDate": null,
           "concessionProvider": "LMB"
         },
         {
@@ -227035,7 +227049,7 @@
       "website": "https://www.zeeland.nl",
       "phone": "(0118) 63 10 11",
       "totalBusQuays": 115,
-      "inaccessibleCount": 76,
+      "inaccessibleCount": 77,
       "stops": [
         {
           "code": "NL:Q:76000470",
@@ -227763,6 +227777,20 @@
           "visuallyAccessible": false,
           "compassDirection": 320,
           "mutationDate": "2017-04-14",
+          "concessionProvider": "ZLD"
+        },
+        {
+          "code": "NL:Q:78000001",
+          "name": "Busstation WST",
+          "town": "Terneuzen",
+          "street": "Buitenhaven",
+          "lat": 51.32722,
+          "lon": 3.813706,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 330,
+          "mutationDate": null,
           "concessionProvider": "ZLD"
         },
         {
@@ -368895,7 +368923,7 @@
       "website": "http://www.gouda.nl",
       "phone": "14 0182",
       "totalBusQuays": 133,
-      "inaccessibleCount": 83,
+      "inaccessibleCount": 78,
       "stops": [
         {
           "code": "NL:Q:53514170",
@@ -369080,20 +369108,6 @@
           "concessionProvider": "PZH"
         },
         {
-          "code": "NL:Q:53510470",
-          "name": "De Wadden",
-          "town": "Gouda",
-          "street": "Burg van Dijkesingel",
-          "lat": 52.003078,
-          "lon": 4.6821,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 249,
-          "mutationDate": "2019-11-29",
-          "concessionProvider": "PZH"
-        },
-        {
           "code": "NL:Q:53510880",
           "name": "Doorslag",
           "town": "Gouda",
@@ -369178,20 +369192,6 @@
           "concessionProvider": "PZH"
         },
         {
-          "code": "NL:Q:53510650",
-          "name": "Dunantsingel",
-          "town": "Gouda",
-          "street": "Dunantsingel",
-          "lat": 52.012302,
-          "lon": 4.727489,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 261,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
           "code": "NL:Q:53510660",
           "name": "Dunantsingel",
           "town": "Gouda",
@@ -369216,20 +369216,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 166,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:53511400",
-          "name": "Estafetteweg",
-          "town": "Gouda",
-          "street": "Estafetteweg",
-          "lat": 52.010875,
-          "lon": 4.737473,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 0,
           "mutationDate": "2019-03-14",
           "concessionProvider": "PZH"
         },
@@ -369262,20 +369248,6 @@
           "concessionProvider": "PZH"
         },
         {
-          "code": "NL:Q:53510180",
-          "name": "Gildenburg",
-          "town": "Gouda",
-          "street": "Gildenburg",
-          "lat": 52.032816,
-          "lon": 4.702704,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 74,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
           "code": "NL:Q:53513330",
           "name": "Goverwellepassage",
           "town": "Gouda",
@@ -369287,20 +369259,6 @@
           "visuallyAccessible": false,
           "compassDirection": 85,
           "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:53510490",
-          "name": "Griendakker",
-          "town": "Gouda",
-          "street": "Burg van Dijkesingel",
-          "lat": 52.006138,
-          "lon": 4.675425,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 138,
-          "mutationDate": "2019-11-29",
           "concessionProvider": "PZH"
         },
         {
@@ -369710,20 +369668,6 @@
           "concessionProvider": "PZH"
         },
         {
-          "code": "NL:Q:53511560",
-          "name": "Prinsenhof",
-          "town": "Gouda",
-          "street": "Ridder van Catsweg",
-          "lat": 52.026233,
-          "lon": 4.706681,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 156,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
           "code": "NL:Q:53511550",
           "name": "Prinsenhof",
           "town": "Gouda",
@@ -369959,6 +369903,20 @@
           "visuallyAccessible": false,
           "compassDirection": 146,
           "mutationDate": "2018-11-12",
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:53513530",
+          "name": "Watergraspad",
+          "town": "Gouda",
+          "street": "Bodegraafsestraatweg",
+          "lat": 52.031626,
+          "lon": 4.719379,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 179,
+          "mutationDate": "2019-03-14",
           "concessionProvider": "PZH"
         },
         {

@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-08T06:23:50.168Z",
+  "generated": "2026-09-09T06:24:33.619Z",
   "totals": {
-    "totalBusQuays": 42115,
-    "inaccessibleBusQuays": 27996,
+    "totalBusQuays": 42117,
+    "inaccessibleBusQuays": 27993,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20128,
+    "wheelchairInaccessible": 20127,
     "wheelchairPct": 48,
     "visuallyInaccessible": 26352,
     "visualPct": 63
@@ -160,11 +160,11 @@
       "name": "Gemeente Den Haag",
       "type": "gemeente",
       "total": 688,
-      "inaccessible": 541,
+      "inaccessible": 542,
       "pct": 79,
-      "wheelchair": 189,
-      "visual": 532,
-      "noShelter": 239
+      "wheelchair": 190,
+      "visual": 533,
+      "noShelter": 240
     },
     {
       "code": "G0363",
@@ -417,11 +417,11 @@
       "name": "Gemeente Den Haag",
       "type": "gemeente",
       "total": 688,
-      "inaccessible": 541,
+      "inaccessible": 542,
       "pct": 79,
-      "wheelchair": 189,
-      "visual": 532,
-      "noShelter": 239
+      "wheelchair": 190,
+      "visual": 533,
+      "noShelter": 240
     },
     {
       "code": "G0153",
@@ -507,11 +507,11 @@
       "name": "Provincie Zeeland",
       "type": "provincie",
       "total": 115,
-      "inaccessible": 76,
-      "pct": 66,
-      "wheelchair": 71,
-      "visual": 71,
-      "noShelter": 36
+      "inaccessible": 77,
+      "pct": 67,
+      "wheelchair": 72,
+      "visual": 72,
+      "noShelter": 37
     },
     {
       "code": "P0021",
@@ -630,20 +630,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36897,
-      "inaccessible": 24083,
+      "total": 36899,
+      "inaccessible": 24079,
       "pct": 65,
-      "wheelchair": 17227,
-      "visual": 22640
+      "wheelchair": 17225,
+      "visual": 22639
     },
     {
       "type": "provincie",
       "label": "Provincie",
       "total": 4249,
-      "inaccessible": 3062,
+      "inaccessible": 3063,
       "pct": 72,
-      "wheelchair": 2126,
-      "visual": 2880
+      "wheelchair": 2127,
+      "visual": 2881
     },
     {
       "type": "waterschap",

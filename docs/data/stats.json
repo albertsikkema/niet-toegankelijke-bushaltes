@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-09T06:24:33.619Z",
+  "generated": "2026-09-10T06:24:09.201Z",
   "totals": {
-    "totalBusQuays": 42117,
-    "inaccessibleBusQuays": 27993,
+    "totalBusQuays": 42113,
+    "inaccessibleBusQuays": 27986,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20127,
+    "wheelchairInaccessible": 20124,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26352,
+    "visuallyInaccessible": 26341,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -285,11 +285,11 @@
       "name": "Gemeente Tilburg",
       "type": "gemeente",
       "total": 372,
-      "inaccessible": 117,
+      "inaccessible": 115,
       "pct": 31,
       "wheelchair": 77,
-      "visual": 107,
-      "noShelter": 73
+      "visual": 105,
+      "noShelter": 72
     },
     {
       "code": "G0392",
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36899,
-      "inaccessible": 24079,
+      "total": 36895,
+      "inaccessible": 24072,
       "pct": 65,
-      "wheelchair": 17225,
-      "visual": 22639
+      "wheelchair": 17222,
+      "visual": 22628
     },
     {
       "type": "provincie",

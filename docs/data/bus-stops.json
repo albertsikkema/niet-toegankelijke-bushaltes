@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-09T06:24:33.607Z",
+  "generated": "2026-09-10T06:24:09.188Z",
   "totals": {
-    "totalBusQuays": 42117,
-    "inaccessibleBusQuays": 27993,
+    "totalBusQuays": 42113,
+    "inaccessibleBusQuays": 27986,
     "authorities": 384
   },
   "authorities": {
@@ -1665,20 +1665,6 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:37401700",
-          "name": "Tramplein",
-          "town": "Purmerend",
-          "street": "Tramplein",
-          "lat": 52.506985,
-          "lon": 4.944292,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 170,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "VRA"
-        },
-        {
           "code": "NL:Q:37400101",
           "name": "Tramplein",
           "town": "Purmerend",
@@ -1690,6 +1676,20 @@
           "visuallyAccessible": true,
           "compassDirection": 350,
           "mutationDate": "2014-12-14",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:37401700",
+          "name": "Tramplein",
+          "town": "Purmerend",
+          "street": "Tramplein",
+          "lat": 52.507101,
+          "lon": 4.944276,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 170,
+          "mutationDate": "2019-03-14",
           "concessionProvider": "VRA"
         },
         {
@@ -46299,12 +46299,12 @@
           "name": "Rosariumhorst",
           "town": "Krommenie",
           "street": "",
-          "lat": 52.505376,
-          "lon": 4.762484,
+          "lat": 52.505716,
+          "lon": 4.762876,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 52,
+          "compassDirection": 300,
           "mutationDate": "2018-04-23",
           "concessionProvider": "VRA"
         },
@@ -49520,7 +49520,7 @@
       "website": "http://www.s-hertogenbosch.nl",
       "phone": "(073) 615 51 55",
       "totalBusQuays": 333,
-      "inaccessibleCount": 157,
+      "inaccessibleCount": 156,
       "stops": [
         {
           "code": "NL:Q:63000300",
@@ -50307,20 +50307,6 @@
           "concessionProvider": "PNB"
         },
         {
-          "code": "NL:Q:63015140",
-          "name": "Larenweg",
-          "town": "'s-Hertogenbosch",
-          "street": "Maaspoortweg",
-          "lat": 51.722336,
-          "lon": 5.295085,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 12,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
           "code": "NL:Q:63015250",
           "name": "Lugteren",
           "town": "'s-Hertogenbosch",
@@ -51049,6 +51035,20 @@
           "concessionProvider": "PNB"
         },
         {
+          "code": "NL:Q:63015160",
+          "name": "Zwartbroekweg",
+          "town": "'s-Hertogenbosch",
+          "street": "Pisastraat",
+          "lat": 51.72401,
+          "lon": 5.295447,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 10,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PNB"
+        },
+        {
           "code": "NL:Q:63101020",
           "name": "Bokhovense Maasdijk",
           "town": "Bokhoven",
@@ -51508,20 +51508,6 @@
           "visuallyAccessible": false,
           "compassDirection": 255,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:62240110",
-          "name": "Rijksweg",
-          "town": "Nuland",
-          "street": "Rijksweg",
-          "lat": 51.72057,
-          "lon": 5.441443,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 75,
-          "mutationDate": "2019-02-07",
           "concessionProvider": "PNB"
         },
         {
@@ -72715,7 +72701,7 @@
       "website": "http://www.gemeentemaashorst.nl",
       "phone": "(0413) 28 19 11",
       "totalBusQuays": 113,
-      "inaccessibleCount": 49,
+      "inaccessibleCount": 50,
       "stops": [
         {
           "code": "NL:Q:60640600",
@@ -73218,6 +73204,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 44,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:60750005",
+          "name": "Vliegbasis Volkel",
+          "town": "Volkel",
+          "street": "Zeelandsedijk",
+          "lat": 51.656065,
+          "lon": 5.673652,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 326,
           "mutationDate": null,
           "concessionProvider": "PNB"
         },
@@ -79123,7 +79123,7 @@
       "website": "http://www.tilburg.nl",
       "phone": "14 013",
       "totalBusQuays": 372,
-      "inaccessibleCount": 117,
+      "inaccessibleCount": 115,
       "stops": [
         {
           "code": "NL:Q:73110520",
@@ -79767,20 +79767,6 @@
           "visuallyAccessible": false,
           "compassDirection": 157,
           "mutationDate": "2018-12-18",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:73000520",
-          "name": "Jules Verneweg",
-          "town": "Tilburg",
-          "street": "Bosscheweg",
-          "lat": 51.565057,
-          "lon": 5.11325,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 60,
-          "mutationDate": "2019-02-07",
           "concessionProvider": "PNB"
         },
         {
@@ -80526,20 +80512,6 @@
           "concessionProvider": "PNB"
         },
         {
-          "code": "NL:Q:73008300",
-          "name": "Winkelcentrum De Blaak",
-          "town": "Tilburg",
-          "street": "Beeklaan",
-          "lat": 51.544548,
-          "lon": 5.045821,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 274,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
           "code": "NL:Q:73008220",
           "name": "Zouavenlaan",
           "town": "Tilburg",
@@ -80772,7 +80744,7 @@
       "website": "http://www.landvancuijk.nl",
       "phone": null,
       "totalBusQuays": 256,
-      "inaccessibleCount": 164,
+      "inaccessibleCount": 165,
       "stops": [
         {
           "code": "NL:Q:60340200",
@@ -81625,6 +81597,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 14,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:60310003",
+          "name": "Laarakker Zuid",
+          "town": "Haps",
+          "street": "Klopsteen",
+          "lat": 51.68876,
+          "lon": 5.880365,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 322,
           "mutationDate": null,
           "concessionProvider": "PNB"
         },
@@ -132740,8 +132726,8 @@
       "email": "gemeente@delft.nl",
       "website": "http://www.delft.nl",
       "phone": "14 015",
-      "totalBusQuays": 162,
-      "inaccessibleCount": 118,
+      "totalBusQuays": 158,
+      "inaccessibleCount": 114,
       "stops": [
         {
           "code": "NL:Q:42008402",
@@ -133003,7 +132989,7 @@
           "lat": 51.989976,
           "lon": 4.343857,
           "shelter": true,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 261,
           "mutationDate": "2019-02-07",
@@ -133724,34 +133710,6 @@
           "concessionProvider": "MRDH"
         },
         {
-          "code": "NL:Q:32019136",
-          "name": "Martinus Nijhofflaan",
-          "town": "Delft",
-          "street": "Pierre van Hauwelaan",
-          "lat": 51.996402,
-          "lon": 4.349779,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 243,
-          "mutationDate": null,
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:32019137",
-          "name": "Martinus Nijhofflaan",
-          "town": "Delft",
-          "street": "Martinus Nijhofflaan",
-          "lat": 51.996084,
-          "lon": 4.349393,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 72,
-          "mutationDate": null,
-          "concessionProvider": "MRDH"
-        },
-        {
           "code": "NL:Q:42004501",
           "name": "Michiel de Ruyterweg",
           "town": "Delft",
@@ -134211,34 +134169,6 @@
           "visuallyAccessible": false,
           "compassDirection": 167,
           "mutationDate": "2019-02-07",
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:32019109",
-          "name": "Van der Slootsingel",
-          "town": "Delft",
-          "street": "Buitenhofdreef",
-          "lat": 51.989691,
-          "lon": 4.344183,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 165,
-          "mutationDate": null,
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:32019110",
-          "name": "Van der Slootsingel",
-          "town": "Delft",
-          "street": "Buitenhofdreef",
-          "lat": 51.990315,
-          "lon": 4.344606,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 0,
-          "mutationDate": null,
           "concessionProvider": "MRDH"
         },
         {
@@ -220782,8 +220712,8 @@
           "name": "De Stobbe",
           "town": "Darp",
           "street": "Linthorst Homanstraat",
-          "lat": 52.77471,
-          "lon": 6.20389,
+          "lat": 52.774713,
+          "lon": 6.203612,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -220796,8 +220726,8 @@
           "name": "De Stobbe",
           "town": "Darp",
           "street": "Schoolweg",
-          "lat": 52.774834,
-          "lon": 6.203851,
+          "lat": 52.774751,
+          "lon": 6.203332,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -220810,8 +220740,8 @@
           "name": "Schierbosweg",
           "town": "Darp",
           "street": "Darperkerkweg",
-          "lat": 52.779416,
-          "lon": 6.218847,
+          "lat": 52.779379,
+          "lon": 6.218906,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -220824,8 +220754,8 @@
           "name": "Schierbosweg",
           "town": "Darp",
           "street": "Darperkerkweg",
-          "lat": 52.779225,
-          "lon": 6.219199,
+          "lat": 52.779298,
+          "lon": 6.218934,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -221104,8 +221034,8 @@
           "name": "De Veldkei",
           "town": "Havelte",
           "street": "Molenweg",
-          "lat": 52.773695,
-          "lon": 6.234442,
+          "lat": 52.773635,
+          "lon": 6.234416,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -221160,8 +221090,8 @@
           "name": "Zwembad",
           "town": "Havelte",
           "street": "Havelter Schapendrift",
-          "lat": 52.773071,
-          "lon": 6.239867,
+          "lat": 52.773048,
+          "lon": 6.239932,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -236748,8 +236678,8 @@
           "name": "Centrumeiland",
           "town": "Amsterdam",
           "street": "Pampuslaan",
-          "lat": 52.35347,
-          "lon": 5.012522,
+          "lat": 52.353658,
+          "lon": 5.012329,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -262476,7 +262406,7 @@
           "lon": 4.593869,
           "shelter": false,
           "wheelchairAccessible": false,
-          "visuallyAccessible": false,
+          "visuallyAccessible": true,
           "compassDirection": 44,
           "mutationDate": "2006-01-01",
           "concessionProvider": "VRA"
@@ -262490,7 +262420,7 @@
           "lon": 4.593922,
           "shelter": true,
           "wheelchairAccessible": false,
-          "visuallyAccessible": false,
+          "visuallyAccessible": true,
           "compassDirection": 224,
           "mutationDate": "2006-01-01",
           "concessionProvider": "VRA"
@@ -263736,7 +263666,7 @@
           "lon": 4.62595,
           "shelter": true,
           "wheelchairAccessible": false,
-          "visuallyAccessible": false,
+          "visuallyAccessible": true,
           "compassDirection": 298,
           "mutationDate": "2006-01-01",
           "concessionProvider": "VRA"
@@ -263750,7 +263680,7 @@
           "lon": 4.625524,
           "shelter": true,
           "wheelchairAccessible": false,
-          "visuallyAccessible": false,
+          "visuallyAccessible": true,
           "compassDirection": 119,
           "mutationDate": "2006-01-01",
           "concessionProvider": "VRA"
@@ -279460,7 +279390,7 @@
       "website": "http://www.gemeenteAltena.nl",
       "phone": "(0183) 51 61 00",
       "totalBusQuays": 144,
-      "inaccessibleCount": 61,
+      "inaccessibleCount": 59,
       "stops": [
         {
           "code": "NL:Q:73640340",
@@ -279627,20 +279557,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": true,
           "compassDirection": 103,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:63590040",
-          "name": "Koningin Emmastraat",
-          "town": "Andel",
-          "street": "Koningin Emmastraat",
-          "lat": 51.785916,
-          "lon": 5.054475,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 107,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PNB"
         },
@@ -280076,20 +279992,6 @@
           "visuallyAccessible": false,
           "compassDirection": 313,
           "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:73750300",
-          "name": "Tol Oost",
-          "town": "Sleeuwijk",
-          "street": "Tol",
-          "lat": 51.800435,
-          "lon": 4.934444,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 150,
-          "mutationDate": "2019-03-14",
           "concessionProvider": "PNB"
         },
         {

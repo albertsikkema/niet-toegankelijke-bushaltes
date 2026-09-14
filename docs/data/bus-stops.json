@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-13T06:25:38.355Z",
+  "generated": "2026-09-14T06:31:22.024Z",
   "totals": {
-    "totalBusQuays": 42115,
+    "totalBusQuays": 42117,
     "inaccessibleBusQuays": 27986,
     "authorities": 384
   },
@@ -61577,7 +61577,7 @@
       "email": "gemeente@noordwijk.nl",
       "website": "http://www.noordwijk.nl",
       "phone": "(071) 366 00 00",
-      "totalBusQuays": 105,
+      "totalBusQuays": 107,
       "inaccessibleCount": 90,
       "stops": [
         {

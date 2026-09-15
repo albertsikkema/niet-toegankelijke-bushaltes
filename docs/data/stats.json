@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-14T06:31:22.036Z",
+  "generated": "2026-09-15T06:25:06.936Z",
   "totals": {
-    "totalBusQuays": 42117,
+    "totalBusQuays": 42121,
     "inaccessibleBusQuays": 27986,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20121,
+    "wheelchairInaccessible": 20122,
     "wheelchairPct": 48,
     "visuallyInaccessible": 26342,
     "visualPct": 63
@@ -170,7 +170,7 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1100,
+      "total": 1102,
       "inaccessible": 483,
       "pct": 44,
       "wheelchair": 377,
@@ -303,6 +303,17 @@
       "noShelter": 30
     },
     {
+      "code": "G0758",
+      "name": "Gemeente Breda",
+      "type": "gemeente",
+      "total": 360,
+      "inaccessible": 124,
+      "pct": 34,
+      "wheelchair": 33,
+      "visual": 121,
+      "noShelter": 51
+    },
+    {
       "code": "G0772",
       "name": "Gemeente Eindhoven",
       "type": "gemeente",
@@ -312,17 +323,6 @@
       "wheelchair": 38,
       "visual": 134,
       "noShelter": 54
-    },
-    {
-      "code": "G0758",
-      "name": "Gemeente Breda",
-      "type": "gemeente",
-      "total": 362,
-      "inaccessible": 126,
-      "pct": 35,
-      "wheelchair": 35,
-      "visual": 123,
-      "noShelter": 53
     },
     {
       "code": "G0344",
@@ -361,7 +361,7 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1100,
+      "total": 1102,
       "inaccessible": 483,
       "pct": 44,
       "wheelchair": 377,
@@ -428,10 +428,10 @@
       "name": "Gemeente Enschede",
       "type": "gemeente",
       "total": 311,
-      "inaccessible": 255,
+      "inaccessible": 254,
       "pct": 82,
       "wheelchair": 83,
-      "visual": 252,
+      "visual": 251,
       "noShelter": 118
     }
   ],
@@ -630,10 +630,10 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36899,
+      "total": 36903,
       "inaccessible": 24072,
       "pct": 65,
-      "wheelchair": 17219,
+      "wheelchair": 17220,
       "visual": 22629
     },
     {

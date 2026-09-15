@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-14T06:31:22.024Z",
+  "generated": "2026-09-15T06:25:06.927Z",
   "totals": {
-    "totalBusQuays": 42117,
+    "totalBusQuays": 42121,
     "inaccessibleBusQuays": 27986,
     "authorities": 384
   },
@@ -1459,8 +1459,8 @@
           "name": "Lepelblad",
           "town": "Purmerend",
           "street": "Linnaeuslaan",
-          "lat": 52.492558,
-          "lon": 4.958351,
+          "lat": 52.492594,
+          "lon": 4.958586,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": true,
@@ -1711,8 +1711,8 @@
           "name": "Vuurtorengracht",
           "town": "Purmerend",
           "street": "Donaulaan",
-          "lat": 52.507348,
-          "lon": 4.940606,
+          "lat": 52.507411,
+          "lon": 4.940429,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -61578,7 +61578,7 @@
       "website": "http://www.noordwijk.nl",
       "phone": "(071) 366 00 00",
       "totalBusQuays": 107,
-      "inaccessibleCount": 90,
+      "inaccessibleCount": 92,
       "stops": [
         {
           "code": "NL:Q:55360120",
@@ -62698,6 +62698,34 @@
           "visuallyAccessible": false,
           "compassDirection": 213,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:55560240",
+          "name": "noodhalte Gooweg",
+          "town": "Noordwijkerhout",
+          "street": "Victoriberg",
+          "lat": 52.259326,
+          "lon": 4.487746,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 34,
+          "mutationDate": null,
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:55560230",
+          "name": "noodhalte Gooweg",
+          "town": "Noordwijkerhout",
+          "street": "Victoriberg",
+          "lat": 52.259483,
+          "lon": 4.48778,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 214,
+          "mutationDate": null,
           "concessionProvider": "PZH"
         },
         {
@@ -142225,7 +142253,7 @@
       "email": "contact@hollandskroon.nl",
       "website": "http://www.hollandskroon.nl",
       "phone": "(088) 321 50 00",
-      "totalBusQuays": 122,
+      "totalBusQuays": 124,
       "inaccessibleCount": 88,
       "stops": [
         {
@@ -169871,8 +169899,8 @@
       "email": "contact@breda.nl",
       "website": "http://www.breda.nl",
       "phone": "14 076",
-      "totalBusQuays": 362,
-      "inaccessibleCount": 126,
+      "totalBusQuays": 360,
+      "inaccessibleCount": 124,
       "stops": [
         {
           "code": "NL:Q:72040300",
@@ -170767,34 +170795,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 2,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:72009980",
-          "name": "Moerlaken",
-          "town": "Breda",
-          "street": "Moerlaken",
-          "lat": 51.611421,
-          "lon": 4.772454,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 103,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:72009990",
-          "name": "Moerlaken",
-          "town": "Breda",
-          "street": "Moerlaken",
-          "lat": 51.611712,
-          "lon": 4.771382,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 283,
           "mutationDate": null,
           "concessionProvider": "PNB"
         },
@@ -199038,7 +199038,7 @@
       "website": "http://www.enschede.nl",
       "phone": "14 053",
       "totalBusQuays": 311,
-      "inaccessibleCount": 255,
+      "inaccessibleCount": 254,
       "stops": [
         {
           "code": "NL:Q:43100600",
@@ -201529,20 +201529,6 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 274,
-          "mutationDate": "2018-11-15",
-          "concessionProvider": "OVS"
-        },
-        {
-          "code": "NL:Q:43000380",
-          "name": "Spechtstraat",
-          "town": "Enschede",
-          "street": "Doctor Coppestraat",
-          "lat": 52.237048,
-          "lon": 6.887514,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 154,
           "mutationDate": "2018-11-15",
           "concessionProvider": "OVS"
         },
@@ -236667,7 +236653,7 @@
       "email": "gemeente@amsterdam.nl",
       "website": "http://www.amsterdam.nl",
       "phone": "14 020",
-      "totalBusQuays": 1100,
+      "totalBusQuays": 1102,
       "inaccessibleCount": 483,
       "stops": [
         {
@@ -300103,30 +300089,30 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:91000014",
-          "name": "Achter-Drempt",
-          "town": "Drempt",
-          "street": "Zomerweg",
-          "lat": 52.022013,
-          "lon": 6.181117,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 202,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41520320",
           "name": "Achter-Drempt",
           "town": "Drempt",
           "street": "Zomerweg",
-          "lat": 52.021914,
-          "lon": 6.181263,
+          "lat": 52.022347,
+          "lon": 6.181451,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 0,
+          "compassDirection": 10,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:91000014",
+          "name": "Achter-Drempt",
+          "town": "Drempt",
+          "street": "Zomerweg",
+          "lat": 52.02239,
+          "lon": 6.181294,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 202,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -300159,20 +300145,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:44940630",
-          "name": "Halle-Nijman",
-          "town": "Halle",
-          "street": "Halle-Nijmanweg",
-          "lat": 51.979279,
-          "lon": 6.409375,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 40,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:44940640",
           "name": "Halle-Nijman",
           "town": "Halle",
@@ -300183,6 +300155,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 220,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:44940630",
+          "name": "Halle-Nijman",
+          "town": "Halle",
+          "street": "Halle-Nijmanweg",
+          "lat": 51.979279,
+          "lon": 6.409375,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 40,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -300215,20 +300201,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41410510",
-          "name": "De Heurne",
-          "town": "Hengelo (Gld)",
-          "street": "De Heurne",
-          "lat": 52.056477,
-          "lon": 6.317796,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 86,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41410520",
           "name": "De Heurne",
           "town": "Hengelo (Gld)",
@@ -300239,6 +300211,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 266,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41410510",
+          "name": "De Heurne",
+          "town": "Hengelo (Gld)",
+          "street": "De Heurne",
+          "lat": 52.056477,
+          "lon": 6.317796,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 86,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -300523,20 +300509,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41430250",
-          "name": "Roggeland",
-          "town": "Olburgen",
-          "street": "Olburgseweg",
-          "lat": 52.04464,
-          "lon": 6.123738,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 199,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41430260",
           "name": "Roggeland",
           "town": "Olburgen",
@@ -300547,6 +300519,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 19,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41430250",
+          "name": "Roggeland",
+          "town": "Olburgen",
+          "street": "Olburgseweg",
+          "lat": 52.04464,
+          "lon": 6.123738,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 199,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -321604,7 +321590,7 @@
       "email": "gemeente@doetinchem.nl",
       "website": "http://www.doetinchem.nl",
       "phone": "(0314) 37 73 77",
-      "totalBusQuays": 103,
+      "totalBusQuays": 104,
       "inaccessibleCount": 73,
       "stops": [
         {
@@ -334192,8 +334178,8 @@
       "email": "info@maasdriel.nl",
       "website": "http://www.maasdriel.nl",
       "phone": "14 0418",
-      "totalBusQuays": 67,
-      "inaccessibleCount": 56,
+      "totalBusQuays": 68,
+      "inaccessibleCount": 57,
       "stops": [
         {
           "code": "NL:Q:62320300",
@@ -334977,6 +334963,20 @@
           "visuallyAccessible": false,
           "compassDirection": 255,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:62230010",
+          "name": "Weigraaf",
+          "town": "Well",
+          "street": "Maaijenstraat",
+          "lat": 51.746595,
+          "lon": 5.19712,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 240,
+          "mutationDate": "2014-08-22",
           "concessionProvider": "GLD"
         }
       ]
@@ -347843,12 +347843,12 @@
           "name": "Eeckenrode",
           "town": "Aalst",
           "street": "Mecklenburglaan",
-          "lat": 51.390135,
-          "lon": 5.479077,
+          "lat": 51.389822,
+          "lon": 5.476777,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 108,
+          "compassDirection": 320,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PNB"
         },

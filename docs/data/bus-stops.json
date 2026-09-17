@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-16T06:24:25.432Z",
+  "generated": "2026-09-17T06:25:04.509Z",
   "totals": {
     "totalBusQuays": 42121,
     "inaccessibleBusQuays": 27986,
@@ -20692,20 +20692,6 @@
           "concessionProvider": "OVS"
         },
         {
-          "code": "NL:Q:46511010",
-          "name": "De Noorde",
-          "town": "Zwartsluis",
-          "street": "Oppen Swolle",
-          "lat": 52.635431,
-          "lon": 6.044227,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 297,
-          "mutationDate": "2006-01-01",
-          "concessionProvider": "OVS"
-        },
-        {
           "code": "NL:Q:46511020",
           "name": "De Noorde",
           "town": "Zwartsluis",
@@ -20716,6 +20702,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 117,
+          "mutationDate": "2006-01-01",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:46511010",
+          "name": "De Noorde",
+          "town": "Zwartsluis",
+          "street": "Oppen Swolle",
+          "lat": 52.635431,
+          "lon": 6.044227,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 297,
           "mutationDate": "2006-01-01",
           "concessionProvider": "OVS"
         },
@@ -21081,20 +21081,6 @@
           "concessionProvider": "OVS"
         },
         {
-          "code": "NL:Q:46541130",
-          "name": "Nylonstraat",
-          "town": "Genemuiden",
-          "street": "Sisalstraat",
-          "lat": 52.617635,
-          "lon": 6.063,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 152,
-          "mutationDate": null,
-          "concessionProvider": "OVS"
-        },
-        {
           "code": "NL:Q:46541140",
           "name": "Nylonstraat",
           "town": "Genemuiden",
@@ -21105,6 +21091,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 332,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:46541130",
+          "name": "Nylonstraat",
+          "town": "Genemuiden",
+          "street": "Sisalstraat",
+          "lat": 52.617635,
+          "lon": 6.063,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 152,
           "mutationDate": null,
           "concessionProvider": "OVS"
         },
@@ -175178,6 +175178,20 @@
           "concessionProvider": "PZH"
         },
         {
+          "code": "NL:Q:54451020",
+          "name": "Valkenburg Oost/N206",
+          "town": "Valkenburg",
+          "street": "IR.G.TJALMAWEG",
+          "lat": 52.173919,
+          "lon": 4.436222,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 309,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "PZH"
+        },
+        {
           "code": "NL:Q:54451010",
           "name": "Valkenburg Oost/N206",
           "town": "Valkenburg",
@@ -175188,20 +175202,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 128,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:54451020",
-          "name": "Valkenburg Oost/N206",
-          "town": "Valkenburg",
-          "street": "IR.G.TJALMAWEG",
-          "lat": 52.17377,
-          "lon": 4.437746,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 309,
           "mutationDate": "2019-03-14",
           "concessionProvider": "PZH"
         },
@@ -202457,20 +202457,6 @@
           "concessionProvider": "OVS"
         },
         {
-          "code": "NL:Q:45010130",
-          "name": "Station",
-          "town": "Glanerbrug",
-          "street": "Kerkstraat",
-          "lat": 52.218915,
-          "lon": 6.973562,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 357,
-          "mutationDate": null,
-          "concessionProvider": "OVS"
-        },
-        {
           "code": "NL:Q:45010120",
           "name": "Station",
           "town": "Glanerbrug",
@@ -202481,6 +202467,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 177,
+          "mutationDate": null,
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:45010130",
+          "name": "Station",
+          "town": "Glanerbrug",
+          "street": "Kerkstraat",
+          "lat": 52.218915,
+          "lon": 6.973562,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 357,
           "mutationDate": null,
           "concessionProvider": "OVS"
         },
@@ -263739,20 +263739,6 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:56333300",
-          "name": "Arnolduspark",
-          "town": "Hoofddorp",
-          "street": "Jan P. Sweelincksingel",
-          "lat": 52.306223,
-          "lon": 4.705139,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 301,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "VRA"
-        },
-        {
           "code": "NL:Q:56333290",
           "name": "Arnolduspark",
           "town": "Hoofddorp",
@@ -263763,6 +263749,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 121,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:56333300",
+          "name": "Arnolduspark",
+          "town": "Hoofddorp",
+          "street": "Jan P. Sweelincksingel",
+          "lat": 52.306223,
+          "lon": 4.705139,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 301,
           "mutationDate": "2020-02-19",
           "concessionProvider": "VRA"
         },
@@ -263837,20 +263837,6 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:56332850",
-          "name": "Breeburgsingel",
-          "town": "Hoofddorp",
-          "street": "NORON-Busbaan Toolenburg",
-          "lat": 52.307032,
-          "lon": 4.658381,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 174,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "VRA"
-        },
-        {
           "code": "NL:Q:56332840",
           "name": "Breeburgsingel",
           "town": "Hoofddorp",
@@ -263861,6 +263847,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 352,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:56332850",
+          "name": "Breeburgsingel",
+          "town": "Hoofddorp",
+          "street": "NORON-Busbaan Toolenburg",
+          "lat": 52.307032,
+          "lon": 4.658381,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 174,
           "mutationDate": "2019-03-14",
           "concessionProvider": "VRA"
         },
@@ -264047,20 +264047,6 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:56332980",
-          "name": "Oranjestraat",
-          "town": "Hoofddorp",
-          "street": "Burgemeester Pabstlaan",
-          "lat": 52.311327,
-          "lon": 4.686452,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 261,
-          "mutationDate": "2018-04-23",
-          "concessionProvider": "VRA"
-        },
-        {
           "code": "NL:Q:56332970",
           "name": "Oranjestraat",
           "town": "Hoofddorp",
@@ -264072,6 +264058,20 @@
           "visuallyAccessible": false,
           "compassDirection": 83,
           "mutationDate": "2006-01-01",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:56332980",
+          "name": "Oranjestraat",
+          "town": "Hoofddorp",
+          "street": "Burgemeester Pabstlaan",
+          "lat": 52.311327,
+          "lon": 4.686452,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 261,
+          "mutationDate": "2018-04-23",
           "concessionProvider": "VRA"
         },
         {
@@ -264453,20 +264453,6 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:56432220",
-          "name": "Akkerstraat",
-          "town": "Nieuw-Vennep",
-          "street": "Venneperweg",
-          "lat": 52.26175,
-          "lon": 4.639583,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 118,
-          "mutationDate": "2006-01-01",
-          "concessionProvider": "VRA"
-        },
-        {
           "code": "NL:Q:56432030",
           "name": "Akkerstraat",
           "town": "Nieuw-Vennep",
@@ -264477,6 +264463,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 299,
+          "mutationDate": "2006-01-01",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:56432220",
+          "name": "Akkerstraat",
+          "town": "Nieuw-Vennep",
+          "street": "Venneperweg",
+          "lat": 52.26175,
+          "lon": 4.639583,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 118,
           "mutationDate": "2006-01-01",
           "concessionProvider": "VRA"
         },
@@ -283004,20 +283004,6 @@
           "concessionProvider": "OVS"
         },
         {
-          "code": "NL:Q:46002010",
-          "name": "Isala ziekenhuis",
-          "town": "Zwolle",
-          "street": "Dokter van Heesweg",
-          "lat": 52.514246,
-          "lon": 6.125213,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 266,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVS"
-        },
-        {
           "code": "NL:Q:46006255",
           "name": "Isala ziekenhuis",
           "town": "Zwolle",
@@ -283029,6 +283015,20 @@
           "visuallyAccessible": false,
           "compassDirection": 267,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:46002010",
+          "name": "Isala ziekenhuis",
+          "town": "Zwolle",
+          "street": "Dokter van Heesweg",
+          "lat": 52.514246,
+          "lon": 6.125213,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 266,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "OVS"
         },
         {
@@ -295624,20 +295624,6 @@
           "concessionProvider": "FLV"
         },
         {
-          "code": "NL:Q:49790540",
-          "name": "Duinoord",
-          "town": "Zeewolde",
-          "street": "Zeewolderweg",
-          "lat": 52.346238,
-          "lon": 5.532634,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 221,
-          "mutationDate": null,
-          "concessionProvider": "FLV"
-        },
-        {
           "code": "NL:Q:49790550",
           "name": "Duinoord",
           "town": "Zeewolde",
@@ -295648,6 +295634,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 41,
+          "mutationDate": null,
+          "concessionProvider": "FLV"
+        },
+        {
+          "code": "NL:Q:49790540",
+          "name": "Duinoord",
+          "town": "Zeewolde",
+          "street": "Zeewolderweg",
+          "lat": 52.346238,
+          "lon": 5.532634,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 221,
           "mutationDate": null,
           "concessionProvider": "FLV"
         },
@@ -300047,6 +300047,20 @@
           "concessionProvider": "GLD"
         },
         {
+          "code": "NL:Q:91000015",
+          "name": "Onderstraat",
+          "town": "Bronkhorst",
+          "street": "Onderstraat",
+          "lat": 52.0754,
+          "lon": 6.183046,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 37,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
           "code": "NL:Q:41430210",
           "name": "Onderstraat",
           "town": "Bronkhorst",
@@ -300071,20 +300085,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 211,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:91000015",
-          "name": "Onderstraat",
-          "town": "Bronkhorst",
-          "street": "Onderstraat",
-          "lat": 52.0754,
-          "lon": 6.183046,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 37,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -300145,20 +300145,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:44940640",
-          "name": "Halle-Nijman",
-          "town": "Halle",
-          "street": "Halle-Nijmanweg",
-          "lat": 51.979385,
-          "lon": 6.409222,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 220,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:44940630",
           "name": "Halle-Nijman",
           "town": "Halle",
@@ -300169,6 +300155,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 40,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:44940640",
+          "name": "Halle-Nijman",
+          "town": "Halle",
+          "street": "Halle-Nijmanweg",
+          "lat": 51.979385,
+          "lon": 6.409222,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 220,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -300201,20 +300201,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41410520",
-          "name": "De Heurne",
-          "town": "Hengelo (Gld)",
-          "street": "De Heurne",
-          "lat": 52.056576,
-          "lon": 6.317596,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 266,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41410510",
           "name": "De Heurne",
           "town": "Hengelo (Gld)",
@@ -300225,6 +300211,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 86,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41410520",
+          "name": "De Heurne",
+          "town": "Hengelo (Gld)",
+          "street": "De Heurne",
+          "lat": 52.056576,
+          "lon": 6.317596,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 266,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -300257,20 +300257,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41410570",
-          "name": "Zuivelweg",
-          "town": "Hengelo (Gld)",
-          "street": "Hummeloseweg",
-          "lat": 52.047918,
-          "lon": 6.308588,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 195,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41410580",
           "name": "Zuivelweg",
           "town": "Hengelo (Gld)",
@@ -300281,6 +300267,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 15,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41410570",
+          "name": "Zuivelweg",
+          "town": "Hengelo (Gld)",
+          "street": "Hummeloseweg",
+          "lat": 52.047918,
+          "lon": 6.308588,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 195,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -300341,20 +300341,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41510230",
-          "name": "Ottenkampweg",
-          "town": "Keijenborg",
-          "street": "Sint Janstraat",
-          "lat": 52.026453,
-          "lon": 6.293879,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 351,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41510240",
           "name": "Ottenkampweg",
           "town": "Keijenborg",
@@ -300369,16 +300355,16 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41510220",
-          "name": "Sint Janstraat",
+          "code": "NL:Q:41510230",
+          "name": "Ottenkampweg",
           "town": "Keijenborg",
           "street": "Sint Janstraat",
-          "lat": 52.031429,
-          "lon": 6.294209,
+          "lat": 52.026453,
+          "lon": 6.293879,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 20,
+          "compassDirection": 351,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -300393,6 +300379,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 200,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41510220",
+          "name": "Sint Janstraat",
+          "town": "Keijenborg",
+          "street": "Sint Janstraat",
+          "lat": 52.031429,
+          "lon": 6.294209,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 20,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -300555,8 +300555,8 @@
           "name": "Rhabergseweg",
           "town": "Rha",
           "street": "Rhabergseweg",
-          "lat": 52.053938,
-          "lon": 6.146412,
+          "lat": 52.053973,
+          "lon": 6.146369,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -300999,20 +300999,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41910410",
-          "name": "Ambachtsweg",
-          "town": "Zelhem",
-          "street": "Ambachtsweg",
-          "lat": 51.998848,
-          "lon": 6.354039,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 346,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41910420",
           "name": "Ambachtsweg",
           "town": "Zelhem",
@@ -301023,6 +301009,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 166,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41910410",
+          "name": "Ambachtsweg",
+          "town": "Zelhem",
+          "street": "Ambachtsweg",
+          "lat": 51.998848,
+          "lon": 6.354039,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 346,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -301223,20 +301223,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41910470",
-          "name": "Zevenweg",
-          "town": "Zelhem",
-          "street": "Orchideestraat",
-          "lat": 52.006509,
-          "lon": 6.340032,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 145,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41910480",
           "name": "Zevenweg",
           "town": "Zelhem",
@@ -301247,6 +301233,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 325,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41910470",
+          "name": "Zevenweg",
+          "town": "Zelhem",
+          "street": "Orchideestraat",
+          "lat": 52.006509,
+          "lon": 6.340032,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 145,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -314277,20 +314277,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:40543041",
-          "name": "Doornbosch Hofstede",
-          "town": "Eerbeek",
-          "street": "Ringlaan",
-          "lat": 52.111002,
-          "lon": 6.064537,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 131,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:40543040",
           "name": "Doornbosch Hofstede",
           "town": "Eerbeek",
@@ -314301,6 +314287,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 311,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:40543041",
+          "name": "Doornbosch Hofstede",
+          "town": "Eerbeek",
+          "street": "Ringlaan",
+          "lat": 52.111002,
+          "lon": 6.064537,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 131,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -321762,20 +321762,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41723710",
-          "name": "De Vijverberg",
-          "town": "Doetinchem",
-          "street": "Lijsterbeslaan",
-          "lat": 51.954471,
-          "lon": 6.308502,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 83,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41723720",
           "name": "De Vijverberg",
           "town": "Doetinchem",
@@ -321786,6 +321772,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 263,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41723710",
+          "name": "De Vijverberg",
+          "town": "Doetinchem",
+          "street": "Lijsterbeslaan",
+          "lat": 51.954471,
+          "lon": 6.308502,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 83,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -321832,20 +321832,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41721940",
-          "name": "Gildenstraat",
-          "town": "Doetinchem",
-          "street": "Havenstraat",
-          "lat": 51.949452,
-          "lon": 6.291209,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 314,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41721930",
           "name": "Gildenstraat",
           "town": "Doetinchem",
@@ -321856,6 +321842,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 134,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41721940",
+          "name": "Gildenstraat",
+          "town": "Doetinchem",
+          "street": "Havenstraat",
+          "lat": 51.949452,
+          "lon": 6.291209,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 314,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -321958,20 +321958,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:41721910",
-          "name": "Kajuitstraat",
-          "town": "Doetinchem",
-          "street": "Havenstraat",
-          "lat": 51.947143,
-          "lon": 6.295336,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 68,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:41721920",
           "name": "Kajuitstraat",
           "town": "Doetinchem",
@@ -321982,6 +321968,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 248,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41721910",
+          "name": "Kajuitstraat",
+          "town": "Doetinchem",
+          "street": "Havenstraat",
+          "lat": 51.947143,
+          "lon": 6.295336,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 68,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },
@@ -327478,20 +327478,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:61410001",
-          "name": "Wattstraat",
-          "town": "Tiel",
-          "street": "Wattstraat",
-          "lat": 51.905645,
-          "lon": 5.431258,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 167,
-          "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:61418060",
           "name": "Wattstraat",
           "town": "Tiel",
@@ -327502,6 +327488,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 347,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:61410001",
+          "name": "Wattstraat",
+          "town": "Tiel",
+          "street": "Wattstraat",
+          "lat": 51.905645,
+          "lon": 5.431258,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 167,
           "mutationDate": null,
           "concessionProvider": "GLD"
         },

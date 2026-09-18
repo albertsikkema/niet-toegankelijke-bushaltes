@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-17T06:25:04.519Z",
+  "generated": "2026-09-18T06:24:06.388Z",
   "totals": {
-    "totalBusQuays": 42121,
-    "inaccessibleBusQuays": 27986,
+    "totalBusQuays": 42130,
+    "inaccessibleBusQuays": 27992,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20122,
+    "wheelchairInaccessible": 20127,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26342,
+    "visuallyInaccessible": 26348,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -170,12 +170,12 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1102,
-      "inaccessible": 483,
+      "total": 1103,
+      "inaccessible": 484,
       "pct": 44,
-      "wheelchair": 377,
-      "visual": 460,
-      "noShelter": 260
+      "wheelchair": 378,
+      "visual": 461,
+      "noShelter": 261
     },
     {
       "code": "G0114",
@@ -361,12 +361,12 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1102,
-      "inaccessible": 483,
+      "total": 1103,
+      "inaccessible": 484,
       "pct": 44,
-      "wheelchair": 377,
-      "visual": 460,
-      "noShelter": 260
+      "wheelchair": 378,
+      "visual": 461,
+      "noShelter": 261
     },
     {
       "code": "G0080",
@@ -451,11 +451,11 @@
       "code": "P0022",
       "name": "Provincie Drenthe",
       "type": "provincie",
-      "total": 313,
-      "inaccessible": 289,
+      "total": 314,
+      "inaccessible": 290,
       "pct": 92,
       "wheelchair": 240,
-      "visual": 289,
+      "visual": 290,
       "noShelter": 205
     },
     {
@@ -630,20 +630,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36903,
-      "inaccessible": 24072,
+      "total": 36911,
+      "inaccessible": 24077,
       "pct": 65,
-      "wheelchair": 17220,
-      "visual": 22629
+      "wheelchair": 17225,
+      "visual": 22634
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4249,
-      "inaccessible": 3063,
+      "total": 4250,
+      "inaccessible": 3064,
       "pct": 72,
       "wheelchair": 2127,
-      "visual": 2881
+      "visual": 2882
     },
     {
       "type": "waterschap",

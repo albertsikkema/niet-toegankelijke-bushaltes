@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-17T06:25:04.509Z",
+  "generated": "2026-09-18T06:24:06.376Z",
   "totals": {
-    "totalBusQuays": 42121,
-    "inaccessibleBusQuays": 27986,
+    "totalBusQuays": 42130,
+    "inaccessibleBusQuays": 27992,
     "authorities": 384
   },
   "authorities": {
@@ -68657,8 +68657,8 @@
       "email": "post@drenthe.nl",
       "website": "http://www.provincie.drenthe.nl",
       "phone": "(0592) 36 55 55",
-      "totalBusQuays": 313,
-      "inaccessibleCount": 289,
+      "totalBusQuays": 314,
+      "inaccessibleCount": 290,
       "stops": [
         {
           "code": "NL:Q:14335420",
@@ -69568,6 +69568,20 @@
           "visuallyAccessible": false,
           "compassDirection": 116,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:12243940",
+          "name": "N34",
+          "town": "Gasselte",
+          "street": "Gasselte",
+          "lat": 52.973742,
+          "lon": 6.775827,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 153,
+          "mutationDate": null,
           "concessionProvider": "OVGD"
         },
         {
@@ -142253,8 +142267,8 @@
       "email": "contact@hollandskroon.nl",
       "website": "http://www.hollandskroon.nl",
       "phone": "(088) 321 50 00",
-      "totalBusQuays": 124,
-      "inaccessibleCount": 88,
+      "totalBusQuays": 128,
+      "inaccessibleCount": 92,
       "stops": [
         {
           "code": "NL:Q:35540040",
@@ -142887,6 +142901,34 @@
           "concessionProvider": "PNH"
         },
         {
+          "code": "NL:Q:34760100",
+          "name": "Praamweg",
+          "town": "Middenmeer",
+          "street": "Zuiderzeeweg",
+          "lat": 52.823462,
+          "lon": 4.981401,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 146,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:34760090",
+          "name": "Praamweg",
+          "town": "Middenmeer",
+          "street": "Zuiderzeeweg",
+          "lat": 52.823508,
+          "lon": 4.981593,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 326,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "PNH"
+        },
+        {
           "code": "NL:Q:34760050",
           "name": "Winkelcentrum",
           "town": "Middenmeer",
@@ -143122,6 +143164,34 @@
           "visuallyAccessible": false,
           "compassDirection": 20,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:34760110",
+          "name": "Dolfijnweg",
+          "town": "Slootdorp",
+          "street": "Zuiderzeeweg",
+          "lat": 52.833272,
+          "lon": 4.975033,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 326,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:34760080",
+          "name": "Dolfijnweg",
+          "town": "Slootdorp",
+          "street": "Zuiderzeeweg",
+          "lat": 52.833191,
+          "lon": 4.974945,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 146,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "PNH"
         },
         {
@@ -151388,7 +151458,7 @@
       "email": "gemeente@rijssen-holten.nl",
       "website": "http://www.rijssen-holten.nl",
       "phone": "(0548) 85 48 54",
-      "totalBusQuays": 143,
+      "totalBusQuays": 144,
       "inaccessibleCount": 137,
       "stops": [
         {
@@ -236653,8 +236723,8 @@
       "email": "gemeente@amsterdam.nl",
       "website": "http://www.amsterdam.nl",
       "phone": "14 020",
-      "totalBusQuays": 1102,
-      "inaccessibleCount": 483,
+      "totalBusQuays": 1103,
+      "inaccessibleCount": 484,
       "stops": [
         {
           "code": "NL:Q:57142250",
@@ -237704,6 +237774,20 @@
           "visuallyAccessible": false,
           "compassDirection": 79,
           "mutationDate": "2020-05-24",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:30009080",
+          "name": "Ceintuurbaan",
+          "town": "Amsterdam",
+          "street": "Amsteldijk",
+          "lat": 52.355832,
+          "lon": 4.905332,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 338,
+          "mutationDate": "2018-10-24",
           "concessionProvider": "VRA"
         },
         {
@@ -323845,7 +323929,7 @@
           "street": "Tielseweg",
           "lat": 51.909938,
           "lon": 5.336016,
-          "shelter": false,
+          "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 71,
@@ -370347,7 +370431,7 @@
       "email": "info@zandvoort.nl",
       "website": "http://www.zandvoort.nl",
       "phone": "(023) 574 01 00",
-      "totalBusQuays": 36,
+      "totalBusQuays": 38,
       "inaccessibleCount": 14,
       "stops": [
         {

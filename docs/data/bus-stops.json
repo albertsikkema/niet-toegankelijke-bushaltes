@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-22T06:24:15.320Z",
+  "generated": "2026-09-23T06:24:54.395Z",
   "totals": {
-    "totalBusQuays": 42134,
-    "inaccessibleBusQuays": 27993,
+    "totalBusQuays": 42138,
+    "inaccessibleBusQuays": 27994,
     "authorities": 384
   },
   "authorities": {
@@ -7176,7 +7176,7 @@
       "email": "info@gemeentehw.nl",
       "website": "http://www.gemeentehw.nl/",
       "phone": "(088) 647 19 00",
-      "totalBusQuays": 167,
+      "totalBusQuays": 170,
       "inaccessibleCount": 128,
       "stops": [
         {
@@ -50546,8 +50546,8 @@
           "name": "Lindenlaan",
           "town": "Maliskamp",
           "street": "Esdoornlaan",
-          "lat": 51.706048,
-          "lon": 5.386134,
+          "lat": 51.706221,
+          "lon": 5.386894,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -54271,34 +54271,6 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:61380150",
-          "name": "Dreef",
-          "town": "Ophemert",
-          "street": "Molenstraat",
-          "lat": 51.845962,
-          "lon": 5.391411,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 252,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:61380080",
-          "name": "Dreef",
-          "town": "Ophemert",
-          "street": "Dreef",
-          "lat": 51.845998,
-          "lon": 5.391658,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 60,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "GLD"
-        },
-        {
           "code": "NL:Q:61380250",
           "name": "Dreef",
           "town": "Ophemert",
@@ -54341,22 +54313,22 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:61380230",
-          "name": "Kapelstraat",
+          "code": "NL:Q:61380060",
+          "name": "Griendesteeg",
           "town": "Ophemert",
-          "street": "Bommelsestraat",
-          "lat": 51.848326,
-          "lon": 5.380802,
+          "street": "Kapelstraat",
+          "lat": 51.84412,
+          "lon": 5.386666,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 231,
-          "mutationDate": null,
+          "compassDirection": 72,
+          "mutationDate": "2019-01-04",
           "concessionProvider": "GLD"
         },
         {
           "code": "NL:Q:61380170",
-          "name": "Kapelstraat",
+          "name": "Griendesteeg",
           "town": "Ophemert",
           "street": "Kapelstraat",
           "lat": 51.844165,
@@ -54369,17 +54341,17 @@
           "concessionProvider": "GLD"
         },
         {
-          "code": "NL:Q:61380060",
+          "code": "NL:Q:61380230",
           "name": "Kapelstraat",
           "town": "Ophemert",
-          "street": "Kapelstraat",
-          "lat": 51.84412,
-          "lon": 5.386666,
+          "street": "Bommelsestraat",
+          "lat": 51.848326,
+          "lon": 5.380802,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 72,
-          "mutationDate": "2019-01-04",
+          "compassDirection": 231,
+          "mutationDate": null,
           "concessionProvider": "GLD"
         },
         {
@@ -54422,6 +54394,34 @@
           "visuallyAccessible": false,
           "compassDirection": 71,
           "mutationDate": "2019-01-04",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:61380080",
+          "name": "Vivo",
+          "town": "Ophemert",
+          "street": "Dreef",
+          "lat": 51.845998,
+          "lon": 5.391658,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 60,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:61380150",
+          "name": "Vivo",
+          "town": "Ophemert",
+          "street": "Molenstraat",
+          "lat": 51.845962,
+          "lon": 5.391411,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 252,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
         {
@@ -206130,30 +206130,30 @@
           "concessionProvider": "MRDH"
         },
         {
-          "code": "NL:Q:32015617",
-          "name": "Eikelenburg",
-          "town": "Rijswijk",
-          "street": "Mgr Bekkerslaan",
-          "lat": 52.024151,
-          "lon": 4.309825,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 335,
-          "mutationDate": null,
-          "concessionProvider": "MRDH"
-        },
-        {
           "code": "NL:Q:32015618",
           "name": "Eikelenburg",
           "town": "Rijswijk",
           "street": "Mgr Bekkerslaan",
-          "lat": 52.024458,
-          "lon": 4.309992,
+          "lat": 52.024493,
+          "lon": 4.309962,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 130,
+          "compassDirection": 341,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:32015617",
+          "name": "Eikelenburg",
+          "town": "Rijswijk",
+          "street": "Mgr Bekkerslaan",
+          "lat": 52.024546,
+          "lon": 4.309786,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 150,
           "mutationDate": null,
           "concessionProvider": "MRDH"
         },
@@ -349179,8 +349179,8 @@
       "email": "info@overbetuwe.nl",
       "website": "http://www.overbetuwe.nl",
       "phone": "(0481) 36 23 00",
-      "totalBusQuays": 127,
-      "inaccessibleCount": 73,
+      "totalBusQuays": 128,
+      "inaccessibleCount": 74,
       "stops": [
         {
           "code": "NL:Q:61400160",
@@ -349837,6 +349837,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 84,
+          "mutationDate": "2018-11-22",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:40320320",
+          "name": "Schoutenkamp",
+          "town": "Heteren",
+          "street": "Onze Lieve Vrouwestraat",
+          "lat": 51.959931,
+          "lon": 5.749983,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 266,
           "mutationDate": "2018-11-22",
           "concessionProvider": "GLD"
         },

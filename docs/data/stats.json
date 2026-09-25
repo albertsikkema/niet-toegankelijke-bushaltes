@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-24T06:25:15.465Z",
+  "generated": "2026-09-25T06:24:47.051Z",
   "totals": {
-    "totalBusQuays": 42138,
-    "inaccessibleBusQuays": 27994,
+    "totalBusQuays": 42137,
+    "inaccessibleBusQuays": 27987,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20126,
+    "wheelchairInaccessible": 20124,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26349,
+    "visuallyInaccessible": 26342,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -384,10 +384,10 @@
       "name": "Gemeente Almere",
       "type": "gemeente",
       "total": 255,
-      "inaccessible": 156,
-      "pct": 61,
+      "inaccessible": 151,
+      "pct": 59,
       "wheelchair": 28,
-      "visual": 155,
+      "visual": 150,
       "noShelter": 28
     },
     {
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36920,
-      "inaccessible": 24080,
+      "total": 36918,
+      "inaccessible": 24073,
       "pct": 65,
-      "wheelchair": 17225,
-      "visual": 22636
+      "wheelchair": 17223,
+      "visual": 22629
     },
     {
       "type": "provincie",
@@ -657,9 +657,9 @@
     {
       "type": "rijkswaterstaat",
       "label": "Rijkswaterstaat",
-      "total": 165,
+      "total": 166,
       "inaccessible": 120,
-      "pct": 73,
+      "pct": 72,
       "wheelchair": 81,
       "visual": 115
     }

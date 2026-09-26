@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-25T06:24:47.051Z",
+  "generated": "2026-09-26T06:22:33.625Z",
   "totals": {
-    "totalBusQuays": 42137,
-    "inaccessibleBusQuays": 27987,
+    "totalBusQuays": 42141,
+    "inaccessibleBusQuays": 27990,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20124,
+    "wheelchairInaccessible": 20127,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26342,
+    "visuallyInaccessible": 26345,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -328,12 +328,12 @@
       "code": "G0344",
       "name": "Gemeente Utrecht",
       "type": "gemeente",
-      "total": 596,
-      "inaccessible": 210,
+      "total": 599,
+      "inaccessible": 212,
       "pct": 35,
-      "wheelchair": 153,
-      "visual": 176,
-      "noShelter": 100
+      "wheelchair": 155,
+      "visual": 178,
+      "noShelter": 102
     },
     {
       "code": "G0014",
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36918,
-      "inaccessible": 24073,
+      "total": 36922,
+      "inaccessible": 24076,
       "pct": 65,
-      "wheelchair": 17223,
-      "visual": 22629
+      "wheelchair": 17226,
+      "visual": 22632
     },
     {
       "type": "provincie",

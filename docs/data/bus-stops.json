@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-28T06:34:17.122Z",
+  "generated": "2026-09-29T06:25:41.531Z",
   "totals": {
-    "totalBusQuays": 42141,
-    "inaccessibleBusQuays": 27990,
+    "totalBusQuays": 42144,
+    "inaccessibleBusQuays": 27993,
     "authorities": 384
   },
   "authorities": {
@@ -50857,8 +50857,8 @@
       "email": "gemeente@hoorn.nl",
       "website": "http://www.hoorn.nl",
       "phone": "(0229) 25 22 00",
-      "totalBusQuays": 144,
-      "inaccessibleCount": 80,
+      "totalBusQuays": 146,
+      "inaccessibleCount": 82,
       "stops": [
         {
           "code": "NL:Q:38111030",
@@ -51558,6 +51558,34 @@
           "visuallyAccessible": true,
           "compassDirection": 160,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:38004140",
+          "name": "Torenwachter",
+          "town": "Hoorn NH",
+          "street": "Poortwachter",
+          "lat": 52.65615,
+          "lon": 5.053852,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 232,
+          "mutationDate": null,
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:38004150",
+          "name": "Torenwachter",
+          "town": "Hoorn NH",
+          "street": "Poortwachter",
+          "lat": 52.656007,
+          "lon": 5.05384,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 61,
+          "mutationDate": null,
           "concessionProvider": "PNH"
         },
         {
@@ -75933,8 +75961,8 @@
       "email": "gemeente@texel.nl",
       "website": "http://www.texel.nl",
       "phone": "14 0222",
-      "totalBusQuays": 124,
-      "inaccessibleCount": 93,
+      "totalBusQuays": 125,
+      "inaccessibleCount": 94,
       "stops": [
         {
           "code": "NL:Q:34530190",
@@ -75947,6 +75975,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 81,
+          "mutationDate": "2019-03-01",
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:34530080",
+          "name": "Molenbos",
+          "town": "De Cocksdorp",
+          "street": "Vuurtorenweg",
+          "lat": 53.152063,
+          "lon": 4.865187,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 160,
           "mutationDate": "2019-03-01",
           "concessionProvider": "PNH"
         },
@@ -187875,12 +187917,12 @@
           "name": "Jachthaven",
           "town": "De Wilgen",
           "street": "Biskopswei",
-          "lat": 53.100072,
-          "lon": 6.047003,
+          "lat": 53.099805,
+          "lon": 6.046477,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 237,
+          "compassDirection": 223,
           "mutationDate": "2020-02-19",
           "concessionProvider": "FR"
         },
@@ -188053,20 +188095,6 @@
           "concessionProvider": "FR"
         },
         {
-          "code": "NL:Q:21700900",
-          "name": "De Slinge",
-          "town": "Drachten",
-          "street": "Postlaan",
-          "lat": 53.098049,
-          "lon": 6.06332,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 130,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "FR"
-        },
-        {
           "code": "NL:Q:21700910",
           "name": "De Slinge",
           "town": "Drachten",
@@ -188078,6 +188106,20 @@
           "visuallyAccessible": false,
           "compassDirection": 300,
           "mutationDate": "2019-03-06",
+          "concessionProvider": "FR"
+        },
+        {
+          "code": "NL:Q:21700900",
+          "name": "De Slinge",
+          "town": "Drachten",
+          "street": "Postlaan",
+          "lat": 53.098384,
+          "lon": 6.062863,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 134,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "FR"
         },
         {

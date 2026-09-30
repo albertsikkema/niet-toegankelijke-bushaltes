@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-29T06:25:41.542Z",
+  "generated": "2026-09-30T06:25:32.671Z",
   "totals": {
-    "totalBusQuays": 42144,
-    "inaccessibleBusQuays": 27993,
+    "totalBusQuays": 42148,
+    "inaccessibleBusQuays": 27989,
     "inaccessiblePct": 66,
     "wheelchairInaccessible": 20130,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26348,
+    "visuallyInaccessible": 26344,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -311,18 +311,18 @@
       "pct": 34,
       "wheelchair": 33,
       "visual": 121,
-      "noShelter": 51
+      "noShelter": 50
     },
     {
       "code": "G0772",
       "name": "Gemeente Eindhoven",
       "type": "gemeente",
       "total": 411,
-      "inaccessible": 139,
+      "inaccessible": 138,
       "pct": 34,
-      "wheelchair": 38,
-      "visual": 134,
-      "noShelter": 54
+      "wheelchair": 37,
+      "visual": 133,
+      "noShelter": 53
     },
     {
       "code": "G0344",
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36925,
-      "inaccessible": 24079,
+      "total": 36929,
+      "inaccessible": 24075,
       "pct": 65,
       "wheelchair": 17229,
-      "visual": 22635
+      "visual": 22631
     },
     {
       "type": "provincie",

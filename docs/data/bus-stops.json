@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-30T06:25:32.658Z",
+  "generated": "2026-10-01T06:26:35.735Z",
   "totals": {
-    "totalBusQuays": 42148,
-    "inaccessibleBusQuays": 27989,
+    "totalBusQuays": 42146,
+    "inaccessibleBusQuays": 27988,
     "authorities": 384
   },
   "authorities": {
@@ -31248,8 +31248,8 @@
       "email": "info@medemblik.nl",
       "website": "http://www.medemblik.nl",
       "phone": "(0229) 85 60 00",
-      "totalBusQuays": 198,
-      "inaccessibleCount": 163,
+      "totalBusQuays": 196,
+      "inaccessibleCount": 162,
       "stops": [
         {
           "code": "NL:Q:38330800",
@@ -31487,20 +31487,6 @@
           "visuallyAccessible": false,
           "compassDirection": 73,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "PNH"
-        },
-        {
-          "code": "NL:Q:38610021",
-          "name": "Hoekweg",
-          "town": "Andijk",
-          "street": "Kleingouw",
-          "lat": 52.743079,
-          "lon": 5.208376,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 64,
-          "mutationDate": "2019-02-07",
           "concessionProvider": "PNH"
         },
         {
@@ -39515,12 +39501,12 @@
           "name": "Stadskantoor",
           "town": "Dordrecht",
           "street": "Spuiboulevard",
-          "lat": 51.812111,
-          "lon": 4.660769,
+          "lat": 51.812142,
+          "lon": 4.65895,
           "shelter": false,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
-          "compassDirection": 95,
+          "compassDirection": 89,
           "mutationDate": "2019-03-14",
           "concessionProvider": "PZH"
         },
@@ -99454,7 +99440,7 @@
         },
         {
           "code": "NL:Q:24160100",
-          "name": "Blau Hús",
+          "name": "Blau Hûs",
           "town": "Heerenveen",
           "street": "Marktweg",
           "lat": 52.940896,
@@ -187818,17 +187804,17 @@
           "concessionProvider": "FR"
         },
         {
-          "code": "NL:Q:21703960",
+          "code": "NL:Q:21703940",
           "name": "Omloop",
           "town": "Drachten",
-          "street": "De Lange West",
-          "lat": 53.1083,
-          "lon": 6.08255,
+          "street": "Noorderhogeweg",
+          "lat": 53.109039,
+          "lon": 6.080665,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 78,
-          "mutationDate": "2019-02-07",
+          "compassDirection": 170,
+          "mutationDate": "2017-04-03",
           "concessionProvider": "FR"
         },
         {
@@ -280600,22 +280586,8 @@
           "concessionProvider": "LMB"
         },
         {
-          "code": "NL:Q:68300140",
-          "name": "Magrietstraat",
-          "town": "Grathem",
-          "street": "Prinses Margrietstraat",
-          "lat": 51.19427,
-          "lon": 5.86003,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 74,
-          "mutationDate": "2017-12-01",
-          "concessionProvider": "LMB"
-        },
-        {
           "code": "NL:Q:68300150",
-          "name": "Magrietstraat",
+          "name": "Margrietstraat",
           "town": "Grathem",
           "street": "Prinses Margrietstraat",
           "lat": 51.19437,
@@ -280624,6 +280596,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 273,
+          "mutationDate": "2017-12-01",
+          "concessionProvider": "LMB"
+        },
+        {
+          "code": "NL:Q:68300140",
+          "name": "Margrietstraat",
+          "town": "Grathem",
+          "street": "Prinses Margrietstraat",
+          "lat": 51.19427,
+          "lon": 5.86003,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 74,
           "mutationDate": "2017-12-01",
           "concessionProvider": "LMB"
         },

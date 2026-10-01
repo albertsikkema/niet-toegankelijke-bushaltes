@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-30T06:25:32.671Z",
+  "generated": "2026-10-01T06:26:35.753Z",
   "totals": {
-    "totalBusQuays": 42148,
-    "inaccessibleBusQuays": 27989,
+    "totalBusQuays": 42146,
+    "inaccessibleBusQuays": 27988,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20130,
+    "wheelchairInaccessible": 20129,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26344,
+    "visuallyInaccessible": 26343,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36929,
-      "inaccessible": 24075,
+      "total": 36927,
+      "inaccessible": 24074,
       "pct": 65,
-      "wheelchair": 17229,
-      "visual": 22631
+      "wheelchair": 17228,
+      "visual": 22630
     },
     {
       "type": "provincie",

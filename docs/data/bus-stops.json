@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-02T06:24:50.457Z",
+  "generated": "2026-10-03T06:25:35.927Z",
   "totals": {
-    "totalBusQuays": 42146,
-    "inaccessibleBusQuays": 27988,
+    "totalBusQuays": 42148,
+    "inaccessibleBusQuays": 27994,
     "authorities": 384
   },
   "authorities": {
@@ -186571,7 +186571,7 @@
       "email": "gemeente@vught.nl",
       "website": "http://www.vught.nl",
       "phone": "(073) 658 06 80",
-      "totalBusQuays": 96,
+      "totalBusQuays": 97,
       "inaccessibleCount": 41,
       "stops": [
         {
@@ -188512,7 +188512,7 @@
       "website": "http://www.sudwestfryslan.nl",
       "phone": "(0515) 48 90 00",
       "totalBusQuays": 342,
-      "inaccessibleCount": 303,
+      "inaccessibleCount": 304,
       "stops": [
         {
           "code": "NL:Q:23780100",
@@ -191956,6 +191956,20 @@
           "visuallyAccessible": false,
           "compassDirection": 278,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "FR"
+        },
+        {
+          "code": "NL:Q:23591810",
+          "name": "Truffelsteeg",
+          "town": "Sneek",
+          "street": "Prins Hendrikkade",
+          "lat": 53.034007,
+          "lon": 5.662853,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 78,
+          "mutationDate": null,
           "concessionProvider": "FR"
         },
         {
@@ -240704,8 +240718,8 @@
       "email": "gemeente@amsterdam.nl",
       "website": "http://www.amsterdam.nl",
       "phone": "14 020",
-      "totalBusQuays": 1103,
-      "inaccessibleCount": 484,
+      "totalBusQuays": 1104,
+      "inaccessibleCount": 485,
       "stops": [
         {
           "code": "NL:Q:57142250",
@@ -242847,6 +242861,20 @@
           "visuallyAccessible": false,
           "compassDirection": 79,
           "mutationDate": "2020-05-24",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:30004423",
+          "name": "Hoekenes",
+          "town": "Amsterdam",
+          "street": "Pieter Calandlaan",
+          "lat": 52.35266,
+          "lon": 4.803502,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 67,
+          "mutationDate": "2019-03-01",
           "concessionProvider": "VRA"
         },
         {
@@ -263935,7 +263963,7 @@
       "website": "http://www.weststellingwerf.nl",
       "phone": "14 0561",
       "totalBusQuays": 108,
-      "inaccessibleCount": 76,
+      "inaccessibleCount": 80,
       "stops": [
         {
           "code": "NL:Q:25350030",
@@ -264624,20 +264652,6 @@
           "concessionProvider": "FR"
         },
         {
-          "code": "NL:Q:24490060",
-          "name": "Spanga",
-          "town": "Spanga",
-          "street": "Gracht",
-          "lat": 52.818897,
-          "lon": 5.885043,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 292,
-          "mutationDate": "2014-08-10",
-          "concessionProvider": "FR"
-        },
-        {
           "code": "NL:Q:24490050",
           "name": "Spanga",
           "town": "Spanga",
@@ -264649,6 +264663,20 @@
           "visuallyAccessible": false,
           "compassDirection": 110,
           "mutationDate": "2019-04-09",
+          "concessionProvider": "FR"
+        },
+        {
+          "code": "NL:Q:24490060",
+          "name": "Spanga",
+          "town": "Spanga",
+          "street": "Gracht",
+          "lat": 52.818897,
+          "lon": 5.885043,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 292,
+          "mutationDate": "2014-08-10",
           "concessionProvider": "FR"
         },
         {
@@ -264834,6 +264862,34 @@
           "concessionProvider": "FR"
         },
         {
+          "code": "NL:Q:24258010",
+          "name": "Carbonstraat",
+          "town": "Wolvega",
+          "street": "Carbonstraat",
+          "lat": 52.877105,
+          "lon": 5.97927,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 150,
+          "mutationDate": null,
+          "concessionProvider": "FR"
+        },
+        {
+          "code": "NL:Q:24258040",
+          "name": "FC Wolvega",
+          "town": "Wolvega",
+          "street": "Kruistraat",
+          "lat": 52.872549,
+          "lon": 5.986338,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 329,
+          "mutationDate": null,
+          "concessionProvider": "FR"
+        },
+        {
           "code": "NL:Q:24251710",
           "name": "Hoofdstraat Oost",
           "town": "Wolvega",
@@ -264845,6 +264901,20 @@
           "visuallyAccessible": false,
           "compassDirection": 132,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "FR"
+        },
+        {
+          "code": "NL:Q:24258020",
+          "name": "Ir. Lelylaan",
+          "town": "Wolvega",
+          "street": "Ir. Lelylaan",
+          "lat": 52.868573,
+          "lon": 5.999515,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 59,
+          "mutationDate": null,
           "concessionProvider": "FR"
         },
         {
@@ -264985,6 +265055,20 @@
           "visuallyAccessible": false,
           "compassDirection": 321,
           "mutationDate": "2019-05-14",
+          "concessionProvider": "FR"
+        },
+        {
+          "code": "NL:Q:24258030",
+          "name": "Van der Sandeplein",
+          "town": "Wolvega",
+          "street": "Van der Sandeplein",
+          "lat": 52.87464,
+          "lon": 5.997625,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 324,
+          "mutationDate": null,
           "concessionProvider": "FR"
         },
         {
@@ -265503,20 +265587,6 @@
           "concessionProvider": "FR"
         },
         {
-          "code": "NL:Q:29121410",
-          "name": "Noordermiede",
-          "town": "Midsland",
-          "street": "Noord Midslandweg",
-          "lat": 53.384505,
-          "lon": 5.287826,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 267,
-          "mutationDate": null,
-          "concessionProvider": "FR"
-        },
-        {
           "code": "NL:Q:29121420",
           "name": "Noordermiede",
           "town": "Midsland",
@@ -265542,6 +265612,20 @@
           "visuallyAccessible": false,
           "compassDirection": 87,
           "mutationDate": "2019-03-06",
+          "concessionProvider": "FR"
+        },
+        {
+          "code": "NL:Q:29121410",
+          "name": "Noordermiede",
+          "town": "Midsland",
+          "street": "Noord Midslandweg",
+          "lat": 53.384505,
+          "lon": 5.287826,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 267,
+          "mutationDate": null,
           "concessionProvider": "FR"
         },
         {

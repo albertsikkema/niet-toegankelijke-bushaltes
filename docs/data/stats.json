@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-02T06:24:50.471Z",
+  "generated": "2026-10-03T06:25:35.944Z",
   "totals": {
-    "totalBusQuays": 42146,
-    "inaccessibleBusQuays": 27988,
+    "totalBusQuays": 42148,
+    "inaccessibleBusQuays": 27994,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20129,
+    "wheelchairInaccessible": 20135,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26343,
+    "visuallyInaccessible": 26349,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -170,12 +170,12 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1103,
-      "inaccessible": 484,
+      "total": 1104,
+      "inaccessible": 485,
       "pct": 44,
-      "wheelchair": 378,
-      "visual": 461,
-      "noShelter": 261
+      "wheelchair": 379,
+      "visual": 462,
+      "noShelter": 262
     },
     {
       "code": "G0114",
@@ -193,11 +193,11 @@
       "name": "Gemeente Súdwest-Fryslân",
       "type": "gemeente",
       "total": 342,
-      "inaccessible": 303,
+      "inaccessible": 304,
       "pct": 89,
-      "wheelchair": 264,
-      "visual": 301,
-      "noShelter": 229
+      "wheelchair": 265,
+      "visual": 302,
+      "noShelter": 230
     }
   ],
   "bestGemeentes": [
@@ -361,12 +361,12 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1103,
-      "inaccessible": 484,
+      "total": 1104,
+      "inaccessible": 485,
       "pct": 44,
-      "wheelchair": 378,
-      "visual": 461,
-      "noShelter": 261
+      "wheelchair": 379,
+      "visual": 462,
+      "noShelter": 262
     },
     {
       "code": "G0080",
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36927,
-      "inaccessible": 24074,
+      "total": 36929,
+      "inaccessible": 24080,
       "pct": 65,
-      "wheelchair": 17228,
-      "visual": 22630
+      "wheelchair": 17234,
+      "visual": 22636
     },
     {
       "type": "provincie",

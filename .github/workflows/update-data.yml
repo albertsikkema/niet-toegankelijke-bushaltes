@@ -52,6 +52,11 @@ jobs:
 
       - uses: actions/configure-pages@v5
 
+      - name: Write runtime config
+        run: node pipeline/write-config.js
+        env:
+          CARTO_API_KEY: ${{ secrets.CARTO_API_KEY }}
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs

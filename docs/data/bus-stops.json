@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-03T06:25:35.927Z",
+  "generated": "2026-10-04T08:06:36.881Z",
   "totals": {
-    "totalBusQuays": 42148,
-    "inaccessibleBusQuays": 27994,
+    "totalBusQuays": 42156,
+    "inaccessibleBusQuays": 28003,
     "authorities": 384
   },
   "authorities": {
@@ -18032,20 +18032,6 @@
           "concessionProvider": "OVS"
         },
         {
-          "code": "NL:Q:16780060",
-          "name": "Den Hulst",
-          "town": "Nieuwleusen",
-          "street": "Den Hulst",
-          "lat": 52.59207,
-          "lon": 6.28253,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 273,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "OVS"
-        },
-        {
           "code": "NL:Q:16780050",
           "name": "Den Hulst",
           "town": "Nieuwleusen",
@@ -18056,6 +18042,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 93,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:16780060",
+          "name": "Den Hulst",
+          "town": "Nieuwleusen",
+          "street": "Den Hulst",
+          "lat": 52.592048,
+          "lon": 6.282659,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 273,
           "mutationDate": "2019-03-14",
           "concessionProvider": "OVS"
         },
@@ -139549,8 +139549,8 @@
       "email": "gemeente@delft.nl",
       "website": "http://www.delft.nl",
       "phone": "14 015",
-      "totalBusQuays": 158,
-      "inaccessibleCount": 114,
+      "totalBusQuays": 167,
+      "inaccessibleCount": 123,
       "stops": [
         {
           "code": "NL:Q:42008402",
@@ -139749,34 +139749,6 @@
           "concessionProvider": "MRDH"
         },
         {
-          "code": "NL:Q:42001802",
-          "name": "Brasserskade",
-          "town": "Delft",
-          "street": "Borneostraat",
-          "lat": 52.023322,
-          "lon": 4.352697,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 55,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:42001801",
-          "name": "Brasserskade",
-          "town": "Delft",
-          "street": "Brasserskade",
-          "lat": 52.023356,
-          "lon": 4.35255,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 235,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "MRDH"
-        },
-        {
           "code": "NL:Q:32019003",
           "name": "Brasserskade",
           "town": "Delft",
@@ -139802,6 +139774,34 @@
           "visuallyAccessible": false,
           "compassDirection": 330,
           "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:42001802",
+          "name": "Brasserskade",
+          "town": "Delft",
+          "street": "Borneostraat",
+          "lat": 52.023322,
+          "lon": 4.352697,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 55,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:42001801",
+          "name": "Brasserskade",
+          "town": "Delft",
+          "street": "Brasserskade",
+          "lat": 52.023356,
+          "lon": 4.35255,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 235,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "MRDH"
         },
         {
@@ -140015,6 +140015,20 @@
           "concessionProvider": "MRDH"
         },
         {
+          "code": "NL:Q:32039018",
+          "name": "Delft Station",
+          "town": "Delft",
+          "street": "Westvest",
+          "lat": 52.007364,
+          "lon": 4.357507,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 149,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
           "code": "NL:Q:42002501",
           "name": "Delftse Hout",
           "town": "Delft",
@@ -140071,20 +140085,6 @@
           "concessionProvider": "MRDH"
         },
         {
-          "code": "NL:Q:32019108",
-          "name": "Diepenbrockstraat",
-          "town": "Delft",
-          "street": "Buitenhofdreef",
-          "lat": 51.994855,
-          "lon": 4.344631,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 0,
-          "mutationDate": null,
-          "concessionProvider": "MRDH"
-        },
-        {
           "code": "NL:Q:32019107",
           "name": "Diepenbrockstraat",
           "town": "Delft",
@@ -140095,6 +140095,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 186,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:32019108",
+          "name": "Diepenbrockstraat",
+          "town": "Delft",
+          "street": "Buitenhofdreef",
+          "lat": 51.994855,
+          "lon": 4.344631,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 0,
           "mutationDate": null,
           "concessionProvider": "MRDH"
         },
@@ -140194,6 +140208,34 @@
           "visuallyAccessible": false,
           "compassDirection": 158,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:32019104",
+          "name": "Hovenpassage",
+          "town": "Delft",
+          "street": "Papsouwselaan",
+          "lat": 51.999293,
+          "lon": 4.354815,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 347,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:32019103",
+          "name": "Hovenpassage",
+          "town": "Delft",
+          "street": "Papsouwselaan",
+          "lat": 51.998885,
+          "lon": 4.354655,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 167,
+          "mutationDate": null,
           "concessionProvider": "MRDH"
         },
         {
@@ -140379,6 +140421,34 @@
           "concessionProvider": "MRDH"
         },
         {
+          "code": "NL:Q:32019101",
+          "name": "Krakeelpolderweg",
+          "town": "Delft",
+          "street": "Westlandseweg",
+          "lat": 52.002307,
+          "lon": 4.353866,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 242,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:32019102",
+          "name": "Krakeelpolderweg",
+          "town": "Delft",
+          "street": "Westlandseweg",
+          "lat": 52.0024,
+          "lon": 4.354141,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 62,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
           "code": "NL:Q:42003901",
           "name": "Krakeelpolderweg",
           "town": "Delft",
@@ -140530,6 +140600,34 @@
           "visuallyAccessible": false,
           "compassDirection": 322,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:32019136",
+          "name": "Martinus Nijhofflaan",
+          "town": "Delft",
+          "street": "Pierre van Hauwelaan",
+          "lat": 51.996402,
+          "lon": 4.349779,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 243,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:32019137",
+          "name": "Martinus Nijhofflaan",
+          "town": "Delft",
+          "street": "Martinus Nijhofflaan",
+          "lat": 51.996084,
+          "lon": 4.349393,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 72,
+          "mutationDate": null,
           "concessionProvider": "MRDH"
         },
         {
@@ -140992,6 +141090,34 @@
           "visuallyAccessible": false,
           "compassDirection": 167,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:32019109",
+          "name": "Van der Slootsingel",
+          "town": "Delft",
+          "street": "Buitenhofdreef",
+          "lat": 51.989691,
+          "lon": 4.344183,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 165,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:32019110",
+          "name": "Van der Slootsingel",
+          "town": "Delft",
+          "street": "Buitenhofdreef",
+          "lat": 51.990315,
+          "lon": 4.344606,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 0,
+          "mutationDate": null,
           "concessionProvider": "MRDH"
         },
         {
@@ -249504,7 +249630,7 @@
       "email": "gemeente@rotterdam.nl",
       "website": "http://www.rotterdam.nl",
       "phone": "14 010",
-      "totalBusQuays": 963,
+      "totalBusQuays": 962,
       "inaccessibleCount": 695,
       "stops": [
         {

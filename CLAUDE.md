@@ -24,8 +24,10 @@ Requires Node 18+ (uses built-in `fetch`). Fetches all quays from DOVA, filters 
 The `docs/` folder is a static site (deployed via GitHub Pages). Serve it with any static server:
 
 ```bash
-npx serve docs
+make run   # generates docs/js/config.js from CARTO_API_KEY in .env, then runs npx serve docs
 ```
+
+CARTO basemaps require an API key. `docs/js/config.js` is gitignored; in CI it is generated from the `CARTO_API_KEY` repository secret before deploying.
 
 The app loads `data/bus-stops.json` at startup. If missing, run the pipeline first.
 

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-04T08:06:36.896Z",
+  "generated": "2026-10-05T06:37:15.372Z",
   "totals": {
-    "totalBusQuays": 42156,
+    "totalBusQuays": 42163,
     "inaccessibleBusQuays": 28003,
     "inaccessiblePct": 66,
     "wheelchairInaccessible": 20145,
@@ -159,9 +159,9 @@
       "code": "G0518",
       "name": "Gemeente Den Haag",
       "type": "gemeente",
-      "total": 688,
+      "total": 695,
       "inaccessible": 542,
-      "pct": 79,
+      "pct": 78,
       "wheelchair": 190,
       "visual": 533,
       "noShelter": 240
@@ -416,9 +416,9 @@
       "code": "G0518",
       "name": "Gemeente Den Haag",
       "type": "gemeente",
-      "total": 688,
+      "total": 695,
       "inaccessible": 542,
-      "pct": 79,
+      "pct": 78,
       "wheelchair": 190,
       "visual": 533,
       "noShelter": 240
@@ -630,7 +630,7 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36937,
+      "total": 36944,
       "inaccessible": 24089,
       "pct": 65,
       "wheelchair": 17243,

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-06T06:25:20.607Z",
+  "generated": "2026-10-07T06:24:59.189Z",
   "totals": {
-    "totalBusQuays": 42169,
+    "totalBusQuays": 42168,
     "inaccessibleBusQuays": 28015,
     "authorities": 384
   },
@@ -153771,8 +153771,8 @@
       "email": "info@provinciegroningen.nl",
       "website": "http://www.provinciegroningen.nl",
       "phone": "(050) 316 49 11",
-      "totalBusQuays": 357,
-      "inaccessibleCount": 152,
+      "totalBusQuays": 356,
+      "inaccessibleCount": 151,
       "stops": [
         {
           "code": "NL:Q:10255310",
@@ -155515,8 +155515,8 @@
           "name": "Blauwe Roos",
           "town": "Winschoten",
           "street": "Oostereinde",
-          "lat": 53.156715,
-          "lon": 7.056577,
+          "lat": 53.15676,
+          "lon": 7.056623,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -155788,20 +155788,6 @@
           "visuallyAccessible": false,
           "compassDirection": 188,
           "mutationDate": "2019-07-10",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:10310550",
-          "name": "Qbuzz",
-          "town": "Zoutkamp",
-          "street": "Panserweg",
-          "lat": 53.343025,
-          "lon": 6.29967,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 262,
-          "mutationDate": null,
           "concessionProvider": "OVGD"
         },
         {
@@ -240971,7 +240957,7 @@
       "website": "http://www.amsterdam.nl",
       "phone": "14 020",
       "totalBusQuays": 1104,
-      "inaccessibleCount": 485,
+      "inaccessibleCount": 486,
       "stops": [
         {
           "code": "NL:Q:57142250",
@@ -241811,6 +241797,20 @@
           "visuallyAccessible": false,
           "compassDirection": 304,
           "mutationDate": "2020-05-24",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:30003193",
+          "name": "Burg. Rendorpstraat",
+          "town": "Amsterdam",
+          "street": "Burgemeester Röellstraat",
+          "lat": 52.374204,
+          "lon": 4.827757,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 104,
+          "mutationDate": null,
           "concessionProvider": "VRA"
         },
         {
@@ -243155,20 +243155,6 @@
           "visuallyAccessible": false,
           "compassDirection": 148,
           "mutationDate": "2020-05-24",
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:57252690",
-          "name": "Holterbergweg",
-          "town": "Amsterdam",
-          "street": "Holterbergweg",
-          "lat": 52.307732,
-          "lon": 4.940267,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 145,
-          "mutationDate": null,
           "concessionProvider": "VRA"
         },
         {
@@ -245969,6 +245955,20 @@
           "visuallyAccessible": false,
           "compassDirection": 315,
           "mutationDate": "2020-05-24",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:30007297",
+          "name": "Station Zuid",
+          "town": "Amsterdam",
+          "street": "Strawinskylaan",
+          "lat": 52.340665,
+          "lon": 4.872216,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 83,
+          "mutationDate": null,
           "concessionProvider": "VRA"
         },
         {

@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-06T06:25:20.622Z",
+  "generated": "2026-10-07T06:24:59.204Z",
   "totals": {
-    "totalBusQuays": 42169,
+    "totalBusQuays": 42168,
     "inaccessibleBusQuays": 28015,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20156,
+    "wheelchairInaccessible": 20155,
     "wheelchairPct": 48,
     "visuallyInaccessible": 26370,
     "visualPct": 63
@@ -171,10 +171,10 @@
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
       "total": 1104,
-      "inaccessible": 485,
+      "inaccessible": 486,
       "pct": 44,
       "wheelchair": 379,
-      "visual": 462,
+      "visual": 463,
       "noShelter": 262
     },
     {
@@ -362,10 +362,10 @@
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
       "total": 1104,
-      "inaccessible": 485,
+      "inaccessible": 486,
       "pct": 44,
       "wheelchair": 379,
-      "visual": 462,
+      "visual": 463,
       "noShelter": 262
     },
     {
@@ -561,12 +561,12 @@
       "code": "P0020",
       "name": "Provincie Groningen",
       "type": "provincie",
-      "total": 357,
-      "inaccessible": 152,
-      "pct": 43,
-      "wheelchair": 107,
-      "visual": 140,
-      "noShelter": 109
+      "total": 356,
+      "inaccessible": 151,
+      "pct": 42,
+      "wheelchair": 106,
+      "visual": 139,
+      "noShelter": 108
     }
   ],
   "waterschappen": [
@@ -631,19 +631,19 @@
       "type": "gemeente",
       "label": "Gemeente",
       "total": 36949,
-      "inaccessible": 24101,
+      "inaccessible": 24102,
       "pct": 65,
       "wheelchair": 17254,
-      "visual": 22657
+      "visual": 22658
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4250,
-      "inaccessible": 3063,
+      "total": 4249,
+      "inaccessible": 3062,
       "pct": 72,
-      "wheelchair": 2127,
-      "visual": 2881
+      "wheelchair": 2126,
+      "visual": 2880
     },
     {
       "type": "waterschap",

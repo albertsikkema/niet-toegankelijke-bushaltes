@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-07T06:24:59.204Z",
+  "generated": "2026-10-08T06:27:00.650Z",
   "totals": {
-    "totalBusQuays": 42168,
-    "inaccessibleBusQuays": 28015,
+    "totalBusQuays": 42169,
+    "inaccessibleBusQuays": 28023,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20155,
+    "wheelchairInaccessible": 20156,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26370,
+    "visuallyInaccessible": 26377,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -402,17 +402,6 @@
       "noShelter": 357
     },
     {
-      "code": "G0935",
-      "name": "Gemeente Maastricht",
-      "type": "gemeente",
-      "total": 334,
-      "inaccessible": 262,
-      "pct": 78,
-      "wheelchair": 203,
-      "visual": 238,
-      "noShelter": 166
-    },
-    {
       "code": "G0518",
       "name": "Gemeente Den Haag",
       "type": "gemeente",
@@ -422,6 +411,17 @@
       "wheelchair": 197,
       "visual": 540,
       "noShelter": 247
+    },
+    {
+      "code": "G0935",
+      "name": "Gemeente Maastricht",
+      "type": "gemeente",
+      "total": 334,
+      "inaccessible": 266,
+      "pct": 80,
+      "wheelchair": 205,
+      "visual": 242,
+      "noShelter": 169
     },
     {
       "code": "G0153",
@@ -562,11 +562,11 @@
       "name": "Provincie Groningen",
       "type": "provincie",
       "total": 356,
-      "inaccessible": 151,
-      "pct": 42,
-      "wheelchair": 106,
+      "inaccessible": 152,
+      "pct": 43,
+      "wheelchair": 107,
       "visual": 139,
-      "noShelter": 108
+      "noShelter": 109
     }
   ],
   "waterschappen": [
@@ -630,19 +630,19 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36949,
-      "inaccessible": 24102,
+      "total": 36950,
+      "inaccessible": 24109,
       "pct": 65,
       "wheelchair": 17254,
-      "visual": 22658
+      "visual": 22665
     },
     {
       "type": "provincie",
       "label": "Provincie",
       "total": 4249,
-      "inaccessible": 3062,
+      "inaccessible": 3063,
       "pct": 72,
-      "wheelchair": 2126,
+      "wheelchair": 2127,
       "visual": 2880
     },
     {

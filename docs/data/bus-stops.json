@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T06:23:53.942Z",
+  "generated": "2026-10-16T06:23:19.553Z",
   "totals": {
     "totalBusQuays": 42179,
     "inaccessibleBusQuays": 28033,
@@ -38577,12 +38577,12 @@
           "name": "Spuiweg",
           "town": "Dordrecht",
           "street": "Spuiweg",
-          "lat": 51.81049,
-          "lon": 4.66313,
+          "lat": 51.809453,
+          "lon": 4.662726,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 23,
+          "compassDirection": 12,
           "mutationDate": "2019-03-14",
           "concessionProvider": "PZH"
         },
@@ -224776,34 +224776,6 @@
           "concessionProvider": "PZH"
         },
         {
-          "code": "NL:Q:53510880",
-          "name": "Doorslag",
-          "town": "Gouda",
-          "street": "Dijkgraafslag",
-          "lat": 52.020839,
-          "lon": 4.723838,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 346,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:53510870",
-          "name": "Doorslag",
-          "town": "Gouda",
-          "street": "Dijkgraafslag",
-          "lat": 52.020577,
-          "lon": 4.723754,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 166,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PZH"
-        },
-        {
           "code": "NL:Q:53511640",
           "name": "Driehoeven",
           "town": "Gouda",
@@ -225291,6 +225263,34 @@
           "visuallyAccessible": false,
           "compassDirection": 357,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:53510880",
+          "name": "Ommeslag",
+          "town": "Gouda",
+          "street": "Dijkgraafslag",
+          "lat": 52.019229,
+          "lon": 4.723745,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 1,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:53510870",
+          "name": "Ommeslag",
+          "town": "Gouda",
+          "street": "Dijkgraafslag",
+          "lat": 52.019626,
+          "lon": 4.723943,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 210,
+          "mutationDate": "2019-02-07",
           "concessionProvider": "PZH"
         },
         {

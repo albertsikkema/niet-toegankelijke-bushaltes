@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-20T06:22:45.575Z",
+  "generated": "2026-10-21T06:23:32.789Z",
   "totals": {
-    "totalBusQuays": 42202,
+    "totalBusQuays": 42203,
     "inaccessibleBusQuays": 28052,
     "inaccessiblePct": 66,
     "wheelchairInaccessible": 20179,
@@ -238,7 +238,7 @@
       "code": "G0779",
       "name": "Gemeente Geertruidenberg",
       "type": "gemeente",
-      "total": 46,
+      "total": 47,
       "inaccessible": 5,
       "pct": 11,
       "wheelchair": 3,
@@ -630,7 +630,7 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36982,
+      "total": 36983,
       "inaccessible": 24137,
       "pct": 65,
       "wheelchair": 17277,

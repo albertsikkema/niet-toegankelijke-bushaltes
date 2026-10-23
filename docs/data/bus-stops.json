@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-22T06:23:12.918Z",
+  "generated": "2026-10-23T06:23:47.083Z",
   "totals": {
-    "totalBusQuays": 42203,
-    "inaccessibleBusQuays": 28052,
+    "totalBusQuays": 42205,
+    "inaccessibleBusQuays": 28048,
     "authorities": 384
   },
   "authorities": {
@@ -162468,7 +162468,7 @@
       "website": "http://www.pijnacker-nootdorp.nl",
       "phone": "14 015",
       "totalBusQuays": 88,
-      "inaccessibleCount": 71,
+      "inaccessibleCount": 69,
       "stops": [
         {
           "code": "NL:Q:42067101",
@@ -163031,30 +163031,30 @@
           "concessionProvider": "MRDH"
         },
         {
-          "code": "NL:Q:54200510",
-          "name": "Floralaan",
-          "town": "Pijnacker",
-          "street": "Floralaan",
-          "lat": 52.007903,
-          "lon": 4.442091,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 249,
-          "mutationDate": null,
-          "concessionProvider": "MRDH"
-        },
-        {
           "code": "NL:Q:54200520",
           "name": "Floralaan",
           "town": "Pijnacker",
           "street": "Floralaan",
           "lat": 52.007709,
           "lon": 4.442576,
-          "shelter": false,
+          "shelter": true,
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 161,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:54200510",
+          "name": "Floralaan",
+          "town": "Pijnacker",
+          "street": "Floralaan",
+          "lat": 52.007903,
+          "lon": 4.442091,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 249,
           "mutationDate": null,
           "concessionProvider": "MRDH"
         },
@@ -163350,34 +163350,6 @@
           "visuallyAccessible": false,
           "compassDirection": 66,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:54200530",
-          "name": "Van Buijsenlaan",
-          "town": "Pijnacker",
-          "street": "Van Buijsenlaan",
-          "lat": 52.006471,
-          "lon": 4.435145,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 251,
-          "mutationDate": null,
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:54200540",
-          "name": "Van Buijsenlaan",
-          "town": "Pijnacker",
-          "street": "Van Buijsenlaan",
-          "lat": 52.006382,
-          "lon": 4.43519,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 71,
-          "mutationDate": null,
           "concessionProvider": "MRDH"
         },
         {
@@ -191855,7 +191827,7 @@
       "website": "http://www.rijswijk.nl",
       "phone": "14 070",
       "totalBusQuays": 103,
-      "inaccessibleCount": 26,
+      "inaccessibleCount": 25,
       "stops": [
         {
           "code": "NL:Q:42015802",
@@ -192204,20 +192176,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 0,
-          "mutationDate": null,
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:54160190",
-          "name": "Wilhelminapark",
-          "town": "Rijswijk",
-          "street": "Prinses Beatrixlaan",
-          "lat": 52.022679,
-          "lon": 4.327956,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 323,
           "mutationDate": null,
           "concessionProvider": "MRDH"
         }
@@ -224307,7 +224265,7 @@
       "email": "gemeente@amsterdam.nl",
       "website": "http://www.amsterdam.nl",
       "phone": "14 020",
-      "totalBusQuays": 1104,
+      "totalBusQuays": 1103,
       "inaccessibleCount": 486,
       "stops": [
         {
@@ -231122,7 +231080,7 @@
       "email": "info@westerkwartier.nl",
       "website": "http://www.westerkwartier.nl",
       "phone": "14 0594",
-      "totalBusQuays": 174,
+      "totalBusQuays": 177,
       "inaccessibleCount": 141,
       "stops": [
         {
@@ -243020,20 +242978,6 @@
           "concessionProvider": "MRDH"
         },
         {
-          "code": "NL:Q:31002280",
-          "name": "Stadhoudersplein",
-          "town": "Rotterdam",
-          "street": "Stadhoudersweg",
-          "lat": 51.931336,
-          "lon": 4.46118,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 242,
-          "mutationDate": "2019-03-01",
-          "concessionProvider": "MRDH"
-        },
-        {
           "code": "NL:Q:31002298",
           "name": "Stadhoudersplein",
           "town": "Rotterdam",
@@ -243045,6 +242989,20 @@
           "visuallyAccessible": false,
           "compassDirection": 75,
           "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:31002280",
+          "name": "Stadhoudersplein",
+          "town": "Rotterdam",
+          "street": "Stadhoudersweg",
+          "lat": 51.931336,
+          "lon": 4.46118,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 242,
+          "mutationDate": "2019-03-01",
           "concessionProvider": "MRDH"
         },
         {
@@ -243404,9 +243362,9 @@
           "street": "Korte Stadionweg",
           "lat": 51.903151,
           "lon": 4.512112,
-          "shelter": false,
+          "shelter": true,
           "wheelchairAccessible": false,
-          "visuallyAccessible": false,
+          "visuallyAccessible": true,
           "compassDirection": 170,
           "mutationDate": "2019-03-01",
           "concessionProvider": "MRDH"
@@ -263309,7 +263267,7 @@
       "email": "info@ridderkerk.nl",
       "website": "http://www.ridderkerk.nl",
       "phone": "(0180) 45 12 34",
-      "totalBusQuays": 128,
+      "totalBusQuays": 129,
       "inaccessibleCount": 93,
       "stops": [
         {
@@ -304311,20 +304269,6 @@
           "concessionProvider": "MRDH"
         },
         {
-          "code": "NL:Q:52470160",
-          "name": "Coolwijkseweg",
-          "town": "Heenvliet",
-          "street": "Coolwijkseweg",
-          "lat": 51.86908,
-          "lon": 4.242982,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 294,
-          "mutationDate": null,
-          "concessionProvider": "MRDH"
-        },
-        {
           "code": "NL:Q:52470170",
           "name": "Coolwijkseweg",
           "town": "Heenvliet",
@@ -304335,6 +304279,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 114,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:52470160",
+          "name": "Coolwijkseweg",
+          "town": "Heenvliet",
+          "street": "Coolwijkseweg",
+          "lat": 51.86908,
+          "lon": 4.242982,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 294,
           "mutationDate": null,
           "concessionProvider": "MRDH"
         },
@@ -304353,20 +304311,6 @@
           "concessionProvider": "MRDH"
         },
         {
-          "code": "NL:Q:52470180",
-          "name": "Heerenlaan",
-          "town": "Heenvliet",
-          "street": "Heerenlaan",
-          "lat": 51.867801,
-          "lon": 4.239907,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 173,
-          "mutationDate": null,
-          "concessionProvider": "MRDH"
-        },
-        {
           "code": "NL:Q:52470190",
           "name": "Heerenlaan",
           "town": "Heenvliet",
@@ -304377,6 +304321,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 353,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:52470180",
+          "name": "Heerenlaan",
+          "town": "Heenvliet",
+          "street": "Heerenlaan",
+          "lat": 51.867801,
+          "lon": 4.239907,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 173,
           "mutationDate": null,
           "concessionProvider": "MRDH"
         },
@@ -308193,8 +308151,8 @@
       "email": "gemeente@wageningen.nl",
       "website": "http://www.wageningen.nl",
       "phone": "(0317) 49 29 11",
-      "totalBusQuays": 51,
-      "inaccessibleCount": 36,
+      "totalBusQuays": 50,
+      "inaccessibleCount": 35,
       "stops": [
         {
           "code": "NL:Q:40406025",
@@ -308355,8 +308313,8 @@
           "name": "Geertjesweg",
           "town": "Wageningen",
           "street": "Churchillweg",
-          "lat": 51.97378,
-          "lon": 5.672408,
+          "lat": 51.973815,
+          "lon": 5.672401,
           "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -308369,12 +308327,12 @@
           "name": "Geertjesweg",
           "town": "Wageningen",
           "street": "Churchillweg",
-          "lat": 51.973421,
-          "lon": 5.672503,
+          "lat": 51.97398,
+          "lon": 5.672523,
           "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 14,
+          "compassDirection": 355,
           "mutationDate": "2020-02-19",
           "concessionProvider": "GLD"
         },
@@ -308600,20 +308558,6 @@
           "visuallyAccessible": false,
           "compassDirection": 156,
           "mutationDate": null,
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:40406024",
-          "name": "Tarthorst",
-          "town": "Wageningen",
-          "street": "Nijenoord Allee",
-          "lat": 51.979427,
-          "lon": 5.655923,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 256,
-          "mutationDate": "2019-03-14",
           "concessionProvider": "GLD"
         },
         {

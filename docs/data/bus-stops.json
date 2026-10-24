@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-23T06:23:47.083Z",
+  "generated": "2026-10-24T06:21:18.812Z",
   "totals": {
-    "totalBusQuays": 42205,
+    "totalBusQuays": 42206,
     "inaccessibleBusQuays": 28048,
     "authorities": 384
   },
@@ -182649,7 +182649,7 @@
       "email": "post@dijkenwaard.nl",
       "website": "http://www.dijkenwaard.nl",
       "phone": "(072) 575 55 55",
-      "totalBusQuays": 113,
+      "totalBusQuays": 114,
       "inaccessibleCount": 73,
       "stops": [
         {

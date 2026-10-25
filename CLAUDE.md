@@ -43,7 +43,15 @@ Single-file Node.js script, no dependencies. Runs these steps:
 5. Resolve concession provider names from a static `knownProviders` map
 6. Convert coordinates from EPSG:3857 (Web Mercator) to WGS84 via `toWgs84()`
 7. Fetch administrative boundary geometries from PDOK and ArcGIS, save as individual GeoJSON files in `docs/data/boundaries/`
-8. Write enriched JSON to `docs/data/bus-stops.json`
+8. Generate `docs/data/stats.json` for the facts page and write enriched data to `docs/data/bus-stops.json`
+
+The daily data workflow runs `node pipeline/validate-data.js` after the fetch. This checks the generated totals, authority records, and that `stats.json` agrees with `bus-stops.json`. To run that check locally after fetching data:
+
+```bash
+node pipeline/validate-data.js
+```
+
+Run the automated test suite with `node --test`.
 
 ### Web App (`docs/`)
 
@@ -60,10 +68,10 @@ Vanilla JS, no build step. Five modules loaded as global singletons via `<script
 Script load order: `theme.js` → `email.js` → `map.js` → `sidebar.js` → `app.js` (each later module may reference earlier ones).
 
 Additional pages:
-- `feiten.html` — facts and statistics page with tables of worst/best-performing municipalities, data quality section
+- `feiten.html` — facts and statistics page with tables of worst/best-performing municipalities, data quality section; `js/feiten.js` loads `data/stats.json`
 - `eisen.html` — accessibility requirements page explaining CROW standards (perron height, width, guidance lines, etc.)
 
-External dependencies (loaded from CDN): Leaflet 1.9.4, Leaflet.markercluster 1.5.3, CARTO Voyager tiles.
+External dependencies (loaded from CDN): Leaflet 1.9.4, Leaflet.markercluster 1.5.3, CARTO Voyager tiles. `js/stats.js` provides privacy-friendly Umami analytics.
 
 ### Data Shape (`docs/data/bus-stops.json`)
 

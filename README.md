@@ -36,13 +36,27 @@ node pipeline/fetch-data.js
 
 ### Serve the web app locally
 
-The `docs/` folder is a static site (deployed via GitHub Pages). Serve it with any static server:
+The `docs/` folder is a static site (deployed via GitHub Pages). The map needs a CARTO API key to load its basemap. Copy `.env.example` to `.env`, add your key as `CARTO_API_KEY`, then run:
 
 ```bash
-npx serve docs
+make run
 ```
 
-The app loads `data/bus-stops.json` at startup. If the file is missing, run the pipeline first.
+The app loads `data/bus-stops.json` at startup. If the data files are missing, run the pipeline first.
+
+### Run tests and validate data
+
+Run the test suite with Node's built-in test runner:
+
+```bash
+node --test
+```
+
+After running the data pipeline, check that its bus stop and statistics files are consistent:
+
+```bash
+node pipeline/validate-data.js
+```
 
 ## Project Structure
 
@@ -52,8 +66,9 @@ The app loads `data/bus-stops.json` at startup. If the file is missing, run the 
 | `docs/` | Static web app (HTML/CSS/vanilla JS) with Leaflet map |
 | `docs/feiten.html` | Facts and statistics page |
 | `docs/eisen.html` | Accessibility requirements page (CROW standards) |
-| `docs/data/bus-stops.json` | Generated data file (not checked in) |
-| `docs/data/boundaries/` | GeoJSON boundary files per authority (not checked in) |
+| `docs/data/bus-stops.json` | Generated bus stop data, committed and refreshed by the daily data workflow |
+| `docs/data/stats.json` | Generated statistics used by the facts page |
+| `docs/data/boundaries/` | GeoJSON boundary files per authority, committed with the bus stop data |
 | `api_tools/` | Bruno API collection for exploring the DOVA Sherpa API |
 
 ## Support

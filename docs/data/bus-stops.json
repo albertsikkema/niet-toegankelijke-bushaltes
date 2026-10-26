@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-25T06:21:20.229Z",
+  "generated": "2026-10-26T06:31:17.877Z",
   "totals": {
-    "totalBusQuays": 42206,
-    "inaccessibleBusQuays": 28048,
+    "totalBusQuays": 42209,
+    "inaccessibleBusQuays": 28050,
     "authorities": 384
   },
   "authorities": {
@@ -130640,7 +130640,7 @@
       "email": "ibdienstpost@denhaag.nl",
       "website": "http://www.denhaag.nl",
       "phone": "14 070",
-      "totalBusQuays": 695,
+      "totalBusQuays": 696,
       "inaccessibleCount": 549,
       "stops": [
         {
@@ -309797,8 +309797,8 @@
       "email": "2005005@wshd.nl",
       "website": "https://www.wshd.nl",
       "phone": "(0900) 200 50 05",
-      "totalBusQuays": 126,
-      "inaccessibleCount": 112,
+      "totalBusQuays": 128,
+      "inaccessibleCount": 114,
       "stops": [
         {
           "code": "NL:Q:52580030",
@@ -311310,6 +311310,34 @@
           "visuallyAccessible": false,
           "compassDirection": 71,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:52560340",
+          "name": "Nieuwelaan",
+          "town": "Zuidland",
+          "street": "Stationsweg",
+          "lat": 51.833475,
+          "lon": 4.253274,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 164,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:52560330",
+          "name": "Nieuwelaan",
+          "town": "Zuidland",
+          "street": "Stationsweg",
+          "lat": 51.832736,
+          "lon": 4.254004,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 322,
+          "mutationDate": null,
           "concessionProvider": "MRDH"
         },
         {

@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-26T06:31:17.889Z",
+  "generated": "2026-10-27T06:24:04.634Z",
   "totals": {
-    "totalBusQuays": 42209,
-    "inaccessibleBusQuays": 28050,
+    "totalBusQuays": 42207,
+    "inaccessibleBusQuays": 28049,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20177,
+    "wheelchairInaccessible": 20176,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26402,
+    "visuallyInaccessible": 26400,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -160,11 +160,11 @@
       "name": "Gemeente Den Haag",
       "type": "gemeente",
       "total": 696,
-      "inaccessible": 549,
+      "inaccessible": 550,
       "pct": 79,
-      "wheelchair": 197,
-      "visual": 540,
-      "noShelter": 247
+      "wheelchair": 198,
+      "visual": 541,
+      "noShelter": 248
     },
     {
       "code": "G0363",
@@ -174,8 +174,8 @@
       "inaccessible": 486,
       "pct": 44,
       "wheelchair": 379,
-      "visual": 463,
-      "noShelter": 262
+      "visual": 462,
+      "noShelter": 261
     },
     {
       "code": "G0114",
@@ -365,8 +365,8 @@
       "inaccessible": 486,
       "pct": 44,
       "wheelchair": 379,
-      "visual": 463,
-      "noShelter": 262
+      "visual": 462,
+      "noShelter": 261
     },
     {
       "code": "G0080",
@@ -406,11 +406,11 @@
       "name": "Gemeente Den Haag",
       "type": "gemeente",
       "total": 696,
-      "inaccessible": 549,
+      "inaccessible": 550,
       "pct": 79,
-      "wheelchair": 197,
-      "visual": 540,
-      "noShelter": 247
+      "wheelchair": 198,
+      "visual": 541,
+      "noShelter": 248
     },
     {
       "code": "G0935",
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36987,
-      "inaccessible": 24133,
+      "total": 36985,
+      "inaccessible": 24132,
       "pct": 65,
-      "wheelchair": 17273,
-      "visual": 22687
+      "wheelchair": 17272,
+      "visual": 22685
     },
     {
       "type": "provincie",

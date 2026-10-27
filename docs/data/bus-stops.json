@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-26T06:31:17.877Z",
+  "generated": "2026-10-27T06:24:04.618Z",
   "totals": {
-    "totalBusQuays": 42209,
-    "inaccessibleBusQuays": 28050,
+    "totalBusQuays": 42207,
+    "inaccessibleBusQuays": 28049,
     "authorities": 384
   },
   "authorities": {
@@ -28741,6 +28741,20 @@
           "concessionProvider": "PNH"
         },
         {
+          "code": "NL:Q:59405030",
+          "name": "Hilversum Station",
+          "town": "Hilversum",
+          "street": "Stationsplein",
+          "lat": 52.226029,
+          "lon": 5.181234,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": true,
+          "compassDirection": 160,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "PNH"
+        },
+        {
           "code": "NL:Q:59401280",
           "name": "J.H. Meijerstraat",
           "town": "Hilversum",
@@ -29213,20 +29227,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": true,
           "compassDirection": 337,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "PNH"
-        },
-        {
-          "code": "NL:Q:59405030",
-          "name": "Station Hilversum",
-          "town": "Hilversum",
-          "street": "Stationsplein",
-          "lat": 52.226029,
-          "lon": 5.181234,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": true,
-          "compassDirection": 160,
           "mutationDate": "2020-02-19",
           "concessionProvider": "PNH"
         },
@@ -130641,7 +130641,7 @@
       "website": "http://www.denhaag.nl",
       "phone": "14 070",
       "totalBusQuays": 696,
-      "inaccessibleCount": 549,
+      "inaccessibleCount": 550,
       "stops": [
         {
           "code": "NL:Q:32011001",
@@ -133847,6 +133847,20 @@
           "visuallyAccessible": false,
           "compassDirection": 229,
           "mutationDate": "2019-04-01",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:32011514",
+          "name": "Kijkduinsestraat",
+          "town": "'s-Gravenhage",
+          "street": "Machiel Vrijenhoeklaan",
+          "lat": 52.065498,
+          "lon": 4.222815,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 57,
+          "mutationDate": null,
           "concessionProvider": "MRDH"
         },
         {
@@ -176673,20 +176687,6 @@
           "concessionProvider": "FR"
         },
         {
-          "code": "NL:Q:23894110",
-          "name": "Gysbert Japicxlaan",
-          "town": "Bolsward",
-          "street": "Twibaksdyk",
-          "lat": 53.066882,
-          "lon": 5.516743,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 229,
-          "mutationDate": null,
-          "concessionProvider": "FR"
-        },
-        {
           "code": "NL:Q:23894120",
           "name": "Gysbert Japicxlaan",
           "town": "Bolsward",
@@ -176697,6 +176697,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 58,
+          "mutationDate": null,
+          "concessionProvider": "FR"
+        },
+        {
+          "code": "NL:Q:23894110",
+          "name": "Gysbert Japicxlaan",
+          "town": "Bolsward",
+          "street": "Twibaksdyk",
+          "lat": 53.066882,
+          "lon": 5.516743,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 229,
           "mutationDate": null,
           "concessionProvider": "FR"
         },
@@ -228669,12 +228683,12 @@
           "name": "Sleutelbloemstraat",
           "town": "Amsterdam",
           "street": "Hagedoornweg",
-          "lat": 52.39005,
-          "lon": 4.912408,
+          "lat": 52.39048,
+          "lon": 4.912007,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 329,
+          "compassDirection": 336,
           "mutationDate": null,
           "concessionProvider": "VRA"
         },
@@ -228699,9 +228713,9 @@
           "street": "Hatostraat",
           "lat": 52.389758,
           "lon": 4.83849,
-          "shelter": false,
+          "shelter": true,
           "wheelchairAccessible": false,
-          "visuallyAccessible": false,
+          "visuallyAccessible": true,
           "compassDirection": 90,
           "mutationDate": null,
           "concessionProvider": "VRA"
@@ -255658,12 +255672,12 @@
           "name": "Ir. Lelylaan",
           "town": "Wolvega",
           "street": "Ir. Lelylaan",
-          "lat": 52.868573,
-          "lon": 5.999515,
+          "lat": 52.869853,
+          "lon": 6.003045,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 59,
+          "compassDirection": 238,
           "mutationDate": null,
           "concessionProvider": "FR"
         },
@@ -268576,6 +268590,34 @@
           "concessionProvider": "VRA"
         },
         {
+          "code": "NL:Q:57240610",
+          "name": "Amstelveen Busstation",
+          "town": "Amstelveen",
+          "street": "Meander",
+          "lat": 52.302037,
+          "lon": 4.85834,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 290,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:57240018",
+          "name": "Amstelveen Busstation",
+          "town": "Amstelveen",
+          "street": "Meander",
+          "lat": 52.301851,
+          "lon": 4.858753,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 110,
+          "mutationDate": "2019-03-14",
+          "concessionProvider": "VRA"
+        },
+        {
           "code": "NL:Q:57243030",
           "name": "Bankrashof",
           "town": "Amstelveen",
@@ -268713,34 +268755,6 @@
           "visuallyAccessible": true,
           "compassDirection": 200,
           "mutationDate": "2006-01-01",
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:57240610",
-          "name": "Busstation",
-          "town": "Amstelveen",
-          "street": "Meander",
-          "lat": 52.302037,
-          "lon": 4.85834,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 290,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "VRA"
-        },
-        {
-          "code": "NL:Q:57240018",
-          "name": "Busstation",
-          "town": "Amstelveen",
-          "street": "Meander",
-          "lat": 52.301851,
-          "lon": 4.858753,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 110,
-          "mutationDate": "2019-03-14",
           "concessionProvider": "VRA"
         },
         {
@@ -323133,8 +323147,8 @@
       "email": "gemeente@helmond.nl",
       "website": "http://www.helmond.nl",
       "phone": "14 0492",
-      "totalBusQuays": 152,
-      "inaccessibleCount": 94,
+      "totalBusQuays": 150,
+      "inaccessibleCount": 92,
       "stops": [
         {
           "code": "NL:Q:65180003",
@@ -323771,12 +323785,12 @@
           "name": "Piet Blomplein",
           "town": "Helmond",
           "street": "Watermolenwal",
-          "lat": 51.48102,
-          "lon": 5.653938,
+          "lat": 51.480847,
+          "lon": 5.654238,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 51,
+          "compassDirection": 90,
           "mutationDate": "2019-12-03",
           "concessionProvider": "PNB"
         },
@@ -324184,34 +324198,6 @@
           "visuallyAccessible": false,
           "compassDirection": 342,
           "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:65310060",
-          "name": "Veestraatbrug",
-          "town": "Helmond",
-          "street": "Kanaaldijk N.W.",
-          "lat": 51.478708,
-          "lon": 5.65136,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 180,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:65310050",
-          "name": "Veestraatbrug",
-          "town": "Helmond",
-          "street": "Kanaaldijk N.W.",
-          "lat": 51.479233,
-          "lon": 5.65149,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 0,
-          "mutationDate": null,
           "concessionProvider": "PNB"
         },
         {

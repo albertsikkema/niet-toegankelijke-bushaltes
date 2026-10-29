@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-28T06:17:42.032Z",
+  "generated": "2026-10-29T06:18:15.768Z",
   "totals": {
-    "totalBusQuays": 42207,
-    "inaccessibleBusQuays": 28049,
+    "totalBusQuays": 42211,
+    "inaccessibleBusQuays": 28052,
     "authorities": 384
   },
   "authorities": {
@@ -142644,20 +142644,6 @@
       "inaccessibleCount": 50,
       "stops": [
         {
-          "code": "NL:Q:31002726",
-          "name": "Admiraal Helfrichweg",
-          "town": "Capelle aan den IJssel",
-          "street": "Admiraal Helfrichweg",
-          "lat": 51.912034,
-          "lon": 4.559611,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 90,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "MRDH"
-        },
-        {
           "code": "NL:Q:31002724",
           "name": "Admiraal Helfrichweg",
           "town": "Capelle aan den IJssel",
@@ -142669,6 +142655,20 @@
           "visuallyAccessible": false,
           "compassDirection": 270,
           "mutationDate": "2019-03-14",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:31002726",
+          "name": "Admiraal Helfrichweg",
+          "town": "Capelle aan den IJssel",
+          "street": "Admiraal Helfrichweg",
+          "lat": 51.912034,
+          "lon": 4.559611,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2020-02-19",
           "concessionProvider": "MRDH"
         },
         {
@@ -174240,7 +174240,7 @@
       "website": "http://www.vught.nl",
       "phone": "(073) 658 06 80",
       "totalBusQuays": 97,
-      "inaccessibleCount": 41,
+      "inaccessibleCount": 43,
       "stops": [
         {
           "code": "NL:Q:62120700",
@@ -174282,6 +174282,20 @@
           "visuallyAccessible": false,
           "compassDirection": 288,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:62310001",
+          "name": "De Guldenberg",
+          "town": "Helvoirt",
+          "street": "Guldenberg",
+          "lat": 51.644971,
+          "lon": 5.207632,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 326,
+          "mutationDate": null,
           "concessionProvider": "PNB"
         },
         {
@@ -174579,6 +174593,20 @@
           "concessionProvider": "PNB"
         },
         {
+          "code": "NL:Q:62210002",
+          "name": "De Kikvorsch",
+          "town": "Vught",
+          "street": "Bergenshuizensestraat",
+          "lat": 51.633462,
+          "lon": 5.278809,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 83,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
+        {
           "code": "NL:Q:62111800",
           "name": "Elisabethstraat",
           "town": "Vught",
@@ -174824,8 +174852,8 @@
       "email": "gemeente@smallingerland.nl",
       "website": "http://www.smallingerland.nl",
       "phone": "(0512) 58 12 34",
-      "totalBusQuays": 122,
-      "inaccessibleCount": 96,
+      "totalBusQuays": 123,
+      "inaccessibleCount": 97,
       "stops": [
         {
           "code": "NL:Q:21640100",
@@ -175623,6 +175651,20 @@
           "visuallyAccessible": false,
           "compassDirection": 358,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "FR"
+        },
+        {
+          "code": "NL:Q:21707120",
+          "name": "Transferium Oost",
+          "town": "Drachten",
+          "street": "Ureterpvallaat",
+          "lat": 53.106356,
+          "lon": 6.126035,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 94,
+          "mutationDate": "2014-08-03",
           "concessionProvider": "FR"
         },
         {
@@ -254726,7 +254768,7 @@
       "email": "info@weststellingwerf.nl",
       "website": "http://www.weststellingwerf.nl",
       "phone": "14 0561",
-      "totalBusQuays": 108,
+      "totalBusQuays": 110,
       "inaccessibleCount": 80,
       "stops": [
         {
@@ -360401,7 +360443,7 @@
       "email": "gemeente@zevenaar.nl",
       "website": "http://www.zevenaar.nl",
       "phone": "(0316) 59 51 11",
-      "totalBusQuays": 70,
+      "totalBusQuays": 71,
       "inaccessibleCount": 55,
       "stops": [
         {

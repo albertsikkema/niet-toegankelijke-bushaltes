@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-29T06:18:15.786Z",
+  "generated": "2026-10-30T06:17:33.113Z",
   "totals": {
-    "totalBusQuays": 42211,
-    "inaccessibleBusQuays": 28052,
+    "totalBusQuays": 42208,
+    "inaccessibleBusQuays": 28042,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20179,
+    "wheelchairInaccessible": 20169,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26403,
+    "visuallyInaccessible": 26391,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -273,12 +273,12 @@
       "code": "G0268",
       "name": "Gemeente Nijmegen",
       "type": "gemeente",
-      "total": 402,
-      "inaccessible": 102,
+      "total": 401,
+      "inaccessible": 101,
       "pct": 25,
-      "wheelchair": 64,
-      "visual": 71,
-      "noShelter": 62
+      "wheelchair": 63,
+      "visual": 70,
+      "noShelter": 61
     },
     {
       "code": "G0855",
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36989,
-      "inaccessible": 24135,
+      "total": 36986,
+      "inaccessible": 24125,
       "pct": 65,
-      "wheelchair": 17275,
-      "visual": 22688
+      "wheelchair": 17265,
+      "visual": 22676
     },
     {
       "type": "provincie",

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-31T06:13:21.748Z",
+  "generated": "2026-11-01T06:14:21.983Z",
   "totals": {
-    "totalBusQuays": 42208,
-    "inaccessibleBusQuays": 28042,
+    "totalBusQuays": 42286,
+    "inaccessibleBusQuays": 28038,
     "authorities": 384
   },
   "authorities": {
@@ -90278,8 +90278,8 @@
       "email": "info@loonopzand.nl",
       "website": "http://www.loonopzand.nl",
       "phone": "(0416) 28 91 11",
-      "totalBusQuays": 33,
-      "inaccessibleCount": 16,
+      "totalBusQuays": 29,
+      "inaccessibleCount": 12,
       "stops": [
         {
           "code": "NL:Q:73280002",
@@ -90352,48 +90352,6 @@
           "concessionProvider": "PNB"
         },
         {
-          "code": "NL:Q:73300550",
-          "name": "Efteling Bosrijk",
-          "town": "Kaatsheuvel",
-          "street": "Eftelingsestraat",
-          "lat": 51.646561,
-          "lon": 5.039996,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 61,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:73300570",
-          "name": "Efteling Loonsche Land",
-          "town": "Kaatsheuvel",
-          "street": "Eftelingsestraat",
-          "lat": 51.646391,
-          "lon": 5.046513,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 101,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:73300530",
-          "name": "Efteling Wonder Hotel",
-          "town": "Kaatsheuvel",
-          "street": "Horst",
-          "lat": 51.652894,
-          "lon": 5.054138,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 32,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
           "code": "NL:Q:73300400",
           "name": "Jan de Rooijstraat",
           "town": "Kaatsheuvel",
@@ -90460,20 +90418,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 322,
-          "mutationDate": null,
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:73300590",
-          "name": "Villa Pardoes",
-          "town": "Kaatsheuvel",
-          "street": "Eftelingsestraat",
-          "lat": 51.646157,
-          "lon": 5.052511,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 87,
           "mutationDate": null,
           "concessionProvider": "PNB"
         },
@@ -130640,7 +130584,7 @@
       "email": "ibdienstpost@denhaag.nl",
       "website": "http://www.denhaag.nl",
       "phone": "14 070",
-      "totalBusQuays": 696,
+      "totalBusQuays": 698,
       "inaccessibleCount": 550,
       "stops": [
         {
@@ -141356,7 +141300,7 @@
       "website": "http://www.denhelder.nl",
       "phone": null,
       "totalBusQuays": 138,
-      "inaccessibleCount": 91,
+      "inaccessibleCount": 90,
       "stops": [
         {
           "code": "NL:Q:34170060",
@@ -141685,26 +141629,12 @@
           "name": "Luchthaven Den Helder",
           "town": "Den Helder",
           "street": "Luchthavenweg",
-          "lat": 52.918928,
-          "lon": 4.787885,
+          "lat": 52.917366,
+          "lon": 4.786077,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 250,
-          "mutationDate": null,
-          "concessionProvider": "PNH"
-        },
-        {
-          "code": "NL:Q:34170070",
-          "name": "Luchthaven Den Helder",
-          "town": "Den Helder",
-          "street": "Luchthavenweg",
-          "lat": 52.91886,
-          "lon": 4.787904,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 66,
+          "compassDirection": 185,
           "mutationDate": null,
           "concessionProvider": "PNH"
         },
@@ -229198,7 +229128,7 @@
         },
         {
           "code": "NL:Q:30007297",
-          "name": "Station Zuid",
+          "name": "Station Zuid WTC-zijde",
           "town": "Amsterdam",
           "street": "Strawinskylaan",
           "lat": 52.340665,
@@ -344994,8 +344924,8 @@
       "email": "gemeente@haaksbergen.nl",
       "website": "http://www.haaksbergen.nl",
       "phone": "(053) 573 45 67",
-      "totalBusQuays": 57,
-      "inaccessibleCount": 44,
+      "totalBusQuays": 137,
+      "inaccessibleCount": 45,
       "stops": [
         {
           "code": "NL:Q:43150150",
@@ -345611,6 +345541,20 @@
           "visuallyAccessible": false,
           "compassDirection": 37,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "OVS"
+        },
+        {
+          "code": "NL:Q:44310030",
+          "name": "'t Meuken",
+          "town": "Sint Isidorushoeve",
+          "street": "Beckummerweg",
+          "lat": 52.178471,
+          "lon": 6.70324,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 249,
+          "mutationDate": null,
           "concessionProvider": "OVS"
         }
       ]

@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-31T06:13:21.763Z",
+  "generated": "2026-11-01T06:14:21.999Z",
   "totals": {
-    "totalBusQuays": 42208,
-    "inaccessibleBusQuays": 28042,
+    "totalBusQuays": 42286,
+    "inaccessibleBusQuays": 28038,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20169,
+    "wheelchairInaccessible": 20165,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26391,
-    "visualPct": 63
+    "visuallyInaccessible": 26387,
+    "visualPct": 62
   },
   "worstGemeentes": [
     {
@@ -159,7 +159,7 @@
       "code": "G0518",
       "name": "Gemeente Den Haag",
       "type": "gemeente",
-      "total": 696,
+      "total": 698,
       "inaccessible": 550,
       "pct": 79,
       "wheelchair": 198,
@@ -405,7 +405,7 @@
       "code": "G0518",
       "name": "Gemeente Den Haag",
       "type": "gemeente",
-      "total": 696,
+      "total": 698,
       "inaccessible": 550,
       "pct": 79,
       "wheelchair": 198,
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 36986,
-      "inaccessible": 24125,
+      "total": 37064,
+      "inaccessible": 24121,
       "pct": 65,
-      "wheelchair": 17265,
-      "visual": 22676
+      "wheelchair": 17261,
+      "visual": 22672
     },
     {
       "type": "provincie",
@@ -666,10 +666,10 @@
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 261,
+    "gemeentesOver50": 260,
     "totalGemeentes": 344,
     "gemeentesOver50Pct": 76,
-    "visualPct": 63,
+    "visualPct": 62,
     "wheelchairPct": 48,
     "wsPct": 95,
     "bestCityName": "Gemeente Amersfoort",

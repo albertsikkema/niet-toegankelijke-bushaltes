@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-03T06:15:10.969Z",
+  "generated": "2026-11-04T06:15:00.539Z",
   "totals": {
-    "totalBusQuays": 42286,
-    "inaccessibleBusQuays": 28038,
+    "totalBusQuays": 42288,
+    "inaccessibleBusQuays": 28043,
     "authorities": 384
   },
   "authorities": {
@@ -130585,7 +130585,7 @@
       "website": "http://www.denhaag.nl",
       "phone": "14 070",
       "totalBusQuays": 698,
-      "inaccessibleCount": 550,
+      "inaccessibleCount": 552,
       "stops": [
         {
           "code": "NL:Q:32011001",
@@ -135320,6 +135320,20 @@
           "concessionProvider": "MRDH"
         },
         {
+          "code": "NL:Q:32011425",
+          "name": "Narcislaan",
+          "town": "'s-Gravenhage",
+          "street": "Kijkduinsestraat",
+          "lat": 52.064502,
+          "lon": 4.225175,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 152,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
           "code": "NL:Q:32000511",
           "name": "Nassauplein",
           "town": "'s-Gravenhage",
@@ -136605,6 +136619,20 @@
           "visuallyAccessible": false,
           "compassDirection": 119,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:32001943",
+          "name": "Statenkwartier",
+          "town": "'s-Gravenhage",
+          "street": "Statenlaan",
+          "lat": 52.095637,
+          "lon": 4.27207,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 328,
+          "mutationDate": null,
           "concessionProvider": "MRDH"
         },
         {
@@ -224126,7 +224154,7 @@
       "website": "http://www.amsterdam.nl",
       "phone": "14 020",
       "totalBusQuays": 1103,
-      "inaccessibleCount": 486,
+      "inaccessibleCount": 487,
       "stops": [
         {
           "code": "NL:Q:57142250",
@@ -229135,6 +229163,20 @@
           "lon": 4.872216,
           "shelter": true,
           "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 83,
+          "mutationDate": null,
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:30007298",
+          "name": "Station Zuid WTC-zijde",
+          "town": "Amsterdam",
+          "street": "Strawinskylaan",
+          "lat": 52.340635,
+          "lon": 4.871527,
+          "shelter": false,
+          "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 83,
           "mutationDate": null,
@@ -307112,12 +307154,12 @@
           "name": "Looiakkerstraat",
           "town": "Eindhoven",
           "street": "",
-          "lat": 51.426327,
-          "lon": 5.486066,
+          "lat": 51.426278,
+          "lon": 5.486242,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 197,
+          "compassDirection": 187,
           "mutationDate": "2019-03-14",
           "concessionProvider": "PNB"
         },
@@ -310823,30 +310865,30 @@
           "concessionProvider": "MRDH"
         },
         {
-          "code": "NL:Q:31006010",
-          "name": "Peterselieweg",
-          "town": "Ridderkerk",
-          "street": "Peterselieweg",
-          "lat": 51.865418,
-          "lon": 4.568497,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 135,
-          "mutationDate": null,
-          "concessionProvider": "MRDH"
-        },
-        {
           "code": "NL:Q:31006011",
           "name": "Peterselieweg",
           "town": "Ridderkerk",
           "street": "Peterselieweg",
-          "lat": 51.865588,
-          "lon": 4.568378,
+          "lat": 51.86506,
+          "lon": 4.568722,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 315,
+          "compassDirection": 45,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:31006010",
+          "name": "Peterselieweg",
+          "town": "Ridderkerk",
+          "street": "Peterselieweg",
+          "lat": 51.865013,
+          "lon": 4.568374,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 220,
           "mutationDate": null,
           "concessionProvider": "MRDH"
         },
@@ -323809,34 +323851,6 @@
           "concessionProvider": "PNB"
         },
         {
-          "code": "NL:Q:65310011",
-          "name": "Station",
-          "town": "Helmond",
-          "street": "Stationsplein",
-          "lat": 51.475986,
-          "lon": 5.662084,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 250,
-          "mutationDate": "2019-03-01",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:65310012",
-          "name": "Station",
-          "town": "Helmond",
-          "street": "Stationsplein",
-          "lat": 51.47595,
-          "lon": 5.662142,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 250,
-          "mutationDate": "2019-03-01",
-          "concessionProvider": "PNB"
-        },
-        {
           "code": "NL:Q:65310020",
           "name": "Station",
           "town": "Helmond",
@@ -323862,6 +323876,34 @@
           "visuallyAccessible": false,
           "compassDirection": 250,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:65310012",
+          "name": "Station",
+          "town": "Helmond",
+          "street": "Stationsplein",
+          "lat": 51.47595,
+          "lon": 5.662142,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 250,
+          "mutationDate": "2019-03-01",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:65310011",
+          "name": "Station",
+          "town": "Helmond",
+          "street": "Stationsplein",
+          "lat": 51.475986,
+          "lon": 5.662084,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 250,
+          "mutationDate": "2019-03-01",
           "concessionProvider": "PNB"
         },
         {
@@ -335373,7 +335415,7 @@
           "lat": 51.463008,
           "lon": 5.798942,
           "shelter": false,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 14,
           "mutationDate": "2019-02-07",
@@ -335387,7 +335429,7 @@
           "lat": 51.463116,
           "lon": 5.798756,
           "shelter": false,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 194,
           "mutationDate": "2020-02-19",
@@ -336210,8 +336252,8 @@
           "name": "Boonhof",
           "town": "Neerkant",
           "street": "Keulsebaan",
-          "lat": 51.361125,
-          "lon": 5.865706,
+          "lat": 51.361008,
+          "lon": 5.865738,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
@@ -346192,8 +346234,8 @@
       "email": "info@goeree-overflakkee.nl",
       "website": "http://www.goeree-overflakkee.nl",
       "phone": "14 0187",
-      "totalBusQuays": 68,
-      "inaccessibleCount": 55,
+      "totalBusQuays": 70,
+      "inaccessibleCount": 57,
       "stops": [
         {
           "code": "NL:Q:74180040",
@@ -346711,6 +346753,34 @@
           "visuallyAccessible": false,
           "compassDirection": 72,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:74270250",
+          "name": "Bilderdijkstraat",
+          "town": "Sommelsdijk",
+          "street": "Isaac da Costastraat",
+          "lat": 51.762738,
+          "lon": 4.146618,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 115,
+          "mutationDate": "2019-03-01",
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:74270260",
+          "name": "Bilderdijkstraat",
+          "town": "Sommelsdijk",
+          "street": "Isaac da Costastraat",
+          "lat": 51.762838,
+          "lon": 4.146688,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 275,
+          "mutationDate": "2019-03-01",
           "concessionProvider": "PZH"
         },
         {
@@ -371331,7 +371401,7 @@
           "lat": 51.426773,
           "lon": 5.531762,
           "shelter": true,
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 99,
           "mutationDate": "2019-02-07",

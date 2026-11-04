@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-03T06:15:10.985Z",
+  "generated": "2026-11-04T06:15:00.559Z",
   "totals": {
-    "totalBusQuays": 42286,
-    "inaccessibleBusQuays": 28038,
+    "totalBusQuays": 42288,
+    "inaccessibleBusQuays": 28043,
     "inaccessiblePct": 66,
     "wheelchairInaccessible": 20165,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26387,
+    "visuallyInaccessible": 26392,
     "visualPct": 62
   },
   "worstGemeentes": [
@@ -160,22 +160,22 @@
       "name": "Gemeente Den Haag",
       "type": "gemeente",
       "total": 698,
-      "inaccessible": 550,
+      "inaccessible": 552,
       "pct": 79,
-      "wheelchair": 198,
-      "visual": 541,
-      "noShelter": 248
+      "wheelchair": 200,
+      "visual": 543,
+      "noShelter": 250
     },
     {
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
       "total": 1103,
-      "inaccessible": 486,
+      "inaccessible": 487,
       "pct": 44,
-      "wheelchair": 379,
-      "visual": 462,
-      "noShelter": 261
+      "wheelchair": 380,
+      "visual": 463,
+      "noShelter": 262
     },
     {
       "code": "G0114",
@@ -362,11 +362,11 @@
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
       "total": 1103,
-      "inaccessible": 486,
+      "inaccessible": 487,
       "pct": 44,
-      "wheelchair": 379,
-      "visual": 462,
-      "noShelter": 261
+      "wheelchair": 380,
+      "visual": 463,
+      "noShelter": 262
     },
     {
       "code": "G0080",
@@ -406,11 +406,11 @@
       "name": "Gemeente Den Haag",
       "type": "gemeente",
       "total": 698,
-      "inaccessible": 550,
+      "inaccessible": 552,
       "pct": 79,
-      "wheelchair": 198,
-      "visual": 541,
-      "noShelter": 248
+      "wheelchair": 200,
+      "visual": 543,
+      "noShelter": 250
     },
     {
       "code": "G0935",
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 37064,
-      "inaccessible": 24121,
+      "total": 37066,
+      "inaccessible": 24126,
       "pct": 65,
       "wheelchair": 17261,
-      "visual": 22672
+      "visual": 22677
     },
     {
       "type": "provincie",

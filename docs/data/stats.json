@@ -1,13 +1,13 @@
 {
-  "generated": "2026-11-04T06:15:00.559Z",
+  "generated": "2026-11-05T06:15:06.809Z",
   "totals": {
-    "totalBusQuays": 42288,
-    "inaccessibleBusQuays": 28043,
+    "totalBusQuays": 42303,
+    "inaccessibleBusQuays": 28126,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20165,
+    "wheelchairInaccessible": 20249,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26392,
-    "visualPct": 62
+    "visuallyInaccessible": 26474,
+    "visualPct": 63
   },
   "worstGemeentes": [
     {
@@ -618,9 +618,9 @@
       "code": "W0655",
       "name": "Hollandse Delta",
       "type": "waterschap",
-      "total": 128,
+      "total": 130,
       "inaccessible": 114,
-      "pct": 89,
+      "pct": 88,
       "wheelchair": 104,
       "visual": 114,
       "noShelter": 94
@@ -630,11 +630,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 37066,
-      "inaccessible": 24126,
+      "total": 37079,
+      "inaccessible": 24209,
       "pct": 65,
-      "wheelchair": 17261,
-      "visual": 22677
+      "wheelchair": 17345,
+      "visual": 22759
     },
     {
       "type": "provincie",
@@ -648,7 +648,7 @@
     {
       "type": "waterschap",
       "label": "Waterschap",
-      "total": 675,
+      "total": 677,
       "inaccessible": 642,
       "pct": 95,
       "wheelchair": 626,
@@ -666,10 +666,10 @@
   ],
   "conclusions": {
     "hasZeroPct": false,
-    "gemeentesOver50": 260,
+    "gemeentesOver50": 261,
     "totalGemeentes": 344,
     "gemeentesOver50Pct": 76,
-    "visualPct": 62,
+    "visualPct": 63,
     "wheelchairPct": 48,
     "wsPct": 95,
     "bestCityName": "Gemeente Amersfoort",

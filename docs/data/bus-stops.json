@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-06T06:15:58.056Z",
+  "generated": "2026-11-07T06:13:32.800Z",
   "totals": {
-    "totalBusQuays": 42303,
-    "inaccessibleBusQuays": 28126,
+    "totalBusQuays": 42354,
+    "inaccessibleBusQuays": 28132,
     "authorities": 384
   },
   "authorities": {
@@ -5944,8 +5944,8 @@
       "email": "post@alkmaar.nl",
       "website": "http://www.alkmaar.nl",
       "phone": "14 072",
-      "totalBusQuays": 226,
-      "inaccessibleCount": 119,
+      "totalBusQuays": 233,
+      "inaccessibleCount": 122,
       "stops": [
         {
           "code": "NL:Q:35110530",
@@ -6732,6 +6732,20 @@
           "concessionProvider": "PNH"
         },
         {
+          "code": "NL:Q:35111620",
+          "name": "Pommerenstraat",
+          "town": "Alkmaar",
+          "street": "Pommerenstraat",
+          "lat": 52.6689,
+          "lon": 4.758876,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": true,
+          "compassDirection": 250,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PNH"
+        },
+        {
           "code": "NL:Q:35110215",
           "name": "Rietschoot",
           "town": "Alkmaar",
@@ -7488,6 +7502,20 @@
           "concessionProvider": "PNH"
         },
         {
+          "code": "NL:Q:35110060",
+          "name": "Burg.Kooimanstraat",
+          "town": "Koedijk",
+          "street": "Kanaaldijk",
+          "lat": 52.675661,
+          "lon": 4.749227,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": true,
+          "compassDirection": 10,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PNH"
+        },
+        {
           "code": "NL:Q:35111370",
           "name": "Meijersloot",
           "town": "Koedijk",
@@ -7513,6 +7541,20 @@
           "visuallyAccessible": false,
           "compassDirection": 280,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:35111660",
+          "name": "Zonneweid",
+          "town": "Koedijk",
+          "street": "Kanaaldijk",
+          "lat": 52.671126,
+          "lon": 4.753211,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": true,
+          "compassDirection": 0,
+          "mutationDate": "2019-02-07",
           "concessionProvider": "PNH"
         },
         {
@@ -199457,7 +199499,7 @@
       "email": "provincieloket@gelderland.nl",
       "website": "https://www.gelderland.nl",
       "phone": "(026) 359 99 99",
-      "totalBusQuays": 717,
+      "totalBusQuays": 721,
       "inaccessibleCount": 533,
       "stops": [
         {
@@ -262595,12 +262637,12 @@
           "name": "Bennebroekerweg",
           "town": "Rijsenhout",
           "street": "Bennebroekerweg",
-          "lat": 52.260187,
-          "lon": 4.709785,
-          "shelter": false,
+          "lat": 52.260407,
+          "lon": 4.71051,
+          "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
-          "compassDirection": 299,
+          "compassDirection": 220,
           "mutationDate": "2018-11-15",
           "concessionProvider": "VRA"
         },
@@ -269969,7 +270011,7 @@
       "email": "gemeente@apeldoorn.nl",
       "website": "http://www.apeldoorn.nl",
       "phone": "14 055",
-      "totalBusQuays": 327,
+      "totalBusQuays": 329,
       "inaccessibleCount": 219,
       "stops": [
         {
@@ -279728,7 +279770,7 @@
       "email": "postbus@zwolle.nl",
       "website": "http://www.zwolle.nl",
       "phone": "14 038",
-      "totalBusQuays": 316,
+      "totalBusQuays": 317,
       "inaccessibleCount": 143,
       "stops": [
         {
@@ -290598,7 +290640,7 @@
       "email": "info@raalte.nl",
       "website": "http://www.raalte.nl",
       "phone": "(0572) 34 77 99",
-      "totalBusQuays": 81,
+      "totalBusQuays": 86,
       "inaccessibleCount": 59,
       "stops": [
         {
@@ -297118,7 +297160,7 @@
       "email": "info@zeewolde.nl",
       "website": "http://www.zeewolde.nl",
       "phone": "(036) 522 95 22",
-      "totalBusQuays": 46,
+      "totalBusQuays": 48,
       "inaccessibleCount": 46,
       "stops": [
         {
@@ -310095,34 +310137,6 @@
           "concessionProvider": "PZH"
         },
         {
-          "code": "NL:Q:53590020",
-          "name": "Veerdienst",
-          "town": "Goudswaard",
-          "street": "Nieuwendijk",
-          "lat": 51.754761,
-          "lon": 4.31775,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 286,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:53590010",
-          "name": "Veerdienst",
-          "town": "Goudswaard",
-          "street": "Nieuwendijk",
-          "lat": 51.754627,
-          "lon": 4.317796,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 108,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PZH"
-        },
-        {
           "code": "NL:Q:52470140",
           "name": "Toldam",
           "town": "Heenvliet",
@@ -310539,6 +310553,34 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 294,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:53590020",
+          "name": "Veerdienst",
+          "town": "Nieuwendijk",
+          "street": "Nieuwendijk",
+          "lat": 51.754761,
+          "lon": 4.31775,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 286,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PZH"
+        },
+        {
+          "code": "NL:Q:53590010",
+          "name": "Veerdienst",
+          "town": "Nieuwendijk",
+          "street": "Nieuwendijk",
+          "lat": 51.754627,
+          "lon": 4.317796,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 108,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PZH"
         },
@@ -314338,7 +314380,7 @@
       "email": "gemeente@urk.nl",
       "website": "http://www.urk.nl/",
       "phone": "(0527) 68 98 68",
-      "totalBusQuays": 18,
+      "totalBusQuays": 21,
       "inaccessibleCount": 16,
       "stops": [
         {
@@ -317980,7 +318022,7 @@
       "email": "info@harderwijk.nl",
       "website": "http://www.harderwijk.nl",
       "phone": "(0341) 41 19 11",
-      "totalBusQuays": 83,
+      "totalBusQuays": 91,
       "inaccessibleCount": 24,
       "stops": [
         {
@@ -321242,20 +321284,6 @@
           "concessionProvider": "VRA"
         },
         {
-          "code": "NL:Q:38490640",
-          "name": "Volendam Centrum",
-          "town": "Volendam",
-          "street": "Julianaweg",
-          "lat": 52.494932,
-          "lon": 5.07037,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 30,
-          "mutationDate": "2019-02-15",
-          "concessionProvider": "VRA"
-        },
-        {
           "code": "NL:Q:38490110",
           "name": "Volendam Centrum",
           "town": "Volendam",
@@ -321267,6 +321295,20 @@
           "visuallyAccessible": false,
           "compassDirection": 38,
           "mutationDate": null,
+          "concessionProvider": "VRA"
+        },
+        {
+          "code": "NL:Q:38490640",
+          "name": "Volendam Centrum",
+          "town": "Volendam",
+          "street": "Julianaweg",
+          "lat": 52.49564,
+          "lon": 5.069761,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 315,
+          "mutationDate": "2019-02-15",
           "concessionProvider": "VRA"
         },
         {
@@ -324877,7 +324919,7 @@
       "email": "gemeente@epe.nl",
       "website": "http://www.epe.nl",
       "phone": "14 0578",
-      "totalBusQuays": 38,
+      "totalBusQuays": 40,
       "inaccessibleCount": 28,
       "stops": [
         {
@@ -326993,8 +327035,8 @@
       "email": "gemeente@nijkerk.eu",
       "website": "http://www.nijkerk.eu",
       "phone": "(033) 247 22 22",
-      "totalBusQuays": 52,
-      "inaccessibleCount": 38,
+      "totalBusQuays": 55,
+      "inaccessibleCount": 39,
       "stops": [
         {
           "code": "NL:Q:50531021",
@@ -327120,6 +327162,20 @@
           "visuallyAccessible": false,
           "compassDirection": 240,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:50630002",
+          "name": "Holkerveen",
+          "town": "Holkerveen",
+          "street": "Nieuwe Kerkstraat",
+          "lat": 52.198798,
+          "lon": 5.455233,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 61,
+          "mutationDate": "2014-09-04",
           "concessionProvider": "GLD"
         },
         {
@@ -329669,7 +329725,7 @@
       "email": "gemeente@ermelo.nl",
       "website": "http://www.ermelo.nl",
       "phone": "(0341) 56 73 21",
-      "totalBusQuays": 70,
+      "totalBusQuays": 76,
       "inaccessibleCount": 64,
       "stops": [
         {
@@ -331130,8 +331186,8 @@
       "email": "gemeente@nunspeet.nl",
       "website": "http://www.nunspeet.nl",
       "phone": "(0341) 25 99 11",
-      "totalBusQuays": 67,
-      "inaccessibleCount": 65,
+      "totalBusQuays": 75,
+      "inaccessibleCount": 67,
       "stops": [
         {
           "code": "NL:Q:40982011",
@@ -331680,6 +331736,20 @@
           "concessionProvider": "GLD"
         },
         {
+          "code": "NL:Q:47616026",
+          "name": "Gemeentehuis",
+          "town": "Nunspeet",
+          "street": "Laan",
+          "lat": 52.377682,
+          "lon": 5.786544,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 171,
+          "mutationDate": "2014-09-07",
+          "concessionProvider": "GLD"
+        },
+        {
           "code": "NL:Q:47616048",
           "name": "Gruppendelerweg",
           "town": "Nunspeet",
@@ -331844,6 +331914,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 36,
+          "mutationDate": "2014-09-07",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:47616028",
+          "name": "Verzorgingstehuis Bunterhoek",
+          "town": "Nunspeet",
+          "street": "Laan",
+          "lat": 52.381482,
+          "lon": 5.786886,
+          "shelter": false,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 213,
           "mutationDate": "2014-09-07",
           "concessionProvider": "GLD"
         },

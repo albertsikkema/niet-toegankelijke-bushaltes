@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-06T06:15:58.069Z",
+  "generated": "2026-11-07T06:13:32.815Z",
   "totals": {
-    "totalBusQuays": 42303,
-    "inaccessibleBusQuays": 28126,
+    "totalBusQuays": 42354,
+    "inaccessibleBusQuays": 28132,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20249,
+    "wheelchairInaccessible": 20252,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26474,
+    "visuallyInaccessible": 26477,
     "visualPct": 63
   },
   "worstGemeentes": [
@@ -75,17 +75,6 @@
       "wheelchair": 56,
       "visual": 57,
       "noShelter": 43
-    },
-    {
-      "code": "G0050",
-      "name": "Gemeente Zeewolde",
-      "type": "gemeente",
-      "total": 46,
-      "inaccessible": 46,
-      "pct": 100,
-      "wheelchair": 13,
-      "visual": 46,
-      "noShelter": 12
     },
     {
       "code": "G0285",
@@ -495,7 +484,7 @@
       "code": "P0025",
       "name": "Provincie Gelderland",
       "type": "provincie",
-      "total": 717,
+      "total": 721,
       "inaccessible": 533,
       "pct": 74,
       "wheelchair": 323,
@@ -630,16 +619,16 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 37079,
-      "inaccessible": 24209,
+      "total": 37126,
+      "inaccessible": 24215,
       "pct": 65,
-      "wheelchair": 17345,
-      "visual": 22759
+      "wheelchair": 17348,
+      "visual": 22762
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4249,
+      "total": 4253,
       "inaccessible": 3063,
       "pct": 72,
       "wheelchair": 2126,

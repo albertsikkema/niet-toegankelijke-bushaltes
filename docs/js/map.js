@@ -78,6 +78,15 @@ const MapView = (() => {
       spiderfyOnMaxZoom: true,
       showCoverageOnHover: false,
       disableClusteringAtZoom: 16,
+      iconCreateFunction: function (cluster) {
+        var count = cluster.getChildCount();
+        var size = count < 10 ? 'small' : count < 100 ? 'medium' : 'large';
+        return new L.DivIcon({
+          html: '<div><span>' + count + '</span></div>',
+          className: 'marker-cluster marker-cluster-' + size,
+          iconSize: new L.Point(40, 40),
+        });
+      },
     });
 
     // Add all markers
@@ -88,8 +97,12 @@ const MapView = (() => {
       for (const stop of authority.stops) {
         if (!stop.lat || !stop.lon) continue;
 
+        const accessStatus = [];
+        if (!stop.wheelchairAccessible) accessStatus.push('niet rolstoeltoegankelijk');
+        if (!stop.visuallyAccessible) accessStatus.push('niet visueel toegankelijk');
         const marker = L.marker([stop.lat, stop.lon], {
           icon: createStopIcon(stop.compassDirection),
+          title: stop.name + ', ' + stop.town + ' — ' + accessStatus.join(', '),
         });
 
         marker.bindPopup(() => createPopup(stop, authority, ownerCode), { maxWidth: 300, minWidth: 260 });

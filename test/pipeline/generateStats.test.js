@@ -12,6 +12,10 @@ function makeQuay(ownerCode, { wheelchair = true, visual = true, shelter = true 
   };
 }
 
+function makeAuthority(code, type, name, total, inaccessible) {
+  return { code, type, name, total, inaccessible };
+}
+
 function makeAuthorities(entries) {
   const result = {};
   for (const e of entries) {
@@ -49,10 +53,10 @@ describe('generateStats', () => {
   );
 
   const authorities = makeAuthorities([
-    { code: 'G0001', type: 'gemeente', name: 'Gemeente A', total: 4, inaccessible: 2 },
-    { code: 'G0002', type: 'gemeente', name: 'Gemeente B', total: 3, inaccessible: 1 },
-    { code: 'P0001', type: 'provincie', name: 'Provincie X', total: 2, inaccessible: 1 },
-    { code: 'W0001', type: 'waterschap', name: 'Waterschap Y', total: 1, inaccessible: 1 },
+    makeAuthority('G0001', 'gemeente', 'Gemeente A', 4, 2),
+    makeAuthority('G0002', 'gemeente', 'Gemeente B', 3, 1),
+    makeAuthority('P0001', 'provincie', 'Provincie X', 2, 1),
+    makeAuthority('W0001', 'waterschap', 'Waterschap Y', 1, 1),
   ]);
 
   it('computes totals correctly', () => {
@@ -64,55 +68,106 @@ describe('generateStats', () => {
   it('computes percentages', () => {
     const stats = generateStats(allBusQuays, inaccessible, authorities);
     assert.equal(stats.totals.inaccessiblePct, 50);
-    // 4 wheelchair-inaccessible out of 10
-    assert.equal(stats.totals.wheelchairInaccessible, 4);
+    assert.equal(stats.totals.wheelchairInaccessible, 4, '4 wheelchair-inaccessible out of 10');
     assert.equal(stats.totals.wheelchairPct, 40);
-    // 3 visually-inaccessible out of 10
-    assert.equal(stats.totals.visuallyInaccessible, 3);
+    assert.equal(stats.totals.visuallyInaccessible, 3, '3 visually-inaccessible out of 10');
     assert.equal(stats.totals.visualPct, 30);
   });
 
-  it('ranks worstGemeentes (100% inaccessible, >=10 stops)', () => {
-    // With our small fixture none have 100% and >=10, so empty
+  it('returns empty worstGemeentes when no gemeente qualifies', () => {
     const stats = generateStats(allBusQuays, inaccessible, authorities);
-    assert.ok(Array.isArray(stats.worstGemeentes));
+    assert.deepEqual(stats.worstGemeentes, [], 'no gemeente has 100% inaccessible AND >=10 stops');
   });
 
-  it('ranks bestGemeentes by lowest percentage', () => {
+  it('returns empty bestGemeentes when no gemeente has >=10 stops', () => {
     const stats = generateStats(allBusQuays, inaccessible, authorities);
-    assert.ok(Array.isArray(stats.bestGemeentes));
+    assert.deepEqual(stats.bestGemeentes, [], 'no gemeente has >=10 stops in this fixture');
   });
 
   it('includes authorityTypes aggregation', () => {
     const stats = generateStats(allBusQuays, inaccessible, authorities);
-    assert.ok(Array.isArray(stats.authorityTypes));
     const types = stats.authorityTypes.map(t => t.type);
-    assert.ok(types.includes('gemeente'));
-    assert.ok(types.includes('provincie'));
-    assert.ok(types.includes('waterschap'));
+    assert.deepEqual(types, ['gemeente', 'provincie', 'waterschap']);
   });
 
   it('aggregates authorityTypes totals correctly', () => {
     const stats = generateStats(allBusQuays, inaccessible, authorities);
     const gemType = stats.authorityTypes.find(t => t.type === 'gemeente');
-    assert.equal(gemType.total, 7); // 4 + 3
-    assert.equal(gemType.inaccessible, 3); // 2 + 1
+    assert.equal(gemType.total, 7, 'gemeente total: 4 + 3');
+    assert.equal(gemType.inaccessible, 3, 'gemeente inaccessible: 2 + 1');
+    assert.equal(gemType.pct, 43, 'gemeente pct: round(3/7*100)');
   });
 
-  it('provides conclusions object', () => {
+  it('computes conclusions with correct values', () => {
     const stats = generateStats(allBusQuays, inaccessible, authorities);
-    assert.ok(stats.conclusions);
-    assert.equal(typeof stats.conclusions.totalGemeentes, 'number');
-    assert.equal(stats.conclusions.totalGemeentes, 2);
-    assert.equal(typeof stats.conclusions.visualPct, 'number');
-    assert.equal(typeof stats.conclusions.wheelchairPct, 'number');
-    assert.equal(typeof stats.conclusions.shelterPct, 'number');
-    assert.equal(typeof stats.conclusions.top10Pct, 'number');
+    const c = stats.conclusions;
+    assert.equal(c.totalGemeentes, 2);
+    assert.equal(c.visualPct, 30, '3 visually inaccessible out of 10');
+    assert.equal(c.wheelchairPct, 40, '4 wheelchair inaccessible out of 10');
+    assert.equal(c.gemeentesOver50, 0, 'G0001 has 50% which is not >50');
+    assert.equal(c.shelterPct, 40, '2 of 5 inaccessible stops have no shelter');
+    assert.equal(c.top10Pct, 60, 'top 10 gemeentes have 3 of 5 total inaccessible');
   });
 
-  it('includes a generated timestamp', () => {
+  it('includes a valid generated timestamp', () => {
     const stats = generateStats(allBusQuays, inaccessible, authorities);
-    assert.ok(stats.generated);
-    assert.ok(!isNaN(Date.parse(stats.generated)));
+    assert.ok(stats.generated, 'generated should be truthy');
+    assert.ok(!isNaN(Date.parse(stats.generated)), 'generated should be valid ISO date');
+  });
+
+  it('ranks mostInaccessibleGemeentes by absolute count descending', () => {
+    const stats = generateStats(allBusQuays, inaccessible, authorities);
+    assert.equal(stats.mostInaccessibleGemeentes.length, 2);
+    assert.equal(stats.mostInaccessibleGemeentes[0].code, 'G0001', 'G0001 has 2 inaccessible');
+    assert.equal(stats.mostInaccessibleGemeentes[1].code, 'G0002', 'G0002 has 1 inaccessible');
+  });
+});
+
+describe('generateStats with large fixtures', () => {
+  // Build a fixture where worstGemeentes and bestGemeentes actually produce results
+  function makeQuays(ownerCode, total, inaccessibleCount) {
+    const quays = [];
+    for (let i = 0; i < total; i++) {
+      const isInaccessible = i < inaccessibleCount;
+      quays.push({
+        quayownercode: ownerCode,
+        quaydisabledaccessible: !isInaccessible,
+        quayvisuallyaccessible: true,
+        shelter: true,
+      });
+    }
+    return quays;
+  }
+
+  const allBusQuays = [
+    ...makeQuays('G0001', 15, 15), // 100% inaccessible, 15 stops
+    ...makeQuays('G0002', 12, 12), // 100% inaccessible, 12 stops
+    ...makeQuays('G0003', 20, 2),  // 10% inaccessible, 20 stops
+    ...makeQuays('G0004', 10, 1),  // 10% inaccessible, 10 stops
+  ];
+
+  const inaccessible = allBusQuays.filter(q => q.quaydisabledaccessible === false);
+
+  const authorities = makeAuthorities([
+    makeAuthority('G0001', 'gemeente', 'Gemeente Worst1', 15, 15),
+    makeAuthority('G0002', 'gemeente', 'Gemeente Worst2', 12, 12),
+    makeAuthority('G0003', 'gemeente', 'Gemeente Best1', 20, 2),
+    makeAuthority('G0004', 'gemeente', 'Gemeente Best2', 10, 1),
+  ]);
+
+  it('ranks worstGemeentes: 100% inaccessible with >=10 stops, sorted by count desc', () => {
+    const stats = generateStats(allBusQuays, inaccessible, authorities);
+    assert.equal(stats.worstGemeentes.length, 2);
+    assert.equal(stats.worstGemeentes[0].code, 'G0001', 'G0001 has 15 inaccessible');
+    assert.equal(stats.worstGemeentes[0].pct, 100);
+    assert.equal(stats.worstGemeentes[1].code, 'G0002', 'G0002 has 12 inaccessible');
+  });
+
+  it('ranks bestGemeentes by lowest percentage, >=10 stops', () => {
+    const stats = generateStats(allBusQuays, inaccessible, authorities);
+    assert.ok(stats.bestGemeentes.length >= 2, 'should have at least 2 best gemeentes');
+    assert.equal(stats.bestGemeentes[0].code, 'G0004', 'G0004 has 10% (1/10)');
+    assert.equal(stats.bestGemeentes[0].pct, 10);
+    assert.equal(stats.bestGemeentes[1].code, 'G0003', 'G0003 has 10% (2/20)');
   });
 });

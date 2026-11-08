@@ -12,8 +12,8 @@ describe('toWgs84', () => {
   it('converts Amsterdam CS coordinates to approximately 52.378, 4.9', () => {
     // Amsterdam Centraal in EPSG:3857: roughly x=545977, y=6867405
     const result = toWgs84(545977, 6867405);
-    assert.ok(result.lat > 52.3 && result.lat < 52.5, `lat ${result.lat} should be near 52.378`);
-    assert.ok(result.lon > 4.8 && result.lon < 5.0, `lon ${result.lon} should be near 4.9`);
+    assert.ok(result.lat > 52.37 && result.lat < 52.39, `lat ${result.lat} should be near 52.378`);
+    assert.ok(result.lon > 4.89 && result.lon < 4.91, `lon ${result.lon} should be near 4.9`);
   });
 
   it('rounds to 6 decimal places', () => {
@@ -27,5 +27,19 @@ describe('toWgs84', () => {
   it('returns negative longitude for western hemisphere', () => {
     const result = toWgs84(-8238310, 4970072); // roughly New York
     assert.ok(result.lon < 0, `lon ${result.lon} should be negative`);
+    assert.ok(result.lon > -74.1 && result.lon < -73.9, `lon ${result.lon} should be near -74`);
+  });
+
+  it('handles NaN input gracefully', () => {
+    const result = toWgs84(NaN, NaN);
+    assert.ok(isNaN(result.lat), 'lat should be NaN for NaN input');
+    assert.ok(isNaN(result.lon), 'lon should be NaN for NaN input');
+  });
+
+  it('handles extreme latitude near poles', () => {
+    // Near max valid EPSG:3857 y (~85.05° lat)
+    const result = toWgs84(0, 20037508);
+    assert.ok(result.lat > 85 && result.lat < 85.1, `lat ${result.lat} should be near 85.05`);
+    assert.equal(result.lon, 0, 'lon should be 0 for x=0');
   });
 });

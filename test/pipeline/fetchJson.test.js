@@ -52,4 +52,23 @@ describe('fetchJson', () => {
       /HTTP 500/
     );
   });
+
+  it('passes options (including POST body) to fetch', async () => {
+    let capturedOptions;
+    globalThis.fetch = async (url, options) => {
+      capturedOptions = options;
+      return { ok: true, json: async () => ({ result: 'ok' }) };
+    };
+
+    const body = JSON.stringify({ params: [] });
+    await fetchJson('https://example.com/api', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body,
+    });
+
+    assert.equal(capturedOptions.method, 'POST');
+    assert.equal(capturedOptions.body, body);
+    assert.equal(capturedOptions.headers['Content-Type'], 'application/json');
+  });
 });

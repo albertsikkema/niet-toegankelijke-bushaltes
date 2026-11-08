@@ -145,4 +145,26 @@ describe('validate-data', () => {
     const errors = validate(BUS_STOPS_PATH, STATS_PATH);
     assert.ok(errors.length >= 4, `Expected at least 4 errors, got ${errors.length}`);
   });
+
+  it('fails when bus-stops.json contains malformed JSON', () => {
+    writeFileSync(BUS_STOPS_PATH, '{not valid json!!!');
+    const errors = validate(BUS_STOPS_PATH, STATS_PATH);
+    assert.ok(errors.length > 0);
+    assert.ok(errors[0].includes('Failed to read bus-stops.json'));
+  });
+
+  it('fails when stats.json contains malformed JSON', () => {
+    const busStops = makeValidBusStops();
+    writeFileSync(BUS_STOPS_PATH, JSON.stringify(busStops));
+    writeFileSync(STATS_PATH, 'not json');
+    const errors = validate(BUS_STOPS_PATH, STATS_PATH);
+    assert.ok(errors.some(e => e.includes('Failed to read stats.json')));
+  });
+
+  it('fails when stats.json has no totals object', () => {
+    const busStops = makeValidBusStops();
+    writePair(busStops, { generated: busStops.generated });
+    const errors = validate(BUS_STOPS_PATH, STATS_PATH);
+    assert.ok(errors.some(e => e.includes('does not match')), 'missing totals should cause mismatch');
+  });
 });

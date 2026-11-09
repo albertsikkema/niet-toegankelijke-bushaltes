@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T06:13:59.119Z",
+  "generated": "2026-11-09T06:20:44.488Z",
   "totals": {
     "totalBusQuays": 42354,
     "inaccessibleBusQuays": 28132,
@@ -106887,8 +106887,8 @@
           "name": "Rijksweg",
           "town": "Geffen",
           "street": "Rijksweg",
-          "lat": 51.72736,
-          "lon": 5.466331,
+          "lat": 51.727512,
+          "lon": 5.466321,
           "shelter": false,
           "wheelchairAccessible": false,
           "visuallyAccessible": false,

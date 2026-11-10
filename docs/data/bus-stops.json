@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-09T06:20:44.488Z",
+  "generated": "2026-11-10T06:14:25.921Z",
   "totals": {
     "totalBusQuays": 42354,
-    "inaccessibleBusQuays": 28132,
+    "inaccessibleBusQuays": 28126,
     "authorities": 384
   },
   "authorities": {
@@ -167115,7 +167115,7 @@
       "website": "http://www.zuid-holland.nl",
       "phone": "(070) 441 66 11",
       "totalBusQuays": 388,
-      "inaccessibleCount": 299,
+      "inaccessibleCount": 293,
       "stops": [
         {
           "code": "NL:Q:52581800",
@@ -170058,34 +170058,6 @@
           "concessionProvider": "PZH"
         },
         {
-          "code": "NL:Q:54630100",
-          "name": "Rijnsaterwoude",
-          "town": "Rijnsaterwoude",
-          "street": "Provinciale Weg",
-          "lat": 52.186469,
-          "lon": 4.673601,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 198,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:54630090",
-          "name": "Rijnsaterwoude",
-          "town": "Rijnsaterwoude",
-          "street": "Provinciale Weg",
-          "lat": 52.187465,
-          "lon": 4.674828,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 25,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
           "code": "NL:Q:55540060",
           "name": "van Pallandtlaan",
           "town": "Sassenheim",
@@ -171150,48 +171122,6 @@
           "concessionProvider": "PZH"
         },
         {
-          "code": "NL:Q:54732010",
-          "name": "Jacobswoude",
-          "town": "Woubrugge",
-          "street": "Kruisweg",
-          "lat": 52.167884,
-          "lon": 4.66886,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 83,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:54632020",
-          "name": "Jacobswoude",
-          "town": "Woubrugge",
-          "street": "Herenweg",
-          "lat": 52.167285,
-          "lon": 4.667243,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 188,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:54632030",
-          "name": "Jacobswoude",
-          "town": "Woubrugge",
-          "street": "Herenweg",
-          "lat": 52.168709,
-          "lon": 4.668296,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 10,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
           "code": "NL:Q:54632262",
           "name": "Jacobswoude",
           "town": "Woubrugge",
@@ -171202,20 +171132,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 279,
-          "mutationDate": "2019-03-14",
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:54632260",
-          "name": "Jacobswoude",
-          "town": "Woubrugge",
-          "street": "Kruisweg",
-          "lat": 52.168122,
-          "lon": 4.666391,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 270,
           "mutationDate": "2019-03-14",
           "concessionProvider": "PZH"
         },
@@ -189289,7 +189205,7 @@
         },
         {
           "code": "NL:Q:66580540",
-          "name": "Keurmeestersdreef oost",
+          "name": "Keurmeestersdreef Oost",
           "town": "Maastricht",
           "street": "Keurmeestersdreef",
           "lat": 50.847434,
@@ -189303,7 +189219,7 @@
         },
         {
           "code": "NL:Q:66580550",
-          "name": "Keurmeestersdreef oost",
+          "name": "Keurmeestersdreef Oost",
           "town": "Maastricht",
           "street": "Dokter Bakstraat",
           "lat": 50.848373,
@@ -190157,7 +190073,7 @@
         },
         {
           "code": "NL:Q:66590530",
-          "name": "Ruttensingel zuid",
+          "name": "Ruttensingel Zuid",
           "town": "Maastricht",
           "street": "Ruttensingel",
           "lat": 50.84385,
@@ -190171,7 +190087,7 @@
         },
         {
           "code": "NL:Q:66590520",
-          "name": "Ruttensingel zuid",
+          "name": "Ruttensingel Zuid",
           "town": "Maastricht",
           "street": "Ruttensingel",
           "lat": 50.84404,
@@ -198508,8 +198424,8 @@
       "email": "Antwoord@zoetermeer.nl",
       "website": "http://www.zoetermeer.nl",
       "phone": "14 079",
-      "totalBusQuays": 120,
-      "inaccessibleCount": 70,
+      "totalBusQuays": 121,
+      "inaccessibleCount": 71,
       "stops": [
         {
           "code": "NL:Q:42058601",
@@ -199279,6 +199195,20 @@
           "visuallyAccessible": true,
           "compassDirection": 17,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "MRDH"
+        },
+        {
+          "code": "NL:Q:32008140",
+          "name": "Voorweg Laag",
+          "town": "Zoetermeer",
+          "street": "Amerikaweg",
+          "lat": 52.062872,
+          "lon": 4.47106,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 100,
+          "mutationDate": "2018-11-15",
           "concessionProvider": "MRDH"
         },
         {
@@ -342942,8 +342872,8 @@
       "email": "info@overbetuwe.nl",
       "website": "http://www.overbetuwe.nl",
       "phone": "(0481) 36 23 00",
-      "totalBusQuays": 128,
-      "inaccessibleCount": 74,
+      "totalBusQuays": 127,
+      "inaccessibleCount": 73,
       "stops": [
         {
           "code": "NL:Q:61400160",
@@ -343587,20 +343517,6 @@
           "visuallyAccessible": false,
           "compassDirection": 280,
           "mutationDate": "2019-02-07",
-          "concessionProvider": "GLD"
-        },
-        {
-          "code": "NL:Q:40320320",
-          "name": "Schoutenkamp",
-          "town": "Heteren",
-          "street": "Onze Lieve Vrouwestraat",
-          "lat": 51.959857,
-          "lon": 5.749623,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 87,
-          "mutationDate": "2018-11-22",
           "concessionProvider": "GLD"
         },
         {

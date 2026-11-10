@@ -1,13 +1,13 @@
 {
-  "generated": "2026-11-09T06:20:44.502Z",
+  "generated": "2026-11-10T06:14:25.935Z",
   "totals": {
     "totalBusQuays": 42354,
-    "inaccessibleBusQuays": 28132,
+    "inaccessibleBusQuays": 28126,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20252,
+    "wheelchairInaccessible": 20250,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26477,
-    "visualPct": 63
+    "visuallyInaccessible": 26471,
+    "visualPct": 62
   },
   "worstGemeentes": [
     {
@@ -463,10 +463,10 @@
       "name": "Provincie Zuid-Holland",
       "type": "provincie",
       "total": 388,
-      "inaccessible": 299,
-      "pct": 77,
-      "wheelchair": 151,
-      "visual": 294,
+      "inaccessible": 293,
+      "pct": 76,
+      "wheelchair": 149,
+      "visual": 288,
       "noShelter": 79
     },
     {
@@ -629,10 +629,10 @@
       "type": "provincie",
       "label": "Provincie",
       "total": 4253,
-      "inaccessible": 3063,
+      "inaccessible": 3057,
       "pct": 72,
-      "wheelchair": 2126,
-      "visual": 2880
+      "wheelchair": 2124,
+      "visual": 2874
     },
     {
       "type": "waterschap",
@@ -658,7 +658,7 @@
     "gemeentesOver50": 261,
     "totalGemeentes": 344,
     "gemeentesOver50Pct": 76,
-    "visualPct": 63,
+    "visualPct": 62,
     "wheelchairPct": 48,
     "wsPct": 95,
     "bestCityName": "Gemeente Amersfoort",

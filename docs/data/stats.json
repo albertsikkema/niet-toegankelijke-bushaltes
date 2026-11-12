@@ -1,13 +1,13 @@
 {
-  "generated": "2026-11-11T06:14:43.803Z",
+  "generated": "2026-11-12T06:15:19.253Z",
   "totals": {
-    "totalBusQuays": 42354,
+    "totalBusQuays": 42350,
     "inaccessibleBusQuays": 28126,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20250,
+    "wheelchairInaccessible": 20251,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26471,
-    "visualPct": 62
+    "visuallyInaccessible": 26473,
+    "visualPct": 63
   },
   "worstGemeentes": [
     {
@@ -517,18 +517,18 @@
       "code": "P0031",
       "name": "Provincie Limburg",
       "type": "provincie",
-      "total": 324,
-      "inaccessible": 204,
+      "total": 320,
+      "inaccessible": 202,
       "pct": 63,
       "wheelchair": 148,
-      "visual": 183,
+      "visual": 181,
       "noShelter": 124
     },
     {
       "code": "P0027",
       "name": "Provincie Noord-Holland",
       "type": "provincie",
-      "total": 322,
+      "total": 320,
       "inaccessible": 179,
       "pct": 56,
       "wheelchair": 140,
@@ -619,20 +619,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 37126,
-      "inaccessible": 24215,
+      "total": 37128,
+      "inaccessible": 24217,
       "pct": 65,
-      "wheelchair": 17348,
-      "visual": 22762
+      "wheelchair": 17349,
+      "visual": 22766
     },
     {
       "type": "provincie",
       "label": "Provincie",
-      "total": 4253,
-      "inaccessible": 3057,
+      "total": 4247,
+      "inaccessible": 3055,
       "pct": 72,
       "wheelchair": 2124,
-      "visual": 2874
+      "visual": 2872
     },
     {
       "type": "waterschap",
@@ -658,7 +658,7 @@
     "gemeentesOver50": 261,
     "totalGemeentes": 344,
     "gemeentesOver50Pct": 76,
-    "visualPct": 62,
+    "visualPct": 63,
     "wheelchairPct": 48,
     "wsPct": 95,
     "bestCityName": "Gemeente Amersfoort",

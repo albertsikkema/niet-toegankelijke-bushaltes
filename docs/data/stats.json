@@ -1,13 +1,13 @@
 {
-  "generated": "2026-11-12T06:15:19.253Z",
+  "generated": "2026-11-13T06:14:42.742Z",
   "totals": {
-    "totalBusQuays": 42350,
-    "inaccessibleBusQuays": 28126,
+    "totalBusQuays": 42355,
+    "inaccessibleBusQuays": 28118,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20251,
+    "wheelchairInaccessible": 20241,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26473,
-    "visualPct": 63
+    "visuallyInaccessible": 26465,
+    "visualPct": 62
   },
   "worstGemeentes": [
     {
@@ -295,7 +295,7 @@
       "code": "G0758",
       "name": "Gemeente Breda",
       "type": "gemeente",
-      "total": 360,
+      "total": 361,
       "inaccessible": 124,
       "pct": 34,
       "wheelchair": 33,
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 37128,
-      "inaccessible": 24217,
+      "total": 37133,
+      "inaccessible": 24209,
       "pct": 65,
-      "wheelchair": 17349,
-      "visual": 22766
+      "wheelchair": 17339,
+      "visual": 22758
     },
     {
       "type": "provincie",
@@ -658,7 +658,7 @@
     "gemeentesOver50": 261,
     "totalGemeentes": 344,
     "gemeentesOver50Pct": 76,
-    "visualPct": 63,
+    "visualPct": 62,
     "wheelchairPct": 48,
     "wsPct": 95,
     "bestCityName": "Gemeente Amersfoort",

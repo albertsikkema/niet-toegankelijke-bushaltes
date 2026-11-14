@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-13T06:14:42.727Z",
+  "generated": "2026-11-14T06:13:50.460Z",
   "totals": {
-    "totalBusQuays": 42355,
-    "inaccessibleBusQuays": 28118,
+    "totalBusQuays": 42359,
+    "inaccessibleBusQuays": 28122,
     "authorities": 384
   },
   "authorities": {
@@ -47560,7 +47560,7 @@
       "website": "http://www.s-hertogenbosch.nl",
       "phone": "(073) 615 51 55",
       "totalBusQuays": 336,
-      "inaccessibleCount": 156,
+      "inaccessibleCount": 157,
       "stops": [
         {
           "code": "NL:Q:63000300",
@@ -48442,6 +48442,20 @@
           "visuallyAccessible": false,
           "compassDirection": 234,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:63000004",
+          "name": "NS bushalte t.h.v. spoor 1 (perronweg)",
+          "town": "'s-Hertogenbosch",
+          "street": "Perronweg",
+          "lat": 51.690572,
+          "lon": 5.294368,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 0,
+          "mutationDate": null,
           "concessionProvider": "PNB"
         },
         {
@@ -262693,12 +262707,12 @@
           "name": "Dominee J. Schardamstraat",
           "town": "Spaarndam",
           "street": "Dokter W Nijestraat",
-          "lat": 52.413121,
-          "lon": 4.684431,
+          "lat": 52.413086,
+          "lon": 4.684425,
           "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": true,
-          "compassDirection": 236,
+          "compassDirection": 217,
           "mutationDate": "2020-02-19",
           "concessionProvider": "VRA"
         },
@@ -262726,7 +262740,7 @@
           "shelter": true,
           "wheelchairAccessible": false,
           "visuallyAccessible": true,
-          "compassDirection": 126,
+          "compassDirection": 104,
           "mutationDate": "2020-02-19",
           "concessionProvider": "VRA"
         },
@@ -285777,8 +285791,8 @@
       "email": "info@ede.nl",
       "website": "http://www.ede.nl",
       "phone": "14 0318",
-      "totalBusQuays": 221,
-      "inaccessibleCount": 129,
+      "totalBusQuays": 223,
+      "inaccessibleCount": 130,
       "stops": [
         {
           "code": "NL:Q:91000030",
@@ -286464,6 +286478,20 @@
           "visuallyAccessible": false,
           "compassDirection": 342,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:40612030",
+          "name": "Ericalaan",
+          "town": "Ede",
+          "street": "Klinkenbergerweg",
+          "lat": 52.037716,
+          "lon": 5.671139,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 356,
+          "mutationDate": null,
           "concessionProvider": "GLD"
         },
         {
@@ -307955,8 +307983,8 @@
       "email": "gemeente@wageningen.nl",
       "website": "http://www.wageningen.nl",
       "phone": "(0317) 49 29 11",
-      "totalBusQuays": 50,
-      "inaccessibleCount": 35,
+      "totalBusQuays": 52,
+      "inaccessibleCount": 37,
       "stops": [
         {
           "code": "NL:Q:40406025",
@@ -308376,6 +308404,34 @@
           "visuallyAccessible": false,
           "compassDirection": 70,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:40400730",
+          "name": "Tarthorst",
+          "town": "Wageningen",
+          "street": "Rooseveltweg",
+          "lat": 51.977738,
+          "lon": 5.659377,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 307,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:40400740",
+          "name": "Tarthorst",
+          "town": "Wageningen",
+          "street": "Rooseveltweg",
+          "lat": 51.977839,
+          "lon": 5.658534,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 122,
+          "mutationDate": null,
           "concessionProvider": "GLD"
         },
         {

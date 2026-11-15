@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-14T06:13:50.460Z",
+  "generated": "2026-11-15T06:13:53.924Z",
   "totals": {
-    "totalBusQuays": 42359,
-    "inaccessibleBusQuays": 28122,
+    "totalBusQuays": 42357,
+    "inaccessibleBusQuays": 28120,
     "authorities": 384
   },
   "authorities": {
@@ -35856,8 +35856,8 @@
       "email": "gemeente@dordrecht.nl",
       "website": "http://www.dordrecht.nl",
       "phone": "14 078",
-      "totalBusQuays": 278,
-      "inaccessibleCount": 220,
+      "totalBusQuays": 276,
+      "inaccessibleCount": 218,
       "stops": [
         {
           "code": "NL:Q:53607515",
@@ -36529,20 +36529,6 @@
           "visuallyAccessible": false,
           "compassDirection": 180,
           "mutationDate": "2019-02-07",
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:53601800",
-          "name": "Groothoofd",
-          "town": "Dordrecht",
-          "street": "Mattenkade",
-          "lat": 51.819361,
-          "lon": 4.670355,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 63,
-          "mutationDate": "2020-02-19",
           "concessionProvider": "PZH"
         },
         {
@@ -37439,20 +37425,6 @@
           "visuallyAccessible": false,
           "compassDirection": 301,
           "mutationDate": "2019-02-07",
-          "concessionProvider": "PZH"
-        },
-        {
-          "code": "NL:Q:53601820",
-          "name": "Mattensteiger",
-          "town": "Dordrecht",
-          "street": "Mattensteiger",
-          "lat": 51.818626,
-          "lon": 4.669149,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 45,
-          "mutationDate": "2020-02-19",
           "concessionProvider": "PZH"
         },
         {

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-17T06:14:56.866Z",
+  "generated": "2026-11-18T06:14:41.097Z",
   "totals": {
-    "totalBusQuays": 42357,
-    "inaccessibleBusQuays": 28118,
+    "totalBusQuays": 42355,
+    "inaccessibleBusQuays": 28113,
     "authorities": 384
   },
   "authorities": {
@@ -41266,7 +41266,7 @@
       "website": "http://www.emmen.nl",
       "phone": "14 0591",
       "totalBusQuays": 352,
-      "inaccessibleCount": 318,
+      "inaccessibleCount": 317,
       "stops": [
         {
           "code": "NL:Q:18030010",
@@ -43786,20 +43786,6 @@
           "visuallyAccessible": false,
           "compassDirection": 295,
           "mutationDate": null,
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:18020100",
-          "name": "Brug",
-          "town": "Erica",
-          "street": "Havenstraat",
-          "lat": 52.71118,
-          "lon": 6.925866,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 14,
-          "mutationDate": "2018-02-07",
           "concessionProvider": "OVGD"
         },
         {
@@ -91932,8 +91918,8 @@
       "email": "info@pekela.nl",
       "website": "http://www.pekela.nl",
       "phone": "(0597) 61 75 55",
-      "totalBusQuays": 59,
-      "inaccessibleCount": 47,
+      "totalBusQuays": 55,
+      "inaccessibleCount": 43,
       "stops": [
         {
           "code": "NL:Q:12784120",
@@ -92059,34 +92045,6 @@
           "visuallyAccessible": false,
           "compassDirection": 199,
           "mutationDate": "2019-07-10",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12713510",
-          "name": "2e Ontsluitingsweg",
-          "town": "Nieuwe Pekela",
-          "street": "Jacob de Weerdstraat G",
-          "lat": 53.054488,
-          "lon": 6.942755,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 199,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12713520",
-          "name": "2e Ontsluitingsweg",
-          "town": "Nieuwe Pekela",
-          "street": "Jacob de Weerdstraat G",
-          "lat": 53.05479,
-          "lon": 6.94299,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 19,
-          "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
         {
@@ -92310,34 +92268,6 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 234,
-          "mutationDate": "2019-07-10",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12713615",
-          "name": "Perceel 12",
-          "town": "Nieuwe Pekela",
-          "street": "Molenstraat G",
-          "lat": 53.046909,
-          "lon": 6.940202,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 199,
-          "mutationDate": "2019-07-10",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12713625",
-          "name": "Perceel 12",
-          "town": "Nieuwe Pekela",
-          "street": "Molenstraat G",
-          "lat": 53.047328,
-          "lon": 6.94047,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 19,
           "mutationDate": "2019-07-10",
           "concessionProvider": "OVGD"
         },
@@ -99740,8 +99670,8 @@
       "email": "gemeente@midden-groningen.nl",
       "website": "http://www.midden-groningen.nl",
       "phone": "(0598) 37 37 37",
-      "totalBusQuays": 228,
-      "inaccessibleCount": 191,
+      "totalBusQuays": 232,
+      "inaccessibleCount": 195,
       "stops": [
         {
           "code": "NL:Q:12558520",
@@ -101914,6 +101844,34 @@
           "concessionProvider": "OVGD"
         },
         {
+          "code": "NL:Q:12582720",
+          "name": "Noorderholt",
+          "town": "Siddeburen",
+          "street": "Damsterweg",
+          "lat": 53.252964,
+          "lon": 6.860605,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 2,
+          "mutationDate": "2019-07-10",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:12582710",
+          "name": "Noorderholt",
+          "town": "Siddeburen",
+          "street": "Damsterweg",
+          "lat": 53.252942,
+          "lon": 6.860363,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 180,
+          "mutationDate": "2019-07-10",
+          "concessionProvider": "OVGD"
+        },
+        {
           "code": "NL:Q:12584120",
           "name": "Zandelaan",
           "town": "Siddeburen",
@@ -102107,6 +102065,34 @@
           "visuallyAccessible": false,
           "compassDirection": 50,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10562210",
+          "name": "Brug",
+          "town": "Steendam",
+          "street": "Damsterweg",
+          "lat": 53.273351,
+          "lon": 6.842855,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 154,
+          "mutationDate": "2019-07-10",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10562220",
+          "name": "Brug",
+          "town": "Steendam",
+          "street": "Damsterweg",
+          "lat": 53.273362,
+          "lon": 6.843104,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 337,
+          "mutationDate": "2019-07-10",
           "concessionProvider": "OVGD"
         },
         {
@@ -120618,37 +120604,9 @@
       "email": "gemeente@stadskanaal.nl",
       "website": "http://www.stadskanaal.nl",
       "phone": "(0599) 63 16 31",
-      "totalBusQuays": 110,
-      "inaccessibleCount": 54,
+      "totalBusQuays": 108,
+      "inaccessibleCount": 52,
       "stops": [
-        {
-          "code": "NL:Q:12784410",
-          "name": "Koppelsluis",
-          "town": "Boven Pekela",
-          "street": "Pekelderstraat",
-          "lat": 53.026035,
-          "lon": 6.919615,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 240,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12784420",
-          "name": "Koppelsluis",
-          "town": "Boven Pekela",
-          "street": "Pekelderstraat",
-          "lat": 53.026166,
-          "lon": 6.919978,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 60,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
         {
           "code": "NL:Q:18712970",
           "name": "Wagenspoor",
@@ -181463,7 +181421,7 @@
       "website": "http://www.tynaarlo.nl",
       "phone": "(0592) 26 66 62",
       "totalBusQuays": 94,
-      "inaccessibleCount": 76,
+      "inaccessibleCount": 75,
       "stops": [
         {
           "code": "NL:Q:12044520",
@@ -182163,20 +182121,6 @@
           "visuallyAccessible": false,
           "compassDirection": 30,
           "mutationDate": "2018-04-24",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:12053910",
-          "name": "Groningerstraat 28",
-          "town": "Vries",
-          "street": "Groningerstraat",
-          "lat": 53.084567,
-          "lon": 6.584019,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 40,
-          "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },
         {
@@ -206903,7 +206847,7 @@
       "website": "http://gemeente.groningen.nl",
       "phone": "14 050",
       "totalBusQuays": 537,
-      "inaccessibleCount": 228,
+      "inaccessibleCount": 227,
       "stops": [
         {
           "code": "NL:Q:11315520",
@@ -208432,20 +208376,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:10003310",
-          "name": "Regentessestraat",
-          "town": "Groningen",
-          "street": "Wilhelminakade",
-          "lat": 53.219488,
-          "lon": 6.549738,
-          "shelter": false,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 86,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:10003080",
           "name": "Rembrandt v Rijnstr.",
           "town": "Groningen",
@@ -209090,20 +209020,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:10008390",
-          "name": "Zuiderdiep",
-          "town": "Groningen",
-          "street": "1e D Gedempte Zuiderdiep",
-          "lat": 53.215361,
-          "lon": 6.569299,
-          "shelter": true,
-          "wheelchairAccessible": true,
-          "visuallyAccessible": false,
-          "compassDirection": 245,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:10008100",
           "name": "Zuiderdiep",
           "town": "Groningen",
@@ -209114,6 +209030,20 @@
           "wheelchairAccessible": true,
           "visuallyAccessible": false,
           "compassDirection": 39,
+          "mutationDate": "2020-02-19",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:10008390",
+          "name": "Zuiderdiep",
+          "town": "Groningen",
+          "street": "Gedempte Zuiderdiep",
+          "lat": 53.215361,
+          "lon": 6.569299,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 245,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
         },

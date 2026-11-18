@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-17T06:14:56.880Z",
+  "generated": "2026-11-18T06:14:41.112Z",
   "totals": {
-    "totalBusQuays": 42357,
-    "inaccessibleBusQuays": 28118,
+    "totalBusQuays": 42355,
+    "inaccessibleBusQuays": 28113,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20239,
+    "wheelchairInaccessible": 20236,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26462,
+    "visuallyInaccessible": 26457,
     "visualPct": 62
   },
   "worstGemeentes": [
@@ -171,10 +171,10 @@
       "name": "Gemeente Emmen",
       "type": "gemeente",
       "total": 352,
-      "inaccessible": 318,
+      "inaccessible": 317,
       "pct": 90,
       "wheelchair": 188,
-      "visual": 315,
+      "visual": 314,
       "noShelter": 221
     },
     {
@@ -329,11 +329,11 @@
       "name": "Gemeente Groningen",
       "type": "gemeente",
       "total": 537,
-      "inaccessible": 228,
+      "inaccessible": 227,
       "pct": 42,
       "wheelchair": 143,
-      "visual": 211,
-      "noShelter": 140
+      "visual": 210,
+      "noShelter": 139
     },
     {
       "code": "G0202",
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 37136,
-      "inaccessible": 24210,
+      "total": 37134,
+      "inaccessible": 24205,
       "pct": 65,
-      "wheelchair": 17338,
-      "visual": 22756
+      "wheelchair": 17335,
+      "visual": 22751
     },
     {
       "type": "provincie",

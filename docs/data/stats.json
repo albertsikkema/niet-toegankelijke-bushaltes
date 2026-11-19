@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-18T06:14:41.112Z",
+  "generated": "2026-11-19T06:16:32.867Z",
   "totals": {
-    "totalBusQuays": 42355,
-    "inaccessibleBusQuays": 28113,
+    "totalBusQuays": 42365,
+    "inaccessibleBusQuays": 28106,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20236,
+    "wheelchairInaccessible": 20229,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26457,
+    "visuallyInaccessible": 26449,
     "visualPct": 62
   },
   "worstGemeentes": [
@@ -159,7 +159,7 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1103,
+      "total": 1106,
       "inaccessible": 487,
       "pct": 44,
       "wheelchair": 380,
@@ -317,7 +317,7 @@
       "code": "G0344",
       "name": "Gemeente Utrecht",
       "type": "gemeente",
-      "total": 599,
+      "total": 600,
       "inaccessible": 212,
       "pct": 35,
       "wheelchair": 155,
@@ -350,7 +350,7 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1103,
+      "total": 1106,
       "inaccessible": 487,
       "pct": 44,
       "wheelchair": 380,
@@ -361,7 +361,7 @@
       "code": "G0080",
       "name": "Gemeente Leeuwarden",
       "type": "gemeente",
-      "total": 378,
+      "total": 379,
       "inaccessible": 213,
       "pct": 56,
       "wheelchair": 179,
@@ -441,11 +441,11 @@
       "name": "Provincie Drenthe",
       "type": "provincie",
       "total": 314,
-      "inaccessible": 290,
-      "pct": 92,
-      "wheelchair": 240,
-      "visual": 290,
-      "noShelter": 205
+      "inaccessible": 287,
+      "pct": 91,
+      "wheelchair": 237,
+      "visual": 286,
+      "noShelter": 202
     },
     {
       "code": "P0024",
@@ -619,20 +619,20 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 37134,
-      "inaccessible": 24205,
+      "total": 37144,
+      "inaccessible": 24201,
       "pct": 65,
-      "wheelchair": 17335,
-      "visual": 22751
+      "wheelchair": 17331,
+      "visual": 22747
     },
     {
       "type": "provincie",
       "label": "Provincie",
       "total": 4247,
-      "inaccessible": 3055,
+      "inaccessible": 3052,
       "pct": 72,
-      "wheelchair": 2124,
-      "visual": 2872
+      "wheelchair": 2121,
+      "visual": 2868
     },
     {
       "type": "waterschap",

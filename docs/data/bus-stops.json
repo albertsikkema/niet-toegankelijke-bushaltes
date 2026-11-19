@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-18T06:14:41.097Z",
+  "generated": "2026-11-19T06:16:32.853Z",
   "totals": {
-    "totalBusQuays": 42355,
-    "inaccessibleBusQuays": 28113,
+    "totalBusQuays": 42365,
+    "inaccessibleBusQuays": 28106,
     "authorities": 384
   },
   "authorities": {
@@ -68781,7 +68781,7 @@
       "website": "http://www.provincie.drenthe.nl",
       "phone": "(0592) 36 55 55",
       "totalBusQuays": 314,
-      "inaccessibleCount": 290,
+      "inaccessibleCount": 287,
       "stops": [
         {
           "code": "NL:Q:14335420",
@@ -72396,34 +72396,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:16510070",
-          "name": "Vledderweg 23",
-          "town": "Vledder",
-          "street": "Vledderweg",
-          "lat": 52.850364,
-          "lon": 6.195896,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 55,
-          "mutationDate": "2018-02-07",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:16510080",
-          "name": "Vledderweg 23",
-          "town": "Vledder",
-          "street": "Vledderweg",
-          "lat": 52.851167,
-          "lon": 6.196831,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 235,
-          "mutationDate": "2018-02-07",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:18180030",
           "name": "Europaweg 40",
           "town": "Vlieghuis",
@@ -72536,20 +72508,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:16520070",
-          "name": "Nieuwland",
-          "town": "Wapse",
-          "street": "Ten Darperweg",
-          "lat": 52.85506,
-          "lon": 6.254167,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 96,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:16520080",
           "name": "Nieuwland",
           "town": "Wapse",
@@ -72558,7 +72516,7 @@
           "lon": 6.253801,
           "shelter": false,
           "wheelchairAccessible": false,
-          "visuallyAccessible": false,
+          "visuallyAccessible": true,
           "compassDirection": 276,
           "mutationDate": "2020-02-19",
           "concessionProvider": "OVGD"
@@ -91918,8 +91876,8 @@
       "email": "info@pekela.nl",
       "website": "http://www.pekela.nl",
       "phone": "(0597) 61 75 55",
-      "totalBusQuays": 55,
-      "inaccessibleCount": 43,
+      "totalBusQuays": 51,
+      "inaccessibleCount": 39,
       "stops": [
         {
           "code": "NL:Q:12784120",
@@ -92048,34 +92006,6 @@
           "concessionProvider": "OVGD"
         },
         {
-          "code": "NL:Q:13512210",
-          "name": "A. Reyndersstraat",
-          "town": "Nieuwe Pekela",
-          "street": "Albert Reijndersstraat A",
-          "lat": 53.083054,
-          "lon": 6.974632,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 234,
-          "mutationDate": "2019-07-10",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:13512220",
-          "name": "A. Reyndersstraat",
-          "town": "Nieuwe Pekela",
-          "street": "Albert Reijndersstraat A",
-          "lat": 53.083387,
-          "lon": 6.975241,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 54,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
           "code": "NL:Q:13512810",
           "name": "Beukenlaan",
           "town": "Nieuwe Pekela",
@@ -92185,34 +92115,6 @@
           "visuallyAccessible": false,
           "compassDirection": 19,
           "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:13513020",
-          "name": "Jan Oldenburgerstraat",
-          "town": "Nieuwe Pekela",
-          "street": "Jan Oldenburgerstraat D",
-          "lat": 53.069407,
-          "lon": 6.953779,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 57,
-          "mutationDate": "2020-02-19",
-          "concessionProvider": "OVGD"
-        },
-        {
-          "code": "NL:Q:13513010",
-          "name": "Jan Oldenburgerstraat",
-          "town": "Nieuwe Pekela",
-          "street": "Jan Oldenburgerstraat D",
-          "lat": 53.069419,
-          "lon": 6.953586,
-          "shelter": true,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 237,
-          "mutationDate": "2019-07-10",
           "concessionProvider": "OVGD"
         },
         {
@@ -99670,7 +99572,7 @@
       "email": "gemeente@midden-groningen.nl",
       "website": "http://www.midden-groningen.nl",
       "phone": "(0598) 37 37 37",
-      "totalBusQuays": 232,
+      "totalBusQuays": 234,
       "inaccessibleCount": 195,
       "stops": [
         {
@@ -102646,7 +102548,7 @@
       "email": "gemeente@leeuwarden.nl",
       "website": "http://www.leeuwarden.nl",
       "phone": "14 058",
-      "totalBusQuays": 378,
+      "totalBusQuays": 379,
       "inaccessibleCount": 213,
       "stops": [
         {
@@ -138309,7 +138211,7 @@
       "email": "gemeente@delft.nl",
       "website": "http://www.delft.nl",
       "phone": "14 015",
-      "totalBusQuays": 170,
+      "totalBusQuays": 171,
       "inaccessibleCount": 126,
       "stops": [
         {
@@ -216107,7 +216009,7 @@
       "email": "Gemeente@utrecht.nl",
       "website": "http://www.utrecht.nl",
       "phone": "(014) 030",
-      "totalBusQuays": 599,
+      "totalBusQuays": 600,
       "inaccessibleCount": 212,
       "stops": [
         {
@@ -224041,7 +223943,7 @@
       "email": "gemeente@amsterdam.nl",
       "website": "http://www.amsterdam.nl",
       "phone": "14 020",
-      "totalBusQuays": 1103,
+      "totalBusQuays": 1106,
       "inaccessibleCount": 487,
       "stops": [
         {
@@ -248693,7 +248595,7 @@
       "email": "info@middelburg.nl",
       "website": "http://www.middelburg.nl",
       "phone": "14 0118",
-      "totalBusQuays": 130,
+      "totalBusQuays": 131,
       "inaccessibleCount": 105,
       "stops": [
         {
@@ -285679,7 +285581,7 @@
       "email": "info@ede.nl",
       "website": "http://www.ede.nl",
       "phone": "14 0318",
-      "totalBusQuays": 223,
+      "totalBusQuays": 224,
       "inaccessibleCount": 130,
       "stops": [
         {
@@ -314363,7 +314265,7 @@
       "email": "gemeente@lelystad.nl",
       "website": "http://www.lelystad.nl",
       "phone": "14 0320",
-      "totalBusQuays": 180,
+      "totalBusQuays": 181,
       "inaccessibleCount": 111,
       "stops": [
         {
@@ -329389,7 +329291,7 @@
       "email": "info@overbetuwe.nl",
       "website": "http://www.overbetuwe.nl",
       "phone": "(0481) 36 23 00",
-      "totalBusQuays": 128,
+      "totalBusQuays": 129,
       "inaccessibleCount": 74,
       "stops": [
         {
@@ -330436,7 +330338,7 @@
       "email": "zeist@zeist.nl",
       "website": "http://www.zeist.nl",
       "phone": "14 030",
-      "totalBusQuays": 124,
+      "totalBusQuays": 125,
       "inaccessibleCount": 39,
       "stops": [
         {
@@ -395155,7 +395057,7 @@
       "email": "gemeente@voorschoten.nl",
       "website": "http://www.voorschoten.nl",
       "phone": "14 071",
-      "totalBusQuays": 37,
+      "totalBusQuays": 38,
       "inaccessibleCount": 35,
       "stops": [
         {

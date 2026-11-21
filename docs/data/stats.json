@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-20T06:15:47.481Z",
+  "generated": "2026-11-21T06:13:46.687Z",
   "totals": {
-    "totalBusQuays": 42365,
-    "inaccessibleBusQuays": 28106,
+    "totalBusQuays": 42362,
+    "inaccessibleBusQuays": 28104,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20229,
+    "wheelchairInaccessible": 20227,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26449,
+    "visuallyInaccessible": 26444,
     "visualPct": 62
   },
   "worstGemeentes": [
@@ -159,7 +159,7 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1106,
+      "total": 1103,
       "inaccessible": 487,
       "pct": 44,
       "wheelchair": 380,
@@ -350,7 +350,7 @@
       "code": "G0363",
       "name": "Gemeente Amsterdam",
       "type": "gemeente",
-      "total": 1106,
+      "total": 1103,
       "inaccessible": 487,
       "pct": 44,
       "wheelchair": 380,
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 37144,
-      "inaccessible": 24201,
+      "total": 37141,
+      "inaccessible": 24199,
       "pct": 65,
-      "wheelchair": 17331,
-      "visual": 22747
+      "wheelchair": 17329,
+      "visual": 22742
     },
     {
       "type": "provincie",

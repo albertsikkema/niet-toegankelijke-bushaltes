@@ -71,6 +71,16 @@ node pipeline/validate-data.js
 | `docs/data/boundaries/` | GeoJSON boundary files per authority, committed with the bus stop data |
 | `api_tools/` | Bruno API collection for exploring the DOVA Sherpa API |
 
+## Analytics
+
+The site uses privacy-friendly [Umami](https://umami.is) analytics (no cookies). The tracker is served from this repository as `docs/js/stats.js` and sends data to the self-hosted instance at `https://analytics.test001.nl`. The comment at the top of the file records the Umami version, so security advisories can be checked against it.
+
+To refresh the script:
+
+1. Download `https://analytics.test001.nl/script.js` from the self-hosted Umami instance.
+2. Replace everything below the comment block in `docs/js/stats.js` with it.
+3. Update the comment: the Umami version of the instance, the source, and today's date. If you can't confirm the version, write "closest match vX.Y.Z". To confirm it, check the version shown in the Umami dashboard, or rebuild `src/tracker` from the release tag with its `rollup.tracker.config.js` and compare the output with `cmp`.
+
 ## Support
 
 If you find this project useful, consider buying me a coffee:

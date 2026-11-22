@@ -1,6 +1,6 @@
 const { describe, it } = require('node:test');
 const assert = require('node:assert/strict');
-const { createStopSvg } = require('../../docs/js/map.js');
+const { createStopSvg, stopMarkerTitle, stopPopupRows, boundaryMaskFeature } = require('../../docs/js/map.js');
 
 describe('createStopSvg', () => {
   it('returns SVG with circle when no compass direction', () => {
@@ -49,5 +49,66 @@ describe('createStopSvg', () => {
     const svg = createStopSvg(-90);
     assert.ok(svg.includes('<polyline'), 'should have chevron');
     assert.ok(svg.includes('rotate(-90'), 'should rotate by -90');
+  });
+});
+
+describe('stopMarkerTitle', () => {
+  const stop = (wheelchairAccessible, visuallyAccessible) => ({ name: 'A', town: 'B', wheelchairAccessible, visuallyAccessible });
+
+  it('lists both problems', () => {
+    assert.equal(stopMarkerTitle(stop(false, false)), 'A, B — niet rolstoeltoegankelijk, niet visueel toegankelijk');
+  });
+
+  it('lists one problem', () => {
+    assert.equal(stopMarkerTitle(stop(false, true)), 'A, B — niet rolstoeltoegankelijk');
+    assert.equal(stopMarkerTitle(stop(true, false)), 'A, B — niet visueel toegankelijk');
+  });
+});
+
+describe('stopPopupRows', () => {
+  const authority = { name: 'Gemeente Utrecht' };
+  const providers = { PUT: { name: 'Provincie Utrecht' }, NONAME: { name: '' } };
+  const stop = (over) => ({ code: 'NL:Q:1', street: 'Hoofdstraat', concessionProvider: 'PUT', ...over });
+
+  it('lists street, code, authority and concession provider', () => {
+    assert.deepEqual(stopPopupRows(stop(), authority, providers), [
+      ['Straat', 'Hoofdstraat'],
+      ['Halte', 'NL:Q:1'],
+      ['Wegbeheerder', 'Gemeente Utrecht'],
+      ['Concessieverlener', 'Provincie Utrecht'],
+    ]);
+  });
+
+  it('skips an empty street', () => {
+    assert.deepEqual(stopPopupRows(stop({ street: '' }), authority, providers)[0], ['Halte', 'NL:Q:1']);
+  });
+
+  it('skips unknown, nameless or missing concession providers', () => {
+    const labels = (rows) => rows.map(r => r[0]);
+    const base = ['Straat', 'Halte', 'Wegbeheerder'];
+    assert.deepEqual(labels(stopPopupRows(stop({ concessionProvider: 'XYZ' }), authority, providers)), base);
+    assert.deepEqual(labels(stopPopupRows(stop({ concessionProvider: 'NONAME' }), authority, providers)), base);
+    assert.deepEqual(labels(stopPopupRows(stop({ concessionProvider: '' }), authority, providers)), base);
+    assert.deepEqual(labels(stopPopupRows(stop(), authority, undefined)), base);
+  });
+});
+
+describe('boundaryMaskFeature', () => {
+  const world = [[-180, -90], [180, -90], [180, 90], [-180, 90], [-180, -90]];
+  const ring = (x) => [[x, 0], [x + 1, 0], [x + 1, 1], [x, 0]];
+  const inner = [[0.2, 0.2], [0.4, 0.2], [0.4, 0.4], [0.2, 0.2]];
+
+  it('cuts the outer ring of a Polygon out of the world', () => {
+    const mask = boundaryMaskFeature({ type: 'Polygon', coordinates: [ring(0), inner] });
+    assert.deepEqual(mask, { type: 'Feature', properties: {}, geometry: { type: 'Polygon', coordinates: [world, ring(0)] } });
+  });
+
+  it('cuts one hole per polygon of a MultiPolygon', () => {
+    const mask = boundaryMaskFeature({ type: 'MultiPolygon', coordinates: [[ring(0), inner], [ring(5)]] });
+    assert.deepEqual(mask.geometry.coordinates, [world, ring(0), ring(5)]);
+  });
+
+  it('returns only the world for other geometry types', () => {
+    assert.deepEqual(boundaryMaskFeature({ type: 'Point', coordinates: [0, 0] }).geometry.coordinates, [world]);
   });
 });

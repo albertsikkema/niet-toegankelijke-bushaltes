@@ -19,47 +19,181 @@ function createStopSvg(compassDirection) {
     '</svg>';
 }
 
+var POPUP_ICONS = {
+  wheelchair: '<svg class="popup-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="16" cy="4" r="1"/><path d="m5 8 3-3 5.5 3-2.36 3.5"/><path d="M4.24 14.5a5 5 0 0 0 6.88 6"/><path d="M13.76 17.5a5 5 0 0 0-6.88-6"/></svg>',
+  visual: '<svg class="popup-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg>',
+};
+
+// Marker tooltip, e.g. "Halte, Dorp — niet rolstoeltoegankelijk"
+function stopMarkerTitle(stop) {
+  var status = [];
+  if (!stop.wheelchairAccessible) status.push('niet rolstoeltoegankelijk');
+  if (!stop.visuallyAccessible) status.push('niet visueel toegankelijk');
+  return stop.name + ', ' + stop.town + ' — ' + status.join(', ');
+}
+
+// [label, value] rows for the popup's description list (text rows only)
+function stopPopupRows(stop, authority, concessionProviders) {
+  var rows = [];
+  if (stop.street) rows.push(['Straat', stop.street]);
+  rows.push(['Halte', stop.code]);
+  rows.push(['Wegbeheerder', authority.name]);
+  var cp = stop.concessionProvider && concessionProviders && concessionProviders[stop.concessionProvider];
+  if (cp && cp.name) rows.push(['Concessieverlener', cp.name]);
+  return rows;
+}
+
+function appendPopupDetail(dl, label, value, iconSvg) {
+  var dt = document.createElement('dt');
+  dt.className = 'popup-label';
+  if (iconSvg) dt.innerHTML = iconSvg + ' ' + label; // static icon markup + fixed label
+  else dt.textContent = label;
+  var dd = document.createElement('dd');
+  dd.className = 'popup-value';
+  dd.textContent = value;
+  dl.appendChild(dt);
+  dl.appendChild(dd);
+}
+
+function createStreetViewLink(stop) {
+  var link = document.createElement('a');
+  link.href = 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=' + stop.lat + ',' + stop.lon;
+  link.target = '_blank';
+  link.rel = 'noopener';
+  link.className = 'popup-sv-link';
+  link.textContent = 'Bekijk in Street View';
+  return link;
+}
+
+// "Privaat beheer" notice, or the button that opens the email composer
+function createPopupAction(authority, concessionProviders) {
+  if (authority.type === 'privaat') {
+    var notice = document.createElement('p');
+    notice.className = 'popup-privaat';
+    notice.textContent = 'Privaat beheer';
+    return notice;
+  }
+  var btn = document.createElement('button');
+  btn.className = 'btn btn-danger popup-btn-full';
+  btn.textContent = 'Email beheerder';
+  btn.addEventListener('click', function () {
+    Email.showModal(authority, authority.stops, concessionProviders);
+  });
+  return btn;
+}
+
+function createStopPopup(stop, authority, concessionProviders) {
+  var title = stop.town + ', ' + (stop.name || stop.code);
+  var div = document.createElement('div');
+  div.className = 'stop-popup';
+  div.setAttribute('tabindex', '-1');
+  div.setAttribute('role', 'region');
+  div.setAttribute('aria-label', 'Halte-informatie: ' + title);
+
+  var h3 = document.createElement('h3');
+  h3.textContent = title;
+  div.appendChild(h3);
+
+  // Details as description list for screen readers
+  var dl = document.createElement('dl');
+  dl.className = 'popup-details';
+  stopPopupRows(stop, authority, concessionProviders).forEach(function (row) {
+    appendPopupDetail(dl, row[0], row[1]);
+  });
+  appendPopupDetail(dl, 'Rolstoeltoegankelijk', stop.wheelchairAccessible ? 'Ja' : 'Nee', POPUP_ICONS.wheelchair);
+  appendPopupDetail(dl, 'Visueel toegankelijk', stop.visuallyAccessible ? 'Ja' : 'Nee', POPUP_ICONS.visual);
+  div.appendChild(dl);
+
+  if (stop.lat && stop.lon) div.appendChild(createStreetViewLink(stop));
+  div.appendChild(createPopupAction(authority, concessionProviders));
+  return div;
+}
+
+// GeoJSON feature that shades everything outside the boundary (the outer rings become holes)
+function boundaryMaskFeature(geometry) {
+  var world = [[-180, -90], [180, -90], [180, 90], [-180, 90], [-180, -90]];
+  var holes = [];
+  if (geometry.type === 'Polygon') {
+    holes.push(geometry.coordinates[0]);
+  } else if (geometry.type === 'MultiPolygon') {
+    geometry.coordinates.forEach(function (polygon) { holes.push(polygon[0]); });
+  }
+  return { type: 'Feature', properties: {}, geometry: { type: 'Polygon', coordinates: [world].concat(holes) } };
+}
+
+// Mask + blue outline; returns the outline too so the caller can fit to it
+function createBoundaryLayer(geometry, isDark) {
+  var mask = L.geoJSON(boundaryMaskFeature(geometry), {
+    style: { stroke: false, fillColor: isDark ? '#fff' : '#000', fillOpacity: isDark ? 0.2 : 0.15 },
+  });
+  var border = L.geoJSON({ type: 'Feature', properties: {}, geometry: geometry }, {
+    style: { color: '#1976d2', weight: 2, fill: false },
+  });
+  return { layer: L.layerGroup([mask, border]), border: border };
+}
+
+function createStopIcon(compassDirection) {
+  var size = 24;
+  var cx = size / 2;
+  var cy = size / 2;
+  return L.divIcon({
+    html: createStopSvg(compassDirection),
+    className: 'stop-marker',
+    iconSize: [size, size],
+    iconAnchor: [cx, cy],
+  });
+}
+
+function createClusterIcon(cluster) {
+  var count = cluster.getChildCount();
+  var size = count < 10 ? 'small' : count < 100 ? 'medium' : 'large';
+  return new L.DivIcon({
+    html: '<div><span>' + count + '</span></div>',
+    className: 'marker-cluster marker-cluster-' + size,
+    iconSize: new L.Point(40, 40),
+  });
+}
+
+function createStopMarker(stop, authority, ownerCode, concessionProviders) {
+  var marker = L.marker([stop.lat, stop.lon], {
+    icon: createStopIcon(stop.compassDirection),
+    title: stopMarkerTitle(stop),
+  });
+  marker.bindPopup(function () {
+    return createStopPopup(stop, authority, concessionProviders);
+  }, { maxWidth: 300, minWidth: 260 });
+  marker.stopData = stop;
+  marker.authorityCode = ownerCode;
+  return marker;
+}
+
+var NL_CENTER = [52.15, 5.4];
+var BOUNDARY_TYPES = ['gemeente', 'provincie', 'waterschap'];
+
+// CARTO API key comes from js/config.js, generated by pipeline/write-config.js
+var CARTO_KEY = (typeof window !== 'undefined' && window.APP_CONFIG && window.APP_CONFIG.cartoApiKey) || '';
+var TILE_URLS = {
+  light: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=' + encodeURIComponent(CARTO_KEY),
+  dark: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=' + encodeURIComponent(CARTO_KEY),
+};
+
+function isDarkTheme() {
+  return (typeof Theme !== 'undefined') && Theme.current() === 'dark';
+}
+
 // Leaflet map, markers, popups, zoom-to-authority
 const MapView = (() => {
   let map;
   let clusterGroup;
   let markersByAuthority = {};
   let allMarkers = [];
-  let appData = null;
   let boundaryLayer = null;
   let boundaryCache = {};
   let tileLayer = null;
+  let pendingFocus = false;
 
-  // CARTO API key comes from js/config.js, generated by pipeline/write-config.js
-  const CARTO_KEY = (typeof window !== 'undefined' && window.APP_CONFIG && window.APP_CONFIG.cartoApiKey) || '';
-  const TILE_URLS = {
-    light: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=' + encodeURIComponent(CARTO_KEY),
-    dark: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=' + encodeURIComponent(CARTO_KEY),
-  };
-
-  function createStopIcon(compassDirection) {
-    var size = 24;
-    var cx = size / 2;
-    var cy = size / 2;
-    return L.divIcon({
-      html: createStopSvg(compassDirection),
-      className: 'stop-marker',
-      iconSize: [size, size],
-      iconAnchor: [cx, cy],
-    });
-  }
-
-  function init(data) {
-    appData = data;
-
-    map = L.map('map', {
-      preferCanvas: true,
-      center: [52.15, 5.4], // Center of NL
-      zoom: 8,
-      minZoom: 6,
-      maxZoom: 18,
-    });
-
+  // Theme-aware base tiles that follow themechange events
+  function addTileLayer() {
     var initialTheme = (typeof Theme !== 'undefined') ? Theme.current() : 'light';
     tileLayer = L.tileLayer(TILE_URLS[initialTheme], {
       attribution: '&copy; <a href="https://albertsikkema.com">Albert Sikkema</a> | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
@@ -68,9 +202,33 @@ const MapView = (() => {
     }).addTo(map);
 
     window.addEventListener('themechange', function (e) {
-      var theme = e.detail.theme;
-      tileLayer.setUrl(TILE_URLS[theme] || TILE_URLS.light);
+      tileLayer.setUrl(TILE_URLS[e.detail.theme] || TILE_URLS.light);
     });
+  }
+
+  function addMarkers(data) {
+    for (const [ownerCode, authority] of Object.entries(data.authorities)) {
+      markersByAuthority[ownerCode] = [];
+      for (const stop of authority.stops) {
+        if (!stop.lat || !stop.lon) continue;
+        const marker = createStopMarker(stop, authority, ownerCode, data.concessionProviders);
+        allMarkers.push(marker);
+        markersByAuthority[ownerCode].push(marker);
+      }
+    }
+    clusterGroup.addLayers(allMarkers);
+    map.addLayer(clusterGroup);
+  }
+
+  function init(data) {
+    map = L.map('map', {
+      preferCanvas: true,
+      center: NL_CENTER,
+      zoom: 8,
+      minZoom: 6,
+      maxZoom: 18,
+    });
+    addTileLayer();
 
     clusterGroup = L.markerClusterGroup({
       chunkedLoading: true,
@@ -78,45 +236,9 @@ const MapView = (() => {
       spiderfyOnMaxZoom: true,
       showCoverageOnHover: false,
       disableClusteringAtZoom: 16,
-      iconCreateFunction: function (cluster) {
-        var count = cluster.getChildCount();
-        var size = count < 10 ? 'small' : count < 100 ? 'medium' : 'large';
-        return new L.DivIcon({
-          html: '<div><span>' + count + '</span></div>',
-          className: 'marker-cluster marker-cluster-' + size,
-          iconSize: new L.Point(40, 40),
-        });
-      },
+      iconCreateFunction: createClusterIcon,
     });
-
-    // Add all markers
-    const markers = [];
-    for (const [ownerCode, authority] of Object.entries(data.authorities)) {
-      markersByAuthority[ownerCode] = [];
-
-      for (const stop of authority.stops) {
-        if (!stop.lat || !stop.lon) continue;
-
-        const accessStatus = [];
-        if (!stop.wheelchairAccessible) accessStatus.push('niet rolstoeltoegankelijk');
-        if (!stop.visuallyAccessible) accessStatus.push('niet visueel toegankelijk');
-        const marker = L.marker([stop.lat, stop.lon], {
-          icon: createStopIcon(stop.compassDirection),
-          title: stop.name + ', ' + stop.town + ' — ' + accessStatus.join(', '),
-        });
-
-        marker.bindPopup(() => createPopup(stop, authority, ownerCode), { maxWidth: 300, minWidth: 260 });
-        marker.stopData = stop;
-        marker.authorityCode = ownerCode;
-
-        markers.push(marker);
-        markersByAuthority[ownerCode].push(marker);
-      }
-    }
-
-    allMarkers = markers;
-    clusterGroup.addLayers(markers);
-    map.addLayer(clusterGroup);
+    addMarkers(data);
 
     // Focus popup content when opened from sidebar navigation
     map.on('popupopen', function () {
@@ -130,201 +252,86 @@ const MapView = (() => {
     });
   }
 
-  function createPopup(stop, authority, ownerCode) {
-    const div = document.createElement('div');
-    div.className = 'stop-popup';
-    div.setAttribute('tabindex', '-1');
-    div.setAttribute('role', 'region');
-    div.setAttribute('aria-label', 'Halte-informatie: ' + stop.town + ', ' + (stop.name || stop.code));
+  function fitToMarkers(markers) {
+    map.fitBounds(L.featureGroup(markers).getBounds().pad(0.1), { maxZoom: 14 });
+  }
 
-    // Title: town, name
-    const h3 = document.createElement('h3');
-    h3.textContent = `${stop.town}, ${stop.name || stop.code}`;
-    div.appendChild(h3);
+  function clearBoundary() {
+    if (!boundaryLayer) return;
+    map.removeLayer(boundaryLayer);
+    boundaryLayer = null;
+  }
 
-    // Details as description list for screen readers
-    const dl = document.createElement('dl');
-    dl.className = 'popup-details';
+  function showBoundary(geometry) {
+    var boundary = createBoundaryLayer(geometry, isDarkTheme());
+    boundaryLayer = boundary.layer.addTo(map);
+    map.fitBounds(boundary.border.getBounds().pad(0.05), { maxZoom: 14 });
+  }
 
-    const rows = [];
-    if (stop.street) rows.push(['Straat', stop.street]);
-    rows.push(['Halte', stop.code]);
-    rows.push(['Wegbeheerder', authority.name]);
-    if (stop.concessionProvider && appData.concessionProviders) {
-      const cp = appData.concessionProviders[stop.concessionProvider];
-      if (cp && cp.name) rows.push(['Concessieverlener', cp.name]);
-    }
-    const iconRows = [
-      {
-        label: 'Rolstoeltoegankelijk',
-        value: stop.wheelchairAccessible ? 'Ja' : 'Nee',
-        icon: '<svg class="popup-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="16" cy="4" r="1"/><path d="m5 8 3-3 5.5 3-2.36 3.5"/><path d="M4.24 14.5a5 5 0 0 0 6.88 6"/><path d="M13.76 17.5a5 5 0 0 0-6.88-6"/></svg>'
-      },
-      {
-        label: 'Visueel toegankelijk',
-        value: stop.visuallyAccessible ? 'Ja' : 'Nee',
-        icon: '<svg class="popup-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg>'
-      }
-    ];
-
-    for (const [label, value] of rows) {
-      const dt = document.createElement('dt');
-      dt.className = 'popup-label';
-      dt.textContent = label;
-      const dd = document.createElement('dd');
-      dd.className = 'popup-value';
-      dd.textContent = value;
-      dl.appendChild(dt);
-      dl.appendChild(dd);
-    }
-
-    for (const row of iconRows) {
-      const dt = document.createElement('dt');
-      dt.className = 'popup-label';
-      dt.innerHTML = row.icon + ' ' + row.label;
-      const dd = document.createElement('dd');
-      dd.className = 'popup-value';
-      dd.textContent = row.value;
-      dl.appendChild(dt);
-      dl.appendChild(dd);
-    }
-    div.appendChild(dl);
-
-    // Google Street View link
-    if (stop.lat && stop.lon) {
-      const svLink = document.createElement('a');
-      svLink.href = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${stop.lat},${stop.lon}`;
-      svLink.target = '_blank';
-      svLink.rel = 'noopener';
-      svLink.className = 'popup-sv-link';
-      svLink.textContent = 'Bekijk in Street View';
-      div.appendChild(svLink);
-    }
-
-    // Action button
-    if (authority.type === 'privaat') {
-      const notice = document.createElement('p');
-      notice.className = 'popup-privaat';
-      notice.textContent = 'Privaat beheer';
-      div.appendChild(notice);
-    } else {
-      const btn = document.createElement('button');
-      btn.className = 'btn btn-danger popup-btn-full';
-      btn.textContent = 'Email beheerder';
-      btn.addEventListener('click', () => {
-        Email.showModal(authority, authority.stops, appData.concessionProviders);
+  function fetchBoundary(ownerCode) {
+    return fetch('data/boundaries/' + ownerCode + '.json')
+      .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
+      .then(function (geometry) {
+        boundaryCache[ownerCode] = geometry;
+        return geometry;
       });
-      div.appendChild(btn);
-    }
-
-    return div;
   }
 
   function zoomToAuthority(ownerCode) {
     const markers = markersByAuthority[ownerCode];
     if (!markers || markers.length === 0) return;
-
-    const group = L.featureGroup(markers);
-    map.fitBounds(group.getBounds().pad(0.1), { maxZoom: 14 });
+    fitToMarkers(markers);
   }
-
-  var pendingFocus = false;
 
   function zoomToStop(stop) {
     if (!stop.lat || !stop.lon) return;
 
-    // Find the marker for this stop
     const marker = allMarkers.find(m => m.stopData.code === stop.code);
-    if (marker) {
-      pendingFocus = true;
-      // zoomToShowLayer handles unclustering and zoom, then open popup
-      clusterGroup.zoomToShowLayer(marker, () => {
-        map.setView([stop.lat, stop.lon], 17);
-        marker.openPopup();
-      });
-    } else {
+    if (!marker) {
       map.setView([stop.lat, stop.lon], 17);
+      return;
     }
+    pendingFocus = true;
+    // zoomToShowLayer handles unclustering and zoom, then open popup
+    clusterGroup.zoomToShowLayer(marker, () => {
+      map.setView([stop.lat, stop.lon], 17);
+      marker.openPopup();
+    });
   }
 
+  // Show only this authority's markers, with its boundary when there is one
   function filterByAuthority(ownerCode, authType) {
     const markers = markersByAuthority[ownerCode];
     if (!markers || markers.length === 0) return;
 
     clusterGroup.clearLayers();
     clusterGroup.addLayers(markers);
+    clearBoundary();
 
-    // Remove existing boundary
-    if (boundaryLayer) {
-      map.removeLayer(boundaryLayer);
-      boundaryLayer = null;
-    }
-
-    // Fetch boundary for gemeente/provincie
-    if (authType === 'gemeente' || authType === 'provincie' || authType === 'waterschap') {
-      const showBoundary = (geometry) => {
-        // Build inverted mask: fill everything outside the boundary
-        var world = [[-180, -90], [180, -90], [180, 90], [-180, 90], [-180, -90]];
-        var holes = [];
-        if (geometry.type === 'Polygon') {
-          holes.push(geometry.coordinates[0]);
-        } else if (geometry.type === 'MultiPolygon') {
-          for (var i = 0; i < geometry.coordinates.length; i++) {
-            holes.push(geometry.coordinates[i][0]);
-          }
-        }
-        var maskGeo = {
-          type: 'Feature', properties: {},
-          geometry: { type: 'Polygon', coordinates: [world].concat(holes) }
-        };
-        var borderGeo = { type: 'Feature', properties: {}, geometry: geometry };
-
-        var isDark = (typeof Theme !== 'undefined') && Theme.current() === 'dark';
-        var maskLayer = L.geoJSON(maskGeo, {
-          style: { stroke: false, fillColor: isDark ? '#fff' : '#000', fillOpacity: isDark ? 0.2 : 0.15 }
-        });
-        var borderLayer = L.geoJSON(borderGeo, {
-          style: { color: '#1976d2', weight: 2, fill: false }
-        });
-
-        boundaryLayer = L.layerGroup([maskLayer, borderLayer]).addTo(map);
-        map.fitBounds(borderLayer.getBounds().pad(0.05), { maxZoom: 14 });
-      };
-
-      if (boundaryCache[ownerCode]) {
-        showBoundary(boundaryCache[ownerCode]);
-      } else {
-        fetch('data/boundaries/' + ownerCode + '.json')
-          .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
-          .then(function (geometry) {
-            boundaryCache[ownerCode] = geometry;
-            showBoundary(geometry);
-          })
-          .catch(function (err) {
-            console.warn('Boundary load failed for ' + ownerCode + ':', err);
-            // Fallback: fit to markers
-            var group = L.featureGroup(markers);
-            map.fitBounds(group.getBounds().pad(0.1), { maxZoom: 14 });
-          });
-      }
+    if (BOUNDARY_TYPES.indexOf(authType) === -1) {
+      fitToMarkers(markers);
+    } else if (boundaryCache[ownerCode]) {
+      showBoundary(boundaryCache[ownerCode]);
     } else {
-      // No boundary available, fit to markers
-      const group = L.featureGroup(markers);
-      map.fitBounds(group.getBounds().pad(0.1), { maxZoom: 14 });
+      fetchBoundary(ownerCode)
+        .then(showBoundary)
+        .catch(function (err) {
+          console.warn('Boundary load failed for ' + ownerCode + ':', err);
+          fitToMarkers(markers);
+        });
     }
   }
 
   function resetView() {
-    if (boundaryLayer) {
-      map.removeLayer(boundaryLayer);
-      boundaryLayer = null;
-    }
+    clearBoundary();
     clusterGroup.clearLayers();
     clusterGroup.addLayers(allMarkers);
-    map.setView([52.15, 5.4], 8);
+    map.setView(NL_CENTER, 8);
   }
 
   return { init, zoomToAuthority, zoomToStop, filterByAuthority, resetView };
 })();
 
-if (typeof module !== 'undefined') module.exports = { createStopSvg: createStopSvg };
+if (typeof module !== 'undefined') {
+  module.exports = { createStopSvg, stopMarkerTitle, stopPopupRows, boundaryMaskFeature };
+}

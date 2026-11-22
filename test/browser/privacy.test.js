@@ -31,5 +31,12 @@ for (const page of PAGES) {
       assert.ok(html.includes(NOTICE));
       assert.ok(!html.includes('Er worden geen persoonsgegevens verzameld of gedeeld'));
     });
+
+    if (page !== 'index.html') {
+      it('puts the notice in a privacy section listed in the table of contents', () => {
+        assert.ok(html.includes('<h2 id="privacy">'));
+        assert.ok(html.includes('<li><a href="#privacy">Privacy</a></li>'));
+      });
+    }
   });
 }

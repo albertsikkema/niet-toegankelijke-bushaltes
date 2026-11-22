@@ -8,6 +8,7 @@ const path = require('path');
 
 const DOVA_BASE = 'https://halteviewer.ov-data.nl/halteviewer';
 const ALLMANAK_BASE = 'https://rest-api.allmanak.nl/v1';
+const DATA_DIR = path.join(__dirname, '..', 'docs', 'data');
 
 // Per-attempt timeouts; slow calls measured in the daily workflow (#9)
 const DEFAULT_TIMEOUT_MS = 20_000;
@@ -342,8 +343,7 @@ async function fetchConcessionProviderNames(providerCodes) {
 }
 
 // Fetch administrative boundaries from PDOK and save as individual GeoJSON files
-async function fetchAndSaveBoundaries(authorities) {
-  const boundariesDir = path.join(__dirname, '..', 'docs', 'data', 'boundaries');
+async function fetchAndSaveBoundaries(authorities, boundariesDir = path.join(DATA_DIR, 'boundaries')) {
   fs.mkdirSync(boundariesDir, { recursive: true });
 
   console.log('Fetching boundaries from PDOK...');
@@ -618,7 +618,7 @@ function generateStats(allBusQuays, inaccessible, authorities) {
   };
 }
 
-async function main() {
+async function main(dataDir = DATA_DIR) {
   const startTime = Date.now();
 
   // Step 1+2: Fetch quays
@@ -741,7 +741,7 @@ async function main() {
   }
 
   // Fetch and save boundary files
-  await fetchAndSaveBoundaries(authorities);
+  await fetchAndSaveBoundaries(authorities, path.join(dataDir, 'boundaries'));
 
   // Fetch concession provider info
   const concessionProviders = await fetchConcessionProviderNames(concessionProviderCodes);
@@ -759,12 +759,12 @@ async function main() {
 
   // Generate stats for feiten.html
   const stats = generateStats(allBusQuays, inaccessible, authorities);
-  const statsPath = path.join(__dirname, '..', 'docs', 'data', 'stats.json');
+  const statsPath = path.join(dataDir, 'stats.json');
   fs.writeFileSync(statsPath, JSON.stringify(stats, null, 2));
   console.log(`Stats written: ${statsPath}`);
 
   // Write output
-  const outPath = path.join(__dirname, '..', 'docs', 'data', 'bus-stops.json');
+  const outPath = path.join(dataDir, 'bus-stops.json');
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(output, null, 2));
 
@@ -793,4 +793,5 @@ module.exports = {
   fetchConcessionProviderNames,
   GEMEENTE_REMAP,
   LARGE_CITIES,
+  main,
 };

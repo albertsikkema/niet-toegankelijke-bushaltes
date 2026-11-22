@@ -1,0 +1,747 @@
+{
+  "result": [
+    {
+      "quaycode": "NL:Q:50000001",
+      "quayname": "Halte 1",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "tram",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        570100,
+        6820100
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000002",
+      "quayname": "Halte 2",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "unavailable",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        570200,
+        6820200
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:DE1",
+      "quayname": "Halte 3",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "DUITSLAND",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        570300,
+        6820300
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:BE1",
+      "quayname": "Halte 4",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "BELGIE",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        570400,
+        6820400
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "DE:Q:123",
+      "quayname": "Halte 5",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        570500,
+        6820500
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000006",
+      "quayname": "Halte 6",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": true,
+      "quayvisuallyaccessible": true,
+      "geom": [
+        570600,
+        6820600
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000007",
+      "quayname": "Halte 7",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": true,
+      "quayvisuallyaccessible": true,
+      "geom": [
+        570700,
+        6820700
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000008",
+      "quayname": "Halte 8",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": true,
+      "quayvisuallyaccessible": true,
+      "geom": [
+        570800,
+        6820800
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000009",
+      "quayname": "Halte 9",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": true,
+      "quayvisuallyaccessible": true,
+      "geom": [
+        570900,
+        6820900
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000010",
+      "quayname": "Halte 10",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": true,
+      "quayvisuallyaccessible": true,
+      "geom": [
+        571000,
+        6821000
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000011",
+      "quayname": "Halte 11",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": true,
+      "quayvisuallyaccessible": true,
+      "geom": [
+        571100,
+        6821100
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000012",
+      "quayname": "Halte 12",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": true,
+      "quayvisuallyaccessible": true,
+      "geom": [
+        571200,
+        6821200
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000013",
+      "quayname": "Halte 13",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": true,
+      "quayvisuallyaccessible": true,
+      "geom": [
+        571300,
+        6821300
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000014",
+      "quayname": "Halte 14",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": true,
+      "quayvisuallyaccessible": true,
+      "geom": [
+        571400,
+        6821400
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000015",
+      "quayname": "Zuilen",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": true,
+      "geom": [
+        571500,
+        6821500
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000016",
+      "quayname": "Centrum",
+      "town": "De Meern",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": true,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        571600,
+        6821600
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000017",
+      "quayname": "Amsterdamsestraatweg",
+      "town": "Utrecht",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": "POINT (571234.5 6821234.5)",
+      "compassdirection": "180",
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000018",
+      "quayname": "Brug",
+      "town": "De Meern",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0344",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": {
+        "coordinates": [
+          572000,
+          6822000
+        ]
+      },
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000019",
+      "quayname": "Dam",
+      "town": "Amsterdam",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0363",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        545000,
+        6868000
+      ],
+      "compassdirection": 90,
+      "mutationdate": 1700000000000,
+      "shelter": false,
+      "concessionprovidercode": "XYZ",
+      "stopdatamanager": "Gemeente Amsterdam"
+    },
+    {
+      "quaycode": "NL:Q:50000020",
+      "quayname": "Centraal",
+      "town": "Amsterdam",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0363",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        546000
+      ],
+      "compassdirection": 90,
+      "concessionprovidercode": "",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000021",
+      "quayname": "Spui",
+      "town": "Amsterdam",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0363",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": "garbage",
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000022",
+      "quayname": "Rokin",
+      "town": "Amsterdam",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0363",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000023",
+      "quayname": "Leidseplein",
+      "town": "Amsterdam",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0363",
+      "quaydisabledaccessible": true,
+      "quayvisuallyaccessible": true,
+      "geom": [
+        572300,
+        6822300
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000024",
+      "quayname": "Markt",
+      "town": "Lobith",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0196",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        672000,
+        6787000
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Rijnwaarden"
+    },
+    {
+      "quaycode": "NL:Q:50000025",
+      "quayname": "Grote Markt",
+      "town": "Groningen",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0014",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        731000,
+        7034000
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000026",
+      "quayname": "Station",
+      "town": "Leeuwarden",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G0080",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        645000,
+        7020000
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000027",
+      "quayname": "Einde",
+      "town": "Nergens",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "G9999",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        572700,
+        6822700
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Nergens"
+    },
+    {
+      "quaycode": "NL:Q:50000028",
+      "quayname": "N410",
+      "town": "Houten",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "P0026",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        572800,
+        6822800
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Provincie Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000029",
+      "quayname": "N409",
+      "town": "Houten",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "P0026",
+      "quaydisabledaccessible": true,
+      "quayvisuallyaccessible": true,
+      "geom": [
+        572900,
+        6822900
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Gemeente Utrecht"
+    },
+    {
+      "quaycode": "NL:Q:50000030",
+      "quayname": "N33",
+      "town": "Assen",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "P0021",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        573000,
+        6823000
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "DE",
+      "stopdatamanager": "Provincie Drenthe"
+    },
+    {
+      "quaycode": "NL:Q:50000031",
+      "quayname": "Dijk",
+      "town": "Delft",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "W0621",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        573100,
+        6823100
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Delfland"
+    },
+    {
+      "quaycode": "NL:Q:50000032",
+      "quayname": "Waalbandijk",
+      "town": "Tiel",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "W0155",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        573200,
+        6823200
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Rivierenland"
+    },
+    {
+      "quaycode": "NL:Q:50000033",
+      "quayname": "Veerhaven",
+      "town": "Vlissingen",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "RWSZN",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        573300,
+        6823300
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "RWS Zee en Delta"
+    },
+    {
+      "quaycode": "NL:Q:50000034",
+      "quayname": "A12",
+      "town": "Arnhem",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "RWSMN",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        573400,
+        6823400
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT"
+    },
+    {
+      "quaycode": "NL:Q:50000035",
+      "quayname": "School",
+      "town": "Kampen",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "HOORNBEECK",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        573500,
+        6823500
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Hoornbeeck College"
+    },
+    {
+      "quaycode": "NL:Q:50000036",
+      "quayname": "Terrein",
+      "town": "Ergens",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "PRIV2",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        573600,
+        6823600
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT"
+    },
+    {
+      "quaycode": "NL:Q:50000037",
+      "quayname": "Fabriek",
+      "town": "Ergens",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quayownercode": "ACME",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        573700,
+        6823700
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT"
+    },
+    {
+      "quaycode": "NL:Q:50000038",
+      "quayname": "Weg",
+      "town": "Onbekend",
+      "street": "Hoofdstraat",
+      "transportmode": "bus",
+      "quaystatus": "available",
+      "quaydisabledaccessible": false,
+      "quayvisuallyaccessible": false,
+      "geom": [
+        573800,
+        6823800
+      ],
+      "compassdirection": 90,
+      "mutationdate": "2024-03-05T10:00:00Z",
+      "shelter": true,
+      "concessionprovidercode": "PUT",
+      "stopdatamanager": "Onbekende beheerder"
+    }
+  ]
+}

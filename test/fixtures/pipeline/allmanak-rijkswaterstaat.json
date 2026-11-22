@@ -1,0 +1,19 @@
+[
+  {
+    "naam": "Rijkswaterstaat",
+    "resourceidentifiers": [],
+    "contact": {
+      "emailadressen": [],
+      "internetadressen": [
+        {
+          "url": "https://www.rijkswaterstaat.nl"
+        }
+      ],
+      "telefoonnummers": [
+        {
+          "nummer": "0800 8002"
+        }
+      ]
+    }
+  }
+]

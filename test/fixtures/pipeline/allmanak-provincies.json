@@ -1,0 +1,64 @@
+[
+  {
+    "naam": "Provincie Utrecht",
+    "resourceidentifiers": [
+      {
+        "naam": "resourceIdentifierTOOI",
+        "value": "https://identifier.overheid.nl/tooi/id/provincie/pv26"
+      }
+    ],
+    "contact": {
+      "emailadressen": [],
+      "internetadressen": [
+        {
+          "url": "https://www.provincie-utrecht.nl"
+        }
+      ],
+      "telefoonnummers": [
+        {
+          "nummer": "030 258 9111"
+        }
+      ]
+    }
+  },
+  {
+    "naam": "Provincie Drenthe",
+    "resourceidentifiers": [
+      {
+        "naam": "Organisatiecode",
+        "value": "pv21"
+      }
+    ],
+    "contact": {
+      "emailadressen": [
+        {
+          "email": "post@drenthe.nl"
+        }
+      ],
+      "internetadressen": [
+        {
+          "url": "https://www.provincie.drenthe.nl"
+        }
+      ],
+      "telefoonnummers": []
+    }
+  },
+  {
+    "naam": "Provincie Zonder Code",
+    "resourceidentifiers": [
+      {
+        "naam": "Organisatiecode",
+        "value": "xx99"
+      }
+    ],
+    "contact": {
+      "emailadressen": [
+        {
+          "email": "a@b.nl"
+        }
+      ],
+      "internetadressen": [],
+      "telefoonnummers": []
+    }
+  }
+]

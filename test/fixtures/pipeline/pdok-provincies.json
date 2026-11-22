@@ -1,0 +1,140 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "26",
+        "naam": "Utrecht"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.1,
+              52.1
+            ],
+            [
+              5.199999999999999,
+              52.1
+            ],
+            [
+              5.199999999999999,
+              52.2
+            ],
+            [
+              5.1,
+              52.2
+            ],
+            [
+              5.1,
+              52.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "21",
+        "naam": "Drenthe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.5,
+              52.9
+            ],
+            [
+              6.6,
+              52.9
+            ],
+            [
+              6.6,
+              53
+            ],
+            [
+              6.5,
+              53
+            ],
+            [
+              6.5,
+              52.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "27",
+        "naam": "Noord-Holland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.8,
+              52.5
+            ],
+            [
+              4.8999999999999995,
+              52.5
+            ],
+            [
+              4.8999999999999995,
+              52.6
+            ],
+            [
+              4.8,
+              52.6
+            ],
+            [
+              4.8,
+              52.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naam": "Zonder code"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4,
+              52
+            ],
+            [
+              4.1,
+              52
+            ],
+            [
+              4.1,
+              52.1
+            ],
+            [
+              4,
+              52.1
+            ],
+            [
+              4,
+              52
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -192,6 +192,30 @@ const MapView = (() => {
   let tileLayer = null;
   let pendingFocus = false;
 
+  // Leaflet map; animations off when the user prefers reduced motion
+  function createMap(animate) {
+    map = L.map('map', {
+      preferCanvas: true,
+      center: NL_CENTER,
+      zoom: 8,
+      minZoom: 6,
+      maxZoom: 18,
+      zoomAnimation: animate,
+      fadeAnimation: animate,
+      markerZoomAnimation: animate,
+      inertia: animate,
+    });
+
+    // Every pan (setView, fitBounds, keyboard, popup auto-pan, cluster panTo)
+    // goes through panBy; make it jump when motion is reduced
+    if (!animate) {
+      var panBy = map.panBy;
+      map.panBy = function (offset, options) {
+        return panBy.call(this, offset, Object.assign({}, options, { animate: false }));
+      };
+    }
+  }
+
   // Theme-aware base tiles that follow themechange events
   function addTileLayer() {
     var initialTheme = (typeof Theme !== 'undefined') ? Theme.current() : 'light';
@@ -221,16 +245,12 @@ const MapView = (() => {
   }
 
   function init(data) {
-    map = L.map('map', {
-      preferCanvas: true,
-      center: NL_CENTER,
-      zoom: 8,
-      minZoom: 6,
-      maxZoom: 18,
-    });
+    var animate = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    createMap(animate);
     addTileLayer();
 
     clusterGroup = L.markerClusterGroup({
+      animate: animate,
       chunkedLoading: true,
       maxClusterRadius: 50,
       spiderfyOnMaxZoom: true,

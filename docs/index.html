@@ -2,6 +2,7 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com https://analytics.test001.nl; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: https://unpkg.com https://*.basemaps.cartocdn.com; connect-src 'self' https://analytics.test001.nl; object-src 'none'; base-uri 'none'">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Niet met de bus? — Niet toegankelijke bushaltes in Nederland</title>
   <meta name="description" content="Bekijk welke bushaltes in Nederland niet toegankelijk zijn voor mensen met een beperking en stuur een e-mail naar de verantwoordelijke wegbeheerder.">
@@ -97,6 +98,7 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <a href="#map" class="skip-link">Direct naar inhoud</a>
   <header id="header">
     <div class="header-title">
       <h1>Niet met de bus?</h1>
@@ -133,7 +135,7 @@
       </div>
     </aside>
 
-    <div id="map" role="application" aria-label="Kaart met niet-toegankelijke bushaltes"></div>
+    <div id="map" tabindex="-1" role="application" aria-label="Kaart met niet-toegankelijke bushaltes"></div>
   </main>
 
   <!-- Email modal -->

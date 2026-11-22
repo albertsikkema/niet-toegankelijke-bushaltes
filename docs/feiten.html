@@ -2,6 +2,7 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com https://analytics.test001.nl; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: https://unpkg.com https://*.basemaps.cartocdn.com; connect-src 'self' https://analytics.test001.nl; object-src 'none'; base-uri 'none'">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Feiten en cijfers - Niet met de bus?</title>
   <meta name="description" content="Feiten en cijfers over de toegankelijkheid van bushaltes in Nederland: welke gemeentes scoren het slechtst, welke het best, en wat zijn de belangrijkste conclusies?">
@@ -270,7 +271,7 @@
     <h2 id="privacy">Privacy</h2>
     <p>Deze website plaatst geen cookies en gebruikt geen trackers. Wel wordt anonieme bezoekstatistiek bijgehouden via <a href="https://umami.is" target="_blank" rel="noopener">Umami</a> op analytics.test001.nl. Hierbij wordt uw IP-adres kortstondig verwerkt om geanonimiseerde statistieken te genereren; het IP-adres wordt niet opgeslagen.</p>
   </main>
-  <script>Theme.init();</script>
+  <script src="js/theme-init.js"></script>
   <script src="js/feiten.js"></script>
 </body>
 </html>

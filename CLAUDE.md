@@ -70,6 +70,7 @@ Script load order: `theme.js` → `email.js` → `map.js` → `sidebar.js` → `
 Additional pages:
 - `feiten.html` — facts and statistics page with tables of worst/best-performing municipalities, data quality section; `js/feiten.js` loads `data/stats.json`
 - `eisen.html` — accessibility requirements page explaining CROW standards (perron height, width, guidance lines, etc.)
+- Both call `Theme.init()` via `js/theme-init.js` (index.html does it from `app.js`)
 
 External dependencies (loaded from CDN): Leaflet 1.9.4, Leaflet.markercluster 1.5.3, CARTO Voyager tiles. `js/stats.js` provides privacy-friendly Umami analytics.
 
@@ -108,4 +109,5 @@ The API uses **Sherpa** (JSON-RPC over HTTP, version 0). All endpoints use **HTT
 - **Accessibility tracking:** Stops are included if either `quaydisabledaccessible` (wheelchair) or `quayvisuallyaccessible` (visual) is `false`
 - **Theme system:** `Theme` module dispatches `themechange` CustomEvents; other modules (notably `MapView`) listen to update tile layers
 - **Analytics:** Self-hosted Umami at analytics.test001.nl (no cookies, IP not stored, `data-do-not-track="true"`); every page carries the same privacy notice
+- **CSP:** Every page carries the same `Content-Security-Policy` meta tag directly after `<meta charset>` (pinned in `test/browser/csp.test.js`). No inline scripts or `on*=` handlers. A new external origin needs the policy updated on all three pages and in the test
 - **Bruno collection:** Open `api_tools/` with [Bruno](https://www.usebruno.com/). YML `seq:` fields control display order. Environment var `baseUrl` is set in `environments/production.yml`

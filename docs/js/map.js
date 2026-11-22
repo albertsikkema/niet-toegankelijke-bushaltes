@@ -52,13 +52,28 @@ const MapView = (() => {
   function init(data) {
     appData = data;
 
+    var animate = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
     map = L.map('map', {
       preferCanvas: true,
       center: [52.15, 5.4], // Center of NL
       zoom: 8,
       minZoom: 6,
       maxZoom: 18,
+      zoomAnimation: animate,
+      fadeAnimation: animate,
+      markerZoomAnimation: animate,
+      inertia: animate,
     });
+
+    // Every pan (setView, fitBounds, keyboard, popup auto-pan, cluster panTo)
+    // goes through panBy; make it jump when motion is reduced
+    if (!animate) {
+      var panBy = map.panBy;
+      map.panBy = function (offset, options) {
+        return panBy.call(this, offset, Object.assign({}, options, { animate: false }));
+      };
+    }
 
     var initialTheme = (typeof Theme !== 'undefined') ? Theme.current() : 'light';
     tileLayer = L.tileLayer(TILE_URLS[initialTheme], {
@@ -73,6 +88,7 @@ const MapView = (() => {
     });
 
     clusterGroup = L.markerClusterGroup({
+      animate: animate,
       chunkedLoading: true,
       maxClusterRadius: 50,
       spiderfyOnMaxZoom: true,

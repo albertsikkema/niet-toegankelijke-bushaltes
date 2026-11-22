@@ -1,6 +1,15 @@
 // Feiten page — pure helper functions (testable from Node.js)
+function feitenEscapeHtml(value) {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 function feitenRow(cells) {
-  return '<tr>' + cells.map(function (c) { return '<td>' + c + '</td>'; }).join('') + '</tr>';
+  return '<tr>' + cells.map(function (c) { return '<td>' + feitenEscapeHtml(c) + '</td>'; }).join('') + '</tr>';
 }
 
 function feitenFormatDate(iso) {
@@ -92,7 +101,7 @@ function feitenFormatDate(iso) {
 
     var list = document.getElementById('conclusions-list');
     if (list) {
-      list.innerHTML = items.map(function (t) { return '<li>' + t + '</li>'; }).join('');
+      list.innerHTML = items.map(function (t) { return '<li>' + feitenEscapeHtml(t) + '</li>'; }).join('');
     }
 
     // Generated date
@@ -116,4 +125,4 @@ function feitenFormatDate(iso) {
   }
 })();
 
-if (typeof module !== 'undefined') module.exports = { feitenRow: feitenRow, feitenFormatDate: feitenFormatDate };
+if (typeof module !== 'undefined') module.exports = { feitenRow: feitenRow, feitenFormatDate: feitenFormatDate, feitenEscapeHtml: feitenEscapeHtml };

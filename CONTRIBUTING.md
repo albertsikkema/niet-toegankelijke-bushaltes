@@ -6,8 +6,9 @@ to get them merged. See [README.md](README.md) for what the project does.
 
 ## Running locally
 
-Requirements: Node.js 18 or newer (CI uses Node 24). There is nothing to
-install: the project has no npm dependencies.
+Requirements: Node.js 18 or newer (CI uses Node 24). The project has no
+npm dependencies; `make run` fetches `serve` on demand via `npx`, which
+needs access to the npm registry the first time.
 
 ### Fetch the data
 

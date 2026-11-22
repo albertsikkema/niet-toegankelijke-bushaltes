@@ -15,8 +15,10 @@ const EXPECTED = {
   'base-uri': ["'none'"],
 };
 const META = /<meta http-equiv="Content-Security-Policy" content="([^"]*)">/;
-// Kept to one line so `i < n` followed later by `const onX =` is not a match
-const INLINE_HANDLER = /<[^>\n]*\son[a-z]+\s*=|setAttribute\(\s*['"`]on[a-z]+['"`]/i;
+// In HTML `<` always opens a tag, and tags may wrap over several lines
+const HTML_HANDLER = /<[^>]*\son[a-z]+\s*=/i;
+// In JS, kept to one line so `i < n` followed later by `const onX =` is not a match
+const JS_HANDLER = /<[^>\n]*\son[a-z]+\s*=|setAttribute\(\s*['"`]on[a-z]+['"`]/i;
 
 function parsePolicy(content) {
   const policy = {};
@@ -57,21 +59,25 @@ for (const page of PAGES) {
     });
 
     it('has no inline event handlers or javascript: URLs', () => {
-      assert.doesNotMatch(html, INLINE_HANDLER);
+      assert.doesNotMatch(html, HTML_HANDLER);
       assert.doesNotMatch(html, /javascript:/i);
     });
   });
 }
 
-describe('inline handler pattern', () => {
-  it('catches inline handlers in markup and setAttribute', () => {
-    assert.match('<button onclick="go()">', INLINE_HANDLER);
-    assert.match("el.innerHTML = '<a href=\"#\" onmouseover=x>';", INLINE_HANDLER);
-    assert.match("el.setAttribute('onclick', 'go()');", INLINE_HANDLER);
+describe('inline handler patterns', () => {
+  it('HTML: catches handlers, also on a tag wrapped over several lines', () => {
+    assert.match('<button onclick="go()">', HTML_HANDLER);
+    assert.match('<button\n  type="button"\n  onclick="go()">', HTML_HANDLER);
   });
 
-  it('ignores a comparison followed by an on* variable on a later line', () => {
-    assert.doesNotMatch('for (let i = 0; i < n; i++) {}\nconst onClose = () => {};', INLINE_HANDLER);
+  it('JS: catches handlers in markup strings and setAttribute', () => {
+    assert.match("el.innerHTML = '<a href=\"#\" onmouseover=x>';", JS_HANDLER);
+    assert.match("el.setAttribute('onclick', 'go()');", JS_HANDLER);
+  });
+
+  it('JS: ignores a comparison followed by an on* variable on a later line', () => {
+    assert.doesNotMatch('for (let i = 0; i < n; i++) {}\nconst onClose = () => {};', JS_HANDLER);
   });
 });
 
@@ -82,7 +88,7 @@ describe('scripts build no inline event handlers', () => {
   for (const file of files) {
     it(file, () => {
       const src = fs.readFileSync(path.join(DOCS, 'js', file), 'utf8');
-      assert.doesNotMatch(src, INLINE_HANDLER);
+      assert.doesNotMatch(src, JS_HANDLER);
     });
   }
 });

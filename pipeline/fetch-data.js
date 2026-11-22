@@ -9,6 +9,11 @@ const path = require('path');
 const DOVA_BASE = 'https://halteviewer.ov-data.nl/halteviewer';
 const ALLMANAK_BASE = 'https://rest-api.allmanak.nl/v1';
 
+// Per-attempt timeouts; slow calls measured in the daily workflow (#9)
+const DEFAULT_TIMEOUT_MS = 20_000;
+const DOVA_TIMEOUT_MS = 60_000;     // getQuays: 2–7 s, max seen 26 s
+const BOUNDARY_TIMEOUT_MS = 90_000; // PDOK/ArcGIS geometry: max seen 42 s
+
 // EPSG:3857 → WGS84 conversion
 function toWgs84(x, y) {
   const lon = (x / 20037508.34) * 180;
@@ -16,17 +21,22 @@ function toWgs84(x, y) {
   return { lat: Math.round(lat * 1e6) / 1e6, lon: Math.round(lon * 1e6) / 1e6 };
 }
 
-async function fetchJson(url, options = {}, retries = 3) {
+async function fetchJson(url, options = {}, retries = 3, timeoutMs = DEFAULT_TIMEOUT_MS) {
   for (let attempt = 1; attempt <= retries; attempt++) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
     try {
-      const res = await fetch(url, options);
+      const res = await fetch(url, { ...options, signal: controller.signal });
       if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
       return await res.json();
     } catch (err) {
+      if (controller.signal.aborted) err = new Error(`Timed out after ${timeoutMs}ms for ${url}`, { cause: err });
       if (attempt === retries) throw err;
       const delay = attempt * 2000;
       console.warn(`  Retry ${attempt}/${retries} for ${url}: ${err.message} (waiting ${delay}ms)`);
       await new Promise(r => setTimeout(r, delay));
+    } finally {
+      clearTimeout(timer);
     }
   }
 }
@@ -36,7 +46,7 @@ async function dovaPost(endpoint) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ params: [] }),
-  });
+  }, 3, DOVA_TIMEOUT_MS);
   if (data.error) throw new Error(`DOVA error: ${data.error.message}`);
   return data.result;
 }
@@ -333,9 +343,9 @@ async function fetchAndSaveBoundaries(authorities) {
   const waterschapUrl = 'https://services.arcgis.com/nSZVuSZjHpEZZbRo/arcgis/rest/services/Waterschapsgrenzen/FeatureServer/0/query?where=1%3D1&outFields=waterschapcode,naam,waterschap&f=geojson&resultRecordCount=50&outSR=4326';
 
   const [gemeenteData, provincieData, waterschapData] = await Promise.all([
-    fetchJson(gemeenteUrl).catch(err => { console.warn('  Failed to fetch gemeente boundaries:', err.message); return null; }),
-    fetchJson(provincieUrl).catch(err => { console.warn('  Failed to fetch provincie boundaries:', err.message); return null; }),
-    fetchJson(waterschapUrl).catch(err => { console.warn('  Failed to fetch waterschap boundaries:', err.message); return null; }),
+    fetchJson(gemeenteUrl, {}, 3, BOUNDARY_TIMEOUT_MS).catch(err => { console.warn('  Failed to fetch gemeente boundaries:', err.message); return null; }),
+    fetchJson(provincieUrl, {}, 3, BOUNDARY_TIMEOUT_MS).catch(err => { console.warn('  Failed to fetch provincie boundaries:', err.message); return null; }),
+    fetchJson(waterschapUrl, {}, 3, BOUNDARY_TIMEOUT_MS).catch(err => { console.warn('  Failed to fetch waterschap boundaries:', err.message); return null; }),
   ]);
 
   // Build reverse map: for remapped gemeenten, map the target gm code back to the original ownerCode

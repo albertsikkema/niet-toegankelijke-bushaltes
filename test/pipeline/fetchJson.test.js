@@ -1,4 +1,5 @@
-const { describe, it, afterEach } = require('node:test');
+const http = require('node:http');
+const { describe, it, afterEach, before, after } = require('node:test');
 const assert = require('node:assert/strict');
 const { fetchJson } = require('../../pipeline/fetch-data.js');
 
@@ -70,5 +71,51 @@ describe('fetchJson', () => {
     assert.equal(capturedOptions.method, 'POST');
     assert.equal(capturedOptions.body, body);
     assert.equal(capturedOptions.headers['Content-Type'], 'application/json');
+    assert.ok(capturedOptions.signal instanceof AbortSignal);
+  });
+});
+
+describe('fetchJson timeout', () => {
+  let server;
+  let baseUrl;
+  let requests = 0;
+
+  before(async () => {
+    server = http.createServer((req, res) => {
+      requests++;
+      if (req.url === '/stalled-body') {
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.write('{"partial":'); // never ends
+      }
+      // any other path: never respond at all
+    });
+    await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+    baseUrl = `http://127.0.0.1:${server.address().port}`;
+  });
+
+  after(() => {
+    server.closeAllConnections();
+    server.close();
+  });
+
+  it('aborts a stalled request, retries, and names the URL', { timeout: 10_000 }, async () => {
+    requests = 0;
+    const url = `${baseUrl}/stalled`;
+    await assert.rejects(fetchJson(url, {}, 2, 100), err => {
+      assert.equal(err.message, `Timed out after 100ms for ${url}`);
+      assert.ok(err.cause instanceof Error);
+      return true;
+    });
+    assert.equal(requests, 2);
+  });
+
+  it('aborts when the body stalls after headers', { timeout: 5_000 }, async () => {
+    requests = 0;
+    const url = `${baseUrl}/stalled-body`;
+    await assert.rejects(
+      fetchJson(url, {}, 1, 100),
+      { message: `Timed out after 100ms for ${url}` }
+    );
+    assert.equal(requests, 1);
   });
 });

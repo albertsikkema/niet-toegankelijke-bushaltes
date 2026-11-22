@@ -12,6 +12,7 @@ const THRESHOLDS = {
   totalBusQuays: 30_000,
   inaccessibleBusQuays: 1_000,
   authorities: 100,
+  missingEmailRatio: 0.25,
 };
 
 function validate(busStopsPath, statsPath) {
@@ -61,6 +62,16 @@ function validate(busStopsPath, statsPath) {
     if (!Array.isArray(auth.stops) || auth.stops.length === 0) {
       errors.push(`bus-stops.json: authority "${code}" has no stops`);
     }
+  }
+
+  // --- Check share of non-privaat authorities without email ---
+  const contactable = Object.values(busStops.authorities || {}).filter(a => a.type !== 'privaat');
+  const noEmailCount = contactable.filter(a => !a.email).length;
+  if (contactable.length > 0 && noEmailCount / contactable.length > THRESHOLDS.missingEmailRatio) {
+    const pct = ((noEmailCount / contactable.length) * 100).toFixed(1);
+    errors.push(
+      `bus-stops.json: ${noEmailCount} of ${contactable.length} non-privaat authorities have no email (${pct}%), above threshold ${THRESHOLDS.missingEmailRatio * 100}%`
+    );
   }
 
   // --- Load and cross-check stats.json ---

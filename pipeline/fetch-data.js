@@ -21,18 +21,29 @@ function toWgs84(x, y) {
   return { lat: Math.round(lat * 1e6) / 1e6, lon: Math.round(lon * 1e6) / 1e6 };
 }
 
+const MAX_RETRY_DELAY_MS = 15_000;
+
+// Exponential backoff with ±25% jitter: ~2 s, ~4 s, ~8 s, capped at 15 s
+function retryDelay(attempt) {
+  return Math.round(Math.min(1000 * 2 ** attempt * (0.75 + Math.random() * 0.5), MAX_RETRY_DELAY_MS));
+}
+
 async function fetchJson(url, options = {}, retries = 3, timeoutMs = DEFAULT_TIMEOUT_MS) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeoutMs);
     try {
       const res = await fetch(url, { ...options, signal: controller.signal });
-      if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+      if (!res.ok) {
+        const err = new Error(`HTTP ${res.status} for ${url}`);
+        err.retryable = res.status < 400 || res.status >= 500;
+        throw err;
+      }
       return await res.json();
     } catch (err) {
       if (controller.signal.aborted) err = new Error(`Timed out after ${timeoutMs}ms for ${url}`, { cause: err });
-      if (attempt === retries) throw err;
-      const delay = attempt * 2000;
+      if (attempt === retries || err.retryable === false) throw err;
+      const delay = retryDelay(attempt);
       console.warn(`  Retry ${attempt}/${retries} for ${url}: ${err.message} (waiting ${delay}ms)`);
       await new Promise(r => setTimeout(r, delay));
     } finally {
@@ -777,6 +788,7 @@ module.exports = {
   ownerCodeToAllmanakKey,
   generateStats,
   fetchJson,
+  retryDelay,
   fetchConcessionProviderNames,
   GEMEENTE_REMAP,
   LARGE_CITIES,

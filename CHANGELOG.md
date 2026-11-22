@@ -48,6 +48,8 @@ This project does not publish versioned releases yet.
 - Redesigned sidebar and simplified mobile header.
 - GitHub Actions updated to Node 24.
 - Analytics now honours Do-Not-Track (#20).
+- Pipeline API calls no longer retry HTTP 4xx errors; retries use
+  exponential backoff with jitter (#14).
 
 ### Removed
 

@@ -231,6 +231,7 @@ const MapView = (() => {
   }
 
   function addMarkers(data) {
+    allMarkers = [];
     for (const [ownerCode, authority] of Object.entries(data.authorities)) {
       markersByAuthority[ownerCode] = [];
       for (const stop of authority.stops) {

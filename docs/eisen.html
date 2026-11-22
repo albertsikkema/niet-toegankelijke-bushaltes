@@ -2,6 +2,7 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com https://analytics.test001.nl; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: https://unpkg.com https://*.basemaps.cartocdn.com; connect-src 'self' https://analytics.test001.nl; object-src 'none'; base-uri 'none'">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eisen toegankelijke bushalte - Niet met de bus?</title>
   <meta name="description" content="Overzicht van de minimale eisen voor een toegankelijke bushalte in Nederland, gebaseerd op de CROW Richtlijn Toegankelijkheid.">
@@ -367,6 +368,6 @@
     <h2 id="privacy">Privacy</h2>
     <p>Deze website plaatst geen cookies en gebruikt geen trackers. Wel wordt anonieme bezoekstatistiek bijgehouden via <a href="https://umami.is" target="_blank" rel="noopener">Umami</a> op analytics.test001.nl. Hierbij wordt uw IP-adres kortstondig verwerkt om geanonimiseerde statistieken te genereren; het IP-adres wordt niet opgeslagen.</p>
   </main>
-  <script>Theme.init();</script>
+  <script src="js/theme-init.js"></script>
 </body>
 </html>

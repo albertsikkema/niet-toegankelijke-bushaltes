@@ -23,7 +23,9 @@ describe('style.css', () => {
     const css = read('css/style.css');
     const block = css.match(/@media \(prefers-reduced-motion: reduce\) \{[\s\S]*?\n\}/);
     assert.ok(block, 'missing prefers-reduced-motion block');
-    assert.match(block[0], /transition-duration: 0\.01ms !important/);
+    // Not a short transition-duration: that also transitions `visibility`,
+    // which keeps Leaflet popups unfocusable right after they open
+    assert.match(block[0], /transition: none !important/);
     assert.match(block[0], /animation-duration: 0\.01ms !important/);
   });
 });

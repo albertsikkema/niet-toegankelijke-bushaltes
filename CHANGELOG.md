@@ -38,6 +38,8 @@ This project does not publish versioned releases yet.
 - Request timeouts for all pipeline API calls, with retries (#23).
 - Data validation fails when more than 25% of authorities have no
   email address (#22).
+- Data validation fails when the total number of bus quays is above
+  100 000 (#14).
 
 ### Changed
 
@@ -48,6 +50,8 @@ This project does not publish versioned releases yet.
 - Redesigned sidebar and simplified mobile header.
 - GitHub Actions updated to Node 24.
 - Analytics now honours Do-Not-Track (#20).
+- Pipeline API calls no longer retry HTTP 4xx errors; retries use
+  exponential backoff with jitter (#14).
 
 ### Removed
 

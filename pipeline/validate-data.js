@@ -10,6 +10,7 @@ const STATS_PATH = join(DATA_DIR, 'stats.json');
 
 const THRESHOLDS = {
   totalBusQuays: 30_000,
+  maxTotalBusQuays: 100_000,
   inaccessibleBusQuays: 1_000,
   authorities: 100,
   missingEmailRatio: 0.25,
@@ -38,6 +39,12 @@ function validate(busStopsPath, statsPath) {
   if ((totals.totalBusQuays ?? 0) < THRESHOLDS.totalBusQuays) {
     errors.push(
       `bus-stops.json: totalBusQuays (${totals.totalBusQuays ?? 'missing'}) below threshold ${THRESHOLDS.totalBusQuays}`
+    );
+  }
+
+  if (totals.totalBusQuays > THRESHOLDS.maxTotalBusQuays) {
+    errors.push(
+      `bus-stops.json: totalBusQuays (${totals.totalBusQuays}) above ceiling ${THRESHOLDS.maxTotalBusQuays}`
     );
   }
 

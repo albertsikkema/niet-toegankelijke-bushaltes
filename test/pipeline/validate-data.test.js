@@ -86,6 +86,21 @@ describe('validate-data', () => {
     assert.ok(errors.some(e => e.includes('totalBusQuays') && e.includes('below threshold')));
   });
 
+  it('fails when totalBusQuays is above the ceiling', () => {
+    const busStops = makeValidBusStops();
+    busStops.totals.totalBusQuays = THRESHOLDS.maxTotalBusQuays + 1;
+    writePair(busStops, makeValidStats(busStops));
+    const errors = validate(BUS_STOPS_PATH, STATS_PATH);
+    assert.ok(errors.some(e => e.includes('totalBusQuays') && e.includes('above ceiling')));
+  });
+
+  it('passes when totalBusQuays is exactly the ceiling', () => {
+    const busStops = makeValidBusStops();
+    busStops.totals.totalBusQuays = THRESHOLDS.maxTotalBusQuays;
+    writePair(busStops, makeValidStats(busStops));
+    assert.deepEqual(validate(BUS_STOPS_PATH, STATS_PATH), []);
+  });
+
   it('fails when inaccessibleBusQuays is too low', () => {
     const busStops = makeValidBusStops();
     busStops.totals.inaccessibleBusQuays = 10;

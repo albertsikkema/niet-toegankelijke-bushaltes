@@ -50,6 +50,11 @@ Tests live in `test/pipeline/` and `test/browser/` and use Node's
 built-in `node:test` and `node:assert`. CI runs them on every pull
 request.
 
+The pipeline golden test (`test/pipeline/fetch-data.golden.test.js`)
+runs `main()` on fixture API responses in `test/fixtures/pipeline/` and
+compares every output file byte for byte; regenerate the expected files
+with `UPDATE_GOLDEN=1` only for an intended output change.
+
 ## Code style
 
 - **Vanilla JavaScript, no build step.** The site in `docs/` is served

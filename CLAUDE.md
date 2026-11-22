@@ -107,5 +107,5 @@ The API uses **Sherpa** (JSON-RPC over HTTP, version 0). All endpoints use **HTT
 - **Authority types:** `gemeente`, `provincie`, `waterschap`, `rijkswaterstaat`, `privaat` (private managers don't get the email feature)
 - **Accessibility tracking:** Stops are included if either `quaydisabledaccessible` (wheelchair) or `quayvisuallyaccessible` (visual) is `false`
 - **Theme system:** `Theme` module dispatches `themechange` CustomEvents; other modules (notably `MapView`) listen to update tile layers
-- **Analytics:** Privacy-friendly Umami analytics (no cookies, no trackers)
+- **Analytics:** Self-hosted Umami at analytics.test001.nl (no cookies, IP not stored, `data-do-not-track="true"`); every page carries the same privacy notice
 - **Bruno collection:** Open `api_tools/` with [Bruno](https://www.usebruno.com/). YML `seq:` fields control display order. Environment var `baseUrl` is set in `environments/production.yml`

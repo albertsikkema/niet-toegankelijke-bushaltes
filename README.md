@@ -79,7 +79,7 @@ To refresh the script:
 
 1. Download `https://analytics.test001.nl/script.js` from the self-hosted Umami instance.
 2. Replace everything below the comment block in `docs/js/stats.js` with it.
-3. Update the comment: the Umami version of the instance, the source, and today's date. If you can't confirm the version, write "closest match vX.Y.Z".
+3. Update the comment: the Umami version of the instance, the source, and today's date. If you can't confirm the version, write "closest match vX.Y.Z". To confirm it, check the version shown in the Umami dashboard, or rebuild `src/tracker` from the release tag with its `rollup.tracker.config.js` and compare the output with `cmp`.
 
 ## Support
 

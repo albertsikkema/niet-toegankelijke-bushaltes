@@ -34,6 +34,10 @@ This project does not publish versioned releases yet.
 - SEO meta tags, structured data, sitemap, robots.txt and favicons.
 - Bruno API collection for exploring the DOVA Halteviewer API.
 - README, MIT license and project documentation.
+- Privacy section on the facts and requirements pages (#20).
+- Request timeouts for all pipeline API calls, with retries (#23).
+- Data validation fails when more than 25% of authorities have no
+  email address (#22).
 
 ### Changed
 
@@ -43,10 +47,24 @@ This project does not publish versioned releases yet.
   API key from `.env` or a repository secret.
 - Redesigned sidebar and simplified mobile header.
 - GitHub Actions updated to Node 24.
+- Analytics now honours Do-Not-Track (#20).
+
+### Removed
+
+- `.github/FUNDING.yml` and its GitHub Sponsor button (#26).
 
 ### Fixed
 
 - Map stop markers now have accessible names.
 - XML content type on GitHub Pages (added `.nojekyll`).
+- Privacy notice no longer claims that no personal data is processed;
+  it now says the IP address is processed briefly and not stored (#20).
+
+### Security
+
+- Leaflet and MarkerCluster files from unpkg.com are loaded with
+  Subresource Integrity hashes (#21).
+- Authority names on the facts page are HTML-escaped, closing a DOM
+  XSS (#24).
 
 [Unreleased]: https://github.com/albertsikkema/niet-toegankelijke-bushaltes/commits/main

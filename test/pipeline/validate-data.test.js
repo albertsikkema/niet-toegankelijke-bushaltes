@@ -27,7 +27,9 @@ function makeValidBusStops(overrides = {}) {
     for (let i = 0; i < authCount; i++) {
       const code = `G${String(i).padStart(4, '0')}`;
       authorities[code] = {
+        type: 'gemeente',
         name: `Gemeente ${i}`,
+        email: `info@gemeente${i}.nl`,
         stops: [{ code: `NL:Q:${i}`, name: `Stop ${i}` }],
       };
     }
@@ -41,6 +43,10 @@ function makeValidStats(busStops) {
     generated: busStops.generated,
     totals: { totalBusQuays: busStops.totals.totalBusQuays },
   };
+}
+
+function clearEmails(busStops, n) {
+  Object.values(busStops.authorities).slice(0, n).forEach(a => { a.email = null; });
 }
 
 function writePair(busStops, stats) {
@@ -166,5 +172,38 @@ describe('validate-data', () => {
     writePair(busStops, { generated: busStops.generated });
     const errors = validate(BUS_STOPS_PATH, STATS_PATH);
     assert.ok(errors.some(e => e.includes('does not match')), 'missing totals should cause mismatch');
+  });
+
+  it('passes when exactly the threshold share of authorities has no email', () => {
+    const busStops = makeValidBusStops();
+    clearEmails(busStops, 200 * THRESHOLDS.missingEmailRatio); // 50 of 200 = 25%
+    writePair(busStops, makeValidStats(busStops));
+    assert.deepEqual(validate(BUS_STOPS_PATH, STATS_PATH), []);
+  });
+
+  it('fails when too many non-privaat authorities have no email', () => {
+    const busStops = makeValidBusStops();
+    clearEmails(busStops, 200 * THRESHOLDS.missingEmailRatio + 1); // 51 of 200
+    writePair(busStops, makeValidStats(busStops));
+    const errors = validate(BUS_STOPS_PATH, STATS_PATH);
+    assert.ok(errors.some(e => e.includes('51 of 200') && e.includes('no email') && e.includes('25%')));
+  });
+
+  it('excludes privaat authorities from the missing-email ratio', () => {
+    const busStops = makeValidBusStops();
+    // 100 privaat without email would be 50% if counted; non-privaat are all fine
+    Object.values(busStops.authorities).slice(0, 100).forEach(a => { a.type = 'privaat'; a.email = null; });
+    writePair(busStops, makeValidStats(busStops));
+    assert.deepEqual(validate(BUS_STOPS_PATH, STATS_PATH), []);
+  });
+
+  it('counts only non-privaat authorities in the denominator', () => {
+    const busStops = makeValidBusStops();
+    const auths = Object.values(busStops.authorities);
+    auths.slice(0, 100).forEach(a => { a.type = 'privaat'; }); // 100 non-privaat remain
+    auths.slice(100, 130).forEach(a => { a.email = null; }); // 30/100 = 30% (15% of all 200)
+    writePair(busStops, makeValidStats(busStops));
+    const errors = validate(BUS_STOPS_PATH, STATS_PATH);
+    assert.ok(errors.some(e => e.includes('30 of 100')));
   });
 });

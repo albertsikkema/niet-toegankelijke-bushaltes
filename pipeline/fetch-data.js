@@ -10,6 +10,7 @@ const DOVA_BASE = 'https://halteviewer.ov-data.nl/halteviewer';
 const ALLMANAK_BASE = 'https://rest-api.allmanak.nl/v1';
 
 // Per-attempt timeouts; slow calls measured in the daily workflow (#9)
+const DEFAULT_TIMEOUT_MS = 20_000;
 const DOVA_TIMEOUT_MS = 60_000;     // getQuays: 2–7 s, max seen 26 s
 const BOUNDARY_TIMEOUT_MS = 90_000; // PDOK/ArcGIS geometry: max seen 42 s
 
@@ -20,7 +21,7 @@ function toWgs84(x, y) {
   return { lat: Math.round(lat * 1e6) / 1e6, lon: Math.round(lon * 1e6) / 1e6 };
 }
 
-async function fetchJson(url, options = {}, retries = 3, timeoutMs = 20000) {
+async function fetchJson(url, options = {}, retries = 3, timeoutMs = DEFAULT_TIMEOUT_MS) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeoutMs);
@@ -29,7 +30,7 @@ async function fetchJson(url, options = {}, retries = 3, timeoutMs = 20000) {
       if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
       return await res.json();
     } catch (err) {
-      if (controller.signal.aborted) err = new Error(`Timed out after ${timeoutMs}ms for ${url}`);
+      if (controller.signal.aborted) err = new Error(`Timed out after ${timeoutMs}ms for ${url}`, { cause: err });
       if (attempt === retries) throw err;
       const delay = attempt * 2000;
       console.warn(`  Retry ${attempt}/${retries} for ${url}: ${err.message} (waiting ${delay}ms)`);

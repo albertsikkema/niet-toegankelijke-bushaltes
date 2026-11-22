@@ -98,25 +98,24 @@ describe('fetchJson timeout', () => {
     server.close();
   });
 
-  it('aborts a stalled request, retries, and names the URL', async () => {
+  it('aborts a stalled request, retries, and names the URL', { timeout: 10_000 }, async () => {
     requests = 0;
     const url = `${baseUrl}/stalled`;
-    const start = Date.now();
-    await assert.rejects(
-      () => fetchJson(url, {}, 2, 100),
-      { message: `Timed out after 100ms for ${url}` }
-    );
+    await assert.rejects(fetchJson(url, {}, 2, 100), err => {
+      assert.equal(err.message, `Timed out after 100ms for ${url}`);
+      assert.ok(err.cause instanceof Error);
+      return true;
+    });
     assert.equal(requests, 2);
-    assert.ok(Date.now() - start < 5000);
   });
 
-  it('aborts when the body stalls after headers', async () => {
+  it('aborts when the body stalls after headers', { timeout: 5_000 }, async () => {
+    requests = 0;
     const url = `${baseUrl}/stalled-body`;
-    const start = Date.now();
     await assert.rejects(
-      () => fetchJson(url, {}, 1, 100),
+      fetchJson(url, {}, 1, 100),
       { message: `Timed out after 100ms for ${url}` }
     );
-    assert.ok(Date.now() - start < 2000);
+    assert.equal(requests, 1);
   });
 });

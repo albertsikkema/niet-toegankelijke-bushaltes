@@ -112,3 +112,17 @@ describe('boundaryMaskFeature', () => {
     assert.deepEqual(boundaryMaskFeature({ type: 'Point', coordinates: [0, 0] }).geometry.coordinates, [world]);
   });
 });
+
+describe('map.js globals', () => {
+  it('adds only the pure helpers to the global scope, the rest stays inside MapView', () => {
+    const fs = require('node:fs');
+    const vm = require('node:vm');
+    const path = require('node:path');
+    const context = vm.createContext({});
+    vm.runInContext(fs.readFileSync(path.join(__dirname, '../../docs/js/map.js'), 'utf8'), context);
+    assert.deepEqual(Object.keys(context).sort(),
+      ['boundaryMaskFeature', 'createStopSvg', 'stopMarkerTitle', 'stopPopupRows']);
+    assert.deepEqual(Object.keys(vm.runInContext('MapView', context)).sort(),
+      ['filterByAuthority', 'init', 'resetView', 'zoomToAuthority', 'zoomToStop']);
+  });
+});

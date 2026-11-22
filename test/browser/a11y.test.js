@@ -10,11 +10,15 @@ describe('index.html skip link', () => {
   const html = read('index.html');
 
   it('is the first element in <body>', () => {
-    assert.match(html, /<body>\s*<a href="#map" class="skip-link">Direct naar inhoud<\/a>/);
+    const link = html.match(/<body[^>]*>\s*(<a\b[^>]*>[^<]*<\/a>)/);
+    assert.ok(link, 'no link right after <body>');
+    assert.match(link[1], /\bhref="#map"/);
+    assert.match(link[1], /\bclass="[^"]*\bskip-link\b/);
+    assert.match(link[1], />Direct naar inhoud</);
   });
 
   it('targets an element that can receive focus', () => {
-    assert.match(html, /<div id="map" tabindex="-1"/);
+    assert.match(html, /<div\b(?=[^>]*\bid="map")[^>]*\btabindex="-1"/);
   });
 });
 
@@ -27,5 +31,6 @@ describe('style.css', () => {
     // which keeps Leaflet popups unfocusable right after they open
     assert.match(block[0], /transition: none !important/);
     assert.match(block[0], /animation-duration: 0\.01ms !important/);
+    assert.match(block[0], /animation-iteration-count: 1 !important/);
   });
 });

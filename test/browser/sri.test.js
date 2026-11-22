@@ -11,7 +11,7 @@ const pages = fs.readdirSync(DOCS).filter(f => f.endsWith('.html'));
 function cdnTags(html) {
   const tags = html.match(/<(script|link)\b[^>]*>/g) || [];
   return tags.filter(tag =>
-    /\b(src|href)="https:\/\/unpkg\.com\//.test(tag) && !/\brel="(preconnect|dns-prefetch)"/.test(tag));
+    /\b(src|href)=["']?(https:)?\/\/unpkg\.com\//.test(tag) && !/\brel=["']?(preconnect|dns-prefetch)\b/.test(tag));
 }
 
 describe('Subresource Integrity on unpkg.com resources', () => {

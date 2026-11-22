@@ -116,6 +116,16 @@ describe('buildAuthorities', () => {
     );
   });
 
+  it('names an unmatched owner after its first stopdatamanager', () => {
+    const inaccessible = [
+      quay({ quayownercode: 'HOORNBEECK', stopdatamanager: undefined }),
+      quay({ quayownercode: 'HOORNBEECK', stopdatamanager: 'Hoornbeeck College' }),
+      quay({ quayownercode: 'HOORNBEECK', stopdatamanager: 'Other Name' }),
+    ];
+    const { authorities } = buildAuthorities(inaccessible, inaccessible, noContacts);
+    assert.equal(authorities.HOORNBEECK.name, 'Hoornbeeck College');
+  });
+
   it('falls back to the owner code as name and UNKNOWN as owner', () => {
     const inaccessible = [quay({ quayownercode: 'G9999' }), quay({ quayownercode: undefined })];
     const { authorities, unmatchedCount } = buildAuthorities(inaccessible, inaccessible, noContacts);

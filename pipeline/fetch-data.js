@@ -533,118 +533,110 @@ function generateStats(allBusQuays, inaccessible, authorities) {
   };
 }
 
-async function main(dataDir = DATA_DIR) {
-  const startTime = Date.now();
+const ownerOf = (q) => q.quayownercode || 'UNKNOWN';
 
-  // Step 1+2: Fetch quays
-  const { allBusQuays, inaccessible } = await fetchInaccessibleBusStops();
+// Count quays per owner code
+function countByOwner(quays) {
+  const counts = new Map();
+  for (const q of quays) counts.set(ownerOf(q), (counts.get(ownerOf(q)) || 0) + 1);
+  return counts;
+}
 
-  // Step 4+5: Fetch authority contact info (in parallel)
-  const contacts = await fetchAllmanakContacts();
-
-  // Step 6: Group inaccessible stops by quayownercode
-  const authoritiesMap = new Map();
-  const concessionProviderCodes = new Set();
-
-  // Also count total bus quays per authority
-  const totalBusQuaysByOwner = new Map();
-  for (const q of allBusQuays) {
-    const owner = q.quayownercode || 'UNKNOWN';
-    totalBusQuaysByOwner.set(owner, (totalBusQuaysByOwner.get(owner) || 0) + 1);
+// [x, y] in EPSG:3857 from DOVA geom: [x, y], "POINT (x y)" or { coordinates: [x, y] }
+function geomXY(geom) {
+  if (!geom) return null;
+  if (Array.isArray(geom)) return geom.length >= 2 ? geom : null;
+  if (typeof geom === 'string') {
+    const match = geom.match(/POINT\s*\(\s*([\d.-]+)\s+([\d.-]+)\s*\)/);
+    return match ? [parseFloat(match[1]), parseFloat(match[2])] : null;
   }
+  return geom.coordinates || null;
+}
 
-  for (const q of inaccessible) {
-    const ownerCode = q.quayownercode || 'UNKNOWN';
-    if (!authoritiesMap.has(ownerCode)) {
-      authoritiesMap.set(ownerCode, { stops: [] });
-    }
+// WGS84 position of a quay; 0/0 when the geometry is missing or unparsable
+function quayLatLon(geom) {
+  const [x, y] = geomXY(geom) || [];
+  if (x === undefined || y === undefined) return { lat: 0, lon: 0 };
+  return toWgs84(x, y);
+}
 
-    // Parse coordinates from geom ([x, y] array in EPSG:3857)
-    let lat = 0, lon = 0;
-    if (q.geom) {
-      let x, y;
-      if (Array.isArray(q.geom) && q.geom.length >= 2) {
-        [x, y] = q.geom;
-      } else if (typeof q.geom === 'string') {
-        const match = q.geom.match(/POINT\s*\(\s*([\d.-]+)\s+([\d.-]+)\s*\)/);
-        if (match) { x = parseFloat(match[1]); y = parseFloat(match[2]); }
-      } else if (q.geom.coordinates) {
-        [x, y] = q.geom.coordinates;
-      }
-      if (x !== undefined && y !== undefined) {
-        const wgs = toWgs84(x, y);
-        lat = wgs.lat;
-        lon = wgs.lon;
-      }
-    }
+function quayToStop(q) {
+  const { lat, lon } = quayLatLon(q.geom);
+  return {
+    code: q.quaycode,
+    name: q.quayname || '',
+    town: q.town || '',
+    street: q.street || '',
+    lat,
+    lon,
+    shelter: q.shelter === true,
+    wheelchairAccessible: q.quaydisabledaccessible === true,
+    visuallyAccessible: q.quayvisuallyaccessible === true,
+    compassDirection: typeof q.compassdirection === 'number' ? q.compassdirection : null,
+    mutationDate: q.mutationdate ? new Date(q.mutationdate).toISOString().slice(0, 10) : null,
+    concessionProvider: q.concessionprovidercode || '',
+  };
+}
 
-    const providerCode = q.concessionprovidercode || '';
-    if (providerCode) concessionProviderCodes.add(providerCode);
-
-    authoritiesMap.get(ownerCode).stops.push({
-      code: q.quaycode,
-      name: q.quayname || '',
-      town: q.town || '',
-      street: q.street || '',
-      lat,
-      lon,
-      shelter: q.shelter === true,
-      wheelchairAccessible: q.quaydisabledaccessible === true,
-      visuallyAccessible: q.quayvisuallyaccessible === true,
-      compassDirection: typeof q.compassdirection === 'number' ? q.compassdirection : null,
-      mutationDate: q.mutationdate ? new Date(q.mutationdate).toISOString().slice(0, 10) : null,
-      concessionProvider: providerCode,
-    });
+// Map(owner → stops), in order of first appearance (this sets the key order of bus-stops.json)
+function groupStopsByOwner(quays) {
+  const groups = new Map();
+  for (const q of quays) {
+    if (!groups.has(ownerOf(q))) groups.set(ownerOf(q), []);
+    groups.get(ownerOf(q)).push(quayToStop(q));
   }
+  return groups;
+}
 
-  // Build a name map from stopdatamanager field (for unmatched authorities)
-  const stopdatamanagerNames = new Map();
-  for (const q of inaccessible) {
-    const owner = q.quayownercode || 'UNKNOWN';
-    if (!stopdatamanagerNames.has(owner) && q.stopdatamanager) {
-      stopdatamanagerNames.set(owner, q.stopdatamanager);
-    }
+// First stopdatamanager name per owner: fallback name for authorities not in Allmanak
+function stopDataManagerNames(quays) {
+  const names = new Map();
+  for (const q of quays) {
+    if (!names.has(ownerOf(q)) && q.stopdatamanager) names.set(ownerOf(q), q.stopdatamanager);
   }
+  return names;
+}
 
-  // Resolve authority names and contact info
+function concessionProviderCodes(quays) {
+  return new Set(quays.map(q => q.concessionprovidercode).filter(Boolean));
+}
+
+function authorityType(ownerCode, contact) {
+  if (ownerCode.startsWith('P')) return 'provincie';
+  if (ownerCode.startsWith('W')) return 'waterschap';
+  if (ownerCode.startsWith('RWS')) return 'rijkswaterstaat';
+  if (!contact && !ownerCode.startsWith('G')) return 'privaat';
+  return 'gemeente';
+}
+
+const compareStops = (a, b) => a.town.localeCompare(b.town) || a.name.localeCompare(b.name);
+
+// Step 6: Group inaccessible stops per owner and attach Allmanak contact info
+function buildAuthorities(allBusQuays, inaccessible, contacts) {
+  const totals = countByOwner(allBusQuays);
+  const managerNames = stopDataManagerNames(inaccessible);
   const authorities = {};
   let unmatchedCount = 0;
-
-  for (const [ownerCode, data] of authoritiesMap) {
+  for (const [ownerCode, stops] of groupStopsByOwner(inaccessible)) {
     const contact = findContact(ownerCode, contacts);
-
-    if (!contact) {
-      unmatchedCount++;
-    }
-
-    let type = 'gemeente';
-    if (ownerCode.startsWith('P')) type = 'provincie';
-    else if (ownerCode.startsWith('W')) type = 'waterschap';
-    else if (ownerCode.startsWith('RWS')) type = 'rijkswaterstaat';
-    else if (!contact && !ownerCode.startsWith('G')) type = 'privaat';
-
-    // Use stopdatamanager name as fallback
-    const fallbackName = stopdatamanagerNames.get(ownerCode) || ownerCode;
-
+    if (!contact) unmatchedCount++;
+    const info = contact || { name: managerNames.get(ownerCode) || ownerCode, email: null, website: null, phone: null };
     authorities[ownerCode] = {
-      type,
-      name: contact ? contact.name : fallbackName,
-      email: contact ? contact.email : null,
-      website: contact ? contact.website : null,
-      phone: contact ? contact.phone : null,
-      totalBusQuays: totalBusQuaysByOwner.get(ownerCode) || 0,
-      inaccessibleCount: data.stops.length,
-      stops: data.stops.sort((a, b) => a.town.localeCompare(b.town) || a.name.localeCompare(b.name)),
+      type: authorityType(ownerCode, contact),
+      name: info.name,
+      email: info.email,
+      website: info.website,
+      phone: info.phone,
+      totalBusQuays: totals.get(ownerCode) || 0,
+      inaccessibleCount: stops.length,
+      stops: stops.sort(compareStops),
     };
   }
+  return { authorities, unmatchedCount };
+}
 
-  // Fetch and save boundary files
-  await fetchAndSaveBoundaries(authorities, path.join(dataDir, 'boundaries'));
-
-  // Fetch concession provider info
-  const concessionProviders = await fetchConcessionProviderNames(concessionProviderCodes);
-
-  const output = {
+function buildOutput(allBusQuays, inaccessible, authorities, concessionProviders) {
+  return {
     generated: new Date().toISOString(),
     totals: {
       totalBusQuays: allBusQuays.length,
@@ -654,18 +646,21 @@ async function main(dataDir = DATA_DIR) {
     authorities,
     concessionProviders,
   };
+}
 
-  // Generate stats for feiten.html
-  const stats = generateStats(allBusQuays, inaccessible, authorities);
+// Writes stats.json (for feiten.html) first, then bus-stops.json; returns the bus-stops.json path
+function writeOutputs(dataDir, output, stats) {
   const statsPath = path.join(dataDir, 'stats.json');
   fs.writeFileSync(statsPath, JSON.stringify(stats, null, 2));
   console.log(`Stats written: ${statsPath}`);
 
-  // Write output
   const outPath = path.join(dataDir, 'bus-stops.json');
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(output, null, 2));
+  return outPath;
+}
 
+function logSummary(startTime, outPath, output, unmatchedCount) {
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`\nDone in ${elapsed}s`);
   console.log(`Output: ${outPath}`);
@@ -673,6 +668,19 @@ async function main(dataDir = DATA_DIR) {
   console.log(`  Inaccessible: ${output.totals.inaccessibleBusQuays}`);
   console.log(`  Authorities: ${output.totals.authorities}`);
   console.log(`  Unmatched authorities: ${unmatchedCount}`);
+}
+
+async function main(dataDir = DATA_DIR) {
+  const startTime = Date.now();
+  const { allBusQuays, inaccessible } = await fetchInaccessibleBusStops();
+  const contacts = await fetchAllmanakContacts();
+  const { authorities, unmatchedCount } = buildAuthorities(allBusQuays, inaccessible, contacts);
+  await fetchAndSaveBoundaries(authorities, path.join(dataDir, 'boundaries'));
+  const concessionProviders = await fetchConcessionProviderNames(concessionProviderCodes(inaccessible));
+  const output = buildOutput(allBusQuays, inaccessible, authorities, concessionProviders);
+  const stats = generateStats(allBusQuays, inaccessible, authorities);
+  const outPath = writeOutputs(dataDir, output, stats);
+  logSummary(startTime, outPath, output, unmatchedCount);
 }
 
 if (require.main === module) {
@@ -698,5 +706,9 @@ module.exports = {
   fetchAllmanak,
   ALLMANAK_SOURCES,
   findContact,
+  quayLatLon,
+  quayToStop,
+  authorityType,
+  buildAuthorities,
   main,
 };

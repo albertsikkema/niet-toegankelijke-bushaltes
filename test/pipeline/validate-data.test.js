@@ -186,7 +186,7 @@ describe('validate-data', () => {
     clearEmails(busStops, 200 * THRESHOLDS.missingEmailRatio + 1); // 51 of 200
     writePair(busStops, makeValidStats(busStops));
     const errors = validate(BUS_STOPS_PATH, STATS_PATH);
-    assert.ok(errors.some(e => e.includes('51 of 200') && e.includes('no email') && e.includes('25%')));
+    assert.ok(errors.some(e => e.includes('51 of 200') && e.includes('no email') && e.includes('25%') && e.includes('G0000, G0001')));
   });
 
   it('excludes privaat authorities from the missing-email ratio', () => {

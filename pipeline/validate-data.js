@@ -70,7 +70,7 @@ function validate(busStopsPath, statsPath) {
   if (contactable.length > 0 && noEmailCount / contactable.length > THRESHOLDS.missingEmailRatio) {
     const pct = ((noEmailCount / contactable.length) * 100).toFixed(1);
     errors.push(
-      `bus-stops.json: ${noEmailCount} of ${contactable.length} non-privaat authorities have no email (${pct}%), above threshold ${THRESHOLDS.missingEmailRatio * 100}%`
+      `bus-stops.json: ${noEmailCount} of ${contactable.length} non-privaat authorities have no email (${pct}%), above threshold ${Math.round(THRESHOLDS.missingEmailRatio * 100)}%`
     );
   }
 

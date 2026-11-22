@@ -23,7 +23,7 @@ function toWgs84(x, y) {
 
 const MAX_RETRY_DELAY_MS = 15_000;
 
-// Exponential backoff with ±25% jitter: ~2 s, ~4 s, ~8 s, capped at 15 s
+// Exponential backoff with ±25% jitter: ~2 s, ~4 s, … capped at 15 s
 function retryDelay(attempt) {
   return Math.round(Math.min(1000 * 2 ** attempt * (0.75 + Math.random() * 0.5), MAX_RETRY_DELAY_MS));
 }
@@ -42,6 +42,7 @@ async function fetchJson(url, options = {}, retries = 3, timeoutMs = DEFAULT_TIM
       return await res.json();
     } catch (err) {
       if (controller.signal.aborted) err = new Error(`Timed out after ${timeoutMs}ms for ${url}`, { cause: err });
+      // Only HTTP 4xx sets retryable = false; network, timeout and parse errors leave it undefined and are retried
       if (attempt === retries || err.retryable === false) throw err;
       const delay = retryDelay(attempt);
       console.warn(`  Retry ${attempt}/${retries} for ${url}: ${err.message} (waiting ${delay}ms)`);

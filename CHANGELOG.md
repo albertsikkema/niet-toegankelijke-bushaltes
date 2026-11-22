@@ -26,7 +26,7 @@ This project does not publish versioned releases yet.
   welcome modal for first-time visitors.
 - Dark/light theme toggle with OS preference detection.
 - Wheelchair and eye icons in stop popups.
-- Privacy-friendly Umami analytics, now self-hosted.
+- Privacy-friendly, self-hosted Umami analytics.
 - Daily GitHub Actions workflow that refreshes, validates and deploys
   the bus stop data.
 - Unit tests for pipeline and browser functions, run in CI before every
@@ -43,11 +43,10 @@ This project does not publish versioned releases yet.
   API key from `.env` or a repository secret.
 - Redesigned sidebar and simplified mobile header.
 - GitHub Actions updated to Node 24.
-- Setup guidance aligned with the current scripts.
 
 ### Fixed
 
 - Map stop markers now have accessible names.
-- Analytics script reports to the correct host.
 - XML content type on GitHub Pages (added `.nojekyll`).
-- Test quality issues across all test files.
+
+[Unreleased]: https://github.com/albertsikkema/niet-toegankelijke-bushaltes/commits/main

@@ -8,6 +8,7 @@ const path = require('path');
 
 const DOVA_BASE = 'https://halteviewer.ov-data.nl/halteviewer';
 const ALLMANAK_BASE = 'https://rest-api.allmanak.nl/v1';
+const DATA_DIR = path.join(__dirname, '..', 'docs', 'data');
 
 // Per-attempt timeouts; slow calls measured in the daily workflow (#9)
 const DEFAULT_TIMEOUT_MS = 20_000;
@@ -86,196 +87,104 @@ async function fetchInaccessibleBusStops() {
   return { allBusQuays: busQuays, inaccessible };
 }
 
-// Step 4: Fetch Allmanak gemeenten
-async function fetchAllmanakGemeenten() {
-  console.log('Fetching gemeenten from Allmanak...');
-  const url = `${ALLMANAK_BASE}/overheidsorganisatie?types=cs.%7BGemeente%7D&einddatum=is.null&limit=500`;
-  const data = await fetchJson(url, {
-    headers: { 'Accept': 'application/json' },
-  });
+// Step 4: Fetch authority contact info from Allmanak
+const tooiId = (ids, fragment) =>
+  ids.find(r => r.naam === 'resourceIdentifierTOOI' && r.value && r.value.includes(fragment));
 
-  const map = new Map();
-  for (const org of data) {
-    // Find Organisatiecode resource identifier (e.g. "gm0737")
-    // Fallback: extract from TOOI URI for merged gemeenten missing Organisatiecode
-    const ids = org.resourceidentifiers || [];
-    const orgCode = ids.find(r => r.naam === 'Organisatiecode');
-    let code = orgCode ? orgCode.value : null;
-
-    if (!code) {
-      const tooiId = ids.find(r =>
-        r.naam === 'resourceIdentifierTOOI' &&
-        r.value && r.value.includes('/gemeente/gm')
-      );
-      if (tooiId) {
-        const match = tooiId.value.match(/\/(gm\d+)/);
-        if (match) code = match[1];
-      }
-    }
-    if (!code) continue;
-    const contact = org.contact || {};
-    const emails = contact.emailadressen || [];
-    const websites = contact.internetadressen || [];
-    const phones = contact.telefoonnummers || [];
-
-    let email = emails.length > 0 ? emails[0].email : null;
-    const website = websites.length > 0 ? websites[0].url : null;
-    const phone = phones.length > 0 ? phones[0].nummer : null;
-
-    // Fallback: derive email from website domain
-    if (!email && website) {
-      try {
-        const domain = new URL(website).hostname.replace(/^www\./, '');
-        email = `gemeente@${domain}`;
-      } catch (_) { /* ignore */ }
-    }
-
-    map.set(code, {
-      name: org.naam || '',
-      email: email || null,
-      website: website || null,
-      phone: phone || null,
-    });
-  }
-
-  console.log(`  Gemeenten loaded: ${map.size}`);
-  return map;
+// "gm0737" from Organisatiecode; fallback: TOOI URI (merged gemeenten lack Organisatiecode)
+function gemeenteCode(ids) {
+  const orgCode = ids.find(r => r.naam === 'Organisatiecode');
+  if (orgCode && orgCode.value) return orgCode.value;
+  const tooi = tooiId(ids, '/gemeente/gm');
+  const match = tooi && tooi.value.match(/\/(gm\d+)/);
+  return match ? match[1] : null;
 }
 
-// Step 4b: Fetch Allmanak provinces
-async function fetchAllmanakProvincies() {
-  console.log('Fetching provincies from Allmanak...');
-  const url = `${ALLMANAK_BASE}/overheidsorganisatie?types=cs.%7BProvincie%7D&einddatum=is.null&limit=50`;
-  const data = await fetchJson(url, {
-    headers: { 'Accept': 'application/json' },
-  });
-
-  const map = new Map();
-  for (const org of data) {
-    const ids = org.resourceidentifiers || [];
-    // Look for TOOI identifier containing province code
-    const tooiId = ids.find(r =>
-      r.naam === 'resourceIdentifierTOOI' &&
-      r.value && r.value.includes('/pv')
-    );
-    // Also try Organisatiecode
-    const orgCode = ids.find(r => r.naam === 'Organisatiecode');
-
-    let pvCode = null;
-    if (tooiId && tooiId.value) {
-      // Extract pv{number} from TOOI URI like ".../pv21"
-      const match = tooiId.value.match(/pv(\d+)/);
-      if (match) pvCode = `pv${match[1]}`;
-    }
-    if (!pvCode && orgCode && orgCode.value) {
-      const match = orgCode.value.match(/pv(\d+)/);
-      if (match) pvCode = `pv${match[1]}`;
-    }
-    if (!pvCode) continue;
-
-    const contact = org.contact || {};
-    const emails = contact.emailadressen || [];
-    const websites = contact.internetadressen || [];
-    const phones = contact.telefoonnummers || [];
-
-    let email = emails.length > 0 ? emails[0].email : null;
-    const website = websites.length > 0 ? websites[0].url : null;
-    const phone = phones.length > 0 ? phones[0].nummer : null;
-
-    if (!email && website) {
-      try {
-        const domain = new URL(website).hostname.replace(/^www\./, '');
-        email = `info@${domain}`;
-      } catch (_) { /* ignore */ }
-    }
-
-    map.set(pvCode, {
-      name: org.naam || '',
-      email: email || null,
-      website: website || null,
-      phone: phone || null,
-    });
+// "pv21" from TOOI URI like ".../pv21", else from Organisatiecode
+function provincieCode(ids) {
+  const candidates = [tooiId(ids, '/pv'), ids.find(r => r.naam === 'Organisatiecode')];
+  for (const id of candidates) {
+    const match = id && id.value && id.value.match(/pv(\d+)/);
+    if (match) return `pv${match[1]}`;
   }
-
-  console.log(`  Provincies loaded: ${map.size}`);
-  return map;
+  return null;
 }
 
-// Step 4c: Fetch Allmanak waterschappen
-async function fetchAllmanakWaterschappen() {
-  console.log('Fetching waterschappen from Allmanak...');
-  const url = `${ALLMANAK_BASE}/overheidsorganisatie?types=cs.%7BWaterschap%7D&einddatum=is.null&limit=50`;
-  const data = await fetchJson(url, {
-    headers: { 'Accept': 'application/json' },
-  });
-
-  const map = new Map();
-  for (const org of data) {
-    const ids = org.resourceidentifiers || [];
-    // Extract ws{code} from TOOI identifier like ".../waterschap/ws0621"
-    const tooiId = ids.find(r =>
-      r.naam === 'resourceIdentifierTOOI' &&
-      r.value && r.value.includes('/waterschap/ws')
-    );
-    if (!tooiId) continue;
-
-    const match = tooiId.value.match(/ws(\d+)/);
-    if (!match) continue;
-    const wsCode = `ws${match[1]}`;
-
-    const contact = org.contact || {};
-    const emails = contact.emailadressen || [];
-    const websites = contact.internetadressen || [];
-    const phones = contact.telefoonnummers || [];
-
-    let email = emails.length > 0 ? emails[0].email : null;
-    const website = websites.length > 0 ? websites[0].url : null;
-    const phone = phones.length > 0 ? phones[0].nummer : null;
-
-    if (!email && website) {
-      try {
-        const domain = new URL(website).hostname.replace(/^www\./, '');
-        email = `info@${domain}`;
-      } catch (_) { /* ignore */ }
-    }
-
-    map.set(wsCode, {
-      name: org.naam || '',
-      email: email || null,
-      website: website || null,
-      phone: phone || null,
-    });
-  }
-
-  console.log(`  Waterschappen loaded: ${map.size}`);
-  return map;
+// "ws0621" from TOOI URI like ".../waterschap/ws0621"
+function waterschapCode(ids) {
+  const tooi = tooiId(ids, '/waterschap/ws');
+  const match = tooi && tooi.value.match(/ws(\d+)/);
+  return match ? `ws${match[1]}` : null;
 }
 
-// Step 4d: Fetch Rijkswaterstaat from Allmanak
-async function fetchAllmanakRijkswaterstaat() {
-  console.log('Fetching Rijkswaterstaat from Allmanak...');
-  const url = `${ALLMANAK_BASE}/overheidsorganisatie?naam=eq.Rijkswaterstaat&einddatum=is.null&limit=1`;
-  const data = await fetchJson(url, {
-    headers: { 'Accept': 'application/json' },
-  });
-
-  if (data.length === 0) {
-    console.log('  Rijkswaterstaat not found');
+// Derive e.g. "info@example.nl" from "https://www.example.nl"
+function emailFromWebsite(website, user) {
+  if (!user || !website) return null;
+  try {
+    return `${user}@${new URL(website).hostname.replace(/^www\./, '')}`;
+  } catch (_) {
     return null;
   }
+}
 
-  const org = data[0];
+function allmanakContact(org, { fallbackEmailUser = null, defaultName = '' }) {
   const contact = org.contact || {};
-  const emails = contact.emailadressen || [];
-  const websites = contact.internetadressen || [];
-  const phones = contact.telefoonnummers || [];
-
+  const first = (list, field) => (list && list.length > 0 ? list[0][field] : null);
+  const website = first(contact.internetadressen, 'url');
+  const email = first(contact.emailadressen, 'email') || emailFromWebsite(website, fallbackEmailUser);
   return {
-    name: org.naam || 'Rijkswaterstaat',
-    email: emails.length > 0 ? emails[0].email : null,
-    website: websites.length > 0 ? websites[0].url : null,
-    phone: phones.length > 0 ? phones[0].nummer : null,
+    name: org.naam || defaultName,
+    email: email || null,
+    website: website || null,
+    phone: first(contact.telefoonnummers, 'nummer') || null,
   };
+}
+
+// Keys match ownerCodeToAllmanakKey().source
+const ALLMANAK_SOURCES = {
+  gemeenten: {
+    filter: 'types=cs.%7BGemeente%7D&einddatum=is.null&limit=500',
+    codeOf: gemeenteCode,
+    fallbackEmailUser: 'gemeente',
+  },
+  provincies: {
+    filter: 'types=cs.%7BProvincie%7D&einddatum=is.null&limit=50',
+    codeOf: provincieCode,
+    fallbackEmailUser: 'info',
+  },
+  waterschappen: {
+    filter: 'types=cs.%7BWaterschap%7D&einddatum=is.null&limit=50',
+    codeOf: waterschapCode,
+    fallbackEmailUser: 'info',
+  },
+  // No email fallback: Rijkswaterstaat has no generic info@ address
+  rijkswaterstaat: {
+    filter: 'naam=eq.Rijkswaterstaat&einddatum=is.null&limit=1',
+    codeOf: () => 'rws',
+    defaultName: 'Rijkswaterstaat',
+  },
+};
+
+// Fetch one Allmanak organisation type → Map(code → { name, email, website, phone })
+async function fetchAllmanak(label, source) {
+  console.log(`Fetching ${label} from Allmanak...`);
+  const data = await fetchJson(`${ALLMANAK_BASE}/overheidsorganisatie?${source.filter}`, {
+    headers: { 'Accept': 'application/json' },
+  });
+  const map = new Map();
+  for (const org of data) {
+    const code = source.codeOf(org.resourceidentifiers || []);
+    if (code) map.set(code, allmanakContact(org, source));
+  }
+  console.log(`  ${label} loaded: ${map.size}`);
+  return map;
+}
+
+// All authority contacts, fetched in parallel: { gemeenten: Map, provincies: Map, … }
+async function fetchAllmanakContacts() {
+  const labels = Object.keys(ALLMANAK_SOURCES);
+  const maps = await Promise.all(labels.map(label => fetchAllmanak(label, ALLMANAK_SOURCES[label])));
+  return Object.fromEntries(labels.map((label, i) => [label, maps[i]]));
 }
 
 // Old gemeente codes that were absorbed into new municipalities
@@ -310,6 +219,13 @@ function ownerCodeToAllmanakKey(ownerCode) {
   return null;
 }
 
+// Allmanak contact for a DOVA owner code, or null
+function findContact(ownerCode, contacts) {
+  const lookup = ownerCodeToAllmanakKey(ownerCode);
+  const source = lookup && contacts[lookup.source];
+  return (source && source.get(lookup.key)) || null;
+}
+
 // Fetch concession provider names from DOVA (using a sample quay per provider)
 async function fetchConcessionProviderNames(providerCodes) {
   // Known concession providers (from DOVA data, manually mapped)
@@ -342,8 +258,7 @@ async function fetchConcessionProviderNames(providerCodes) {
 }
 
 // Fetch administrative boundaries from PDOK and save as individual GeoJSON files
-async function fetchAndSaveBoundaries(authorities) {
-  const boundariesDir = path.join(__dirname, '..', 'docs', 'data', 'boundaries');
+async function fetchAndSaveBoundaries(authorities, boundariesDir = path.join(DATA_DIR, 'boundaries')) {
   fs.mkdirSync(boundariesDir, { recursive: true });
 
   console.log('Fetching boundaries from PDOK...');
@@ -618,135 +533,110 @@ function generateStats(allBusQuays, inaccessible, authorities) {
   };
 }
 
-async function main() {
-  const startTime = Date.now();
+const ownerOf = (q) => q.quayownercode || 'UNKNOWN';
 
-  // Step 1+2: Fetch quays
-  const { allBusQuays, inaccessible } = await fetchInaccessibleBusStops();
+// Count quays per owner code
+function countByOwner(quays) {
+  const counts = new Map();
+  for (const q of quays) counts.set(ownerOf(q), (counts.get(ownerOf(q)) || 0) + 1);
+  return counts;
+}
 
-  // Step 4+5: Fetch authority contact info (in parallel)
-  const [gemeenten, provincies, waterschappen, rijkswaterstaat] = await Promise.all([
-    fetchAllmanakGemeenten(),
-    fetchAllmanakProvincies(),
-    fetchAllmanakWaterschappen(),
-    fetchAllmanakRijkswaterstaat(),
-  ]);
-
-  // Step 6: Group inaccessible stops by quayownercode
-  const authoritiesMap = new Map();
-  const concessionProviderCodes = new Set();
-
-  // Also count total bus quays per authority
-  const totalBusQuaysByOwner = new Map();
-  for (const q of allBusQuays) {
-    const owner = q.quayownercode || 'UNKNOWN';
-    totalBusQuaysByOwner.set(owner, (totalBusQuaysByOwner.get(owner) || 0) + 1);
+// [x, y] in EPSG:3857 from DOVA geom: [x, y], "POINT (x y)" or { coordinates: [x, y] }
+function geomXY(geom) {
+  if (!geom) return null;
+  if (Array.isArray(geom)) return geom.length >= 2 ? geom : null;
+  if (typeof geom === 'string') {
+    const match = geom.match(/POINT\s*\(\s*([\d.-]+)\s+([\d.-]+)\s*\)/);
+    return match ? [parseFloat(match[1]), parseFloat(match[2])] : null;
   }
+  return geom.coordinates || null;
+}
 
-  for (const q of inaccessible) {
-    const ownerCode = q.quayownercode || 'UNKNOWN';
-    if (!authoritiesMap.has(ownerCode)) {
-      authoritiesMap.set(ownerCode, { stops: [] });
-    }
+// WGS84 position of a quay; 0/0 when the geometry is missing or unparsable
+function quayLatLon(geom) {
+  const [x, y] = geomXY(geom) || [];
+  if (x === undefined || y === undefined) return { lat: 0, lon: 0 };
+  return toWgs84(x, y);
+}
 
-    // Parse coordinates from geom ([x, y] array in EPSG:3857)
-    let lat = 0, lon = 0;
-    if (q.geom) {
-      let x, y;
-      if (Array.isArray(q.geom) && q.geom.length >= 2) {
-        [x, y] = q.geom;
-      } else if (typeof q.geom === 'string') {
-        const match = q.geom.match(/POINT\s*\(\s*([\d.-]+)\s+([\d.-]+)\s*\)/);
-        if (match) { x = parseFloat(match[1]); y = parseFloat(match[2]); }
-      } else if (q.geom.coordinates) {
-        [x, y] = q.geom.coordinates;
-      }
-      if (x !== undefined && y !== undefined) {
-        const wgs = toWgs84(x, y);
-        lat = wgs.lat;
-        lon = wgs.lon;
-      }
-    }
+function quayToStop(q) {
+  const { lat, lon } = quayLatLon(q.geom);
+  return {
+    code: q.quaycode,
+    name: q.quayname || '',
+    town: q.town || '',
+    street: q.street || '',
+    lat,
+    lon,
+    shelter: q.shelter === true,
+    wheelchairAccessible: q.quaydisabledaccessible === true,
+    visuallyAccessible: q.quayvisuallyaccessible === true,
+    compassDirection: typeof q.compassdirection === 'number' ? q.compassdirection : null,
+    mutationDate: q.mutationdate ? new Date(q.mutationdate).toISOString().slice(0, 10) : null,
+    concessionProvider: q.concessionprovidercode || '',
+  };
+}
 
-    const providerCode = q.concessionprovidercode || '';
-    if (providerCode) concessionProviderCodes.add(providerCode);
-
-    authoritiesMap.get(ownerCode).stops.push({
-      code: q.quaycode,
-      name: q.quayname || '',
-      town: q.town || '',
-      street: q.street || '',
-      lat,
-      lon,
-      shelter: q.shelter === true,
-      wheelchairAccessible: q.quaydisabledaccessible === true,
-      visuallyAccessible: q.quayvisuallyaccessible === true,
-      compassDirection: typeof q.compassdirection === 'number' ? q.compassdirection : null,
-      mutationDate: q.mutationdate ? new Date(q.mutationdate).toISOString().slice(0, 10) : null,
-      concessionProvider: providerCode,
-    });
+// Map(owner → stops), in order of first appearance (this sets the key order of bus-stops.json)
+function groupStopsByOwner(quays) {
+  const groups = new Map();
+  for (const q of quays) {
+    if (!groups.has(ownerOf(q))) groups.set(ownerOf(q), []);
+    groups.get(ownerOf(q)).push(quayToStop(q));
   }
+  return groups;
+}
 
-  // Build a name map from stopdatamanager field (for unmatched authorities)
-  const stopdatamanagerNames = new Map();
-  for (const q of inaccessible) {
-    const owner = q.quayownercode || 'UNKNOWN';
-    if (!stopdatamanagerNames.has(owner) && q.stopdatamanager) {
-      stopdatamanagerNames.set(owner, q.stopdatamanager);
-    }
+// First stopdatamanager name per owner: fallback name for authorities not in Allmanak
+function stopDataManagerNames(quays) {
+  const names = new Map();
+  for (const q of quays) {
+    if (!names.has(ownerOf(q)) && q.stopdatamanager) names.set(ownerOf(q), q.stopdatamanager);
   }
+  return names;
+}
 
-  // Resolve authority names and contact info
+function concessionProviderCodes(quays) {
+  return new Set(quays.map(q => q.concessionprovidercode).filter(Boolean));
+}
+
+function authorityType(ownerCode, contact) {
+  if (ownerCode.startsWith('P')) return 'provincie';
+  if (ownerCode.startsWith('W')) return 'waterschap';
+  if (ownerCode.startsWith('RWS')) return 'rijkswaterstaat';
+  if (!contact && !ownerCode.startsWith('G')) return 'privaat';
+  return 'gemeente';
+}
+
+const compareStops = (a, b) => a.town.localeCompare(b.town) || a.name.localeCompare(b.name);
+
+// Step 6: Group inaccessible stops per owner and attach Allmanak contact info
+function buildAuthorities(allBusQuays, inaccessible, contacts) {
+  const totals = countByOwner(allBusQuays);
+  const managerNames = stopDataManagerNames(inaccessible);
   const authorities = {};
   let unmatchedCount = 0;
-
-  const lookupMaps = { gemeenten, provincies, waterschappen };
-
-  for (const [ownerCode, data] of authoritiesMap) {
-    const lookup = ownerCodeToAllmanakKey(ownerCode);
-    let contact = null;
-
-    if (lookup) {
-      if (lookup.source === 'rijkswaterstaat') {
-        contact = rijkswaterstaat;
-      } else {
-        const sourceMap = lookupMaps[lookup.source];
-        if (sourceMap) contact = sourceMap.get(lookup.key) || null;
-      }
-    }
-
-    if (!contact) {
-      unmatchedCount++;
-    }
-
-    let type = 'gemeente';
-    if (ownerCode.startsWith('P')) type = 'provincie';
-    else if (ownerCode.startsWith('W')) type = 'waterschap';
-    else if (ownerCode.startsWith('RWS')) type = 'rijkswaterstaat';
-    else if (!contact && !ownerCode.startsWith('G')) type = 'privaat';
-
-    // Use stopdatamanager name as fallback
-    const fallbackName = stopdatamanagerNames.get(ownerCode) || ownerCode;
-
+  for (const [ownerCode, stops] of groupStopsByOwner(inaccessible)) {
+    const contact = findContact(ownerCode, contacts);
+    if (!contact) unmatchedCount++;
+    const info = contact || { name: managerNames.get(ownerCode) || ownerCode, email: null, website: null, phone: null };
     authorities[ownerCode] = {
-      type,
-      name: contact ? contact.name : fallbackName,
-      email: contact ? contact.email : null,
-      website: contact ? contact.website : null,
-      phone: contact ? contact.phone : null,
-      totalBusQuays: totalBusQuaysByOwner.get(ownerCode) || 0,
-      inaccessibleCount: data.stops.length,
-      stops: data.stops.sort((a, b) => a.town.localeCompare(b.town) || a.name.localeCompare(b.name)),
+      type: authorityType(ownerCode, contact),
+      name: info.name,
+      email: info.email,
+      website: info.website,
+      phone: info.phone,
+      totalBusQuays: totals.get(ownerCode) || 0,
+      inaccessibleCount: stops.length,
+      stops: stops.sort(compareStops),
     };
   }
+  return { authorities, unmatchedCount };
+}
 
-  // Fetch and save boundary files
-  await fetchAndSaveBoundaries(authorities);
-
-  // Fetch concession provider info
-  const concessionProviders = await fetchConcessionProviderNames(concessionProviderCodes);
-
-  const output = {
+function buildOutput(allBusQuays, inaccessible, authorities, concessionProviders) {
+  return {
     generated: new Date().toISOString(),
     totals: {
       totalBusQuays: allBusQuays.length,
@@ -756,18 +646,21 @@ async function main() {
     authorities,
     concessionProviders,
   };
+}
 
-  // Generate stats for feiten.html
-  const stats = generateStats(allBusQuays, inaccessible, authorities);
-  const statsPath = path.join(__dirname, '..', 'docs', 'data', 'stats.json');
+// Writes stats.json (for feiten.html) first, then bus-stops.json; returns the bus-stops.json path
+function writeOutputs(dataDir, output, stats) {
+  const statsPath = path.join(dataDir, 'stats.json');
   fs.writeFileSync(statsPath, JSON.stringify(stats, null, 2));
   console.log(`Stats written: ${statsPath}`);
 
-  // Write output
-  const outPath = path.join(__dirname, '..', 'docs', 'data', 'bus-stops.json');
+  const outPath = path.join(dataDir, 'bus-stops.json');
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(output, null, 2));
+  return outPath;
+}
 
+function logSummary(startTime, outPath, output, unmatchedCount) {
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`\nDone in ${elapsed}s`);
   console.log(`Output: ${outPath}`);
@@ -775,6 +668,19 @@ async function main() {
   console.log(`  Inaccessible: ${output.totals.inaccessibleBusQuays}`);
   console.log(`  Authorities: ${output.totals.authorities}`);
   console.log(`  Unmatched authorities: ${unmatchedCount}`);
+}
+
+async function main(dataDir = DATA_DIR) {
+  const startTime = Date.now();
+  const { allBusQuays, inaccessible } = await fetchInaccessibleBusStops();
+  const contacts = await fetchAllmanakContacts();
+  const { authorities, unmatchedCount } = buildAuthorities(allBusQuays, inaccessible, contacts);
+  await fetchAndSaveBoundaries(authorities, path.join(dataDir, 'boundaries'));
+  const concessionProviders = await fetchConcessionProviderNames(concessionProviderCodes(inaccessible));
+  const output = buildOutput(allBusQuays, inaccessible, authorities, concessionProviders);
+  const stats = generateStats(allBusQuays, inaccessible, authorities);
+  const outPath = writeOutputs(dataDir, output, stats);
+  logSummary(startTime, outPath, output, unmatchedCount);
 }
 
 if (require.main === module) {
@@ -793,4 +699,16 @@ module.exports = {
   fetchConcessionProviderNames,
   GEMEENTE_REMAP,
   LARGE_CITIES,
+  gemeenteCode,
+  provincieCode,
+  waterschapCode,
+  allmanakContact,
+  fetchAllmanak,
+  ALLMANAK_SOURCES,
+  findContact,
+  quayLatLon,
+  quayToStop,
+  authorityType,
+  buildAuthorities,
+  main,
 };

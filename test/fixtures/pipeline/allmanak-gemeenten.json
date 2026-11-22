@@ -1,0 +1,127 @@
+[
+  {
+    "naam": "Gemeente Utrecht",
+    "resourceidentifiers": [
+      {
+        "naam": "Organisatiecode",
+        "value": "gm0344"
+      },
+      {
+        "naam": "resourceIdentifierTOOI",
+        "value": "https://identifier.overheid.nl/tooi/id/gemeente/gm0344"
+      }
+    ],
+    "contact": {
+      "emailadressen": [
+        {
+          "email": "info@utrecht.nl"
+        }
+      ],
+      "internetadressen": [
+        {
+          "url": "https://www.utrecht.nl"
+        }
+      ],
+      "telefoonnummers": [
+        {
+          "nummer": "14 030"
+        }
+      ]
+    }
+  },
+  {
+    "naam": "Gemeente Amsterdam",
+    "resourceidentifiers": [
+      {
+        "naam": "Organisatiecode",
+        "value": "gm0363"
+      }
+    ],
+    "contact": {
+      "emailadressen": [],
+      "internetadressen": [
+        {
+          "url": "https://www.amsterdam.nl"
+        }
+      ],
+      "telefoonnummers": [
+        {
+          "nummer": "14 020"
+        }
+      ]
+    }
+  },
+  {
+    "naam": "Gemeente Zevenaar",
+    "resourceidentifiers": [
+      {
+        "naam": "resourceIdentifierTOOI",
+        "value": "https://identifier.overheid.nl/tooi/id/gemeente/gm0299"
+      }
+    ],
+    "contact": {
+      "emailadressen": [
+        {
+          "email": "info@zevenaar.nl"
+        }
+      ],
+      "internetadressen": [
+        {
+          "url": "https://www.zevenaar.nl"
+        }
+      ],
+      "telefoonnummers": []
+    }
+  },
+  {
+    "naam": "Gemeente Groningen",
+    "resourceidentifiers": [
+      {
+        "naam": "Organisatiecode",
+        "value": "gm0014"
+      }
+    ],
+    "contact": {
+      "emailadressen": [],
+      "internetadressen": [
+        {
+          "url": "not a url"
+        }
+      ],
+      "telefoonnummers": [
+        {
+          "nummer": "14 050"
+        }
+      ]
+    }
+  },
+  {
+    "resourceidentifiers": [
+      {
+        "naam": "Organisatiecode",
+        "value": "gm0080"
+      }
+    ]
+  },
+  {
+    "naam": "Gemeente Zonder Code",
+    "resourceidentifiers": [
+      {
+        "naam": "Other",
+        "value": "x"
+      }
+    ],
+    "contact": {
+      "emailadressen": [
+        {
+          "email": "x@y.nl"
+        }
+      ],
+      "internetadressen": [],
+      "telefoonnummers": []
+    }
+  },
+  {
+    "naam": "Gemeente Zonder Ids"
+  }
+]

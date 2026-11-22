@@ -40,6 +40,8 @@ This project does not publish versioned releases yet.
   email address (#22).
 - Data validation fails when the total number of bus quays is above
   100 000 (#14).
+- Golden-output test for the data pipeline using fixture API
+  responses (#15).
 
 ### Changed
 
@@ -52,6 +54,11 @@ This project does not publish versioned releases yet.
 - Analytics now honours Do-Not-Track (#20).
 - Pipeline API calls no longer retry HTTP 4xx errors; retries use
   exponential backoff with jitter (#14).
+- Pipeline Allmanak fetching uses one parameterised fetcher, `main()`
+  is split into named steps, and the map module is split into popup,
+  marker and boundary functions; no behaviour change (#15). Empty or
+  missing Rijkswaterstaat contact fields from Allmanak now become
+  `null`, like those of the other authority types.
 
 ### Removed
 

@@ -1,0 +1,511 @@
+{
+  "generated": "<generated>",
+  "totals": {
+    "totalBusQuays": 33,
+    "inaccessibleBusQuays": 22,
+    "authorities": 16
+  },
+  "authorities": {
+    "G0344": {
+      "type": "gemeente",
+      "name": "Gemeente Utrecht",
+      "email": "info@utrecht.nl",
+      "website": "https://www.utrecht.nl",
+      "phone": "14 030",
+      "totalBusQuays": 13,
+      "inaccessibleCount": 4,
+      "stops": [
+        {
+          "code": "NL:Q:50000018",
+          "name": "Brug",
+          "town": "De Meern",
+          "street": "Hoofdstraat",
+          "lat": 52.120816,
+          "lon": 5.138363,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": null,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:50000016",
+          "name": "Centrum",
+          "town": "De Meern",
+          "street": "Hoofdstraat",
+          "lat": 52.118609,
+          "lon": 5.13477,
+          "shelter": true,
+          "wheelchairAccessible": true,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:50000017",
+          "name": "Amsterdamsestraatweg",
+          "town": "Utrecht",
+          "street": "Hoofdstraat",
+          "lat": 52.116593,
+          "lon": 5.131487,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": null,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:50000015",
+          "name": "Zuilen",
+          "town": "Utrecht",
+          "street": "Hoofdstraat",
+          "lat": 52.118058,
+          "lon": 5.133872,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": true,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    },
+    "G0363": {
+      "type": "gemeente",
+      "name": "Gemeente Amsterdam",
+      "email": "gemeente@amsterdam.nl",
+      "website": "https://www.amsterdam.nl",
+      "phone": "14 020",
+      "totalBusQuays": 5,
+      "inaccessibleCount": 4,
+      "stops": [
+        {
+          "code": "NL:Q:50000020",
+          "name": "Centraal",
+          "town": "Amsterdam",
+          "street": "Hoofdstraat",
+          "lat": 0,
+          "lon": 0,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": null,
+          "concessionProvider": ""
+        },
+        {
+          "code": "NL:Q:50000019",
+          "name": "Dam",
+          "town": "Amsterdam",
+          "street": "Hoofdstraat",
+          "lat": 52.373813,
+          "lon": 4.895818,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2023-11-14",
+          "concessionProvider": "XYZ"
+        },
+        {
+          "code": "NL:Q:50000022",
+          "name": "Rokin",
+          "town": "Amsterdam",
+          "street": "Hoofdstraat",
+          "lat": 0,
+          "lon": 0,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:50000021",
+          "name": "Spui",
+          "town": "Amsterdam",
+          "street": "Hoofdstraat",
+          "lat": 0,
+          "lon": 0,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": ""
+        }
+      ]
+    },
+    "G0196": {
+      "type": "gemeente",
+      "name": "Gemeente Zevenaar",
+      "email": "info@zevenaar.nl",
+      "website": "https://www.zevenaar.nl",
+      "phone": null,
+      "totalBusQuays": 1,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000024",
+          "name": "Markt",
+          "town": "Lobith",
+          "street": "Hoofdstraat",
+          "lat": 51.92735,
+          "lon": 6.036679,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    },
+    "G0014": {
+      "type": "gemeente",
+      "name": "Gemeente Groningen",
+      "email": null,
+      "website": "not a url",
+      "phone": "14 050",
+      "totalBusQuays": 1,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000025",
+          "name": "Grote Markt",
+          "town": "Groningen",
+          "street": "Hoofdstraat",
+          "lat": 53.274848,
+          "lon": 6.566685,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    },
+    "G0080": {
+      "type": "gemeente",
+      "name": "",
+      "email": null,
+      "website": null,
+      "phone": null,
+      "totalBusQuays": 1,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000026",
+          "name": "Station",
+          "town": "Leeuwarden",
+          "street": "Hoofdstraat",
+          "lat": 53.199577,
+          "lon": 5.794134,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    },
+    "G9999": {
+      "type": "gemeente",
+      "name": "Gemeente Nergens",
+      "email": null,
+      "website": null,
+      "phone": null,
+      "totalBusQuays": 1,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000027",
+          "name": "Einde",
+          "town": "Nergens",
+          "street": "Hoofdstraat",
+          "lat": 52.124676,
+          "lon": 5.144652,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    },
+    "P0026": {
+      "type": "provincie",
+      "name": "Provincie Utrecht",
+      "email": "info@provincie-utrecht.nl",
+      "website": "https://www.provincie-utrecht.nl",
+      "phone": "030 258 9111",
+      "totalBusQuays": 2,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000028",
+          "name": "N410",
+          "town": "Houten",
+          "street": "Hoofdstraat",
+          "lat": 52.125228,
+          "lon": 5.14555,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    },
+    "P0021": {
+      "type": "provincie",
+      "name": "Provincie Drenthe",
+      "email": "post@drenthe.nl",
+      "website": "https://www.provincie.drenthe.nl",
+      "phone": null,
+      "totalBusQuays": 1,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000030",
+          "name": "N33",
+          "town": "Assen",
+          "street": "Hoofdstraat",
+          "lat": 52.126331,
+          "lon": 5.147347,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "DE"
+        }
+      ]
+    },
+    "W0621": {
+      "type": "waterschap",
+      "name": "Hoogheemraadschap van Delfland",
+      "email": "info@hhdelfland.nl",
+      "website": "https://www.hhdelfland.nl",
+      "phone": "015 260 8108",
+      "totalBusQuays": 1,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000031",
+          "name": "Dijk",
+          "town": "Delft",
+          "street": "Hoofdstraat",
+          "lat": 52.126882,
+          "lon": 5.148245,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    },
+    "W0155": {
+      "type": "waterschap",
+      "name": "Waterschap Rivierenland",
+      "email": "info@wsrl.nl",
+      "website": "https://www.wsrl.nl",
+      "phone": "0344 64 90 90",
+      "totalBusQuays": 1,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000032",
+          "name": "Waalbandijk",
+          "town": "Tiel",
+          "street": "Hoofdstraat",
+          "lat": 52.127434,
+          "lon": 5.149143,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    },
+    "RWSZN": {
+      "type": "rijkswaterstaat",
+      "name": "RWS Zee en Delta",
+      "email": null,
+      "website": null,
+      "phone": null,
+      "totalBusQuays": 1,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000033",
+          "name": "Veerhaven",
+          "town": "Vlissingen",
+          "street": "Hoofdstraat",
+          "lat": 52.127985,
+          "lon": 5.150042,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    },
+    "RWSMN": {
+      "type": "rijkswaterstaat",
+      "name": "RWSMN",
+      "email": null,
+      "website": null,
+      "phone": null,
+      "totalBusQuays": 1,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000034",
+          "name": "A12",
+          "town": "Arnhem",
+          "street": "Hoofdstraat",
+          "lat": 52.128537,
+          "lon": 5.15094,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    },
+    "HOORNBEECK": {
+      "type": "privaat",
+      "name": "Hoornbeeck College",
+      "email": null,
+      "website": null,
+      "phone": null,
+      "totalBusQuays": 1,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000035",
+          "name": "School",
+          "town": "Kampen",
+          "street": "Hoofdstraat",
+          "lat": 52.129088,
+          "lon": 5.151838,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    },
+    "PRIV2": {
+      "type": "provincie",
+      "name": "PRIV2",
+      "email": null,
+      "website": null,
+      "phone": null,
+      "totalBusQuays": 1,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000036",
+          "name": "Terrein",
+          "town": "Ergens",
+          "street": "Hoofdstraat",
+          "lat": 52.12964,
+          "lon": 5.152736,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    },
+    "ACME": {
+      "type": "privaat",
+      "name": "ACME",
+      "email": null,
+      "website": null,
+      "phone": null,
+      "totalBusQuays": 1,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000037",
+          "name": "Fabriek",
+          "town": "Ergens",
+          "street": "Hoofdstraat",
+          "lat": 52.130191,
+          "lon": 5.153635,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    },
+    "UNKNOWN": {
+      "type": "privaat",
+      "name": "Onbekende beheerder",
+      "email": null,
+      "website": null,
+      "phone": null,
+      "totalBusQuays": 1,
+      "inaccessibleCount": 1,
+      "stops": [
+        {
+          "code": "NL:Q:50000038",
+          "name": "Weg",
+          "town": "Onbekend",
+          "street": "Hoofdstraat",
+          "lat": 52.130743,
+          "lon": 5.154533,
+          "shelter": true,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 90,
+          "mutationDate": "2024-03-05",
+          "concessionProvider": "PUT"
+        }
+      ]
+    }
+  },
+  "concessionProviders": {
+    "PUT": {
+      "name": "Provincie Utrecht",
+      "email": null,
+      "website": "https://www.provincie-utrecht.nl"
+    },
+    "XYZ": {
+      "name": "XYZ",
+      "email": null,
+      "website": null
+    },
+    "DE": {
+      "name": "Provincie Drenthe",
+      "email": null,
+      "website": "https://www.provincie.drenthe.nl"
+    }
+  }
+}

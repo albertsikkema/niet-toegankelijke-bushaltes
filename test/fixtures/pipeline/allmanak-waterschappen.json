@@ -1,0 +1,86 @@
+[
+  {
+    "naam": "Hoogheemraadschap van Delfland",
+    "resourceidentifiers": [
+      {
+        "naam": "resourceIdentifierTOOI",
+        "value": "https://identifier.overheid.nl/tooi/id/waterschap/ws0621"
+      }
+    ],
+    "contact": {
+      "emailadressen": [],
+      "internetadressen": [
+        {
+          "url": "https://www.hhdelfland.nl"
+        }
+      ],
+      "telefoonnummers": [
+        {
+          "nummer": "015 260 8108"
+        }
+      ]
+    }
+  },
+  {
+    "naam": "Waterschap Rivierenland",
+    "resourceidentifiers": [
+      {
+        "naam": "resourceIdentifierTOOI",
+        "value": "https://identifier.overheid.nl/tooi/id/waterschap/ws0155"
+      }
+    ],
+    "contact": {
+      "emailadressen": [
+        {
+          "email": "info@wsrl.nl"
+        }
+      ],
+      "internetadressen": [
+        {
+          "url": "https://www.wsrl.nl"
+        }
+      ],
+      "telefoonnummers": [
+        {
+          "nummer": "0344 64 90 90"
+        }
+      ]
+    }
+  },
+  {
+    "naam": "Waterschap Zonder TOOI",
+    "resourceidentifiers": [
+      {
+        "naam": "Organisatiecode",
+        "value": "ws0001"
+      }
+    ],
+    "contact": {
+      "emailadressen": [
+        {
+          "email": "a@b.nl"
+        }
+      ],
+      "internetadressen": [],
+      "telefoonnummers": []
+    }
+  },
+  {
+    "naam": "Waterschap Zonder Cijfers",
+    "resourceidentifiers": [
+      {
+        "naam": "resourceIdentifierTOOI",
+        "value": "https://identifier.overheid.nl/tooi/id/waterschap/wsabc"
+      }
+    ],
+    "contact": {
+      "emailadressen": [
+        {
+          "email": "a@b.nl"
+        }
+      ],
+      "internetadressen": [],
+      "telefoonnummers": []
+    }
+  }
+]

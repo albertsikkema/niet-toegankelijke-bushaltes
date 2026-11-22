@@ -1,0 +1,141 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "waterschapcode": "621",
+        "waterschap": "Delfland",
+        "naam": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.3,
+              52
+            ],
+            [
+              4.3999999999999995,
+              52
+            ],
+            [
+              4.3999999999999995,
+              52.1
+            ],
+            [
+              4.3,
+              52.1
+            ],
+            [
+              4.3,
+              52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "waterschapcode": "155",
+        "naam": "Rivierenland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.4,
+              51.9
+            ],
+            [
+              5.5,
+              51.9
+            ],
+            [
+              5.5,
+              52
+            ],
+            [
+              5.4,
+              52
+            ],
+            [
+              5.4,
+              51.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "waterschapcode": "999",
+        "naam": "Zuiderzeeland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.6,
+              52.5
+            ],
+            [
+              5.699999999999999,
+              52.5
+            ],
+            [
+              5.699999999999999,
+              52.6
+            ],
+            [
+              5.6,
+              52.6
+            ],
+            [
+              5.6,
+              52.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "waterschapcode": "000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5,
+              52
+            ],
+            [
+              5.1,
+              52
+            ],
+            [
+              5.1,
+              52.1
+            ],
+            [
+              5,
+              52.1
+            ],
+            [
+              5,
+              52
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

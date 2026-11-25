@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-24T06:15:40.373Z",
+  "generated": "2026-11-25T06:16:15.579Z",
   "totals": {
-    "totalBusQuays": 42362,
-    "inaccessibleBusQuays": 28104,
+    "totalBusQuays": 42374,
+    "inaccessibleBusQuays": 28116,
     "inaccessiblePct": 66,
-    "wheelchairInaccessible": 20227,
+    "wheelchairInaccessible": 20232,
     "wheelchairPct": 48,
-    "visuallyInaccessible": 26444,
+    "visuallyInaccessible": 26456,
     "visualPct": 62
   },
   "worstGemeentes": [
@@ -262,7 +262,7 @@
       "code": "G0268",
       "name": "Gemeente Nijmegen",
       "type": "gemeente",
-      "total": 401,
+      "total": 402,
       "inaccessible": 101,
       "pct": 25,
       "wheelchair": 63,
@@ -328,7 +328,7 @@
       "code": "G0014",
       "name": "Gemeente Groningen",
       "type": "gemeente",
-      "total": 537,
+      "total": 538,
       "inaccessible": 227,
       "pct": 42,
       "wheelchair": 143,
@@ -342,7 +342,7 @@
       "total": 439,
       "inaccessible": 192,
       "pct": 44,
-      "wheelchair": 95,
+      "wheelchair": 94,
       "visual": 146,
       "noShelter": 87
     },
@@ -489,7 +489,7 @@
       "pct": 74,
       "wheelchair": 323,
       "visual": 505,
-      "noShelter": 317
+      "noShelter": 316
     },
     {
       "code": "P0029",
@@ -619,11 +619,11 @@
     {
       "type": "gemeente",
       "label": "Gemeente",
-      "total": 37141,
-      "inaccessible": 24199,
+      "total": 37153,
+      "inaccessible": 24211,
       "pct": 65,
-      "wheelchair": 17329,
-      "visual": 22742
+      "wheelchair": 17334,
+      "visual": 22754
     },
     {
       "type": "provincie",

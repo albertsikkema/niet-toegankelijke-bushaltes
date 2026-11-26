@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-25T06:16:15.564Z",
+  "generated": "2026-11-26T06:16:07.781Z",
   "totals": {
-    "totalBusQuays": 42374,
+    "totalBusQuays": 42378,
     "inaccessibleBusQuays": 28116,
     "authorities": 384
   },
@@ -109947,7 +109947,7 @@
       "email": "gemeente@hilvarenbeek.nl",
       "website": "http://www.hilvarenbeek.nl",
       "phone": "(013) 505 83 00",
-      "totalBusQuays": 37,
+      "totalBusQuays": 39,
       "inaccessibleCount": 20,
       "stops": [
         {
@@ -283955,7 +283955,7 @@
       "email": "info@gemeenteAltena.nl",
       "website": "http://www.gemeenteAltena.nl",
       "phone": "(0183) 51 61 00",
-      "totalBusQuays": 144,
+      "totalBusQuays": 146,
       "inaccessibleCount": 59,
       "stops": [
         {

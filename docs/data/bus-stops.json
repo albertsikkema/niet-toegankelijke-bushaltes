@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-26T06:16:07.781Z",
+  "generated": "2026-11-27T06:16:07.398Z",
   "totals": {
-    "totalBusQuays": 42378,
-    "inaccessibleBusQuays": 28116,
+    "totalBusQuays": 42399,
+    "inaccessibleBusQuays": 28132,
     "authorities": 384
   },
   "authorities": {
@@ -1028,7 +1028,7 @@
       "email": "info@purmerend.nl",
       "website": "http://www.purmerend.nl",
       "phone": "(0299) 45 24 52",
-      "totalBusQuays": 259,
+      "totalBusQuays": 260,
       "inaccessibleCount": 124,
       "stops": [
         {
@@ -48011,6 +48011,20 @@
           "concessionProvider": "PNB"
         },
         {
+          "code": "NL:Q:63000004",
+          "name": "Halte t.h.v. spoor 1 (perronweg)",
+          "town": "'s-Hertogenbosch",
+          "street": "Perronweg",
+          "lat": 51.690572,
+          "lon": 5.294368,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 0,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
+        {
           "code": "NL:Q:63006440",
           "name": "Hambakendreef",
           "town": "'s-Hertogenbosch",
@@ -48400,20 +48414,6 @@
           "visuallyAccessible": false,
           "compassDirection": 234,
           "mutationDate": "2019-02-07",
-          "concessionProvider": "PNB"
-        },
-        {
-          "code": "NL:Q:63000004",
-          "name": "NS bushalte t.h.v. spoor 1 (perronweg)",
-          "town": "'s-Hertogenbosch",
-          "street": "Perronweg",
-          "lat": 51.690572,
-          "lon": 5.294368,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 0,
-          "mutationDate": null,
           "concessionProvider": "PNB"
         },
         {
@@ -55790,8 +55790,8 @@
       "email": "gemeente@drechterland.nl",
       "website": "http://www.drechterland.nl",
       "phone": "(0228) 35 23 52",
-      "totalBusQuays": 78,
-      "inaccessibleCount": 78,
+      "totalBusQuays": 80,
+      "inaccessibleCount": 80,
       "stops": [
         {
           "code": "NL:Q:38350150",
@@ -55987,6 +55987,34 @@
           "visuallyAccessible": false,
           "compassDirection": 245,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:38310001",
+          "name": "P+R Stationslaan",
+          "town": "Hoogkarspel",
+          "street": "Stationslaan",
+          "lat": 52.690498,
+          "lon": 5.182143,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 75,
+          "mutationDate": null,
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:38350001",
+          "name": "P+R Stationslaan",
+          "town": "Hoogkarspel",
+          "street": "Stationslaan",
+          "lat": 52.69054,
+          "lon": 5.181963,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 242,
+          "mutationDate": null,
           "concessionProvider": "PNH"
         },
         {
@@ -109948,7 +109976,7 @@
       "website": "http://www.hilvarenbeek.nl",
       "phone": "(013) 505 83 00",
       "totalBusQuays": 39,
-      "inaccessibleCount": 20,
+      "inaccessibleCount": 22,
       "stops": [
         {
           "code": "NL:Q:73630100",
@@ -110046,6 +110074,34 @@
           "visuallyAccessible": false,
           "compassDirection": 318,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:73780130",
+          "name": "Veldbraken",
+          "town": "Biest-Houtakker",
+          "street": "Biestsestraat",
+          "lat": 51.516923,
+          "lon": 5.15022,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 173,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:73780120",
+          "name": "Veldbraken",
+          "town": "Biest-Houtakker",
+          "street": "Biestsestraat",
+          "lat": 51.516941,
+          "lon": 5.150292,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 344,
+          "mutationDate": null,
           "concessionProvider": "PNB"
         },
         {
@@ -130500,7 +130556,7 @@
       "email": "ibdienstpost@denhaag.nl",
       "website": "http://www.denhaag.nl",
       "phone": "14 070",
-      "totalBusQuays": 698,
+      "totalBusQuays": 699,
       "inaccessibleCount": 552,
       "stops": [
         {
@@ -134186,6 +134242,20 @@
           "concessionProvider": "MRDH"
         },
         {
+          "code": "NL:Q:32012648",
+          "name": "Laan van NOI",
+          "town": "'s-Gravenhage",
+          "street": "Juliana van Stolberglaan",
+          "lat": 52.079309,
+          "lon": 4.342878,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 61,
+          "mutationDate": null,
+          "concessionProvider": "MRDH"
+        },
+        {
           "code": "NL:Q:42016002",
           "name": "Laan van Nootdorp",
           "town": "'s-Gravenhage",
@@ -135611,20 +135681,6 @@
           "visuallyAccessible": false,
           "compassDirection": 149,
           "mutationDate": "2019-03-14",
-          "concessionProvider": "MRDH"
-        },
-        {
-          "code": "NL:Q:32012648",
-          "name": "Oostinje",
-          "town": "'s-Gravenhage",
-          "street": "Juliana van Stolberglaan",
-          "lat": 52.083633,
-          "lon": 4.338098,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 61,
-          "mutationDate": null,
           "concessionProvider": "MRDH"
         },
         {
@@ -148326,8 +148382,8 @@
       "email": "info@hoogeveen.nl",
       "website": "http://www.hoogeveen.nl",
       "phone": "14 0528",
-      "totalBusQuays": 185,
-      "inaccessibleCount": 145,
+      "totalBusQuays": 186,
+      "inaccessibleCount": 146,
       "stops": [
         {
           "code": "NL:Q:46590180",
@@ -149195,6 +149251,20 @@
           "visuallyAccessible": false,
           "compassDirection": 92,
           "mutationDate": "2018-11-15",
+          "concessionProvider": "OVGD"
+        },
+        {
+          "code": "NL:Q:17000003",
+          "name": "P+R stationsplein",
+          "town": "Hoogeveen",
+          "street": "Stationsplein",
+          "lat": 52.73308,
+          "lon": 6.472679,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 39,
+          "mutationDate": null,
           "concessionProvider": "OVGD"
         },
         {
@@ -154418,7 +154488,7 @@
       "email": "postbus@meppel.nl",
       "website": "http://www.meppel.nl",
       "phone": "14 0522",
-      "totalBusQuays": 77,
+      "totalBusQuays": 78,
       "inaccessibleCount": 74,
       "stops": [
         {
@@ -206805,7 +206875,7 @@
       "website": "http://gemeente.groningen.nl",
       "phone": "14 050",
       "totalBusQuays": 538,
-      "inaccessibleCount": 227,
+      "inaccessibleCount": 228,
       "stops": [
         {
           "code": "NL:Q:11315520",
@@ -209118,6 +209188,20 @@
           "concessionProvider": "OVGD"
         },
         {
+          "code": "NL:Q:36000093",
+          "name": "Halte Pendelbus richting Station Haren",
+          "town": "Haren",
+          "street": "P+R Haren Transferium",
+          "lat": 53.169657,
+          "lon": 6.591916,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 0,
+          "mutationDate": null,
+          "concessionProvider": "OVGD"
+        },
+        {
           "code": "NL:Q:12005500",
           "name": "Hemmenlaan",
           "town": "Haren",
@@ -211002,20 +211086,6 @@
           "concessionProvider": "PNH"
         },
         {
-          "code": "NL:Q:59470080",
-          "name": "Boomhoek",
-          "town": "Loosdrecht",
-          "street": "Nieuw-Loosdrechtsedijk",
-          "lat": 52.188266,
-          "lon": 5.099648,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 260,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PNH"
-        },
-        {
           "code": "NL:Q:59470070",
           "name": "Boomhoek",
           "town": "Loosdrecht",
@@ -211027,6 +211097,20 @@
           "visuallyAccessible": false,
           "compassDirection": 80,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:59470080",
+          "name": "Boomhoek",
+          "town": "Loosdrecht",
+          "street": "Nieuw-Loosdrechtsedijk",
+          "lat": 52.188266,
+          "lon": 5.099648,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 260,
+          "mutationDate": "2019-02-07",
           "concessionProvider": "PNH"
         },
         {
@@ -211534,20 +211618,6 @@
           "concessionProvider": "PNH"
         },
         {
-          "code": "NL:Q:59470060",
-          "name": "Tennisbaan",
-          "town": "Loosdrecht",
-          "street": "Nieuw-Loosdrechtsedijk",
-          "lat": 52.188953,
-          "lon": 5.104937,
-          "shelter": false,
-          "wheelchairAccessible": false,
-          "visuallyAccessible": false,
-          "compassDirection": 250,
-          "mutationDate": "2019-02-07",
-          "concessionProvider": "PNH"
-        },
-        {
           "code": "NL:Q:59470050",
           "name": "Tennisbaan",
           "town": "Loosdrecht",
@@ -211558,6 +211628,20 @@
           "wheelchairAccessible": false,
           "visuallyAccessible": false,
           "compassDirection": 70,
+          "mutationDate": "2019-02-07",
+          "concessionProvider": "PNH"
+        },
+        {
+          "code": "NL:Q:59470060",
+          "name": "Tennisbaan",
+          "town": "Loosdrecht",
+          "street": "Nieuw-Loosdrechtsedijk",
+          "lat": 52.188953,
+          "lon": 5.104937,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 250,
           "mutationDate": "2019-02-07",
           "concessionProvider": "PNH"
         },
@@ -216052,7 +216136,7 @@
       "website": "http://www.utrecht.nl",
       "phone": "(014) 030",
       "totalBusQuays": 600,
-      "inaccessibleCount": 212,
+      "inaccessibleCount": 213,
       "stops": [
         {
           "code": "NL:Q:51200129",
@@ -216500,6 +216584,20 @@
           "visuallyAccessible": false,
           "compassDirection": 328,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "PUT"
+        },
+        {
+          "code": "NL:Q:50000005",
+          "name": "Aidadreef",
+          "town": "Utrecht",
+          "street": "Aidadreef",
+          "lat": 52.110572,
+          "lon": 5.125616,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 44,
+          "mutationDate": null,
           "concessionProvider": "PUT"
         },
         {
@@ -234756,7 +234854,7 @@
       "email": "gemeente@rotterdam.nl",
       "website": "http://www.rotterdam.nl",
       "phone": "14 010",
-      "totalBusQuays": 962,
+      "totalBusQuays": 964,
       "inaccessibleCount": 695,
       "stops": [
         {
@@ -260767,7 +260865,7 @@
       "email": "info@haarlemmermeer.nl",
       "website": "http://www.haarlemmermeer.nl",
       "phone": "9001852",
-      "totalBusQuays": 260,
+      "totalBusQuays": 262,
       "inaccessibleCount": 145,
       "stops": [
         {
@@ -283956,7 +284054,7 @@
       "website": "http://www.gemeenteAltena.nl",
       "phone": "(0183) 51 61 00",
       "totalBusQuays": 146,
-      "inaccessibleCount": 59,
+      "inaccessibleCount": 61,
       "stops": [
         {
           "code": "NL:Q:73640340",
@@ -284642,6 +284740,34 @@
           "visuallyAccessible": true,
           "compassDirection": 289,
           "mutationDate": "2019-02-07",
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:63390150",
+          "name": "Geraniumstraat",
+          "town": "Wijk en Aalburg",
+          "street": "Berenhoeksestraat",
+          "lat": 51.756826,
+          "lon": 5.124095,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 163,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:63390140",
+          "name": "Geraniumstraat",
+          "town": "Wijk en Aalburg",
+          "street": "Berenhoeksestraat",
+          "lat": 51.756503,
+          "lon": 5.124299,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 343,
+          "mutationDate": null,
           "concessionProvider": "PNB"
         },
         {
@@ -305886,7 +306012,7 @@
       "email": "gemeente@eindhoven.nl",
       "website": "http://www.eindhoven.nl",
       "phone": "14 040",
-      "totalBusQuays": 411,
+      "totalBusQuays": 412,
       "inaccessibleCount": 138,
       "stops": [
         {
@@ -319032,8 +319158,8 @@
       "email": "gemeente@oldebroek.nl",
       "website": "http://www.oldebroek.nl",
       "phone": "(0525) 63 82 00",
-      "totalBusQuays": 36,
-      "inaccessibleCount": 30,
+      "totalBusQuays": 38,
+      "inaccessibleCount": 32,
       "stops": [
         {
           "code": "NL:Q:47312002",
@@ -319425,6 +319551,34 @@
           "visuallyAccessible": false,
           "compassDirection": 140,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:47210001",
+          "name": "Stationsweg richting 't Harde",
+          "town": "Wezep",
+          "street": "Stationsweg",
+          "lat": 52.453907,
+          "lon": 6.002734,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 333,
+          "mutationDate": null,
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:47210002",
+          "name": "Stationsweg richting Zwolle",
+          "town": "Wezep",
+          "street": "Stationsweg",
+          "lat": 52.453486,
+          "lon": 6.002982,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 153,
+          "mutationDate": null,
           "concessionProvider": "GLD"
         },
         {
@@ -329376,7 +329530,7 @@
       "website": "http://www.overbetuwe.nl",
       "phone": "(0481) 36 23 00",
       "totalBusQuays": 129,
-      "inaccessibleCount": 74,
+      "inaccessibleCount": 75,
       "stops": [
         {
           "code": "NL:Q:61400160",
@@ -329768,6 +329922,20 @@
           "visuallyAccessible": false,
           "compassDirection": 330,
           "mutationDate": "2018-11-22",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:41200001",
+          "name": "Spoorlaan",
+          "town": "Elst",
+          "street": "Spoorlaan",
+          "lat": 51.915642,
+          "lon": 5.856653,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 0,
+          "mutationDate": null,
           "concessionProvider": "GLD"
         },
         {
@@ -330980,7 +331148,7 @@
       "website": "http://www.nijmegen.nl",
       "phone": "14 024",
       "totalBusQuays": 402,
-      "inaccessibleCount": 101,
+      "inaccessibleCount": 102,
       "stops": [
         {
           "code": "NL:Q:61190100",
@@ -331232,6 +331400,20 @@
           "visuallyAccessible": false,
           "compassDirection": 272,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:36000096",
+          "name": "Burg. Hustinxstraat",
+          "town": "Nijmegen",
+          "street": "Burg. Hustinxstraat",
+          "lat": 51.843542,
+          "lon": 5.856012,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 80,
+          "mutationDate": null,
           "concessionProvider": "GLD"
         },
         {
@@ -350290,7 +350472,7 @@
       "email": "gemeente@gooisemeren.nl",
       "website": "http://www.gooisemeren.nl",
       "phone": "(035) 207 00 00",
-      "totalBusQuays": 109,
+      "totalBusQuays": 111,
       "inaccessibleCount": 55,
       "stops": [
         {
@@ -369733,8 +369915,8 @@
       "email": "info@renkum.nl",
       "website": "http://www.renkum.nl",
       "phone": "(026) 334 81 11",
-      "totalBusQuays": 122,
-      "inaccessibleCount": 92,
+      "totalBusQuays": 124,
+      "inaccessibleCount": 93,
       "stops": [
         {
           "code": "NL:Q:40200220",
@@ -370042,6 +370224,20 @@
           "visuallyAccessible": false,
           "compassDirection": 268,
           "mutationDate": "2020-02-19",
+          "concessionProvider": "GLD"
+        },
+        {
+          "code": "NL:Q:40100001",
+          "name": " Stationsweg-richting Arnhem",
+          "town": "Oosterbeek",
+          "street": "Stationsweg",
+          "lat": 51.993796,
+          "lon": 5.841195,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 186,
+          "mutationDate": null,
           "concessionProvider": "GLD"
         },
         {
@@ -372073,7 +372269,7 @@
       "email": "gemeente@voorschoten.nl",
       "website": "http://www.voorschoten.nl",
       "phone": "14 071",
-      "totalBusQuays": 39,
+      "totalBusQuays": 40,
       "inaccessibleCount": 36,
       "stops": [
         {
@@ -373632,9 +373828,37 @@
       "email": "gemeente@geldrop-mierlo.nl",
       "website": "http://www.geldrop-mierlo.nl",
       "phone": "(040) 289 38 93",
-      "totalBusQuays": 64,
-      "inaccessibleCount": 25,
+      "totalBusQuays": 66,
+      "inaccessibleCount": 27,
       "stops": [
+        {
+          "code": "NL:Q:65110003",
+          "name": "Achterzijde station-Toernooiveld",
+          "town": "Geldrop",
+          "street": "Tournooiveld",
+          "lat": 51.419649,
+          "lon": 5.549096,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 320,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
+        {
+          "code": "NL:Q:65110002",
+          "name": "Achterzijde station-Toernooiveld",
+          "town": "Geldrop",
+          "street": "Tournooiveld",
+          "lat": 51.4196,
+          "lon": 5.549111,
+          "shelter": false,
+          "wheelchairAccessible": false,
+          "visuallyAccessible": false,
+          "compassDirection": 140,
+          "mutationDate": null,
+          "concessionProvider": "PNB"
+        },
         {
           "code": "NL:Q:65110220",
           "name": "Aragorn",
@@ -391206,7 +391430,7 @@
       "email": "info@uitgeest.nl",
       "website": "http://www.uitgeest.nl",
       "phone": "14 0251",
-      "totalBusQuays": 9,
+      "totalBusQuays": 10,
       "inaccessibleCount": 2,
       "stops": [
         {
